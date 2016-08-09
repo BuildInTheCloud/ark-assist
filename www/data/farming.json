@@ -1,0 +1,146 @@
+[
+    {
+        "id": 116,
+        "name": "Amarberry Seed",
+        "category": "Farming",
+        "stack": 100,
+        "icon": "images/amarberry-seed.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Amarberry.PrimalItemConsumable_Seed_Amarberry'"
+    },
+    {
+        "id": 270,
+        "name": "Amarberry Seed",
+        "category": "Farming",
+        "stack": "100",
+        "icon": "images/amarberry-seed.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Amarberry.PrimalItemConsumable_Seed_Amarberry'"
+    },
+    {
+        "id": 271,
+        "name": "Azulberry Seed",
+        "category": "Farming",
+        "stack": "100",
+        "icon": "images/azulberry-seed.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Azulberry.PrimalItemConsumable_Seed_Azulberry'"
+    },
+    {
+        "id": 49,
+        "name": "Berry Bush Seeds",
+        "category": "Farming",
+        "stack": 100,
+        "icon": "images/berry-bush-seeds.png",
+        "blueprint": ""
+    },
+    {
+        "id": 276,
+        "name": "Citronal Seed",
+        "category": "Farming",
+        "stack": "100",
+        "icon": "images/citronal-seed.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Citronal.PrimalItemConsumable_Seed_Citronal'"
+    },
+    {
+        "id": 133,
+        "name": "Citronal Seeds",
+        "category": "Farming",
+        "stack": 100,
+        "icon": "images/citronal-seed.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Citronal.PrimalItemConsumable_Seed_Citronal'"
+    },
+    {
+        "id": 5,
+        "name": "Human Feces",
+        "category": "Farming",
+        "stack": 1,
+        "icon": "images/human-feces.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_HumanPoop.PrimalItemConsumable_HumanPoop'"
+    },
+    {
+        "id": 287,
+        "name": "Large Animal Feces",
+        "category": "Farming",
+        "stack": "1",
+        "icon": "images/large-animal-feces.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_DinoPoopLarge.PrimalItemConsumable_DinoPoopLarge'"
+    },
+    {
+        "id": 278,
+        "name": "Longrass Seed",
+        "category": "Farming",
+        "stack": "100",
+        "icon": "images/longrass-seed.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Longrass.PrimalItemConsumable_Seed_Longrass'"
+    },
+    {
+        "id": 0,
+        "name": "Massive Animal Feces",
+        "category": "Farming",
+        "stack": 1,
+        "icon": "images/large-animal-feces.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_DinoPoopMassive.PrimalItemConsumable_DinoPoopMassive'"
+    },
+    {
+        "id": 286,
+        "name": "Medium Animal Feces",
+        "category": "Farming",
+        "stack": "1",
+        "icon": "images/medium-animal-feces.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_DinoPoopMedium.PrimalItemConsumable_DinoPoopMedium'"
+    },
+    {
+        "id": 275,
+        "name": "Mejoberry Seed",
+        "category": "Farming",
+        "stack": "100",
+        "icon": "images/mejoberry-seed.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Mejoberry.PrimalItemConsumable_Seed_Mejoberry'"
+    },
+    {
+        "id": 273,
+        "name": "Narcoberry Seed",
+        "category": "Farming",
+        "stack": "100",
+        "icon": "images/narcoberry-seed.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Narcoberry.PrimalItemConsumable_Seed_Narcoberry'"
+    },
+    {
+        "id": 279,
+        "name": "Rockarrot Seed",
+        "category": "Farming",
+        "stack": "100",
+        "icon": "images/rockarrot-seed.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Rockarrot.PrimalItemConsumable_Seed_Rockarrot'"
+    },
+    {
+        "id": 277,
+        "name": "Savoroot Seed",
+        "category": "Farming",
+        "stack": "100",
+        "icon": "images/savoroot-seed.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Savoroot.PrimalItemConsumable_Seed_Savoroot'"
+    },
+    {
+        "id": 54,
+        "name": "Small Animal Feces",
+        "category": "Farming",
+        "stack": 1,
+        "icon": "images/small-animal-feces.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_DinoPoopSmall.PrimalItemConsumable_DinoPoopSmall'"
+    },
+    {
+        "id": 274,
+        "name": "Stimberry Seed",
+        "category": "Farming",
+        "stack": "100",
+        "icon": "images/stimberry-seed.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Stimberry.PrimalItemConsumable_Seed_Stimberry'"
+    },
+    {
+        "id": 272,
+        "name": "Tintoberry Seed",
+        "category": "Farming",
+        "stack": "100",
+        "icon": "images/tintoberry-seed.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Tintoberry.PrimalItemConsumable_Seed_Tintoberry'"
+    }
+]

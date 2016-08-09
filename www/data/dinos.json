@@ -1,0 +1,291 @@
+[
+{
+"id": "MegaCarno_Character_BP_C","name": "Alpha Carno","category": "Alpha Predator",
+"icon": "images/alpha-carno.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Carno/MegaCarno_Character_BP.MegaCarno_Character_BP'"
+},{
+"id": "Mosa_Character_BP_Mega_C","name": "Alpha Mosasaurus","category": "Alpha Predator",
+"icon": "images/alpha-mosa.jpg",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Mosasaurus/Mosa_Character_BP_Mega.Mosa_Character_BP_Mega'"
+},{
+"id": "MegaRaptor_Character_BP_C","name": "Alpha Raptor","category": "Alpha Predator",
+"icon": "images/alpha-raptor.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Raptor/MegaRaptor_Character_BP.MegaRaptor_Character_BP'"
+},{
+"id": "MegaRex_Character_BP_C","name": "Alpha Rex","category": "Alpha Predator",
+"icon": "images/alpha-rex.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Rex/MegaRex_Character_BP.MegaRex_Character_BP'"
+},{
+"id": "Angler_Character_BP_C","name": "Angler","category": "Fish",
+"icon": "images/angler.jpg",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Anglerfish/Angler_Character_BP.Angler_Character_BP'"
+},{
+"id": "Ankylo_Character_BP_C","name": "Ankylosaurus","category": "Dinosaurs",
+"icon": "images/ankylosaurus.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ankylo/Ankylo_Character_BP.Ankylo_Character_BP'"
+},{
+"id": "Argent_Character_BP_C","name": "Argentavis","category": "Birds",
+"icon": "images/argentavis.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Argentavis/Argent_Character_BP.Argent_Character_BP'"
+},{
+"id": "Arthro_Character_BP_C","name": "Arthropluera","category": "Invertebrates",
+"icon": "images/arthropluera.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Arthropluera/Arthro_Character_BP.Arthro_Character_BP'"
+},{
+"id": "Bat_Character_BP_C","name": "Bat","category": "Mammals",
+"icon": "images/onyc.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Bat/Bat_Character_BP.Bat_Character_BP'"
+},{
+"id": "Toad_Character_BP_C","name": "Beelzebufo","category": "Reptiles",
+"icon": "images/beelzebufo.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Toad/Toad_Character_BP.Toad_Character_BP'"
+},{
+"id": "Sauropod_Character_BP_C","name": "Brontosaurus","category": "Dinosaurs",
+"icon": "images/brontosaurus.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Sauropod/Sauropod_Character_BP.Sauropod_Character_BP'"
+},{
+"id": "SpiderL_Character_BP_C","name": "Broodmother Lysrix","category": "Bosses",
+"icon": "images/broodmother-lysrix.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Spider-Large/SpiderL_Character_BP.SpiderL_Character_BP'"
+},{
+"id": "Compy_Character_BP_C","name": "Compsognathus","category": "Dinosaurs",
+"icon": "images/compsognathus.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Compy/Compy_Character_BP.Compy_Character_BP'"
+},{
+"id": "Turtle_Character_BP_C","name": "Carbonemys","category": "Reptiles",
+"icon": "images/carbonemys.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Turtle/Turtle_Character_BP.Turtle_Character_BP'"
+},{
+"id": "Carno_Character_BP_C","name": "Carnotaurus","category": "Dinosaurs",
+"icon": "images/carnotaurus.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Carno/Carno_Character_BP.Carno_Character_BP'"
+},{
+"id": "Beaver_Character_BP_C","name": "Castoroides","category": "Mammals",
+"icon": "images/castoroides.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Beaver/Beaver_Character_BP.Beaver_Character_BP'"
+},{
+"id": "Coel_Character_BP_C","name": "Coelacanth","category": "Fish",
+"icon": "images/coelacanth.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Coelacanth/Coel_Character_BP.Coel_Character_BP'"
+},{
+"id": "Dilo_Character_BP_C","name": "Dilophosaurus","category": "Dinosaurs",
+"icon": "images/dilophosaurus.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dilo/Dilo_Character_BP.Dilo_Character_BP'"
+},{
+"id": "Dimetro_Character_BP_C","name": "Dimetrodon","category": "Dinosaurs",
+"icon": "images/dimetrodon.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dimetrodon/Dimetro_Character_BP.Dimetro_Character_BP'"
+},{
+"id": "Dimorph_Character_BP_C","name": "Dimorphodon","category": "Dinosaurs",
+"icon": "images/dimorphodon.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dimorphodon/Dimorph_Character_BP.Dimorph_Character_BP'"
+},{
+"id": "Direbear_Character_BP_C","name": "Direbear","category": "Mammals",
+"icon": "images/direbear.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Direbear/Direbear_Character_BP.Direbear_Character_BP'"
+},{
+"id": "Direwolf_Character_BP_C","name": "Direwolf","category": "Mammals",
+"icon": "images/direwolf.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Direwolf/Direwolf_Character_BP.Direwolf_Character_BP'"
+},{
+"id": "Dodo_Character_BP_C","name": "Dodo","category": "Birds",
+"icon": "images/dodo.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP'"
+},{
+"id": "DodoRex_Character_BP_C","name": "Dodo Rex","category": "Bosses",
+"icon": "images/dodo-rex.jpeg",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/DodoRex/DodoRex_Character_BP.DodoRex_Character_BP'"
+},{
+"id": "Doed_Character_BP_C","name": "Doedicurus","category": "Mammals",
+"icon": "images/doedicurus.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Doedicurus/Doed_Character_BP.Doed_Character_BP'"
+},{
+"id": "Dragon_Character_BP_C","name": "Dragon","category": "Bosses",
+"icon": "images/dragon.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dragon/Dragon_Character_BP.Dragon_Character_BP'"
+},{
+"id": "DungBeetle_Character_BP_C","name": "Dung Beetle","category": "Invertebrates",
+"icon": "images/dung-beetle.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/DungBeetle/DungBeetle_Character_BP.DungBeetle_Character_BP'"
+},{
+"id": "Dunkle_Character_BP_C","name": "Dunkleosteus","category": "Fish",
+"icon": "images/dunkleosteus.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dunkleosteus/Dunkle_Character_BP.Dunkle_Character_BP'"
+},{
+"id": "Euryp_Character_C","name": "Eurypterid","category": "Invertebrates",
+"icon": "images/eurypterid.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Eurypterid/Euryp_Character.Euryp_Character'"
+},{
+"id": "Galli_Character_BP_C","name": "Gallimimus","category": "Dinosaurs",
+"icon": "images/gallimimus.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Gallimimus/Galli_Character_BP.Galli_Character_BP'"
+},{
+"id": "Gigant_Character_BP_C","name": "Giganotosaurus","category": "Dinosaurs",
+"icon": "images/giganotosaurus.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Giganotosaurus/Gigant_Character_BP.Gigant_Character_BP'"
+},{
+"id": "BigFoot_Character_BP_C","name": "Gigantopithecus","category": "Mammals",
+"icon": "images/gigantopithecus.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Bigfoot/Bigfoot_Character_BP.Bigfoot_Character_BP'"
+},{
+"id": "Dolphin_Character_BP_C","name": "Ichthyosaurus","category": "Reptiles",
+"icon": "images/ichthyosaurus.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dolphin/Dolphin_Character_BP.Dolphin_Character_BP'"
+},{
+"id": "Kairuku_Character_BP_C","name": "Kairuku","category": "Birds",
+"icon": "images/kairuku.jpg",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Kairuku/Kairuku_Character_BP.Kairuku_Character_BP'"
+},{
+"id": "Leech_Character_C","name": "Leech","category": "Invertebrates",
+"icon": "images/leech.jpg",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Leech/Leech_Character.Leech_Character'"
+},{
+"id": "Leech_Character_Diseased_C","name": "Diseased Leech","category": "Invertebrates",
+"icon": "images/leech.jpg",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Leech/Leech_Character_Diseased.Leech_Character_Diseased'"
+},{
+"id": "Lystro_Character_BP_C","name": "Lystrosaurus","category": "Dinosaurs",
+"icon": "images/lystrosaurus.jpg",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Lystrosaurus/Lystro_Character_BP.Lystro_Character_BP'"
+},{
+"id": "Mammoth_Character_BP_C","name": "Mammoth","category": "Mammals",
+"icon": "images/mammoth.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Mammoth/Mammoth_Character_BP.Mammoth_Character_BP'"
+},{
+"id": "Manta_Character_BP_C","name": "Manta","category": "Fish",
+"icon": "images/manta.jpg",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Manta/Manta_Character_BP.Manta_Character_BP'"
+},{
+"id": "Stag_Character_BP_C","name": "Megaloceros","category": "Mammals",
+"icon": "images/megaloceros.jpg",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Stag/Stag_Character_BP.Stag_Character_BP'"
+},{
+"id": "Megalodon_Character_BP_C","name": "Megalodon","category": "Fish",
+"icon": "images/megalodon.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Megalodon/Megalodon_Character_BP.Megalodon_Character_BP'"
+},{
+"id": "Dragonfly_Character_BP_C","name": "Meganeura","category": "Invertebrates",
+"icon": "images/meganeura.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dragonfly/Dragonfly_Character_BP.Dragonfly_Character_BP'"
+},{
+"id": "Gorila_Character_BP_C","name": "Megapithecus","category": "Bosses",
+"icon": "images/megapithecus.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Gorilla/Gorilla_Character_BP.Gorilla_Character_BP'"
+},{
+"id": "Monkey_Character_BP_C","name": "Mesopithecus","category": "Mammals",
+"icon": "images/mesopithecus.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Monkey/Monkey_Character_BP.Monkey_Character_BP'"
+},{
+"id": "Mosa_Character_BP_C","name": "Mosasaurus","category": "Reptiles",
+"icon": "images/mosasaurus.jpg",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Mosasaurus/Mosa_Character_BP.Mosa_Character_BP'"
+},{
+"id": "OviRaptor_Character_BP_C","name": "Oviraptor","category": "Dinosaurs",
+"icon": "images/oviraptor.jpg",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/oviRaptor/oviRaptor_Character_BP.OviRaptor_Character_BP'"
+},{
+"id": "Pachy_Character_BP_C","name": "Pachy","category": "Dinosaurs",
+"icon": "images/pachycephalosaurus.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Pachy/Pachy_Character_BP.Pachy_Character_BP'"
+},{
+"id": "Paracer_Character_BP_C","name": "Paracer","category": "Mammals",
+"icon": "images/paraceratherium.jpg",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Paraceratherium/Paracer_Character_BP.Paracer_Character_BP'"
+},{
+"id": "Phiomia_Character_BP_C","name": "Phiomia","category": "Mammals",
+"icon": "images/phiomia.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Phiomia/Phiomia_Character_BP.Phiomia_Character_BP'"
+},{
+"id": "Piranha_Character_BP_C","name": "Piranha","category": "Fish",
+"icon": "images/piranha.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Piranha/Piranha_Character_BP.Piranha_Character_BP'"
+},{
+"id": "Plesiosaur_Character_BP_C","name": "Plesiosaur","category": "Reptiles",
+"icon": "images/plesiosaur.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Plesiosaur/Plesiosaur_Character_BP.Plesiosaur_Character_BP'"
+},{
+"id": "Procoptodon_Character_BP_C","name": "Procoptodon","category": "Mammals",
+"icon": "images/procoptodon.jpg",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Procoptodon/Procoptodon_Character_BP.Procoptodon_Character_BP'"
+},{
+"id": "Ptero_Character_BP_C","name": "Pteranodon","category": "Dinosaurs",
+"icon": "images/pteranodon.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ptero/Ptero_Character_BP.Ptero_Character_BP'"
+},{
+"id": "Quetz_Character_BP_C","name": "Quetzalcoatlus","category": "Reptiles",
+"icon": "images/quetzalcoatlus.jpg",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Quetzalcoatlus/Quetz_Character_BP.Quetz_Character_BP'"
+},{
+"id": "Raptor_Character_BP_C","name": "Raptor","category": "Dinosaurs",
+"icon": "images/raptor.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Raptor/Raptor_Character_BP.Raptor_Character_BP'"
+},{
+"id": "Rex_Character_BP_C","name": "Rex","category": "Dinosaurs",
+"icon": "images/trex.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP'"
+},{
+"id": "Saber_Character_BP_C","name": "Sabertooth","category": "Mammals",
+"icon": "images/sabertooth.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Saber/Saber_Character_BP.Saber_Character_BP'"
+},{
+"id": "Salmon_Character_BP_C","name": "Sabertooth Salmon","category": "Fish",
+"icon": "images/sabertooth-salmon.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Salmon/Salmon_Character_BP.Salmon_Character_BP'"
+},{
+"id": "Sarco_Character_BP_C","name": "Sarco","category": "Reptiles",
+"icon": "images/sarcosaurus.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Sarco/Sarco_Character_BP.Sarco_Character_BP'"
+},{
+"id": "Scorpion_Character_BP_C","name": "Scorpion","category": "Invertebrates",
+"icon": "images/scorpion.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Scorpion/Scorpion_Character_BP.Scorpion_Character_BP'"
+},{
+"id": "SpiderS_Character_BP_C","name": "Spider","category": "Invertebrates",
+"icon": "images/spider.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Spider-Small/SpiderS_Character_BP.SpiderS_Character_BP'"
+},{
+"id": "Spino_Character_BP_C","name": "Spinosaur","category": "Dinosaurs",
+"icon": "images/spinosaur.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Spino/Spino_Character_BP.Spino_Character_BP'"
+},{
+"id": "Stego_Character_BP_C","name": "Stegosaurus","category": "Dinosaurs",
+"icon": "images/stegosaurus.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Stego/Stego_Character_BP.Stego_Character_BP'"
+},{
+"id": "TerrorBird_Character_BP_C","name": "Terror Bird","category": "Birds",
+"icon": "images/terror-bird.jpg",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/TerrorBird/TerrorBird_Character_BP.TerrorBird_Character_BP'"
+},{
+"id": "BoaFrill_Character_BP_C","name": "Titanoboa","category": "Reptiles",
+"icon": "images/titanoboa.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/BoaFrill/BoaFrill_Character_BP.BoaFrill_Character_BP'"
+},{
+"id": "Ant_Character_BP_C","name": "Titanomyrma","category": "Invertebrates",
+"icon": "images/titanomyrma.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ant/Ant_Character_BP.Ant_Character_BP'"
+},{
+"id": "","name": "Titanomyrma","category": "Invertebrates",
+"icon": "images/titanomyrma.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ant/FlyingAnt_Character_BP.FlyingAnt_Character_BP'"
+},{
+"id": "Titanosaur_Character_BP_C","name": "Titanosaur","category": "Dinosaurs",
+"icon": "images/titanosaur.jpg",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/titanosaur/Titanosaur_Character_BP.Titanosaur_Character_BP'"
+},{
+"id": "Trike_Character_BP_C","name": "Triceratops","category": "Dinosaurs",
+"icon": "images/triceratops.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Trike/Trike_Character_BP.Trike_Character_BP'"
+},{
+"id": "Trilobite_Character_C","name": "Trilobite","category": "Invertebrates",
+"icon": "images/trilobite.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Trilobite/Trilobite_Character.Trilobite_Character'"
+},{
+"id": "Rhino_Character_BP_C","name": "Woolly Rhino","category": "Mammals",
+"icon": "images/woolly-rhino.jpg",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/WoollyRhino/Rhino_Character_BP.Rhino_Character_BP'"
+},{
+"id": "Yeti_Character_BP_C","name": "Yeti","category": "Mammals",
+"icon": "images/gigantopithecus.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Bigfoot/Yeti_Character_BP.Yeti_Character_BP'"
+}
+]

@@ -1,0 +1,274 @@
+[
+    {
+        "id": 2,
+        "name": "Assault Rifle",
+        "category": "Weapons",
+        "stack": 1,
+        "icon": "images/assault-rifle.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponRifle.PrimalItem_WeaponRifle'"
+    },
+    {
+        "id": 383,
+        "name": "Bear Trap",
+        "category": "Weapons",
+        "stack": 10,
+        "icon": "images/bear-trap.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_BearTrap.PrimalItemStructure_BearTrap'"
+    },
+    {
+        "id": 0,
+        "name": "Bola",
+        "category": "Weapon",
+        "stack": 10,
+        "icon": "images/bola.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponBola.PrimalItem_WeaponBola'"
+    },
+    {
+        "id": 5,
+        "name": "Bow",
+        "category": "Weapons",
+        "stack": 1,
+        "icon": "images/bow.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponBow.PrimalItem_WeaponBow'"
+    },
+    {
+        "id": 42,
+        "name": "C4 Remote Detonator",
+        "category": "Weapons",
+        "stack": 1,
+        "icon": "images/c4-remote-detonator.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponC4.PrimalItem_WeaponC4'"
+    },
+    {
+        "id": 0,
+        "name": "Chain Bola",
+        "category": "Weapon",
+        "stack": 20,
+        "icon": "images/chain-bola.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_ChainBola.PrimalItemAmmo_ChainBola'"
+    },
+    {
+        "id": 376,
+        "name": "Compound Bow",
+        "category": "Weapons",
+        "stack": 1,
+        "icon": "images/compound-bow.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponCompoundBow.PrimalItem_WeaponCompoundBow'"
+    },
+    {
+        "id": 362,
+        "name": "Crossbow",
+        "category": "Weapons",
+        "stack": 1,
+        "icon": "images/crossbow.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponCrossbow.PrimalItem_WeaponCrossbow'"
+    },
+    {
+        "id": 451,
+        "name": "Electric Prod",
+        "category": "Weapons",
+        "stack": 1,
+        "icon": "images/electric-prod.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponProd.PrimalItem_WeaponProd'"
+    },
+    {
+        "id": 244,
+        "name": "Fabricated Pistol",
+        "category": "Weapons",
+        "stack": "1",
+        "icon": "images/fabricated-pistol.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedPistol.PrimalItem_WeaponMachinedPistol'"
+    },
+    {
+        "id": 436,
+        "name": "Fabricated Sniper Rifle",
+        "category": "Weapons",
+        "stack": 1,
+        "icon": "images/fabricated-sniper-rifle.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedSniper.PrimalItem_WeaponMachinedSniper'"
+    },
+    {
+        "id": 184,
+        "name": "Flare Gun",
+        "category": "Weapons",
+        "stack": "1",
+        "icon": "images/flare-gun.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponFlareGun.PrimalItem_WeaponFlareGun'"
+    },
+    {
+        "id": 6,
+        "name": "Grenade",
+        "category": "Weapon",
+        "stack": 10,
+        "icon": "images/grenade.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponGrenade.PrimalItem_WeaponGrenade'"
+    },
+    {
+        "id": 452,
+        "name": "Handcuffs",
+        "category": "Weapons",
+        "stack": 1,
+        "icon": "images/handcuffs.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponHandcuffs.PrimalItem_WeaponHandcuffs'"
+    },
+    {
+        "id": 46,
+        "name": "Improvised Explosive Device",
+        "category": "Weapons",
+        "stack": 10,
+        "icon": "images/improvised-explosive-device.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponTripwireC4.PrimalItem_WeaponTripwireC4'"
+    },
+    {
+        "id": 384,
+        "name": "Large Bear Trap",
+        "category": "Weapons",
+        "stack": 10,
+        "icon": "images/large-bear-trap.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_BearTrap_Large.PrimalItemStructure_BearTrap_Large'"
+    },
+    {
+        "id": 132,
+        "name": "Longneck Rifle",
+        "category": "Weapons",
+        "stack": 1,
+        "icon": "images/longneck-rifle.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponOneShotRifle.PrimalItem_WeaponOneShotRifle'"
+    },
+    {
+        "id": 0,
+        "name": "Magnifying Glass",
+        "category": "Weapons",
+        "stack": 1,
+        "icon": "images/magnifying-glass.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItem_WeaponMagnifyingGlass.PrimalItem_WeaponMagnifyingGlass'"
+    },
+    {
+        "id": 380,
+        "name": "Metal Sickle",
+        "category": "Weapons",
+        "stack": 1,
+        "icon": "images/metal-sickle.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponSickle.PrimalItem_WeaponSickle'"
+    },
+    {
+        "id": 0,
+        "name": "Metal Sword",
+        "category": "Weapons",
+        "stack": 1,
+        "icon": "images/metal-sword.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponSword.PrimalItem_WeaponSword'"
+    },
+    {
+        "id": 140,
+        "name": "Pike",
+        "category": "Weapons",
+        "stack": 1,
+        "icon": "images/pike.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'"
+    },
+    {
+        "id": 435,
+        "name": "Poison Grenade",
+        "category": "Weapons",
+        "stack": 10,
+        "icon": "images/poison-grenade.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_PoisonGrenade.PrimalItem_PoisonGrenade'"
+    },
+    {
+        "id": 361,
+        "name": "Pump-Action Shotgun",
+        "category": "Weapons",
+        "stack": 1,
+        "icon": "images/pump-action-shotgun.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedShotgun.PrimalItem_WeaponMachinedShotgun'"
+    },
+    {
+        "id": 3,
+        "name": "Rocket Launcher",
+        "category": "Weapons",
+        "stack": 1,
+        "icon": "images/rocket-launcher.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponRocketLauncher.PrimalItem_WeaponRocketLauncher'"
+    },
+    {
+        "id": 267,
+        "name": "Shotgun",
+        "category": "Weapons",
+        "stack": "1",
+        "icon": "images/shotgun.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponShotgun.PrimalItem_WeaponShotgun'"
+    },
+    {
+        "id": 1,
+        "name": "Simple Pistol",
+        "category": "Weapons",
+        "stack": 1,
+        "icon": "images/simple-pistol.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponGun.PrimalItem_WeaponGun'"
+    },
+    {
+        "id": 139,
+        "name": "Slingshot",
+        "category": "Weapons",
+        "stack": 1,
+        "icon": "images/slingshot.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponSlingshot.PrimalItem_WeaponSlingshot'"
+    },
+    {
+        "id": 0,
+        "name": "Smoke Grenade",
+        "category": "Weapons",
+        "stack": 10,
+        "icon": "images/smoke-grenade.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_GasGrenade.PrimalItem_GasGrenade'"
+    },
+    {
+        "id": 57,
+        "name": "Spear",
+        "category": "Weapons",
+        "stack": 1,
+        "icon": "images/spear.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponSpear.PrimalItem_WeaponSpear'"
+    },
+    {
+        "id": 392,
+        "name": "Spray Painter",
+        "category": "Weapons",
+        "stack": 1,
+        "icon": "images/spray-painter.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponSprayPaint.PrimalItem_WeaponSprayPaint'"
+    },
+    {
+        "id": 372,
+        "name": "Transponder Tracker",
+        "category": "Weapons",
+        "stack": 1,
+        "icon": "images/transponder-tracker.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponTransGPS.PrimalItem_WeaponTransGPS'"
+    },
+    {
+        "id": 326,
+        "name": "Tripwire Alarm Trap",
+        "category": "Weapons",
+        "stack": 10,
+        "icon": "images/tripwire-alarm-trap.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponAlarmTrap.PrimalItem_WeaponAlarmTrap'"
+    },
+    {
+        "id": 325,
+        "name": "Tripwire Narcotic Trap",
+        "category": "Weapons",
+        "stack": "10",
+        "icon": "images/tripwire-narcotic-trap.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPoisonTrap.PrimalItem_WeaponPoisonTrap'"
+    },
+    {
+        "id": 434,
+        "name": "Wooden Club",
+        "category": "Weapons",
+        "stack": 1,
+        "icon": "images/wooden-club.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponStoneClub.PrimalItem_WeaponStoneClub'"
+    }
+]

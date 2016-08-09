@@ -1,0 +1,122 @@
+[
+    {
+        "id": 98,
+        "name": "BluePrint Note",
+        "category": "Recipe",
+        "stack": 1,
+        "icon": "images/blueprint-note.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Notes/PrimalItem_Note.PrimalItem_Note'"
+    },
+    {
+        "id": 263,
+        "name": "Notes on Rockwell Recipes",
+        "category": "Recipe",
+        "stack": "1",
+        "icon": "images/notes-on-rockwell-recipes.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Notes/PrimalItem_RecipeNote_Measurements.PrimalItem_RecipeNote_Measurements'"
+    },
+    {
+        "id": 261,
+        "name": "Rockwell Recipes - Battle Tartare",
+        "category": "Recipe",
+        "stack": "1",
+        "icon": "images/rockwell-recipes-battle-tartare.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Notes/PrimalItem_RecipeNote_BattleTartare.PrimalItem_RecipeNote_BattleTartare'"
+    },
+    {
+        "id": 258,
+        "name": "Rockwell Recipes - Calien Soup",
+        "category": "Recipe",
+        "stack": "1",
+        "icon": "images/rockwell-recipes-calien-soup.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Notes/PrimalItem_RecipeNote_CalienSoup.PrimalItem_RecipeNote_CalienSoup'"
+    },
+    {
+        "id": 256,
+        "name": "Rockwell Recipes - Enduro Stew",
+        "category": "Recipe",
+        "stack": "1",
+        "icon": "images/rockwell-recipes-enduro-stew.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Notes/PrimalItem_RecipeNote_EnduroStew.PrimalItem_RecipeNote_EnduroStew'"
+    },
+    {
+        "id": 302,
+        "name": "Rockwell Recipes - Energy Brew",
+        "category": "Recipe",
+        "stack": "1",
+        "icon": "images/rockwell-recipes-energy-brew.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Notes/PrimalItem_RecipeNote_StaminaSoup.PrimalItem_RecipeNote_StaminaSoup'"
+    },
+    {
+        "id": 260,
+        "name": "Rockwell Recipes - Focal Chili",
+        "category": "Recipe",
+        "stack": "1",
+        "icon": "images/rockwell-recipes-focal-chili.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Notes/PrimalItem_RecipeNote_FocalChili.PrimalItem_RecipeNote_FocalChili'"
+    },
+    {
+        "id": 259,
+        "name": "Rockwell Recipes - Fria Curry",
+        "category": "Recipe",
+        "stack": "1",
+        "icon": "images/rockwell-recipes-fria-curry.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Notes/PrimalItem_RecipeNote_FriaCurry.PrimalItem_RecipeNote_FriaCurry'"
+    },
+    {
+        "id": 257,
+        "name": "Rockwell Recipes - Lazarus Chowder",
+        "category": "Recipe",
+        "stack": "1",
+        "icon": "images/rockwell-recipes-lazarus-chowder.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Notes/PrimalItem_RecipeNote_LazarusChowder.PrimalItem_RecipeNote_LazarusChowder'"
+    },
+    {
+        "id": 304,
+        "name": "Rockwell Recipes - Meat Jerky",
+        "category": "Recipe",
+        "stack": "1",
+        "icon": "images/rockwell-recipes-meat-jerky.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Notes/PrimalItem_RecipeNote_Jerky.PrimalItem_RecipeNote_Jerky'"
+    },
+    {
+        "id": 301,
+        "name": "Rockwell Recipes - Medical Brew",
+        "category": "Recipe",
+        "stack": "1",
+        "icon": "images/rockwell-recipes-medical-brew.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Notes/PrimalItem_RecipeNote_HealSoup.PrimalItem_RecipeNote_HealSoup'"
+    },
+    {
+        "id": 371,
+        "name": "Rockwell Recipes- Decorative Coloring",
+        "category": "Recipe",
+        "stack": 100,
+        "icon": "images/blue-coloring.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Notes/PrimalItem_RecipeNote_Dye.PrimalItem_RecipeNote_Dye'"
+    },
+    {
+        "id": 356,
+        "name": "Rockwell Recipes- Egg-based Kibble",
+        "category": "Recipe",
+        "stack": 1,
+        "icon": "images/kibble.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Notes/PrimalItem_RecipeNote_Kibble.PrimalItem_RecipeNote_Kibble'"
+    },
+    {
+        "id": 420,
+        "name": "Rockwell Recipes- Mindwipe Tonic",
+        "category": "Recipe",
+        "stack": 1,
+        "icon": "images/rockwell-recipes-mindwipe-tonic.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Notes/PrimalItem_RecipeNote_RespecSoup.PrimalItem_RecipeNote_RespecSoup'"
+    },
+    {
+        "id": 262,
+        "name": "Rockwell Recipes- Shadow Steak Saute",
+        "category": "Recipe",
+        "stack": "1",
+        "icon": "images/rockwell-recipes-shadow-steak-saute.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Notes/PrimalItem_RecipeNote_ShadowSteak.PrimalItem_RecipeNote_ShadowSteak'"
+    }
+]

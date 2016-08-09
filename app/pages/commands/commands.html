@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Admin Commands</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding class="cmdPage">
+  <ion-list>
+    <ion-row *ngFor="let item of cmdList">
+      <ion-col>{{item.command}}</ion-col>
+      <ion-col>{{item.description}}</ion-col>
+    </ion-row>
+  </ion-list>
+  <p>{{errorMessage}}</p>
+</ion-content>

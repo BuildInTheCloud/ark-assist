@@ -1,0 +1,12 @@
+.favsPage {}
+
+.favsPage .entity {border:2px solid;border-radius: 6px;padding:0 10px 0 0;margin-right:8px;}
+
+.favsPage .entity.id {border-color:green;color:green;}
+.favsPage .entity.id strong{background-color:green;color:white;margin-right:5px;padding:0 12px 0 12px;min-width:70px;float:left;}
+
+.favsPage .entity.stack {border-color:blue;color:blue;}
+.favsPage .entity.stack strong{background-color:blue;color:white;margin-right:5px;padding:0 12px 0 12px;min-width:70px;float:left;}
+
+.favsPage .entity.type {border-color:gray;color:gray;}
+.favsPage .entity.type strong{background-color:gray;color:white;margin-right:5px;padding:0 12px 0 12px;min-width:70px;float:left;}

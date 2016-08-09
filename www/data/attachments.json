@@ -1,0 +1,42 @@
+[
+    {
+        "id": 205,
+        "name": "Flashlight Attachment",
+        "category": "Attachment",
+        "stack": "1",
+        "icon": "images/flashlight-attachment.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/WeaponAttachments/PrimalItemWeaponAttachment_Flashlight.PrimalItemWeaponAttachment_Flashlight'"
+    },
+    {
+        "id": 219,
+        "name": "Holo-Scope Attachment",
+        "category": "Attachment",
+        "stack": "1",
+        "icon": "images/holo-scope-attachment.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/WeaponAttachments/PrimalItemWeaponAttachment_HoloScope.PrimalItemWeaponAttachment_HoloScope'"
+    },
+    {
+        "id": 220,
+        "name": "Laser Attachment",
+        "category": "Attachment",
+        "stack": "1",
+        "icon": "images/laser-attachment.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/WeaponAttachments/PrimalItemWeaponAttachment_Laser.PrimalItemWeaponAttachment_Laser'"
+    },
+    {
+        "id": 138,
+        "name": "Scope Attachment",
+        "category": "Attachment",
+        "stack": 1,
+        "icon": "images/scope-attachment.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/WeaponAttachments/PrimalItemWeaponAttachment_Scope.PrimalItemWeaponAttachment_Scope'"
+    },
+    {
+        "id": 206,
+        "name": "Silencer Attachment",
+        "category": "Attachment",
+        "stack": "1",
+        "icon": "images/silencer-attachment.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/WeaponAttachments/PrimalItemWeaponAttachment_Silencer.PrimalItemWeaponAttachment_Silencer'"
+    }
+]

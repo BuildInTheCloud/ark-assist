@@ -1,0 +1,90 @@
+[
+    {
+        "id": 44,
+        "name": "Blood Extraction Syringe",
+        "category": "Tool",
+        "stack": 1,
+        "icon": "images/blood-extraction-syringe.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItem_BloodExtractor.PrimalItem_BloodExtractor'"
+    },
+    {
+        "id": 137,
+        "name": "Compass",
+        "category": "Tool",
+        "stack": 1,
+        "icon": "images/compass.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItem_WeaponCompass.PrimalItem_WeaponCompass'"
+    },
+    {
+        "id": 72,
+        "name": "GPS",
+        "category": "Tool",
+        "stack": 1,
+        "icon": "images/gps.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItem_WeaponGPS.PrimalItem_WeaponGPS'"
+    },
+    {
+        "id": 36,
+        "name": "Metal Hatchet",
+        "category": "Tool",
+        "stack": 1,
+        "icon": "images/metal-hatchet.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMetalHatchet.PrimalItem_WeaponMetalHatchet'"
+    },
+    {
+        "id": 35,
+        "name": "Metal Pick",
+        "category": "Tool",
+        "stack": 1,
+        "icon": "images/metal-pick.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMetalPick.PrimalItem_WeaponMetalPick'"
+    },
+    {
+        "id": 38,
+        "name": "Paintbrush",
+        "category": "Tool",
+        "stack": 1,
+        "icon": "images/paintbrush.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPaintbrush.PrimalItem_WeaponPaintbrush'"
+    },
+    {
+        "id": 141,
+        "name": "Radio",
+        "category": "Tool",
+        "stack": 1,
+        "icon": "images/radio.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemRadio.PrimalItemRadio'"
+    },
+    {
+        "id": 283,
+        "name": "Spyglass",
+        "category": "Tool",
+        "stack": "1",
+        "icon": "images/spyglass.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItem_WeaponSpyglass.PrimalItem_WeaponSpyglass'"
+    },
+    {
+        "id": 34,
+        "name": "Stone Hatchet",
+        "category": "Tool",
+        "stack": 1,
+        "icon": "images/stone-hatchet.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponStoneHatchet.PrimalItem_WeaponStoneHatchet'"
+    },
+    {
+        "id": 33,
+        "name": "Stone Pick",
+        "category": "Tool",
+        "stack": 1,
+        "icon": "images/stone-pick.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponStonePick.PrimalItem_WeaponStonePick'"
+    },
+    {
+        "id": 37,
+        "name": "Torch",
+        "category": "Tool",
+        "stack": 1,
+        "icon": "images/torch.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponTorch.PrimalItem_WeaponTorch'"
+    }
+]

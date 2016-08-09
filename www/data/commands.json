@@ -1,0 +1,46 @@
+[
+{
+"command":"EnableCheats",
+"target":"self",
+"args":[
+    {"arg":"Password","values":[""],"description":"Server administrator password"}
+],
+"description":"Enable server administrator commands for the current player. The password provided should match the server's ServerAdminPassword option."
+},{
+"command":"SetCheatPlayer",
+"target":"",
+"args":[
+    {"arg":"boolen","values":["true","false"],"description":""}
+],
+"description":"Enable cheat commands that affect the current player, mounted dinosaurs and the game world"
+},{
+"command":"",
+"target":"",
+"args":[
+    {"arg":"","values":[""],"description":""}
+],
+"description":""
+},{
+"command":"",
+"target":"",
+"args":[
+    {"arg":"","values":[""],"description":""}
+],
+"description":""
+},{
+"command":"",
+"target":"",
+"args":[
+    {"arg":"","values":[""],"description":""}
+],
+"description":""
+},{
+"command":"",
+"target":"",
+"args":[
+    {"arg":"","values":[""],"description":""}
+],
+"description":""
+}
+
+]

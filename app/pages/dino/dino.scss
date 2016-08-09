@@ -1,0 +1,21 @@
+
+.dinoPage ion-card-title {color:darkblue}
+.dinoPage ion-card-title i {font-size:12pt;color:darkgreen}
+.dinoPage ion-col {max-width:275px;height:390px;float:left;}
+.dinoPage ion-card img {height:155px;width:auto;}
+.dinoPage ion-card textarea {height:75px}
+
+.dinoPage .entity {border:2px solid;border-radius: 6px;padding:0 10px 0 0;margin-right:8px;white-space: nowrap;}
+.dinoPage .entity.cmd {border-color:blue;color:blue;height:25px;max-width:225px;overflow:hidden;}
+.dinoPage .entity.cmd strong{background-color:blue;color:white;margin-right:5px;padding:0 12px 0 12px;min-width:70px;float:left;}
+
+.dinoPage .cmd {
+    cursor:pointer;
+    touch-action:auto !important;
+    user-select: auto !important;
+    -webkit-user-select: auto !important;
+    -khtml-user-select: auto !important;
+    -moz-user-select: auto !important;
+    -ms-user-select: auto !important;
+    -o-user-select: auto !important;
+}

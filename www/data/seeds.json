@@ -1,0 +1,66 @@
+[
+    {
+        "id": 235,
+        "name": "Azulberry Seed",
+        "category": "Seed",
+        "stack": "100",
+        "icon": "images/azulberry-seed.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Azulberry.PrimalItemConsumable_Seed_Azulberry'"
+    },
+    {
+        "id": 241,
+        "name": "Longrass Seed",
+        "category": "Seed",
+        "stack": "100",
+        "icon": "images/longrass-seed.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Longrass.PrimalItemConsumable_Seed_Longrass'"
+    },
+    {
+        "id": 237,
+        "name": "Mejoberry Seed",
+        "category": "Seed",
+        "stack": "100",
+        "icon": "images/mejoberry-seed.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Mejoberry.PrimalItemConsumable_Seed_Mejoberry'"
+    },
+    {
+        "id": 238,
+        "name": "Narcoberry Seed",
+        "category": "Seed",
+        "stack": "100",
+        "icon": "images/narcoberry-seed.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Narcoberry.PrimalItemConsumable_Seed_Narcoberry'"
+    },
+    {
+        "id": 242,
+        "name": "Rockarrot Seed",
+        "category": "Seed",
+        "stack": "100",
+        "icon": "images/rockarrot-seed.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Rockarrot.PrimalItemConsumable_Seed_Rockarrot'"
+    },
+    {
+        "id": 240,
+        "name": "Savoroot Seed",
+        "category": "Seed",
+        "stack": "100",
+        "icon": "images/savoroot-seed.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Savoroot.PrimalItemConsumable_Seed_Savoroot'"
+    },
+    {
+        "id": 239,
+        "name": "Stimberry Seed",
+        "category": "Seed",
+        "stack": "100",
+        "icon": "images/stimberry-seed.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Stimberry.PrimalItemConsumable_Seed_Stimberry'"
+    },
+    {
+        "id": 236,
+        "name": "Tintoberry Seed",
+        "category": "Seed",
+        "stack": "100",
+        "icon": "images/tintoberry-seed.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Tintoberry.PrimalItemConsumable_Seed_Tintoberry'"
+    }
+]
