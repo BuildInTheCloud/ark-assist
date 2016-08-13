@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.buildinthecloud.arkassist" version="0.0.5" Publisher="CN=$username$" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.buildinthecloud.arkassist" version="0.0.7" Publisher="CN=4598A1B8-365D-4826-BDD0-0F97CB5BA647" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>Ark Assist</name>
   <description>An unoffical app for Ark Survival Evolved.</description>
   <author email="mark@buildinthecloud.com" href="http://www.buildinthecloud.com/ark-assist">BuildInTheCloud</author>
@@ -23,11 +23,30 @@
     <preference name="WindowsToastCapable" value="true" />
     <preference name="WindowsStoreIdentityName" value="64909BuildInTheCloud.ArkAssist" />
     <preference name="WindowsStorePublisherName" value="BuildInTheCloud" />
-    <preference name="WindowsStorePackagePublisherName" value="CN=BuildInTheCloud" />
-    <preference name="WindowsStorePackageFamilyName" value="64909BuildInTheCloud.ArkAssist_ptkqq4mpd9h6t" />
     <preference name="WindowsStoreDisplayName" value="Ark Assist" />
+    <splash src="resources/windows/images/SplashScreen.scale-100.png" width="620" height="300" />
+    <!--splash src="res/screens/windows/SplashScreen.scale-240.png" width="1152" height="1920" /-->
+    <splash src="resources/windows/images/SplashScreenPhone.scale-240.png" width="1152" height="1920" />
+    <icon src="resources/windows/images/Square150x150Logo.scale-100.png" width="150" height="150" />
+    <icon src="resources/windows/images/Square150x150Logo.scale-240.png" width="360" height="360" />
+    <icon src="resources/windows/images/Square30x30Logo.scale-100.png" width="30" height="30" />
+    <icon src="resources/windows/images/Square310x310Logo.scale-100.png" width="310" height="310" />
+    <icon src="resources/windows/images/Square44x44Logo.scale-240.png" width="106" height="106" />
+    <icon src="resources/windows/images/Square70x70Logo.scale-100.png" width="70" height="70" />
+    <icon src="resources/windows/images/Square71x71Logo.scale-240.png" width="170" height="170" />
+    <icon src="resources/windows/images/StoreLogo.scale-100.png" width="50" height="50" />
+    <icon src="resources/windows/images/StoreLogo.scale-240.png" width="120" height="120" />
+    <icon src="resources/windows/images/Wide310x150Logo.scale-100.png" width="310" height="150" />
+    <icon src="resources/windows/images/Wide310x150Logo.scale-240.png" width="744" height="360" />
   </platform>
-
+  <vs:platformSpecificValues>
+    <vs:platformSpecificWidget platformName="windows">
+      <vs:appxPackageIsForStore>True</vs:appxPackageIsForStore>
+      <vs:name>Ark Assist</vs:name>
+      <vs:publisherId>CN=4598A1B8-365D-4826-BDD0-0F97CB5BA647</vs:publisherId>
+      <vs:author>BuildInTheCloud</vs:author>
+    </vs:platformSpecificWidget>
+  </vs:platformSpecificValues>
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
   <preference name="DisallowOverscroll" value="true"/>

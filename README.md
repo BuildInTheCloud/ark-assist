@@ -1,5 +1,16 @@
+#Ark Assist
+Ark Assist is a ARK: Survival Evolved app for copying admin/cheat commands to your xbox one console.
 
+#App Links
+Android: https://play.google.com/store/apps/details?id=com.buildinthecloud.arkassist
 
+Windows:
+
+XBOX:
+
+#suggestions
+1. provide a pull request if you have improvements
+2. post a suggestion https://github.com/BuildInTheCloud/ark-assist/issues
 
 # config.xml
 reference: http://cordova.apache.org/docs/en/latest/config_ref/index.html
@@ -11,12 +22,7 @@ https://github.com/Microsoft/ionic2-typescript-sidemenu
 
 https://github.com/Microsoft/azure-mobile-apps-with-ionic
 
-<platform name="windows">
-<preference name="windows-target-version" value="10.0"/>    
-<preference name="windows-phone-target-version" value="10.0" />       
-<preference name="Windows.Universal-MinVersion" value="10.0.10069.0" />    
-<preference name="Windows.Universal-MaxVersionTested" value="10.0.10166.0" /> 
-</platform>
+build: ionic run --debug windows --appx=uwp --archs=x64
 
 # android release
 1. ionic build android --release
