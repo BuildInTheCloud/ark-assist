@@ -3,21 +3,53 @@
   <name>Ark Assist</name>
   <description>An unoffical app for Ark Survival Evolved.</description>
   <author email="mark@buildinthecloud.com" href="http://www.buildinthecloud.com/ark-assist">BuildInTheCloud</author>
+
   <content src="index.html"/>
+
   <access origin="*"/>
+
   <allow-intent href="http://*/*"/>
   <allow-intent href="https://*/*"/>
   <allow-intent href="tel:*"/>
   <allow-intent href="sms:*"/>
   <allow-intent href="mailto:*"/>
   <allow-intent href="geo:*"/>
+
+  <preference name="loadUrlTimeoutValue" value="700000" />
+  <preference name="SplashScreen" value="screen" />
+  <preference name="webviewbounce" value="true"/>
+  <preference name="UIWebViewBounce" value="true"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="android-minSdkVersion" value="16"/>
+  <preference name="BackupWebStorage" value="none"/>
+  <preference name="SplashScreenDelay" value="3000"/>
+  <preference name="FadeSplashScreenDuration" value="3000"/>
+  <preference name="KeepRunning" value="true" />
+  <preference name="ShowTitle" value="true" />
+  <preference name="InAppBrowserStorageEnabled" value="true" />
+  <preference name="SuppressesIncrementalRendering" value="true" />
+
   <platform name="android">
     <allow-intent href="market:*"/>
+    <icon src="resources/icons/android/icon-36-ldpi.png" density="ldpi" />
+    <icon src="resources/icons/android/icon-48-mdpi.png" density="mdpi" />
+    <icon src="resources/icons/android/icon-72-hdpi.png" density="hdpi" />
+    <icon src="resources/icons/android/icon-96-xhdpi.png" density="xhdpi" />
+    <splash src="resources/screens/android/screen-hdpi-landscape.png" density="land-hdpi" />
+    <splash src="resources/screens/android/screen-ldpi-landscape.png" density="land-ldpi" />
+    <splash src="resources/screens/android/screen-mdpi-landscape.png" density="land-mdpi" />
+    <splash src="resources/screens/android/screen-xhdpi-landscape.png" density="land-xhdpi" />
+    <splash src="resources/screens/android/screen-hdpi-portrait.png" density="port-hdpi" />
+    <splash src="resources/screens/android/screen-ldpi-portrait.png" density="port-ldpi" />
+    <splash src="resources/screens/android/screen-mdpi-portrait.png" density="port-mdpi" />
+    <splash src="resources/screens/android/screen-xhdpi-portrait.png" density="port-xhdpi" />
   </platform>
+
   <platform name="ios">
     <allow-intent href="itms:*"/>
     <allow-intent href="itms-apps:*"/>
   </platform>
+
   <platform name="windows">
     <preference name="windows-target-version" value="10.0"/>
     <preference name="WindowsToastCapable" value="true" />
@@ -38,25 +70,12 @@
     <icon src="resources/windows/images/StoreLogo.scale-240.png" width="120" height="120" />
     <icon src="resources/windows/images/Wide310x150Logo.scale-100.png" width="310" height="150" />
     <icon src="resources/windows/images/Wide310x150Logo.scale-240.png" width="744" height="360" />
-    <vs:platformSpecificValues>
-      <vs:platformSpecificWidget platformName="windows">
-        <vs:appxPackageIsForStore>True</vs:appxPackageIsForStore>
-        <vs:name>Ark Assist</vs:name>
-        <vs:publisherId>CN=4598A1B8-365D-4826-BDD0-0F97CB5BA647</vs:publisherId>
-        <vs:author>BuildInTheCloud</vs:author>
-      </vs:platformSpecificWidget>
-    </vs:platformSpecificValues>
   </platform>
-  <preference name="webviewbounce" value="false"/>
-  <preference name="UIWebViewBounce" value="false"/>
-  <preference name="DisallowOverscroll" value="true"/>
-  <preference name="android-minSdkVersion" value="16"/>
-  <preference name="BackupWebStorage" value="none"/>
-  <preference name="SplashScreenDelay" value="3000"/>
-  <preference name="FadeSplashScreenDuration" value="3000"/>
+
   <feature name="StatusBar">
     <param name="ios-package" onload="true" value="CDVStatusBar"/>
   </feature>
+
   <plugin name="cordova-plugin-device" spec="~1.1.2"/>
   <plugin name="cordova-plugin-console" spec="~1.0.3"/>
   <plugin name="cordova-plugin-whitelist" spec="~1.2.2"/>
