@@ -4,6 +4,7 @@
 import { Component, ViewChild, enableProdMode } from '@angular/core';
 import { ionicBootstrap, Platform, Nav } from 'ionic-angular';
 import { StatusBar } from 'ionic-native';
+import { DashboardPage } from './pages/dashboard/dashboard';
 import { FavsPage } from './pages/recent/favs';
 import { EntityPage } from './pages/entity/entity';
 import { DinoPage } from './pages/dino/dino';
@@ -18,7 +19,7 @@ import { AboutPage } from './pages/info/about';
 class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = AboutPage;
+  rootPage: any = DashboardPage;
 
   pages: Array<{title: string, component: any, params: any }>;
 
@@ -26,6 +27,7 @@ class MyApp {
     this.initializeApp();
     this.pages = [
       /*{ title: 'Favs', component: FavsPage },*/
+      { title: 'Dashboard', component: DashboardPage, params: {} },
       { title: 'Ammunitions', component: EntityPage, params: {title:"Ammunitions", dataset: "ammunitions"} },
       { title: 'Armor', component: EntityPage, params: {title:"Armor", dataset: "armor"} },
       { title: 'Artifacts', component: EntityPage, params: {title:"Artifacts", dataset: "artifacts"} },
