@@ -57,6 +57,22 @@
     },
     {
         "id": 0,
+        "name": "Flame Arrow",
+        "category": "Ammunition",
+        "stack": 50,
+        "icon": "images/flame-arrow.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_ArrowFlame.PrimalItemAmmo_ArrowFlame'"
+    },
+    {
+        "id": 0,
+        "name": "Flamethrower Ammo",
+        "category": "Ammunition",
+        "stack": 30,
+        "icon": "images/flamethrower-ammo.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/WeaponFlamethrower/PrimalItemAmmo_Flamethrower.PrimalItemAmmo_Flamethrower'"
+    },
+    {
+        "id": 0,
         "name": "Grappling Hook",
         "category": "Ammunition",
         "stack": 10,
@@ -70,6 +86,14 @@
         "stack": 50,
         "icon": "images/metal-arrow.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_CompoundBowArrow.PrimalItemAmmo_CompoundBowArrow'"
+    },
+    {
+        "id": 0,
+        "name": "Rocket Homing Missile",
+        "category": "Ammunition",
+        "stack": 50,
+        "icon": "images/rocket-homing-missile.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/WeaponHomingMissile/PrimalItemAmmo_RocketHomingMissile.PrimalItemAmmo_RocketHomingMissile'"
     },
     {
         "id": 247,

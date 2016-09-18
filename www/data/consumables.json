@@ -8,12 +8,28 @@
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Amarberry.PrimalItemConsumable_Berry_Amarberry'"
     },
     {
+        "id": 0,
+        "name": "Amaberry Juice (Primitive+)",
+        "category": "Consumable",
+        "stack": 100,
+        "icon": "images/amaberry-juice-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Consumables/PrimalItemConsumable_Smoothie_Amarberry.PrimalItemConsumable_Smoothie_Amarberry'"
+    },
+    {
         "id": 118,
         "name": "Azulberry",
         "category": "Consumable",
         "stack": 100,
         "icon": "images/azulberry.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Azulberry.PrimalItemConsumable_Berry_Azulberry'"
+    },
+    {
+        "id": 0,
+        "name": "Azulberry Juice (Primitive+)",
+        "category": "Consumable",
+        "stack": 100,
+        "icon": "images/azulberry-juice-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Consumables/PrimalItemConsumable_Smoothie_Azulberry.PrimalItemConsumable_Smoothie_Azulberry'"
     },
     {
         "id": 254,
@@ -62,6 +78,14 @@
         "stack": 100,
         "icon": "images/bug-repellant.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_BugRepellant.PrimalItemConsumable_BugRepellant'"
+    },
+    {
+        "id": 0,
+        "name": "Cactus Sap",
+        "category": "Consumable",
+        "stack": 100,
+        "icon": "images/cactus-sap.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Consumables/PrimalItemConsumable_CactusSap.PrimalItemConsumable_CactusSap'"
     },
     {
         "id": 229,
@@ -200,6 +224,14 @@
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_SauroEgg.PrimalItemConsumable_Kibble_SauroEgg'"
     },
     {
+        "id": 0,
+        "name": "Kibble (Camelsaurus Egg)",
+        "category": "Consumable",
+        "stack": 100,
+        "icon": "images/kibble.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Camelsaurus/PrimalItemConsumable_Kibble_Camelsaurus.PrimalItemConsumable_Kibble_Camelsaurus'"
+    },
+    {
         "id": 344,
         "name": "Kibble (Carbonemys Egg)",
         "category": "Consumable",
@@ -265,6 +297,14 @@
     },
     {
         "id": 0,
+        "name": "Kibble (JugBug Egg)",
+        "category": "Consumable",
+        "stack": 100,
+        "icon": "images/kibble.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/JugBug/PrimalItemConsumable_Kibble_JugBug.PrimalItemConsumable_Kibble_JugBug'"
+    },
+    {
+        "id": 0,
         "name": "Kibble (Kairuku Egg)",
         "category": "Consumable",
         "stack": 100,
@@ -278,6 +318,22 @@
         "stack": 100,
         "icon": "images/kibble.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_LystroEgg.PrimalItemConsumable_Kibble_LystroEgg'"
+    },
+    {
+        "id": 0,
+        "name": "Kibble (Mantis Egg)",
+        "category": "Consumable",
+        "stack": 100,
+        "icon": "images/kibble.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Mantis/PrimalItemConsumable_Kibble_Mantis.PrimalItemConsumable_Kibble_Mantis'"
+    },
+    {
+        "id": 0,
+        "name": "Kibble (Moth Egg)",
+        "category": "Consumable",
+        "stack": 100,
+        "icon": "images/kibble.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Moth/PrimalItemConsumable_Kibble_Moth.PrimalItemConsumable_Kibble_Moth'"
     },
     {
         "id": 419,
@@ -368,6 +424,14 @@
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_TerrorBirdEgg.PrimalItemConsumable_Kibble_TerrorBirdEgg'"
     },
     {
+        "id": 0,
+        "name": "Kibble (Thorny Dragon Egg)",
+        "category": "Consumable",
+        "stack": 100,
+        "icon": "images/kibble.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/SpineyLizard/PrimalItemConsumable_Kibble_SpineyLizard.PrimalItemConsumable_Kibble_SpineyLizard'"
+    },
+    {
         "id": 329,
         "name": "Kibble (Titanoboa Egg)",
         "category": "Consumable",
@@ -382,6 +446,14 @@
         "stack": 100,
         "icon": "images/kibble.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_TrikeEgg.PrimalItemConsumable_Kibble_TrikeEgg'"
+    },
+    {
+        "id": 0,
+        "name": "Kibble (Vulture Egg)",
+        "category": "Consumable",
+        "stack": 100,
+        "icon": "images/kibble.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Vulture/PrimalItemConsumable_Kibble_Vulture.PrimalItemConsumable_Kibble_Vulture'"
     },
     {
         "id": 228,
@@ -422,6 +494,14 @@
         "stack": 100,
         "icon": "images/mejoberry.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Mejoberry.PrimalItemConsumable_Berry_Mejoberry'"
+    },
+    {
+        "id": 0,
+        "name": "Mejoberry Juice (Primitive+)",
+        "category": "Consumable",
+        "stack": 100,
+        "icon": "images/mejoberry-juice-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Consumables/PrimalItemConsumable_Smoothie_Mejoberry.PrimalItemConsumable_Smoothie_Mejoberry'"
     },
     {
         "id": 413,
@@ -544,6 +624,14 @@
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Stimberry.PrimalItemConsumable_Berry_Stimberry'"
     },
     {
+        "id": 0,
+        "name": "Stimbull Juice (Primitive+)",
+        "category": "Consumable",
+        "stack": 100,
+        "icon": "images/stimbull-juice-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Consumables/PrimalItemConsumable_Smoothie_Stimbull.PrimalItemConsumable_Smoothie_Stimbull'"
+    },
+    {
         "id": 183,
         "name": "Super Test Meat(Raw)",
         "category": "Consumable",
@@ -566,6 +654,22 @@
         "stack": 100,
         "icon": "images/tintoberry.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Tintoberry.PrimalItemConsumable_Berry_Tintoberry'"
+    },
+    {
+        "id": 0,
+        "name": "Tintoberry Juice (Primitive+)",
+        "category": "Consumable",
+        "stack": 100,
+        "icon": "images/tintoberry-juice-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Consumables/PrimalItemConsumable_Smoothie_Tintoberry.PrimalItemConsumable_Smoothie_Tintoberry'"
+    },
+    {
+        "id": 0,
+        "name": "Tomato Juice (Primitive+)",
+        "category": "Consumable",
+        "stack": 100,
+        "icon": "images/tomato-juice-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Consumables/PrimalItemConsumable_Smoothie_Tomato.PrimalItemConsumable_Smoothie_Tomato'"
     },
     {
         "id": 15,
@@ -598,5 +702,13 @@
         "stack": 1,
         "icon": "images/waterskin-filled.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_WaterskinCraftable.PrimalItemRefill_WaterskinRefill'"
+    },
+    {
+        "id": 0,
+        "name": "Wyvern Milk",
+        "category": "Consumable",
+        "stack": 1,
+        "icon": "images/wyvern-milk.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_WyvernMilk.PrimalItemConsumable_WyvernMilk'"
     }
 ]

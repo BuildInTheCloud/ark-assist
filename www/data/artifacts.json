@@ -16,6 +16,22 @@
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_05.PrimalItemArtifact_05'"
     },
     {
+        "id": 0,
+        "name": "Artifact of the Crag",
+        "category": "Artifact",
+        "stack": 1,
+        "icon": "images/artifact-of-the-crag.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactSE_02.PrimalItemArtifactSE_02'"
+    },
+    {
+        "id": 0,
+        "name": "Artifact of the Destroyer",
+        "category": "Artifact",
+        "stack": 1,
+        "icon": "images/artifact-of-the-destroyer.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactSE_03.PrimalItemArtifactSE_03'"
+    },
+    {
         "id": 151,
         "name": "Artifact Of The Devious",
         "category": "Artifact",
@@ -30,6 +46,14 @@
         "stack": "1",
         "icon": "images/artifact-of-the-devourer.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_07.PrimalItemArtifact_07'"
+    },
+    {
+        "id": 0,
+        "name": "Artifact of the Gatekeeper",
+        "category": "Artifact",
+        "stack": 1,
+        "icon": "images/artifact-of-the-gatekeeper.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactSE_01.PrimalItemArtifactSE_01'"
     },
     {
         "id": 157,

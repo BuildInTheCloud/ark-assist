@@ -1,19 +1,24 @@
-.entityPage {}
+.entityPage {
 
-.entityPage .entity {border:2px solid;border-radius: 6px;padding:0 10px 0 0;margin-right:8px;}
+    .entity {padding:0 10px 0 0;margin-right:8px;}
 
-.entityPage .entity.id {position:absolute;border-color:green;background-color:green;color:white;padding:2px;}
+    .entity.id {position:absolute;border-color:green;background-color:green;color:white;padding:2px;}
 
-.entityPage .entity.cmd {border-color:blue;color:blue;overflow:hidden;}
-.entityPage .entity.cmd strong{background-color:blue;color:white;margin-right:5px;padding:0 12px 0 12px;min-width:70px;float:left;}
-
-.entityPage .cmd {
-    cursor:pointer;
-    touch-action:auto !important;
-    user-select: auto !important;
-    -webkit-user-select: auto !important;
-    -khtml-user-select: auto !important;
-    -moz-user-select: auto !important;
-    -ms-user-select: auto !important;
-    -o-user-select: auto !important;
+    .entity.cmd {color:blue;overflow:hidden;}
+    .entity.cmd button {
+        border-radius: 6px;
+        padding:0 8px 0 8px;
+        width:100%;
+        max-width:240px;
+    }
+    .entity.cmd.missing strong {
+        background-color:red;
+        border-color:red;
+        width:100%;
+        max-width:240px;
+        text-align:center;
+        color:white;
+        float:left;
+    }
+    .entity.cmd span.entity-copy {display:none;}
 }

@@ -80,6 +80,46 @@
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Cloth/PrimalItemArmor_ClothShirt.PrimalItemArmor_ClothShirt'"
     },
     {
+        "id": 0,
+        "name": "Desert Cloth Boots",
+        "category": "Armor",
+        "stack": 1,
+        "icon": "images/desert-cloth-boots.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Outfits/PrimalItemArmor_DesertClothBoots.PrimalItemArmor_DesertClothBoots'"
+    },
+    {
+        "id": 0,
+        "name": "Desert Cloth Gloves",
+        "category": "Armor",
+        "stack": 1,
+        "icon": "images/desert-cloth-gloves.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Outfits/PrimalItemArmor_DesertClothGloves.PrimalItemArmor_DesertClothGloves'"
+    },
+    {
+        "id": 0,
+        "name": "Desert Goggles and Hat",
+        "category": "Armor",
+        "stack": 1,
+        "icon": "images/desert-goggles-and-hat.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Outfits/PrimalItemArmor_DesertClothGogglesHelmet.PrimalItemArmor_DesertClothGogglesHelmet'"
+    },
+    {
+        "id": 0,
+        "name": "Desert Cloth Pants",
+        "category": "Armor",
+        "stack": 1,
+        "icon": "images/desert-cloth-pants.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Outfits/PrimalItemArmor_DesertClothPants.PrimalItemArmor_DesertClothPants'"
+    },
+    {
+        "id": 0,
+        "name": "Desert Cloth Shirt",
+        "category": "Armor",
+        "stack": 1,
+        "icon": "images/desert-cloth-shirt.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Outfits/PrimalItemArmor_DesertClothShirt.PrimalItemArmor_DesertClothShirt'"
+    },
+    {
         "id": 225,
         "name": "Flak Boots",
         "category": "Armor",

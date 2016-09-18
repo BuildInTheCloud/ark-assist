@@ -25,6 +25,14 @@
     },
     {
         "id": 0,
+        "name": "Manticore Trophy (Scorched Earth)",
+        "category": "Trophy",
+        "stack": 1,
+        "icon": "images/manticore-trophy-scorched-earth.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Structures/TrophyHeads/Manticore_Trophy/PrimalItemTrophy_Manticore.PrimalItemTrophy_Manticore'"
+    },
+    {
+        "id": 0,
         "name": "Megapithecus Trophy",
         "category": "Trophy",
         "stack": 1,

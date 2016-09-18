@@ -1,7 +1,7 @@
 {
   "name": "ark-assist",
   "description": "Ark Assist: An unoffical app for Ark Survival Evolved.",
-  "version": "0.1.0",
+  "version": "0.4.0",
   "dependencies": {
     "@angular/common": "^2.0.0-rc.4",
     "@angular/compiler": "^2.0.0-rc.4",

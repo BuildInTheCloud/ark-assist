@@ -19,11 +19,11 @@
       <img src="{{item.icon}}"/>
       <ion-card-content>
         <ion-card-title>{{item.name}}<br/><i>{{item.category}}</i></ion-card-title>
-        <p>{{item.id}}&nbsp;</p>
+        <p style="overflow:hidden;height:20px;margin-bottom:10px;">{{item.id}}&nbsp;</p>
         <ion-row responsive-sm style="margin-bottom:5px;">
           <ion-col class="entity cmd">
-            <strong (click)="copyText([i])">COPY</strong>
-            <span [attr.id]="'dino'+i">admincheat SpawnDino "{{item.blueprint}}" 500 0 0 150</span>
+            <button (click)="copyText([i])">COPY TO CLIPBOARD</button>
+            <span class="entity-copy" [attr.id]="'dino'+i">admincheat SpawnDino "{{item.blueprint}}" 500 0 0 150</span>
           </ion-col>
         </ion-row>
       </ion-card-content>

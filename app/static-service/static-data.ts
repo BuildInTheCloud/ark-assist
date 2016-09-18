@@ -10,7 +10,7 @@ import 'rxjs/add/operator/catch';
 @Injectable()
 export class StaticService {
   entity:any;
-  dinos:any;
+  dinosCache:any;
   /**
    * @param {Http} http - The injected Http.
    */
@@ -46,17 +46,18 @@ export class StaticService {
     ;
   }
   getDinoList(): any {
-    if (this.dinos) {
-      return Promise.resolve(this.dinos);
+    if (this.dinosCache) {
+      return Promise.resolve(this.dinosCache);
     } else {
       return new Promise(resolve => {
         this.http.get('data/dinos.json')
           .map(res => res.json() )
           .subscribe(data => {
-            this.dinos = data.sort((a, b) => {
-              if (a.name < b.name) { return -1; } else if (a.name > b.name) { return 1; } else { return 0; }
-            });
-            resolve(this.dinos);
+            //this.dinosCache = data.sort((a, b) => {
+            //  if (a.name < b.name) { return -1; } else if (a.name > b.name) { return 1; } else { return 0; }
+            //});
+            this.dinosCache = data;
+            resolve(this.dinosCache);
           })
         ;
       });

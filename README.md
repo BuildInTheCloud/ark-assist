@@ -17,3 +17,7 @@ All apps take time to create. If you find this app useful, please donate so I ca
 
 https://PayPal.Me/buildinthecloud/
 
+#reference
+http://ark.gamepedia.com/Engrams_(Primitive%2B)
+
+http://ark.gamepedia.com/Item_IDs

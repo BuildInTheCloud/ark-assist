@@ -1,5 +1,13 @@
 [
     {
+        "id": 0,
+        "name": "Allosaurus Saddle",
+        "category": "Saddle",
+        "stack": 1,
+        "icon": "images/allosaurus-saddle.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_AlloSaddle.PrimalItemArmor_AlloSaddle'"
+    },
+    {
         "id": 209,
         "name": "Ankylo Saddle",
         "category": "Saddle",
@@ -136,6 +144,14 @@
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DolphinSaddle.PrimalItemArmor_DolphinSaddle'"
     },
     {
+        "id": 0,
+        "name": "Lymantria Saddle",
+        "category": "Saddle",
+        "stack": 1,
+        "icon": "images/lymantria-saddle.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Moth/PrimalItemArmor_MothSaddle.PrimalItemArmor_MothSaddle'"
+    },
+    {
         "id": 210,
         "name": "Mammoth Saddle",
         "category": "Saddle",
@@ -152,6 +168,14 @@
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MantaSaddle.PrimalItemArmor_MantaSaddle'"
     },
     {
+        "id": 0,
+        "name": "Mantis Saddle",
+        "category": "Saddle",
+        "stack": 1,
+        "icon": "images/mantis-saddle.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Mantis/PrimalItemArmor_MantisSaddle.PrimalItemArmor_MantisSaddle'"
+    },
+    {
         "id": 428,
         "name": "Megaloceros Saddle",
         "category": "Saddle",
@@ -166,6 +190,14 @@
         "stack": "1",
         "icon": "images/megalodon-saddle.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalodonSaddle.PrimalItemArmor_MegalodonSaddle'"
+    },
+    {
+        "id": 0,
+        "name": "Morellatops Saddle",
+        "category": "Saddle",
+        "stack": 1,
+        "icon": "images/morellatops-saddle.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Camelsaurus/PrimalItemArmor_CamelsaurusSaddle.PrimalItemArmor_CamelsaurusSaddle'"
     },
     {
         "id": 0,
@@ -214,6 +246,14 @@
         "stack": 1,
         "icon": "images/paraceratherium-saddle.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ParaSaddle.PrimalItemArmor_ParaSaddle'"
+    },
+    {
+        "id": 0,
+        "name": "Pelagornis Saddle",
+        "category": "Saddle",
+        "stack": 1,
+        "icon": "images/pelagornis-saddle.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PelaSaddle.PrimalItemArmor_PelaSaddle'"
     },
     {
         "id": 285,
@@ -296,6 +336,14 @@
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RexSaddle.PrimalItemArmor_RexSaddle'"
     },
     {
+        "id": 0,
+        "name": "Rock Golem Saddle",
+        "category": "Saddle",
+        "stack": 1,
+        "icon": "images/rock-golem-saddle.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/RockGolem/PrimalItemArmor_RockGolemSaddle.PrimalItemArmor_RockGolemSaddle'"
+    },
+    {
         "id": 212,
         "name": "Sabertooth Saddle",
         "category": "Saddle",
@@ -329,11 +377,27 @@
     },
     {
         "id": 0,
+        "name": "Tapejara Saddle",
+        "category": "Saddle",
+        "stack": 1,
+        "icon": "images/tapejara-saddle.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TapejaraSaddle.PrimalItemArmor_TapejaraSaddle'"
+    },
+    {
+        "id": 0,
         "name": "Terror Bird Saddle",
         "category": "Saddle",
         "stack": 1,
         "icon": "images/terror-bird-saddle.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TerrorBirdSaddle.PrimalItemArmor_TerrorBirdSaddle'"
+    },
+    {
+        "id": 0,
+        "name": "Thorny Dragon Saddle",
+        "category": "Saddle",
+        "stack": 1,
+        "icon": "images/thorny-dragon-saddle.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/SpineyLizard/PrimalItemArmor_SpineyLizardSaddle.PrimalItemArmor_SpineyLizardSaddle'"
     },
     {
         "id": 0,

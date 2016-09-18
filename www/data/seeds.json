@@ -3,9 +3,57 @@
         "id": 235,
         "name": "Azulberry Seed",
         "category": "Seed",
-        "stack": "100",
+        "stack": 100,
         "icon": "images/azulberry-seed.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Azulberry.PrimalItemConsumable_Seed_Azulberry'"
+    },
+    {
+        "id": 0,
+        "name": "Barley Seed (Primitive+)",
+        "category": "Seed",
+        "stack": 100,
+        "icon": "images/barley-seed-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Vegetation/PrimalItemConsumable_Seed_Barley.PrimalItemConsumable_Seed_Barley'"
+    },
+    {
+        "id": 0,
+        "name": "Cabbage Seed (Primitive+)",
+        "category": "Seed",
+        "stack": 100,
+        "icon": "images/cabbage-seed-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Vegetation/PrimalItemConsumable_Seed_Lettuce.PrimalItemConsumable_Seed_Lettuce'"
+    },
+    {
+        "id": 0,
+        "name": "Camellia Tea Seed (Primitive+)",
+        "category": "Seed",
+        "stack": 100,
+        "icon": "images/camellia-tea-seed-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Vegetation/PrimalItemConsumable_Seed_Tea.PrimalItemConsumable_Seed_Tea'"
+    },
+    {
+        "id": 0,
+        "name": "Cashew Seed (Primitive+)",
+        "category": "Seed",
+        "stack": 100,
+        "icon": "images/cashew-seed-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Vegetation/PrimalItemConsumable_Seed_Cashew.PrimalItemConsumable_Seed_Cashew'"
+    },
+    {
+        "id": 0,
+        "name": "Coffee Seed (Primitive+)",
+        "category": "Seed",
+        "stack": 100,
+        "icon": "images/coffee-seed-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Vegetation/PrimalItemConsumable_Seed_Coffee.PrimalItemConsumable_Seed_Coffee'"
+    },
+    {
+        "id": 0,
+        "name": "Grape Seed (Primitive+)",
+        "category": "Seed",
+        "stack": 100,
+        "icon": "images/grape-seed-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Vegetation/PrimalItemConsumable_Seed_Grape.PrimalItemConsumable_Seed_Grape'"
     },
     {
         "id": 241,

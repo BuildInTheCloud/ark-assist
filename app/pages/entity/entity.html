@@ -14,19 +14,20 @@
   </ion-searchbar>
 </ion-header>
 <ion-content padding class="entityPage">
+  <div id="holdtext" style="display:none;"></div>
   <ion-list>
     <ion-item *ngFor="let item of entityList; let i = index">
       <ion-thumbnail item-left *ngIf="item.id > 0"><span class="entity id">{{item.id}}</span><img src="{{item.icon}}"/></ion-thumbnail>
-      <ion-thumbnail item-left *ngIf="item.id == 0"><span class="entity id">No ID</span><img src="{{item.icon}}"/></ion-thumbnail>
+      <ion-thumbnail item-left *ngIf="item.id == 0"><img src="{{item.icon}}"/></ion-thumbnail>
       <h2>{{item.name}} (<i>{{item.stack}} </i>)</h2>
       <ion-row responsive-sm style="margin-bottom:5px;">
-        <ion-col class="entity cmd" *ngIf="item.id > 0 && item.id !== 317">
-          <strong (click)="copyText([i])">COPY</strong>
-          <span [attr.id]="'entity'+i">cheat giveitemnum {{item.id}} {{item.stack}} 1 0</span>
+        <ion-col class="entity cmd" *ngIf="item.blueprint !== ''">
+          <button (click)="copyText([i])">COPY TO CLIPBOARD</button>
+          <span class="entity-copy" [attr.id]="'entity'+i">cheat giveitem "{{item.blueprint}}" {{item.stack}} 1 0</span>
         </ion-col>
-        <ion-col class="entity cmd" *ngIf="item.id == 0 || item.id == 317">
-          <strong (click)="copyText([i])">COPY</strong>
-          <span [attr.id]="'entity'+i">cheat giveitem "{{item.blueprint}}" {{item.stack}} 1 0</span>
+        <ion-col class="entity cmd missing" *ngIf="item.blueprint == ''">
+          <strong>MISSING</strong>
+          <span class="entity-copy" [attr.id]="'entity'+i"></span>
         </ion-col>
       </ion-row>
     </ion-item>

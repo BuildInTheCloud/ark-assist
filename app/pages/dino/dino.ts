@@ -19,17 +19,18 @@ export class DinoPage {
   isCordovaApp:boolean = !!window.cordova;
   isWinJSApp:boolean = !!window.WinJS;
 
-  constructor(private navCtrl: NavController, private dataService: StaticService) { }
+  constructor(private navCtrl: NavController, private StaticService: StaticService) { }
 
   ngOnInit() {
     this.getList();
   }
 
   getList() {
-    this.dataService.getDinoList().then(
+    this.StaticService.getDinoList().then(
       data => {
         this.dinos = data;
         this.dinoList = this.dinos;
+        console.log(this.dinos);
       },
       error => { this.dinos = []; this.dinoList = []; this.errorMessage = <any>error; }
     );

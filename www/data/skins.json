@@ -112,6 +112,22 @@
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemArmor_HideHelmetAlt.PrimalItemArmor_HideHelmetAlt'"
     },
     {
+        "id": 0,
+        "name": "Manticore Helmet Skin",
+        "category": "Skin",
+        "stack": 1,
+        "icon": "images/manticore-helmet-skin.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_ManticoreHelmet.PrimalItemSkin_ManticoreHelmet'"
+    },
+    {
+        "id": 0,
+        "name": "Manticore Shield Skin",
+        "category": "Skin",
+        "stack": 1,
+        "icon": "images/manticore-shield-skin.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_ManticoreShield.PrimalItemSkin_ManticoreShield'"
+    },
+    {
         "id": 300,
         "name": "Nerdry Glasses",
         "category": "Skin",
@@ -177,11 +193,51 @@
     },
     {
         "id": 0,
+        "name": "Safari Hat Skin",
+        "category": "Skin",
+        "stack": 1,
+        "icon": "images/safari-hat-skin.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_ExplorerHat.PrimalItemSkin_ExplorerHat'"
+    },
+    {
+        "id": 0,
+        "name": "Scorched Spike Skin",
+        "category": "Skin",
+        "stack": 1,
+        "icon": "images/scorched-spike-skin.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_ScorchedSpear.PrimalItemSkin_ScorchedSpear'"
+    },
+    {
+        "id": 0,
+        "name": "Scorched Sword Skin",
+        "category": "Skin",
+        "stack": 1,
+        "icon": "images/scorched-sword-skin.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_ScorchedSword.PrimalItemSkin_ScorchedSword'"
+    },
+    {
+        "id": 0,
+        "name": "Scorched Torch Skin",
+        "category": "Skin",
+        "stack": 1,
+        "icon": "images/scorched-torch-skin.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_TorchScorched.PrimalItemSkin_TorchScorched'"
+    },
+    {
+        "id": 0,
         "name": "Stego Bone Costume",
         "category": "Skin",
         "stack": 1,
         "icon": "images/stego-bone-costume.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BoneStego.PrimalItemCostume_BoneStego'"
+    },
+    {
+        "id": 0,
+        "name": "Thorny Dragon Saddle Skin",
+        "category": "Skin",
+        "stack": 1,
+        "icon": "images/thorny-dragon-saddle-skin.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/SpineyLizard/PrimalItemArmor_SpineyLizardPromoSaddle.PrimalItemArmor_SpineyLizardPromoSaddle'"
     },
     {
         "id": 0,
@@ -206,5 +262,13 @@
         "stack": 1,
         "icon": "images/trike-bone-helmet-skin.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_TrikeSkullHelmet.PrimalItemSkin_TrikeSkullHelmet'"
+    },
+    {
+        "id": 0,
+        "name": "Wyvern Gloves Skin",
+        "category": "Skin",
+        "stack": 1,
+        "icon": "images/wyvern-gloves-skin.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_WyvernGloves.PrimalItemSkin_WyvernGloves'"
     }
 ]
