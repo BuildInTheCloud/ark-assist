@@ -21,3 +21,8 @@ https://PayPal.Me/buildinthecloud/
 http://ark.gamepedia.com/Engrams_(Primitive%2B)
 
 http://ark.gamepedia.com/Item_IDs
+
+#using latest ionic
+pm install --typecheck
+
+npm install --save ionic-angular@nightly
