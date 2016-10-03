@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-navbar>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Spawn Dinos</ion-title>
+  </ion-navbar>
+  <ion-searchbar
+    placeholder="dino search"
+    [(ngModel)]="searchFor"
+    [showCancelButton]="shouldShowCancel"
+    (ionInput)="onSearchInput($event)"
+    (ionCancel)="onSearchCancel($event)">
+  </ion-searchbar>
+</ion-header>
+<ion-content responsive-md padding>
+  <ion-col *ngFor="let item of dinoList; let i = index">
+    <ion-card>
+      <img src="assets/{{item.icon}}"/>
+      <ion-card-content>
+        <ion-card-title>{{item.name}}<br/><i>{{item.category}}</i></ion-card-title>
+        <p style="overflow:hidden;height:20px;margin-bottom:10px;">{{item.id}}&nbsp;</p>
+        <ion-row responsive-sm style="margin-bottom:5px;">
+          <ion-col class="entity cmd">
+            <button (click)="copyText([i])">COPY TO CLIPBOARD</button>
+            <span class="entity-copy" [attr.id]="'dino'+i">admincheat SpawnDino "{{item.blueprint}}" 500 0 0 150</span>
+          </ion-col>
+        </ion-row>
+      </ion-card-content>
+    </ion-card>
+  </ion-col>
+  <p>{{errorMessage}}</p>
+</ion-content>

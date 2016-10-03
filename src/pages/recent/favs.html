@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Recent Commands</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <ion-list>
+    <ion-item *ngFor="let item of entityList">
+      <ion-thumbnail item-left><img src="assets/{{item.icon}}"/></ion-thumbnail>
+      <h2>{{item.name}} (<i>{{item.category}}</i>)</h2>
+      <ion-row responsive-sm style="margin-bottom:5px;max-width:300px;">
+        <ion-col class="entity id"><strong>ID</strong>{{item.id}}</ion-col>
+        <ion-col class="entity stack"><strong>Stack</strong>{{item.stack}}</ion-col>
+      </ion-row>
+      <p>{{item.blueprint}}</p>
+      <textarea *ngIf="item.id > 0">cheat giveitemnum {{item.id}} {{item.stack}} 1 0</textarea>
+      <textarea *ngIf="item.id == 0">cheat giveitem "{{item.blueprint}}"" {{item.stack}} 1 0</textarea>
+    </ion-item>
+  </ion-list>
+  <p>{{errorMessage}}</p>
+  <p>{{xboxErrorMessage}}</p>
+</ion-content>
