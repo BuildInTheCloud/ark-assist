@@ -1,15 +1,10 @@
 import { Component, ViewChild, enableProdMode } from '@angular/core';
 import { Events, MenuController, Nav, Platform } from 'ionic-angular';
-import { Splashscreen, StatusBar } from 'ionic-native';
+import { StatusBar } from 'ionic-native';
 
-import { ColorPage } from '../pages/color/color';
-import { AdminPage } from '../pages/commands/commands';
 import { DashboardPage } from '../pages/dashboard/dashboard';
-import { DinoPage } from '../pages/dino/dino';
-import { EntityPage } from '../pages/entity/entity';
 import { AboutPage } from '../pages/info/about';
 import { HelpPage } from '../pages/info/help';
-import { FavsPage } from '../pages/recent/favs';
 
 export interface PageObj {
   title: string;

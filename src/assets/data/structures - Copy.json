@@ -1,0 +1,2442 @@
+[
+    {
+        "id": 0,
+        "name": "Adobe Ceiling (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/adobe-ceiling-scorched-earth.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_AdobeCeiling.PrimalItemStructure_AdobeCeiling'"
+    },
+    {
+        "id": 0,
+        "name": "Adobe Ceiling (Scorched Earth)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/adobe-ceiling-scorched-earth.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeCeiling.PrimalItemStructure_AdobeCeiling'"
+    },
+    {
+        "id": 0,
+        "name": "Adobe Door (Scorched Earth)",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/adobe-door.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeDoor.PrimalItemStructure_AdobeDoor'"
+    },
+    {
+        "id": 0,
+        "name": "Adobe Doorframe (Primitive+)",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/adobe-doorframe.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_AdobeWallWithDoor.PrimalItemStructure_AdobeWallWithDoor'"
+    },
+    {
+        "id": 0,
+        "name": "Adobe Doorframe (Scorched Earth)",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/adobe-doorframe.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeWallWithDoor.PrimalItemStructure_AdobeWallWithDoor'"
+    },
+    {
+        "id": 0,
+        "name": "Adobe Dinosaur Gate (Scorched Earth)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/adobe-dinosaur-gate-scorched-earth.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeGateDoor.PrimalItemStructure_AdobeGateDoor'"
+    },
+    {
+        "id": 0,
+        "name": "Adobe Dinosaur Gateway (Scorched Earth)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/adobe-dinosaur-gateway-scorched-earth.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeFrameGate.PrimalItemStructure_AdobeFrameGate'"
+    },
+    {
+        "id": 0,
+        "name": "Adobe Fence Foundation (Scorched Earth)",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/adobe-fence-foundation.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeFenceFoundation.PrimalItemStructure_AdobeFenceFoundation'"
+    },
+    {
+        "id": 0,
+        "name": "Adobe Foundation (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/adobe-foundation-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_AdobeFloor.PrimalItemStructure_AdobeFloor'"
+    },
+    {
+        "id": 0,
+        "name": "Adobe Foundation (Scorched Earth)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/adobe-foundation-scorched-earth.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeFloor.PrimalItemStructure_AdobeFloor'"
+    },
+    {
+        "id": 0,
+        "name": "Adobe Hatchframe (Scorched Earth)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/adobe-hatchframe-scorched-earth.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeCeilingWithTrapdoor.PrimalItemStructure_AdobeCeilingWithTrapdoor'"
+    },
+    {
+        "id": 0,
+        "name": "Adobe Ladder (Scorched Earth)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/adobe-ladder-scorched-earth.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeLader.PrimalItemStructure_AdobeLader'"
+    },
+    {
+        "id": 0,
+        "name": "Adobe Pillar (Scorched Earth)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/adobe-pillar-scorched-earth.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobePillar.PrimalItemStructure_AdobePillar'"
+    },
+    {
+        "id": 0,
+        "name": "Adobe Railing (Scorched Earth)",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/adobe-railing.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeRailing.PrimalItemStructure_AdobeRailing'"
+    },
+    {
+        "id": 0,
+        "name": "Adobe Ramp (Scorched Earth)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/adobe-ramp-scorched-earth.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeRamp.PrimalItemStructure_AdobeRamp'"
+    },
+    {
+        "id": 0,
+        "name": "Adobe Roof Sloped (Scorched Earth)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/adobe-roof-sloped-scorched-earth.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeRoof.PrimalItemStructure_AdobeRoof'"
+    },
+    {
+        "id": 0,
+        "name": "Adobe Staircase (Scorched Earth)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/adobe-staircase-scorched-earth.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeStaircase.PrimalItemStructure_AdobeStaircase'"
+    },
+    {
+        "id": 0,
+        "name": "Adobe Trapdoor (Scorched Earth)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/adobe-trapdoor-scorched-earth.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeTrapdoor.PrimalItemStructure_AdobeTrapdoor'"
+    },
+    {
+        "id": 0,
+        "name": "Adobe Wall (Primitive+)",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/adobe-wall-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_AdobeWall.PrimalItemStructure_AdobeWall'"
+    },
+    {
+        "id": 0,
+        "name": "Adobe Wall (Scorched Earth)",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/adobe-wall.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeWall.PrimalItemStructure_AdobeWall'"
+    },
+    {
+        "id": 0,
+        "name": "Adobe Wall Sloped Left (Scorched Earth)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/adobe-wall-sloped-left-scorched-earth.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeWall_Sloped_Left.PrimalItemStructure_AdobeWall_Sloped_Left'"
+    },
+    {
+        "id": 0,
+        "name": "Adobe Wall Sloped Right (Scorched Earth)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/adobe-wall-sloped-right-scorched-earth.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeWall_Sloped_Right.PrimalItemStructure_AdobeWall_Sloped_Right'"
+    },
+    {
+        "id": 0,
+        "name": "Adobe Window (Scorched Earth)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/adobe-window-scorched-earth.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeWindow.PrimalItemStructure_AdobeWindow'"
+    },
+    {
+        "id": 0,
+        "name": "Adobe Windowframe (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/adobe-windowframe-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_AdobeWallWithWindow.PrimalItemStructure_AdobeWallWithWindow'"
+    },
+    {
+        "id": 0,
+        "name": "Adobe Windowframe (Scorched Earth)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/adobe-windowframe-scorched-earth.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeWallWithWindow.PrimalItemStructure_AdobeWallWithWindow'"
+    },
+    {
+        "id": 188,
+        "name": "Air Conditioner",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/air-conditioner.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_AirConditioner.PrimalItemStructure_AirConditioner'"
+    },
+    {
+        "id": 0,
+        "name": "Apiary (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/apiary-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_Apiary.PrimalItemStructure_Apiary'"
+    },
+    {
+        "id": 197,
+        "name": "Auto Turret",
+        "category": "Structure",
+        "stack": "1",
+        "icon": "images/auto-turret.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Turret.PrimalItemStructure_Turret'"
+    },
+    {
+        "id": 0,
+        "name": "Bakers Oven (Primitive+)",
+        "category": "Structure",
+        "stack": 3,
+        "icon": "images/bakers-oven-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_BakersOven.PrimalItemStructure_BakersOven'"
+    },
+    {
+        "id": 0,
+        "name": "Ballista Turret",
+        "category": "Structure",
+        "stack": 1,
+        "icon": "images/ballista-turret.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TurretBallista.PrimalItemStructure_TurretBallista'"
+    },
+    {
+        "id": 0,
+        "name": "Basic Gravestone",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/basic-gravestone.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_Furniture_Gravestone.PrimalItemStructure_Furniture_Gravestone'"
+    },
+    {
+        "id": 0,
+        "name": "Beer Barrel",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/beer-barrel.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_BeerBarrel.PrimalItemStructure_BeerBarrel'"
+    },
+    {
+        "id": 0,
+        "name": "Behemoth Adobe Dinosaur Gate (Scorched Earth)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/behemoth-adobe-dinosaur-gate-scorched-earth.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeGateDoor_Large.PrimalItemStructure_AdobeGateDoor_Large'"
+    },
+    {
+        "id": 0,
+        "name": "Behemoth Adobe Dinosaur Gateway (Scorched Earth)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/behemoth-adobe-dinosaur-gateway-scorched-earth.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeGateframe_Large.PrimalItemStructure_AdobeGateframe_Large'"
+    },
+    {
+        "id": 382,
+        "name": "Behemoth Reinforced Dinosaur Gate",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/behemoth-reinforced-dinosaur-gate.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneGateLarge.PrimalItemStructure_StoneGateLarge'"
+    },
+    {
+        "id": 381,
+        "name": "Behemoth Stone Dinosaur Gateway",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/behemoth-stone-dinosaur-gateway.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneGateframe_Large.PrimalItemStructure_StoneGateframe_Large'"
+    },
+    {
+        "id": 0,
+        "name": "Big Bonfire (Primitive+)",
+        "category": "Structure",
+        "stack": 3,
+        "icon": "images/big-bonfire-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_BigBonfire.PrimalItemStructure_BigBonfire'"
+    },
+    {
+        "id": 0,
+        "name": "Big Campfire (Primitive+)",
+        "category": "Structure",
+        "stack": 3,
+        "icon": "images/big-campfire-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_BigCampfire.PrimalItemStructure_BigCampfire'"
+    },
+    {
+        "id": 0,
+        "name": "Big Fence Opening (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/big-fence-opening-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_BigFenceOpening.PrimalItemStructure_BigFenceOpening'"
+    },
+    {
+        "id": 0,
+        "name": "Big Fence Post (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/big-fence-post-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_BigFencePost.PrimalItemStructure_BigFencePost'"
+    },
+    {
+        "id": 0,
+        "name": "Big Fence Section (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/big-fence-section-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_BigFenceSection.PrimalItemStructure_BigFenceSection'"
+    },
+    {
+        "id": 0,
+        "name": "Big Stone Fence (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/big-stone-fence-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_StoneFence_Big.PrimalItemStructure_StoneFence_Big'"
+    },
+    {
+        "id": 309,
+        "name": "Bookshelf",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/bookshelf.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Bookshelf.PrimalItemStructure_Bookshelf'"
+    },
+    {
+        "id": 0,
+        "name": "Brazier (Primitive+)",
+        "category": "Structure",
+        "stack": 25,
+        "icon": "images/brazier-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_Brazier.PrimalItemStructure_Brazier'"
+    },
+    {
+        "id": 0,
+        "name": "Brick Dinosaur Gate Reinforced (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/brick-dinosaur-gate-reinforced-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_BrickGate.PrimalItemStructure_BrickGate'"
+    },
+    {
+        "id": 0,
+        "name": "Brick Doorframe (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/brick-doorframe-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_BrickWallWithDoor.PrimalItemStructure_BrickWallWithDoor'"
+    },
+    {
+        "id": 0,
+        "name": "Brick Wall (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/brick-wall-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_BrickWall.PrimalItemStructure_BrickWall'"
+    },
+    {
+        "id": 0,
+        "name": "Brick Wall Sloped Left (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/brick-wall-sloped-left-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_BrickWall_Sloped_Left.PrimalItemStructure_BrickWall_Sloped_Left'"
+    },
+    {
+        "id": 0,
+        "name": "Brick Wall Sloped Right (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/brick-wall-sloped-right-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_BrickWall_Sloped_Right.PrimalItemStructure_BrickWall_Sloped_Right'"
+    },
+    {
+        "id": 0,
+        "name": "Brick Windowframe (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/brick-windowframe-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_BrickWallWithWindow.PrimalItemStructure_BrickWallWithWindow'"
+    },
+    {
+        "id": 0,
+        "name": "Bunk Bed",
+        "category": "Structure",
+        "stack": 3,
+        "icon": "images/bunk-bed.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Bed_Modern.PrimalItemStructure_Bed_Modern'"
+    },
+    {
+        "id": 0,
+        "name": "Bunny Egg",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/bunny-egg.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Halloween/PrimalItemStructure_EasterEgg.PrimalItemStructure_EasterEgg'"
+    },
+    {
+        "id": 39,
+        "name": "Campfire",
+        "category": "Structure",
+        "stack": 3,
+        "icon": "images/campfire.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/PrimalItemStructure_Campfire.PrimalItemStructure_Campfire'"
+    },
+    {
+        "id": 0,
+        "name": "Candle (Primitive+)",
+        "category": "Structure",
+        "stack": 3,
+        "icon": "images/candle-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_Candle.PrimalItemStructure_Candle'"
+    },
+    {
+        "id": 0,
+        "name": "Cauldron (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/cauldron-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_Cauldron.PrimalItemStructure_Cauldron'"
+    },
+    {
+        "id": 0,
+        "name": "Catapult Turret",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/catapult-turret.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TurretCatapult.PrimalItemStructure_TurretCatapult'"
+    },
+    {
+        "id": 0,
+        "name": "Ceiling Lamp (Primitive+)",
+        "category": "Structure",
+        "stack": 3,
+        "icon": "images/ceiling-lamp-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_CeilingLamp.PrimalItemStructure_CeilingLamp'"
+    },
+    {
+        "id": 0,
+        "name": "Cement Mixer (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/cement-mixer-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_CementMixer.PrimalItemStructure_CementMixer'"
+    },
+    {
+        "id": 0,
+        "name": "Cement Roof Sloped (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/cement-roof-sloped-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_CementRoof.PrimalItemStructure_CementRoof'"
+    },
+    {
+        "id": 0,
+        "name": "Chemistry Bench",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/chemistry-bench.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_ChemBench.PrimalItemStructure_ChemBench'"
+    },
+    {
+        "id": 127,
+        "name": "Compost Bin",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/compost-bin.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_CompostBin.PrimalItemStructure_CompostBin'"
+    },
+    {
+        "id": 0,
+        "name": "Concrete Ceiling (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/concrete-ceiling-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_ConcreteCeiling.PrimalItemStructure_ConcreteCeiling'"
+    },
+    {
+        "id": 0,
+        "name": "Concrete Foundation (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/concrete-foundation-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_ConcreteFloor.PrimalItemStructure_ConcreteFloor'"
+    },
+    {
+        "id": 0,
+        "name": "Concrete Pillar (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/concrete-pillar-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_ConcretePillar.PrimalItemStructure_ConcretePillar'"
+    },
+    {
+        "id": 0,
+        "name": "Concrete Ramp (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/concrete-ramp-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_ConcreteRamp.PrimalItemStructure_ConcreteRamp'"
+    },
+    {
+        "id": 0,
+        "name": "Construction Table (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/construction-table-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_ConstructionTable.PrimalItemStructure_ConstructionTable'"
+    },
+    {
+        "id": 128,
+        "name": "Cooking Pot",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/cooking-pot.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_CookingPot.PrimalItemStructure_CookingPot'"
+    },
+    {
+        "id": 0,
+        "name": "Cooking Table (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/cooking-table-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_CookingStation.PrimalItemStructure_CookingStation'"
+    },
+    {
+        "id": 0,
+        "name": "Covered Wooden Cabinet (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/covered-wooden-cabinet-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_Cabinent2.PrimalItemStructure_Cabinent2'"
+    },
+    {
+        "id": 0,
+        "name": "Deadfall Trap (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/deadfall-trap-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_DeadfallTrap.PrimalItemStructure_DeadfallTrap'"
+    },
+    {
+        "id": 0,
+        "name": "Dragon Flag",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/dragon-flag.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Flag_Dragon.PrimalItemStructure_Flag_Dragon'"
+    },
+    {
+        "id": 0,
+        "name": "Dune Buggy Vehicle Test",
+        "category": "Structure",
+        "stack": 1,
+        "icon": "images/dune-buggy.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/Vehicles/VH_Buggy/Blueprint/PrimalItemVHBuggy.PrimalItemVHBuggy'"
+    },
+    {
+        "id": 191,
+        "name": "Electrical Cable Inclined",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/electrical-cable-inclined.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_PowerCableIncline.PrimalItemStructure_PowerCableIncline'"
+    },
+    {
+        "id": 192,
+        "name": "Electrical Cable Intersection",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/electrical-cable-intersection.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_PowerCableIntersection.PrimalItemStructure_PowerCableIntersection'"
+    },
+    {
+        "id": 193,
+        "name": "Electrical Cable Straight",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/electrical-cable-straight.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_PowerCableStraight.PrimalItemStructure_PowerCableStraight'"
+    },
+    {
+        "id": 194,
+        "name": "Electrical Cable Vertical",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/electrical-cable-vertical.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_PowerCableVertical.PrimalItemStructure_PowerCableVertical'"
+    },
+    {
+        "id": 189,
+        "name": "Electrical Generator",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/electrical-generator.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_PowerGenerator.PrimalItemStructure_PowerGenerator'"
+    },
+    {
+        "id": 190,
+        "name": "Electrical Outlet",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/electrical-outlet.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_PowerOutlet.PrimalItemStructure_PowerOutlet'"
+    },
+    {
+        "id": 0,
+        "name": "Elevator Track",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/elevator-track.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/BuildingBases/PrimalItemStructure_ElevatorTrackBase.PrimalItemStructure_ElevatorTrackBase'"
+    },
+    {
+        "id": 185,
+        "name": "Fabricator",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/fabricator.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Fabricator.PrimalItemStructure_Fabricator'"
+    },
+    {
+        "id": 375,
+        "name": "Feeding Trough",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/feeding-trough.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_FeedingTrough.PrimalItemStructure_FeedingTrough'"
+    },
+    {
+        "id": 0,
+        "name": "Fermenting Barrel (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/fermenting-barrel-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_BarrelFermenting.PrimalItemStructure_BarrelFermenting'"
+    },
+    {
+        "id": 0,
+        "name": "Firewood Holder (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/firewood-holder-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_StorageShed_Firewood.PrimalItemStructure_StorageShed_Firewood'"
+    },
+    {
+        "id": 0,
+        "name": "Fish Trap (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/fish-trap-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_FishTrap.PrimalItemStructure_FishTrap'"
+    },
+    {
+        "id": 0,
+        "name": "Fruit Press (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/fruit-press-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_FruitPress.PrimalItemStructure_FruitPress'"
+    },
+    {
+        "id": 0,
+        "name": "Gift Box",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/gift-box.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Christmas/PrimalItemStructure_StorageBox_ChristmasGift.PrimalItemStructure_StorageBox_ChristmasGift'"
+    },
+    {
+        "id": 0,
+        "name": "Glass Ceiling (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/glass-ceiling-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_GlassCeiling.PrimalItemStructure_GlassCeiling'"
+    },
+    {
+        "id": 0,
+        "name": "Glass Door Reinforced (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/glass-door-reinforced-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_LumberGlassDoor.PrimalItemStructure_LumberGlassDoor'"
+    },
+    {
+        "id": 0,
+        "name": "Glass Lumber Wall Sloped Left (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/glass-lumber-wall-sloped-left-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_LumberGlassWall_Sloped_Left.PrimalItemStructure_LumberGlassWall_Sloped_Left'"
+    },
+    {
+        "id": 0,
+        "name": "Glass Lumber Wall Sloped Right (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/glass-lumber-wall-sloped-right-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_LumberGlassWall_Sloped_Right.PrimalItemStructure_LumberGlassWall_Sloped_Right'"
+    },
+    {
+        "id": 0,
+        "name": "Glass Lumber Roof Sloped (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/glass-roof-sloped-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_LumberGlassRoof.PrimalItemStructure_LumberGlassRoof'"
+    },
+    {
+        "id": 0,
+        "name": "Glass Window Reinforced (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/glass-window-reinforced-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_LumberGlassWindow.PrimalItemStructure_LumberGlassWindow'"
+    },
+    {
+        "id": 0,
+        "name": "Gorilla Flag",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/gorilla-flag.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Flag_Gorilla.PrimalItemStructure_Flag_Gorilla'"
+    },
+    {
+        "id": 439,
+        "name": "Greenhouse Ceiling",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/greenhouse-ceiling.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Greenhouse/PrimalItemStructure_GreenhouseCeiling.PrimalItemStructure_GreenhouseCeiling'"
+    },
+    {
+        "id": 441,
+        "name": "Greenhouse Door",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/greenhouse-door.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Greenhouse/PrimalItemStructure_GreenhouseDoor.PrimalItemStructure_GreenhouseDoor'"
+    },
+    {
+        "id": 440,
+        "name": "Greenhouse Doorframe",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/greenhouse-doorframe.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Greenhouse/PrimalItemStructure_GreenhouseWallWithDoor.PrimalItemStructure_GreenhouseWallWithDoor'"
+    },
+    {
+        "id": 438,
+        "name": "Greenhouse Wall",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/greenhouse-wall.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Greenhouse/PrimalItemStructure_GreenhouseWall.PrimalItemStructure_GreenhouseWall'"
+    },
+    {
+        "id": 445,
+        "name": "Greenhouse Window",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/greenhouse-window.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Greenhouse/PrimalItemStructure_GreenhouseWindow.PrimalItemStructure_GreenhouseWindow'"
+    },
+    {
+        "id": 0,
+        "name": "Grindstone (Primitive+)",
+        "category": "Structure",
+        "stack": 1,
+        "icon": "images/grindstone-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_Grindstone.PrimalItemStructure_Grindstone'"
+    },
+    {
+        "id": 0,
+        "name": "Giant Adobe Hatchframe (Scorched Earth)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/giant-adobe-hatchframe-scorched-earth.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeCeilingWithDoorWay_Giant.PrimalItemStructure_AdobeCeilingWithDoorWay_Giant'"
+    },
+    {
+        "id": 0,
+        "name": "Giant Adobe Trapdoor (Scorched Earth)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/giant-adobe-trapdoor-Scorched-earth.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeCeilingDoorGiant.PrimalItemStructure_AdobeCeilingDoorGiant'"
+    },
+    {
+        "id": 0,
+        "name": "Giant Metal Hatchframe",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/giant-metal-hatchframe.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalCeilingWithTrapdoorGiant.PrimalItemStructure_MetalCeilingWithTrapdoorGiant'"
+    },
+    {
+        "id": 0,
+        "name": "Giant Metal Trapdoor",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/giant-metal-trapdoor.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalTrapdoorGiant.PrimalItemStructure_MetalTrapdoorGiant'"
+    },
+    {
+        "id": 0,
+        "name": "Giant Reinforced Trapdoor",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/giant-reinforced-trapdoor.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneCeilingDoorGiant.PrimalItemStructure_StoneCeilingDoorGiant'"
+    },
+    {
+        "id": 0,
+        "name": "Giant Stone Hatchframe",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/giant-stone-hatchframe.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneCeilingWithTrapdoorGiant.PrimalItemStructure_StoneCeilingWithTrapdoorGiant'"
+    },
+    {
+        "id": 0,
+        "name": "Handmill (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/handmill-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_Handmill.PrimalItemStructure_Handmill'"
+    },
+    {
+        "id": 41,
+        "name": "Hide Sleeping Bag",
+        "category": "Structure",
+        "stack": 3,
+        "icon": "images/hide-sleeping-bag.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/PrimalItemStructure_SleepingBag_Hide.PrimalItemStructure_SleepingBag_Hide'"
+    },
+    {
+        "id": 0,
+        "name": "Homing Underwater Mine",
+        "category": "Structure",
+        "stack": 1,
+        "icon": "images/homing-underwater-mine.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_SeaMine.PrimalItemStructure_SeaMine'"
+    },
+    {
+        "id": 0,
+        "name": "Industrial Cooker",
+        "category": "Structure",
+        "stack": 1,
+        "icon": "images/industrial-cooker.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_IndustrialCookingPot.PrimalItemStructure_IndustrialCookingPot'"
+    },
+    {
+        "id": 0,
+        "name": "Industrial Forge",
+        "category": "Structure",
+        "stack": 1,
+        "icon": "images/industrial-forge.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_IndustrialForge.PrimalItemStructure_IndustrialForge'"
+    },
+    {
+        "id": 360,
+        "name": "Industrial Grill",
+        "category": "Structure",
+        "stack": 3,
+        "icon": "images/industrial-grill.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Grill.PrimalItemStructure_Grill'"
+    },
+    {
+        "id": 0,
+        "name": "Industrial Grinder",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/industrial-grinder.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Grinder.PrimalItemStructure_Grinder'"
+    },
+    {
+        "id": 195,
+        "name": "Lamppost",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/lamppost.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Lamppost.PrimalItemStructure_Lamppost'"
+    },
+    {
+        "id": 0,
+        "name": "Lantern (Primitive+)",
+        "category": "Structure",
+        "stack": 3,
+        "icon": "images/lantern-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_TradingLantern.PrimalItemStructure_TradingLantern'"
+    },
+    {
+        "id": 249,
+        "name": "Large Crop Plot",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/large-crop-plot.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_CropPlot_Large.PrimalItemStructure_CropPlot_Large'"
+    },
+    {
+        "id": 0,
+        "name": "Large Elevator Platform",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/large-elevator-platform.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/BuildingBases/PrimalItemStructure_ElevatorPlatformLarge.PrimalItemStructure_ElevatorPlatformLarge'"
+    },
+    {
+        "id": 106,
+        "name": "Large Storage Box",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/large-storage-box.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_StorageBox_Large.PrimalItemStructure_StorageBox_Large'"
+    },
+    {
+        "id": 0,
+        "name": "Lumber Bench (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/lumber-bench-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_Furniture_LumberBench.PrimalItemStructure_Furniture_LumberBench'"
+    },
+    {
+        "id": 0,
+        "name": "Lumber Ceiling (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/lumber-ceiling-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_LumberCeiling.PrimalItemStructure_LumberCeiling'"
+    },
+    {
+        "id": 0,
+        "name": "Lumber Chair (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/lumber-chair-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_Furniture_LumberChair.PrimalItemStructure_Furniture_LumberChair'"
+    },
+    {
+        "id": 0,
+        "name": "Lumber Dinosaur Gate Reinforced (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/lumber-dinosaur-gate-reinforced-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_LumberGate.PrimalItemStructure_LumberGate'"
+    },
+    {
+        "id": 0,
+        "name": "Lumber Dinosaur Gateway (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/lumber-dino-gateway-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_LumberGateframe.PrimalItemStructure_LumberGateframe'"
+    },
+    {
+        "id": 0,
+        "name": "Lumber Door (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/lumber-door-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_LumberDoor.PrimalItemStructure_LumberDoor'"
+    },
+    {
+        "id": 0,
+        "name": "Lumber Doorframe (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/lumber-doorframe-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_LumberWallWithDoor.PrimalItemStructure_LumberWallWithDoor'"
+    },
+    {
+        "id": 0,
+        "name": "Lumber Foundation (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/lumber-foundation-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_LumberFloor.PrimalItemStructure_LumberFloor'"
+    },
+    {
+        "id": 0,
+        "name": "Lumber Glass Pane (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/lumber-glass-pane-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_LumberWallWithPane.PrimalItemStructure_LumberWallWithPane'"
+    },
+    {
+        "id": 0,
+        "name": "Lumber Pillar (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/lumber-pillar-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_LumberPillar.PrimalItemStructure_LumberPillar'"
+    },
+    {
+        "id": 0,
+        "name": "Lumber Ramp (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/lumber-ramp-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_LumberRamp.PrimalItemStructure_LumberRamp'"
+    },
+    {
+        "id": 0,
+        "name": "Lumber Station (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/lumber-station-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_LumberWorkshop.PrimalItemStructure_LumberWorkshop'"
+    },
+    {
+        "id": 0,
+        "name": "Lumber Table (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/lumber-table-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_Furniture_LumberTable.PrimalItemStructure_Furniture_LumberTable'"
+    },
+    {
+        "id": 0,
+        "name": "Lumber Wall (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/lumber-wall-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_LumberWall.PrimalItemStructure_LumberWall'"
+    },
+    {
+        "id": 0,
+        "name": "Lumber Wall Sloped Left (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/lumber-wall-sloped-left-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_LumberWall_Sloped_Left.PrimalItemStructure_LumberWall_Sloped_Left'"
+    },
+    {
+        "id": 0,
+        "name": "Lumber Wall Sloped Right (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/lumber-wall-sloped-right-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_LumberWall_Sloped_Right.PrimalItemStructure_LumberWall_Sloped_Right'"
+    },
+    {
+        "id": 0,
+        "name": "Lumber Windowframe (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/lumber-windowframe-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_LumberWallWithWindow.PrimalItemStructure_LumberWallWithWindow'"
+    },
+    {
+        "id": 0,
+        "name": "Mailbox (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/mailbox-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/APS/Blueprints/PrimalItemStructure_Mailbox.PrimalItemStructure_Mailbox'"
+    },
+    {
+        "id": 0,
+        "name": "Manticore Flag (Scorched Earth)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/manticore-flag-scorched-earth.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Structures/ManticoreFlag/PrimalItemStructure_Flag_Manticore.PrimalItemStructure_Flag_Manticore'"
+    },
+    {
+        "id": 0,
+        "name": "Market Stall (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/market-stall-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_MarketStall.PrimalItemStructure_MarketStall'"
+    },
+    {
+        "id": 0,
+        "name": "Meat Preserving Shed (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/meat-preserving-shed-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_PreservingShed_Meat.PrimalItemStructure_PreservingShed_Meat'"
+    },
+    {
+        "id": 248,
+        "name": "Medium Crop Plot",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/medium-crop-plot.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_CropPlot_Medium.PrimalItemStructure_CropPlot_Medium'"
+    },
+    {
+        "id": 0,
+        "name": "Medium Elevator Platform",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/medium-elevator-platform.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/BuildingBases/PrimalItemStructure_ElevatorPlatfromMedium.PrimalItemStructure_ElevatorPlatfromMedium'"
+    },
+    {
+        "id": 173,
+        "name": "Metal Behemoth Gate",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/behemoth-gate.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalGate_Large.PrimalItemStructure_MetalGate_Large'"
+    },
+    {
+        "id": 174,
+        "name": "Metal Behemoth Gateway",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/behemoth-gateway.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalGateframe_Large.PrimalItemStructure_MetalGateframe_Large'"
+    },
+    {
+        "id": 243,
+        "name": "Metal Billboard",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/metal-billboard.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalSign_Large.PrimalItemStructure_MetalSign_Large'"
+    },
+    {
+        "id": 167,
+        "name": "Metal Catwalk",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/metal-catwalk.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalCatwalk.PrimalItemStructure_MetalCatwalk'"
+    },
+    {
+        "id": 168,
+        "name": "Metal Ceiling",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/metal-ceiling.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalCeiling.PrimalItemStructure_MetalCeiling'"
+    },
+    {
+        "id": 266,
+        "name": "Metal Dinosaur Gate",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/metal-dinosaur-gate.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalGate.PrimalItemStructure_MetalGate'"
+    },
+    {
+        "id": 265,
+        "name": "Metal Dinosaur Gateway",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/metal-dinosaur-gateway.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalGateframe.PrimalItemStructure_MetalGateframe'"
+    },
+    {
+        "id": 170,
+        "name": "Metal Door",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/metal-door.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalDoor.PrimalItemStructure_MetalDoor'"
+    },
+    {
+        "id": 180,
+        "name": "Metal Doorframe",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/metal-doorframe.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalWallWithDoor.PrimalItemStructure_MetalWallWithDoor'"
+    },
+    {
+        "id": 171,
+        "name": "Metal Fence Foundation",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/metal-fence-foundation.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalFenceFoundation.PrimalItemStructure_MetalFenceFoundation'"
+    },
+    {
+        "id": 172,
+        "name": "Metal Foundation",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/metal-foundation.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalFloor.PrimalItemStructure_MetalFloor'"
+    },
+    {
+        "id": 169,
+        "name": "Metal Hatchframe",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/metal-hatchframe.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalCeilingWithTrapdoor.PrimalItemStructure_MetalCeilingWithTrapdoor'"
+    },
+    {
+        "id": 201,
+        "name": "Metal Irrigation Pipe - Intersection",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/metal-irrigation-pipe-intersection.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_MetalPipeIntersection.PrimalItemStructure_MetalPipeIntersection'"
+    },
+    {
+        "id": 202,
+        "name": "Metal Irrigation Pipe - Straight",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/metal-irrigation-pipe-straight.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_MetalPipeStraight.PrimalItemStructure_MetalPipeStraight'"
+    },
+    {
+        "id": 200,
+        "name": "Metal Irrigation Pipe - Intake",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/metal-irrigation-pipe-tap.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_MetalPipeIntake.PrimalItemStructure_MetalPipeIntake'"
+    },
+    {
+        "id": 203,
+        "name": "Metal Irrigation Pipe - Tap",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/metal-irrigation-pipe-tap.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_MetalPipeTap.PrimalItemStructure_MetalPipeTap'"
+    },
+    {
+        "id": 204,
+        "name": "Metal Irrigation Pipe - Vertical",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/metal-irrigation-pipe-vertical.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_MetalPipeVertical.PrimalItemStructure_MetalPipeVertical'"
+    },
+    {
+        "id": 199,
+        "name": "Metal Irrigation Pipe Inclined",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/metal-irrigation-pipe-inclined.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_MetalPipeIncline.PrimalItemStructure_MetalPipeIncline'"
+    },
+    {
+        "id": 175,
+        "name": "Metal Ladder",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/metal-ladder.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalLadder.PrimalItemStructure_MetalLadder'"
+    },
+    {
+        "id": 176,
+        "name": "Metal Pillar",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/metal-pillar.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalPillar.PrimalItemStructure_MetalPillar'"
+    },
+    {
+        "id": 0,
+        "name": "Metal Railing",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/metal-railing.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalRailing.PrimalItemStructure_MetalRailing'"
+    },
+    {
+        "id": 177,
+        "name": "Metal Ramp",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/metal-ramp.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalRamp.PrimalItemStructure_MetalRamp'"
+    },
+    {
+        "id": 403,
+        "name": "Metal Roof sloped",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/metal-ceiling.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Metal/PrimalItemStructure_MetalRoof.PrimalItemStructure_MetalRoof'"
+    },
+    {
+        "id": 218,
+        "name": "Metal Sign",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/metal-sign.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalSign.PrimalItemStructure_MetalSign'"
+    },
+    {
+        "id": 296,
+        "name": "Metal Spike Wall",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/metal-spike-wall.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalSpikeWall.PrimalItemStructure_MetalSpikeWall'"
+    },
+    {
+        "id": 0,
+        "name": "Metal Staircase",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/metal-staircase.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalStairs.PrimalItemStructure_MetalStairs'"
+    },
+    {
+        "id": 178,
+        "name": "Metal Trapdoor",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/metal-trapdoor.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalTrapdoor.PrimalItemStructure_MetalTrapdoor'"
+    },
+    {
+        "id": 0,
+        "name": "Metal Tree Platform",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/metal-tree-platform.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_TreePlatform_Metal.PrimalItemStructure_TreePlatform_Metal'"
+    },
+    {
+        "id": 179,
+        "name": "Metal Wall",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/metal-wall.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalWall.PrimalItemStructure_MetalWall'"
+    },
+    {
+        "id": 269,
+        "name": "Metal Wall Sign",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/metal-wall-sign.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalSign_Wall.PrimalItemStructure_MetalSign_Wall'"
+    },
+    {
+        "id": 312,
+        "name": "Metal Water Reservoir",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/metal-water-reservoir.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_WaterTankMetal.PrimalItemStructure_WaterTankMetal'"
+    },
+    {
+        "id": 182,
+        "name": "Metal Window",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/metal-window.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalWindow.PrimalItemStructure_MetalWindow'"
+    },
+    {
+        "id": 181,
+        "name": "Metal Windowframe",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/metal-windowframe.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalWallWithWindow.PrimalItemStructure_MetalWallWithWindow'"
+    },
+    {
+        "id": 0,
+        "name": "Miners Box (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/miners-box-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_MinersCart.PrimalItemStructure_MinersCart'"
+    },
+    {
+        "id": 0,
+        "name": "Minigun Turret",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/minigun-turret.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TurretMinigun.PrimalItemStructure_TurretMinigun'"
+    },
+    {
+        "id": 0,
+        "name": "Mirror (Scorched Earth)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/mirror-scorched-earth.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Structures/DesertFurnitureSet/Mirror/PrimalItemStructure_Mirror.PrimalItemStructure_Mirror'"
+    },
+    {
+        "id": 0,
+        "name": "Modern Storage Shelf (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/modern-storage-shelf-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_StorageShed_ModernWood.PrimalItemStructure_StorageShed_ModernWood'"
+    },
+    {
+        "id": 0,
+        "name": "Modern Storage Shelf (Fiber) (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/modern-storage-shelf-fiber-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_StorageShed_ModernWood_Fiber.PrimalItemStructure_StorageShed_ModernWood_Fiber'"
+    },
+    {
+        "id": 0,
+        "name": "Modular Table (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/modular-table-primitive-plus.png",
+        "blueprint": ""
+    },
+    {
+        "id": 107,
+        "name": "Mortar And Pestle",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/mortar-and-pestle.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_MortarAndPestle.PrimalItemStructure_MortarAndPestle'"
+    },
+    {
+        "id": 280,
+        "name": "Multi-Panel Flag",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/multi-panel-flag.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Flag.PrimalItemStructure_Flag'"
+    },
+    {
+        "id": 0,
+        "name": "Oil Pump (Scorched Earth)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/oil-pump-scorched-earth.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Structures/OilPump/PrimalItemStructure_oilPump.PrimalItemStructure_oilPump'"
+    },
+    {
+        "id": 0,
+        "name": "Oil Tank (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/oil-tank-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_OilTank.PrimalItemStructure_OilTank'"
+    },
+    {
+        "id": 359,
+        "name": "Omnidirectional lamppost",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/omnidirectional-lamppost.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_LamppostOmni.PrimalItemStructure_LamppostOmni'"
+    },
+    {
+        "id": 0,
+        "name": "Pontoon Bridge (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/pontoon-bridge-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_PontoonBridge.PrimalItemStructure_PontoonBridge'"
+    },
+    {
+        "id": 0,
+        "name": "Preserving Campfire (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/preserving-campfire-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_PreservervingCampfire.PrimalItemStructure_PreservervingCampfire'"
+    },
+    {
+        "id": 295,
+        "name": "Preserving Bin",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/preserving-bin.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_PreservingBin.PrimalItemStructure_PreservingBin'"
+    },
+    {
+        "id": 0,
+        "name": "Primitive Cannon",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/primitive-cannon.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Cannon.PrimalItemStructure_Cannon'"
+    },
+    {
+        "id": 0,
+        "name": "Primitive Grill (Primitive+)",
+        "category": "Structure",
+        "stack": 3,
+        "icon": "images/primitive-grill-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_PrimitiveGrill.PrimalItemStructure_PrimitiveGrill'"
+    },
+    {
+        "id": 125,
+        "name": "Refining Forge",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/refining-forge.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Forge.PrimalItemStructure_Forge'"
+    },
+    {
+        "id": 196,
+        "name": "Refrigerator",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/refrigerator.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_IceBox.PrimalItemStructure_IceBox'"
+    },
+    {
+        "id": 319,
+        "name": "Reinforced Dinosaur Gate",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/reinforced-dinosaur-gate.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneGate.PrimalItemStructure_StoneGate'"
+    },
+    {
+        "id": 358,
+        "name": "Reinforced Trapdoor",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/reinforced-trapdoor.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_StoneTrapdoor.PrimalItemStructure_StoneTrapdoor'"
+    },
+    {
+        "id": 357,
+        "name": "Reinforced Window",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/reinforced-window.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_StoneWindow.PrimalItemStructure_StoneWindow'"
+    },
+    {
+        "id": 317,
+        "name": "Reinforced Wooden Door",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/reinforced-wooden-door.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneDoor.PrimalItemStructure_StoneDoor'"
+    },
+    {
+        "id": 198,
+        "name": "Remote Keypad",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/remote-keypad.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Keypad.PrimalItemStructure_Keypad'"
+    },
+    {
+        "id": 0,
+        "name": "Rocket Turret",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/rocket-turret.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TurretRocket.PrimalItemStructure_TurretRocket'"
+    },
+    {
+        "id": 0,
+        "name": "Rope Bridge (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/rope-bridge-primitive-plus.png",
+        "blueprint": ""
+    },
+    {
+        "id": 0,
+        "name": "Rope Ladder",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/rope-ladder.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_RopeLadder.PrimalItemStructure_RopeLadder'"
+    },
+    {
+        "id": 0,
+        "name": "Rowboat (Primitive+)",
+        "category": "Structure",
+        "stack": 2,
+        "icon": "images/rowboat-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemRowBoat.PrimalItemRowBoat'"
+    },
+    {
+        "id": 129,
+        "name": "Simple Bed",
+        "category": "Structure",
+        "stack": 3,
+        "icon": "images/simple-bed.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Bed_Simple.PrimalItemStructure_Bed_Simple'"
+    },
+    {
+        "id": 0,
+        "name": "Simple Hammock (Primitive+)",
+        "category": "Structure",
+        "stack": 3,
+        "icon": "images/simple-hammock-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_Hammock_Simple.PrimalItemStructure_Hammock_Simple'"
+    },
+    {
+        "id": 374,
+        "name": "Single Panel Flag",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/single-panel-flag.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Flag_Single.PrimalItemStructure_Flag_Single'"
+    },
+    {
+        "id": 0,
+        "name": "Sink (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/sink-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_MetalSink.PrimalItemStructure_MetalSink'"
+    },
+    {
+        "id": 444,
+        "name": "Sloped Greenhouse Roof",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/sloped-greenhouse-roof.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Greenhouse/PrimalItemStructure_GreenhouseRoof.PrimalItemStructure_GreenhouseRoof'"
+    },
+    {
+        "id": 442,
+        "name": "Sloped Greenhouse Wall Left",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/sloped-greenhouse-wall-left.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Greenhouse/PrimalItemStructure_GreenhouseWall_Sloped_Left.PrimalItemStructure_GreenhouseWall_Sloped_Left'"
+    },
+    {
+        "id": 443,
+        "name": "Sloped Greenhouse Wall Right",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/sloped-greenhouse-wall-right.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Greenhouse/PrimalItemStructure_GreenhouseWall_Sloped_Right.PrimalItemStructure_GreenhouseWall_Sloped_Right'"
+    },
+    {
+        "id": 0,
+        "name": "Sloped Lumber Roof",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/sloped-lumber-roof.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_LumberRoof.PrimalItemStructure_LumberRoof'"
+    },
+    {
+        "id": 404,
+        "name": "Sloped Metal Wall Left",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/sloped-metal-wall-left.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Metal/PrimalItemStructure_MetalWall_Sloped_Left.PrimalItemStructure_MetalWall_Sloped_Left'"
+    },
+    {
+        "id": 405,
+        "name": "Sloped Metal Wall Right",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/sloped-metal-wall-right.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Metal/PrimalItemStructure_MetalWall_Sloped_Right.PrimalItemStructure_MetalWall_Sloped_Right'"
+    },
+    {
+        "id": 401,
+        "name": "Sloped Stone Wall Left",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/sloped-stone-wall-left.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Stone/PrimalItemStructure_StoneWall_Sloped_Left.PrimalItemStructure_StoneWall_Sloped_Left'"
+    },
+    {
+        "id": 402,
+        "name": "Sloped Stone Wall Right",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/sloped-stone-wall-right.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Stone/PrimalItemStructure_StoneWall_Sloped_Right.PrimalItemStructure_StoneWall_Sloped_Right'"
+    },
+    {
+        "id": 394,
+        "name": "Sloped Thatch Roof",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/sloped-thatch-roof.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Thatch/PrimalItemStructure_ThatchRoof.PrimalItemStructure_ThatchRoof'"
+    },
+    {
+        "id": 395,
+        "name": "Sloped Thatch Wall Left",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/sloped-thatch-wall-left.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Thatch/PrimalItemStructure_ThatchWall_Sloped_Left.PrimalItemStructure_ThatchWall_Sloped_Left'"
+    },
+    {
+        "id": 396,
+        "name": "Sloped Thatch Wall Right",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/sloped-thatch-wall-right.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Thatch/PrimalItemStructure_ThatchWall_Sloped_Right.PrimalItemStructure_ThatchWall_Sloped_Right'"
+    },
+    {
+        "id": 398,
+        "name": "Sloped Wood Wall Left",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/sloped-wood-wall-left.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Wood/PrimalItemStructure_WoodWall_Sloped_Left.PrimalItemStructure_WoodWall_Sloped_Left'"
+    },
+    {
+        "id": 399,
+        "name": "Sloped Wood Wall Right",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/sloped-wood-wall-right.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Wood/PrimalItemStructure_WoodWall_Sloped_Right.PrimalItemStructure_WoodWall_Sloped_Right'"
+    },
+    {
+        "id": 130,
+        "name": "Small Crop Plot",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/small-crop-plot.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_CropPlot_Small.PrimalItemStructure_CropPlot_Small'"
+    },
+    {
+        "id": 0,
+        "name": "Small Elevator Platform",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/small-elevator-platform.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/BuildingBases/PrimalItemStructure_ElevatorPlatformSmall.PrimalItemStructure_ElevatorPlatformSmall'"
+    },
+    {
+        "id": 0,
+        "name": "Small Stone Fence (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/small-stone-fence-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_StoneFence_Small.PrimalItemStructure_StoneFence_Small'"
+    },
+    {
+        "id": 126,
+        "name": "Smithy",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/smithy.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_AnvilBench.PrimalItemStructure_AnvilBench'"
+    },
+    {
+        "id": 0,
+        "name": "Smokehouse (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/smokehouse-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_Smokehouse.PrimalItemStructure_Smokehouse'"
+    },
+    {
+        "id": 284,
+        "name": "Spider Flag",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/spider-flag.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Flag_Spider.PrimalItemStructure_Flag_Spider'"
+    },
+    {
+        "id": 40,
+        "name": "Standing Torch",
+        "category": "Structure",
+        "stack": 3,
+        "icon": "images/standing-torch.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_StandingTorch.PrimalItemStructure_StandingTorch'"
+    },
+    {
+        "id": 0,
+        "name": "Steel Water Tower",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/steel-water-tower.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_WaterTower.PrimalItemStructure_WaterTower'"
+    },
+    {
+        "id": 315,
+        "name": "Stone Ceiling",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/stone-ceiling.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneCeiling.PrimalItemStructure_StoneCeiling'"
+    },
+    {
+        "id": 320,
+        "name": "Stone Dinosaur Gateway",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/stone-dinosaur-gateway.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneGateframe.PrimalItemStructure_StoneGateframe'"
+    },
+    {
+        "id": 322,
+        "name": "Stone Doorframe",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/stone-doorframe.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneWallWithDoor.PrimalItemStructure_StoneWallWithDoor'"
+    },
+    {
+        "id": 310,
+        "name": "Stone Fence Foundation",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/stone-fence-foundation.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneFenceFoundation.PrimalItemStructure_StoneFenceFoundation'"
+    },
+    {
+        "id": 0,
+        "name": "Stone Fireplace",
+        "category": "Structure",
+        "stack": 3,
+        "icon": "images/stone-fireplace.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Fireplace.PrimalItemStructure_Fireplace'"
+    },
+    {
+        "id": 318,
+        "name": "Stone Foundation",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/stone-foundation.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneFloor.PrimalItemStructure_StoneFloor'"
+    },
+    {
+        "id": 316,
+        "name": "Stone Hatchframe",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/stone-hatchframe.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneCeilingWithTrapdoor.PrimalItemStructure_StoneCeilingWithTrapdoor'"
+    },
+    {
+        "id": 112,
+        "name": "Stone Irrigation Pipe - Inclined",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/stone-irrigation-pipe-inclined.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_StonePipeIncline.PrimalItemStructure_StonePipeIncline'"
+    },
+    {
+        "id": 110,
+        "name": "Stone Irrigation Pipe - Intake",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/stone-irrigation-pipe-intake.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_StonePipeIntake.PrimalItemStructure_StonePipeIntake'"
+    },
+    {
+        "id": 113,
+        "name": "Stone Irrigation Pipe - Intersection",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/stone-irrigation-pipe-intersection.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_StonePipeIntersection.PrimalItemStructure_StonePipeIntersection'"
+    },
+    {
+        "id": 111,
+        "name": "Stone Irrigation Pipe - Straight",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/stone-irrigation-pipe-straight.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_StonePipeStraight.PrimalItemStructure_StonePipeStraight'"
+    },
+    {
+        "id": 115,
+        "name": "Stone Irrigation Pipe - Tap",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/stone-irrigation-pipe-tap.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_StonePipeTap.PrimalItemStructure_StonePipeTap'"
+    },
+    {
+        "id": 114,
+        "name": "Stone Irrigation Pipe - Vertical",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/stone-irrigation-pipe-vertical.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_StonePipeVertical.PrimalItemStructure_StonePipeVertical'"
+    },
+    {
+        "id": 321,
+        "name": "Stone Pillar",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/stone-pillar.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StonePillar.PrimalItemStructure_StonePillar'"
+    },
+    {
+        "id": 0,
+        "name": "Stone Railing",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/stone-railing.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneRailing.PrimalItemStructure_StoneRailing'"
+    },
+    {
+        "id": 400,
+        "name": "Stone Roof Sloped",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/stone-ceiling.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Stone/PrimalItemStructure_StoneRoof.PrimalItemStructure_StoneRoof'"
+    },
+    {
+        "id": 0,
+        "name": "Stone Staircase",
+        "category": "Structure",
+        "stack": 1,
+        "icon": "images/stone-staircase.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneStairs.PrimalItemStructure_StoneStairs'"
+    },
+    {
+        "id": 311,
+        "name": "Stone Wall",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/stone-wall.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneWall.PrimalItemStructure_StoneWall'"
+    },
+    {
+        "id": 323,
+        "name": "Stone Windowframe",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/stone-windowframe.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneWallWithWindow.PrimalItemStructure_StoneWallWithWindow'"
+    },
+    {
+        "id": 0,
+        "name": "Storage Barrel (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/storage-barrel-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_Barrel_Normal.PrimalItemStructure_Barrel_Normal'"
+    },
+    {
+        "id": 105,
+        "name": "Storage Box",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/storage-box.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_StorageBox_Small.PrimalItemStructure_StorageBox_Small'"
+    },
+    {
+        "id": 0,
+        "name": "Table Lantern (Primitive+)",
+        "category": "Structure",
+        "stack": 3,
+        "icon": "images/table-lantern-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_GeneralLantern.PrimalItemStructure_GeneralLantern'"
+    },
+    {
+        "id": 0,
+        "name": "Tanning Rack (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/tanning-rack-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_TanningRack.PrimalItemStructure_TanningRack'"
+    },
+    {
+        "id": 0,
+        "name": "Tent (Scorched Earth)",
+        "category": "Structure",
+        "stack": 1,
+        "icon": "images/tent-scorched-earth.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Structures/Tent/PrimalItemStructure_Tent.PrimalItemStructure_Tent'"
+    },
+    {
+        "id": 0,
+        "name": "Teepee (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/teepee-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_Teepee.PrimalItemStructure_Teepee'"
+    },
+    {
+        "id": 80,
+        "name": "Thatch Door",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/thatch-door.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Thatch/PrimalItemStructure_ThatchDoor.PrimalItemStructure_ThatchDoor'"
+    },
+    {
+        "id": 83,
+        "name": "Thatch Doorframe",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/thatch-doorframe.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Thatch/PrimalItemStructure_ThatchWallWithDoor.PrimalItemStructure_ThatchWallWithDoor'"
+    },
+    {
+        "id": 81,
+        "name": "Thatch Foundation",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/thatch-foundation.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Thatch/PrimalItemStructure_ThatchFloor.PrimalItemStructure_ThatchFloor'"
+    },
+    {
+        "id": 79,
+        "name": "Thatch Roof",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/thatch-roof.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Thatch/PrimalItemStructure_ThatchCeiling.PrimalItemStructure_ThatchCeiling'"
+    },
+    {
+        "id": 82,
+        "name": "Thatch Wall",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/thatch-wall.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Thatch/PrimalItemStructure_ThatchWall.PrimalItemStructure_ThatchWall'"
+    },
+    {
+        "id": 0,
+        "name": "Trading Crate (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/trading-crate-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_TradingCrate_Small.PrimalItemStructure_TradingCrate_Small'"
+    },
+    {
+        "id": 0,
+        "name": "Trading Crate Bread (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/trading-crate-bread-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_TradingCrate_Bread.PrimalItemStructure_TradingCrate_Bread'"
+    },
+    {
+        "id": 0,
+        "name": "Trading Crate Eggs (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/trading-crate-eggs-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_TradingCrate_Eggs.PrimalItemStructure_TradingCrate_Eggs'"
+    },
+    {
+        "id": 0,
+        "name": "Trading Crate Fruits Veggies (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/trading-crate-fruits-veggies-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_TradingCrate_FruitsVeggies.PrimalItemStructure_TradingCrate_FruitsVeggies'"
+    },
+    {
+        "id": 0,
+        "name": "Training Dummy",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/training-dummy.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Halloween/PrimalItemStructure_TrainingDummy.PrimalItemStructure_TrainingDummy'"
+    },
+    {
+        "id": 0,
+        "name": "Tree Sap Tap",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/tree-sap-tap.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_TreeTap.PrimalItemStructure_TreeTap'"
+    },
+    {
+        "id": 306,
+        "name": "Vault",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/vault.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_StorageBox_Huge.PrimalItemStructure_StorageBox_Huge'"
+    },
+    {
+        "id": 0,
+        "name": "Vessel (Scorched Earth)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/vessel-scorched-earth.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Structures/DesertFurnitureSet/Vessel/PrimalItemStructure_Vessel.PrimalItemStructure_Vessel'"
+    },
+    {
+        "id": 0,
+        "name": "Wall Torch",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/wall-torch.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_WallTorch.PrimalItemStructure_WallTorch'"
+    },
+    {
+        "id": 0,
+        "name": "Water Well (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/water-well-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_WaterWell.PrimalItemStructure_WaterWell'"
+    },
+    {
+        "id": 0,
+        "name": "Water Well (Scorched Earth)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/water-well-scorched-earth.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Structures/WaterWell/PrimalItemStructure_WaterWell.PrimalItemStructure_WaterWell'"
+    },
+    {
+        "id": 0,
+        "name": "Wardrums",
+        "category": "Structure",
+        "stack": 1,
+        "icon": "images/wardrumbs.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_Wardrums.PrimalItemStructure_Wardrums'"
+    },
+    {
+        "id": 186,
+        "name": "Water Tank",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/water-tank.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_WaterTank.PrimalItemStructure_WaterTank'"
+    },
+    {
+        "id": 0,
+        "name": "Weapon Rack (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/weapon-rack-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_StorageShed_Weapon.PrimalItemStructure_StorageShed_Weapon'"
+    },
+    {
+        "id": 0,
+        "name": "Well Bucket (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/well-bucket-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_WellBucket.PrimalItemStructure_WellBucket'"
+    },
+    {
+        "id": 0,
+        "name": "Well Chain (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/well-chain-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_ChainPipeStraight.PrimalItemStructure_ChainPipeStraight'"
+    },
+    {
+        "id": 0,
+        "name": "Windmill (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/windmill-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_Windmill.PrimalItemStructure_Windmill'"
+    },
+    {
+        "id": 0,
+        "name": "Wind Turbine (Scorched Earth)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/wind-turbine-scorched-earth.png",
+        "blueprint": "Blueprint'/Game/ScorchedEarth/Structures/WindTurbine/PrimalItemStructure_WindTurbine.PrimalItemStructure_WindTurbine'"
+    },
+    {
+        "id": 0,
+        "name": "Wooden Arrow Sign (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/wooden-arrow-sign-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_ArrowWoodSign.PrimalItemStructure_ArrowWoodSign'"
+    },
+    {
+        "id": 0,
+        "name": "Wooden Bench",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/wooden-bench.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_Furniture_WoodBench.PrimalItemStructure_Furniture_WoodBench'"
+    },
+    {
+        "id": 221,
+        "name": "Wooden Billboard",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/wooden-billboard.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodSign_Large.PrimalItemStructure_WoodSign_Large'"
+    },
+    {
+        "id": 0,
+        "name": "Wooden Cabinet (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/wooden-cabinet-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_Cabinent.PrimalItemStructure_Cabinent'"
+    },
+    {
+        "id": 0,
+        "name": "Wooden Cage",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/wooden-cage.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodCage.PrimalItemStructure_WoodCage'"
+    },
+    {
+        "id": 84,
+        "name": "Wooden Catwalk",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/wooden-catwalk.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodCatwalk.PrimalItemStructure_WoodCatwalk'"
+    },
+    {
+        "id": 85,
+        "name": "Wooden Ceiling",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/wooden-ceiling.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodCeiling.PrimalItemStructure_WoodCeiling'"
+    },
+    {
+        "id": 0,
+        "name": "Wooden Chair",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/wooden-chair.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_Furniture_WoodChair.PrimalItemStructure_Furniture_WoodChair'"
+    },
+    {
+        "id": 147,
+        "name": "Wooden Dinosaur Gate",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/dinosaur-gate.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodGate.PrimalItemStructure_WoodGate'"
+    },
+    {
+        "id": 143,
+        "name": "Wooden Dinosaur Gateway",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/dinosaur-gateway.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodGateframe.PrimalItemStructure_WoodGateframe'"
+    },
+    {
+        "id": 87,
+        "name": "Wooden Door",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/wooden-door.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodDoor.PrimalItemStructure_WoodDoor'"
+    },
+    {
+        "id": 94,
+        "name": "Wooden Doorframe",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/wooden-doorframe.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodWallWithDoor.PrimalItemStructure_WoodWallWithDoor'"
+    },
+    {
+        "id": 0,
+        "name": "Wooden Fence (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/wooden-fence-primitive-plus.png",
+        "blueprint": ""
+    },
+    {
+        "id": 136,
+        "name": "Wooden Fence Foundation",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/wooden-fence-foundation.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodFenceFoundation.PrimalItemStructure_WoodFenceFoundation'"
+    },
+    {
+        "id": 88,
+        "name": "Wooden Foundation",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/wooden-foundation.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodFloor.PrimalItemStructure_WoodFloor'"
+    },
+    {
+        "id": 86,
+        "name": "Wooden Hatchframe",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/wooden-hatchframe.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodCeilingWithTrapdoor.PrimalItemStructure_WoodCeilingWithTrapdoor'"
+    },
+    {
+        "id": 89,
+        "name": "Wooden Ladder",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/wooden-ladder.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodLadder.PrimalItemStructure_WoodLadder'"
+    },
+    {
+        "id": 90,
+        "name": "Wooden Pillar",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/wooden-pillar.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodPillar.PrimalItemStructure_WoodPillar'"
+    },
+    {
+        "id": 414,
+        "name": "Wooden Raft",
+        "category": "Structure",
+        "stack": 2,
+        "icon": "images/wooden-raft.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/Items/Raft/PrimalItemRaft.PrimalItemRaft'"
+    },
+    {
+        "id": 0,
+        "name": "Wooden Railing",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/wooden-railing.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodRailing.PrimalItemStructure_WoodRailing'"
+    },
+    {
+        "id": 91,
+        "name": "Wooden Ramp",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/wooden-ramp.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodRamp.PrimalItemStructure_WoodRamp'"
+    },
+    {
+        "id": 397,
+        "name": "Wooden Roof",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/wooden-ceiling.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Wood/PrimalItemStructure_WoodRoof.PrimalItemStructure_WoodRoof'"
+    },
+    {
+        "id": 97,
+        "name": "Wooden Sign",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/wooden-sign.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodSign.PrimalItemStructure_WoodSign'"
+    },
+    {
+        "id": 307,
+        "name": "Wooden Spike Wall",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/wooden-spike-wall.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodSpikeWall.PrimalItemStructure_WoodSpikeWall'"
+    },
+    {
+        "id": 0,
+        "name": "Wooden Staircase",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/wooden-staircase.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodStairs.PrimalItemStructure_WoodStairs'"
+    },
+    {
+        "id": 0,
+        "name": "Wooden Table",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/wooden-table.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_Furniture_WoodTable.PrimalItemStructure_Furniture_WoodTable'"
+    },
+    {
+        "id": 92,
+        "name": "Wooden Trapdoor",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/wooden-trapdoor.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodTrapdoor.PrimalItemStructure_WoodTrapdoor'"
+    },
+    {
+        "id": 0,
+        "name": "Wooden Tree Platform",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/wooden-tree-platform.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_TreePlatform_Wood.PrimalItemStructure_TreePlatform_Wood'"
+    },
+    {
+        "id": 93,
+        "name": "Wooden Wall",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/wooden-wall.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodWall.PrimalItemStructure_WoodWall'"
+    },
+    {
+        "id": 264,
+        "name": "Wooden Wall Sign",
+        "category": "Structure",
+        "stack": "100",
+        "icon": "images/wooden-wall-sign.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodSign_Wall.PrimalItemStructure_WoodSign_Wall'"
+    },
+    {
+        "id": 96,
+        "name": "Wooden Window",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/wooden-window.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodWindow.PrimalItemStructure_WoodWindow'"
+    },
+    {
+        "id": 95,
+        "name": "Wooden Windowframe",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/wooden-windowframe.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodWallWithWindow.PrimalItemStructure_WoodWallWithWindow'"
+    }
+]
