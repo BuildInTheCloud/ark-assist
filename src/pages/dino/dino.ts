@@ -18,8 +18,7 @@ export class DinoPage {
   errorMessage: string;
   searchFor:string;
   shouldShowCancel:boolean;
-  isCordovaApp:boolean = !!window.cordova;
-  isWinJSApp:boolean = !!window.WinJS;
+  dinoLevel: number = 500;
 
   constructor(public navCtrl: NavController, public StaticService: StaticService,public  platform: Platform) {
     this.platform = platform;
@@ -34,7 +33,6 @@ export class DinoPage {
       data => {
         this.dinos = data;
         this.dinoList = this.dinos;
-        console.log(this.dinos);
       },
       error => { this.dinos = []; this.dinoList = []; this.errorMessage = <any>error; }
     );
@@ -100,4 +98,5 @@ export class DinoPage {
     }
     return copysuccess
   }
+
 }

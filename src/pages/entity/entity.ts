@@ -20,15 +20,25 @@ export class EntityPage {
   pageTitle: string;
   searchFor: string;
   shouldShowCancel:boolean;
-
+  quality: number = 0;
+  category: string;
 
   constructor(public navCtrl: NavController, public dataService: StaticService, public navParams: NavParams, public platform: Platform) {
     this.platform = platform;
   }
 
   ngOnInit() {
+    this.category = this.navParams.get("dataset");
     this.pageTitle = this.navParams.get("title");
     this.getList(this.navParams.get("dataset"));
+  }
+
+  showQuality() {
+    if (this.category == "armor" || this.category == "saddles" || this.category == "tools" || this.category == "weapons") {
+      return true;
+    } else {
+      return false;
+    }
   }
 
   getList(jsonFileName:string) {

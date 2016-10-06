@@ -12,6 +12,30 @@
     (ionInput)="onSearchInput($event)"
     (ionCancel)="onSearchCancel($event)">
   </ion-searchbar>
+  <ion-row [hidden]="!showQuality()">
+    <ion-item>
+      <ion-select [(ngModel)]="quality">
+        <ion-option value="0">Primitive</ion-option>
+        <ion-option value="1">1 Random</ion-option>
+        <ion-option value="2">2 Random</ion-option>
+        <ion-option value="3">3 Random</ion-option>
+        <ion-option value="4">4 Random</ion-option>
+        <ion-option value="5">5 Random</ion-option>
+        <ion-option value="6">6 Random</ion-option>
+        <ion-option value="7">7 Random</ion-option>
+        <ion-option value="8">8 Random</ion-option>
+        <ion-option value="9">9 Random</ion-option>
+        <ion-option value="10">10 Random</ion-option>
+        <ion-option value="15">15 Random</ion-option>
+        <ion-option value="20">20 Random</ion-option>
+        <ion-option value="30">30 Random</ion-option>
+        <ion-option value="50">50 Random</ion-option>
+        <ion-option value="100">100 Ascendant</ion-option>
+        <ion-option value="500">500 Ascendant</ion-option>
+      </ion-select>
+      <ion-label style="-webkit-flex:none;-ms-flex:none;flex:none;">Quality (This is a random range)</ion-label>
+    </ion-item>
+  </ion-row>
 </ion-header>
 <ion-content padding>
   <div id="holdtext" style="display:none;"></div>
@@ -27,7 +51,7 @@
         </ion-col>
         <ion-col class="entity cmd" *ngIf="item.blueprint !== '' && item.category != 'Dye'">
           <button (click)="copyText([i])">COPY TO CLIPBOARD</button>
-          <span class="entity-copy" [attr.id]="'entity'+i">cheat giveitem "{{item.blueprint}}" {{item.stack > 50 ? 50 : item.stack}} 1 0</span>
+          <span class="entity-copy" [attr.id]="'entity'+i">cheat giveitem "{{item.blueprint}}" {{item.stack > 50 ? 50 : item.stack}} {{quality}} 0</span>
         </ion-col>
         <ion-col class="entity cmd missing" *ngIf="item.blueprint == ''">
           <strong>MISSING</strong>

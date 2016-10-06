@@ -36,6 +36,10 @@
 "icon": "images/ankylosaurus.png",
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ankylo/Ankylo_Character_BP.Ankylo_Character_BP'"
 },{
+"id": "Archa_Character_BP_C","name": "Archaeopteryx","category": "Birds",
+"icon": "images/archaeopteryx.jpg",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Archaeopteryx/Archa_Character_BP.Archa_Character_BP'"
+},{
 "id": "Argent_Character_BP_C","name": "Argentavis","category": "Birds",
 "icon": "images/argentavis.png",
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Argentavis/Argent_Character_BP.Argent_Character_BP'"
@@ -80,7 +84,7 @@
 "icon": "images/coelacanth.png",
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Coelacanth/Coel_Character_BP.Coel_Character_BP'"
 },{
-"id": "Deathworm","name": "Deathworm_Character_BP_C","category": "Invertebrates",
+"id": "Deathworm_Character_BP_C","name": "Deathworm","category": "Invertebrates",
 "icon": "images/deathworm.png",
 "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/DeathWorm/DeathWorm_Character_BP.DeathWorm_Character_BP'"
 },{
@@ -220,6 +224,10 @@
 "icon": "images/mesopithecus.png",
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Monkey/Monkey_Character_BP.Monkey_Character_BP'"
 },{
+"id": "Camelsaurus_Character_BP_C","name": "Morellatops","category": "Herbivore",
+"icon": "images/morellatops.jpg",
+"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Camelsaurus/Camelsaurus_Character_BP.Camelsaurus_Character_BP'"
+},{
 "id": "Mosa_Character_BP_C","name": "Mosasaurus","category": "Reptiles",
 "icon": "images/mosasaurus.jpg",
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Mosasaurus/Mosa_Character_BP.Mosa_Character_BP'"
@@ -328,7 +336,7 @@
 "icon": "images/titanomyrma.png",
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ant/Ant_Character_BP.Ant_Character_BP'"
 },{
-"id": "","name": "Titanomyrma","category": "Invertebrates",
+"id": "FlyingAnt_Character_BP_C","name": "Titanomyrma (Flying)","category": "Invertebrates",
 "icon": "images/titanomyrma.png",
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ant/FlyingAnt_Character_BP.FlyingAnt_Character_BP'"
 },{

@@ -144,6 +144,14 @@
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponFlareGun.PrimalItem_WeaponFlareGun'"
     },
     {
+        "id": 0,
+        "name": "Flintlock Pistol (Primitive+)",
+        "category": "Weapons",
+        "stack": 1,
+        "icon": "images/flintlock-pistol.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Weapons/PrimalItem_WeaponPrimitivePistol.PrimalItem_WeaponPrimitivePistol'"
+    },
+    {
         "id": 6,
         "name": "Grenade",
         "category": "Weapon",

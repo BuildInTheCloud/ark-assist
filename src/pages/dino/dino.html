@@ -12,8 +12,26 @@
     (ionInput)="onSearchInput($event)"
     (ionCancel)="onSearchCancel($event)">
   </ion-searchbar>
+  <ion-row>
+    <ion-item>
+      <ion-select [(ngModel)]="dinoLevel">
+        <ion-option value="10">10</ion-option>
+        <ion-option value="20">20</ion-option>
+        <ion-option value="30">30</ion-option>
+        <ion-option value="50">50</ion-option>
+        <ion-option value="100">100</ion-option>
+        <ion-option value="120">120</ion-option>
+        <ion-option value="150">150</ion-option>
+        <ion-option value="200">200</ion-option>
+        <ion-option value="300">300</ion-option>
+        <ion-option value="500">500</ion-option>
+      </ion-select>
+      <ion-label style="-webkit-flex:none;-ms-flex:none;flex:none;">Dino Level (1/2 added when tamed)</ion-label>
+    </ion-item>
+  </ion-row>
 </ion-header>
 <ion-content responsive-md padding>
+  <div id="holdtext" style="display:none;"></div>
   <ion-col *ngFor="let item of dinoList; let i = index">
     <ion-card>
       <img src="assets/{{item.icon}}"/>
@@ -23,7 +41,7 @@
         <ion-row responsive-sm style="margin-bottom:5px;">
           <ion-col class="entity cmd">
             <button (click)="copyText([i])">COPY TO CLIPBOARD</button>
-            <span class="entity-copy" [attr.id]="'dino'+i">admincheat SpawnDino "{{item.blueprint}}" 500 0 0 150</span>
+            <span class="entity-copy" [attr.id]="'dino'+i">admincheat SpawnDino "{{item.blueprint}}" 500 0 0 {{dinoLevel}}</span>
           </ion-col>
         </ion-row>
       </ion-card-content>

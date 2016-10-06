@@ -39,5 +39,20 @@
 {"id": 38,"name": "BigFoot4","color": "eadad5"},
 {"id": 39,"name": "BigFoot5","color": "d0a694"},
 {"id": 40,"name": "Wolf Fur","color": "c3b39f"},
-{"id": 41,"name": "Dark Wolf Fur","color": "887566"}
+{"id": 41,"name": "Dark Wolf Fur","color": "887566"},
+{"id": 42,"name": "DragonBase0","color": "a0664b"},
+{"id": 43,"name": "DragonBase1","color": "cb7956"},
+{"id": 44,"name": "DragonFire","color": "bc4f00"},
+{"id": 45,"name": "DragonGreen0","color": "79846c"},
+{"id": 46,"name": "DragonGreen1","color": "909c79"},
+{"id": 47,"name": "DragonGreen2","color": "a5a48b"},
+{"id": 48,"name": "DragonGreen3","color": "74939c"},
+{"id": 49,"name": "WyvernPurple0","color": "787496"},
+{"id": 50,"name": "WyvernPurple1","color": "b0a2c0"},
+{"id": 51,"name": "WyvernBlue0","color": "6281a7"},
+{"id": 52,"name": "WyvernBlue1","color": "485c75"},
+{"id": 53,"name": "Dino Medium Blue","color": "5fa4ea"},
+{"id": 54,"name": "Dino Deep Blue","color": "4568d4"},
+{"id": 55,"name": "NearWhite","color": "ededed"},
+{"id": 56,"name": "NearBlack","color": "515151"}
 ]

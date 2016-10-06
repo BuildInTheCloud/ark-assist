@@ -11,7 +11,7 @@
 // http://ionicframework.com/docs/v2/theming/overriding-ionic-variables/
 
 $text-color:        #000;
-$background-color:  #fff;
+$background-color:  #eee;
 $headings-font-weight: 300;
 
 
@@ -64,6 +64,7 @@ $toolbar-md-active-color:                 #fff;
 $toolbar-md-inactive-color:               #fff;
 $segment-button-md-text-color-activated:  #fff;
 
+$card-md-background-color: #fff;
 
 // App Windows Variables
 // --------------------------------------------------
@@ -90,3 +91,5 @@ $text-wp-color:                           #000;
 
 $ionicons-font-path: "../assets/fonts";
 @import "ionicons";
+
+@import "app";
