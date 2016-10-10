@@ -1,4 +1,4 @@
-import { Component, ViewChild, enableProdMode } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { Events, MenuController, Nav, Platform } from 'ionic-angular';
 import {StatusBar, AdMob} from 'ionic-native';
 
@@ -82,5 +82,3 @@ export class MyApp {
     this.nav.setRoot(page.component, page.params);
   }
 }
-//-- run in prod mode
-enableProdMode();
