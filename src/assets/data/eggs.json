@@ -129,14 +129,6 @@
     },
     {
         "id": 0,
-        "name": "JugBug Egg",
-        "category": "Egg",
-        "stack": 100,
-        "icon": "images/jugbug-egg.png",
-        "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/JugBug/PrimalItemConsumable_Egg_JugBug.PrimalItemConsumable_Egg_JugBug'"
-    },
-    {
-        "id": 0,
         "name": "Kairuku Egg",
         "category": "Egg",
         "stack": 100,

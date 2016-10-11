@@ -20,17 +20,10 @@ export class ColorPage {
   }
 
   getList() {
-    this.dataService.getColorList()
-      .subscribe(
-        data => {
-          this.itemList = data;
-        },
-        error => {
-          this.itemList = [];
-          this.errorMessage = <any>error;
-        }
-      )
-    ;
+    this.dataService.getColorList().then(
+      data => { this.itemList = data; },
+      error => { this.itemList = []; this.errorMessage = <any>error; }
+    );
   }
 
 }

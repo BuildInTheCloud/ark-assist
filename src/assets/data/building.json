@@ -841,14 +841,6 @@
     },
     {
         "id": 0,
-        "name": "Rope Bridge (Primitive+)",
-        "category": "Structure",
-        "stack": 100,
-        "icon": "images/rope-bridge-primitive-plus.png",
-        "blueprint": ""
-    },
-    {
-        "id": 0,
         "name": "Rope Ladder",
         "category": "Structure",
         "stack": 100,
@@ -1190,6 +1182,14 @@
         "stack": 100,
         "icon": "images/wooden-foundation.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodFloor.PrimalItemStructure_WoodFloor'"
+    },
+    {
+        "id": 0,
+        "name": "Wooden Handrail (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/wooden-handrail-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_WoodHandrail.PrimalItemStructure_WoodHandrail'"
     },
     {
         "id": 86,

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.buildinthecloud.arkassist" version="0.7.0" Publisher="CN=4598A1B8-365D-4826-BDD0-0F97CB5BA647" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.buildinthecloud.arkassist" version="2.0.1" Publisher="CN=4598A1B8-365D-4826-BDD0-0F97CB5BA647" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>Ark Assist</name>
   <description>An unoffical app for Ark Survival Evolved.</description>
   <author email="mark@buildinthecloud.com" href="http://www.buildinthecloud.com/ark-assist">BuildInTheCloud</author>
@@ -27,6 +27,7 @@
   <preference name="SuppressesIncrementalRendering" value="true" />
 
   <platform name="android">
+    <android-targetSdkVersion value="24" />
     <allow-intent href="market:*"/>
     <!--
       ldpi    : 36x36 px
@@ -92,5 +93,5 @@
   <plugin name="ionic-plugin-keyboard" spec="~2.2.1"/>
   <plugin name="cordova-plugin-x-toast" spec="~2.5.2"/>
   <plugin name="com.verso.cordova.clipboard" spec="https://github.com/VersoSolutions/CordovaClipboard.git"/>
-  <plugin name="cordova-plugin-admobpro" spec="https://www.npmjs.com/package/cordova-plugin-admobpro"/>
+  <plugin name="cordova-plugin-admobpro" spec="https://www.npmjs.com/package/cordova-plugin-admobpro.git"/>
 </widget>
