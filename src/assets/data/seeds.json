@@ -80,6 +80,14 @@
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Narcoberry.PrimalItemConsumable_Seed_Narcoberry'"
     },
     {
+        "id": 0,
+        "name": "Rice Seed",
+        "category": "Seed",
+        "stack": "100",
+        "icon": "images/rice-seed.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Vegetation/PrimalItemConsumable_Seed_Rice.PrimalItemConsumable_Seed_Rice'"
+    },
+    {
         "id": 242,
         "name": "Rockarrot Seed",
         "category": "Seed",
@@ -104,11 +112,43 @@
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Stimberry.PrimalItemConsumable_Seed_Stimberry'"
     },
     {
+        "id": 0,
+        "name": "Sugar Seed",
+        "category": "Seed",
+        "stack": "100",
+        "icon": "images/sugar-seed.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Vegetation/PrimalItemConsumable_Seed_Sugar.PrimalItemConsumable_Seed_Sugar'"
+    },
+    {
         "id": 236,
         "name": "Tintoberry Seed",
         "category": "Seed",
         "stack": "100",
         "icon": "images/tintoberry-seed.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Tintoberry.PrimalItemConsumable_Seed_Tintoberry'"
+    },
+    {
+        "id": 0,
+        "name": "Tobacco Seed (Primitive+)",
+        "category": "Seed",
+        "stack": "100",
+        "icon": "images/tobacco-seed.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Vegetation/PrimalItemConsumable_Seed_Tobacco.PrimalItemConsumable_Seed_Tobacco'"
+    },
+    {
+        "id": 0,
+        "name": "Tomato Seed",
+        "category": "Seed",
+        "stack": "100",
+        "icon": "images/tomato-seed.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Vegetation/PrimalItemConsumable_Seed_Tomato.PrimalItemConsumable_Seed_Tomato'"
+    },
+    {
+        "id": 0,
+        "name": "Wheat Seed",
+        "category": "Seed",
+        "stack": "100",
+        "icon": "images/wheat-seed.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Vegetation/PrimalItemConsumable_Seed_Wheat.PrimalItemConsumable_Seed_Wheat'"
     }
 ]

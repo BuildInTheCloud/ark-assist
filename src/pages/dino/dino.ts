@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
-import { NavController, Platform } from 'ionic-angular';
+import { NavController, Platform, ToastController } from 'ionic-angular';
 import {Clipboard, Toast } from 'ionic-native';
-//import { DataService } from '../../providers/data-service/data-service';
 import { StaticService } from '../../static-service/static-data';
 declare var window: any;
 declare var Windows: any;
@@ -20,7 +19,7 @@ export class DinoPage {
   shouldShowCancel:boolean;
   dinoLevel: number = 500;
 
-  constructor(public navCtrl: NavController, public StaticService: StaticService,public  platform: Platform) {
+  constructor(public navCtrl: NavController, public StaticService: StaticService,public platform: Platform, public toastCtrl: ToastController) {
     this.platform = platform;
   }
 
@@ -60,24 +59,29 @@ export class DinoPage {
 
   copyText(indexVal:any) {
     var inputOBJ:any = document.getElementById("dino"+indexVal);
-    if (this.platform.is("core")) {
+    var pasteVAL = inputOBJ.innerText.replace(/\|/g,"\"");
+    if (
+          (this.platform.is("cordova") && this.platform.is("core")) ||
+          (this.platform.is("cordova") && this.platform.is("mobile") && this.platform.is("windows"))
+        ) {
+      var dataPackage = new Windows.ApplicationModel.DataTransfer.DataPackage();
+      dataPackage.setText(pasteVAL);
+      Windows.ApplicationModel.DataTransfer.Clipboard.setContent(dataPackage);
+      let toastPopup = this.toastCtrl.create({message: "Copied: "+pasteVAL, duration: 3000, position: 'top'});
+      toastPopup.present();
+    } else if (this.platform.is("cordova")) {
+      Clipboard.copy(pasteVAL).then(function() {
+        Toast.show("Copied: "+pasteVAL, "short", "top").subscribe(toast => { console.log(toast); });
+      }, function(err) {
+        Toast.show("There was an error copying to clipboard", "short", "top").subscribe(toast => { console.log(toast); });
+      });
+    } else {
       var holdtext:any = document.getElementById("holdtext");
-      holdtext.innerText = inputOBJ.innerText.replace(/\|/g,"\"");
+      holdtext.innerText = pasteVAL;
       this.selectElementText(holdtext);
       var copysuccess = this.copySelectionText();
-      alert((copysuccess ? "SUCCESSFUL COPY: ": "FAILED COPY: ") + holdtext.innerText);
-    } else if (this.platform.is("windows")) {
-      var dataPackage = new Windows.ApplicationModel.DataTransfer.DataPackage();
-      dataPackage.setText(inputOBJ.innerText.replace(/\|/g,"\""));
-      Windows.ApplicationModel.DataTransfer.Clipboard.setContent(dataPackage);
-      var msgBox = new Windows.UI.Popups.MessageDialog("Copied: "+inputOBJ.innerText.replace(/\|/g,"\""));
-      msgBox.showAsync();
-    } else {
-      Clipboard.copy(inputOBJ.innerText.replace(/\|/g,"\"")).then(function() {
-          Toast.show("Copied: "+inputOBJ.innerText.replace(/\|/g,"\""), "short", "top").subscribe(toast => { console.log(toast); });
-      }, function(err) {
-          Toast.show("There was an error copying", "short", "top").subscribe(toast => { console.log(toast); });
-      });
+      let toastPopup = this.toastCtrl.create({message: (copysuccess ? "COPIED: ": "FAILED COPY: ") + holdtext.innerText, duration: 3000, position: 'top'});
+      toastPopup.present();
     }
   }
 

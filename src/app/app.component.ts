@@ -6,6 +6,10 @@ import { DashboardPage } from '../pages/dashboard/dashboard';
 import { AboutPage } from '../pages/info/about';
 import { HelpPage } from '../pages/info/help';
 
+declare var window: any;
+declare var Windows: any;
+declare var navigator: any;
+
 export interface PageObj {
   title: string;
   component: any;
@@ -34,7 +38,7 @@ export class MyApp {
       // Okay, so the platform is ready and our plugins are available.
       // Here you can do any higher level native things you might need.
       StatusBar.styleDefault();
-      //this.setXboxOne();
+      this.setXboxOne();
       var admobid = {banner: "ca-app-pub-4615642243411455/7055418360", interstitial: ""};
       // select the right Ad Id according to platform
       //if (/(android)/i.test(navigator.userAgent)) {
@@ -61,15 +65,15 @@ export class MyApp {
     var returnMessage:any = "";
     try {
       // Turn off mouse mode
-      //navigator.gamepadInputEmulation = "keyboard";
-      //navigator.gamepadInputEmulation = "gamepad";
+      navigator.gamepadInputEmulation = "keyboard";
+      navigator.gamepadInputEmulation = "gamepad";
     } catch(e) {
         //returnMessage = e.message;
       }
       try {
         // TV safe area off
-        //var applicationView = Windows.UI.ViewManagement.ApplicationView.getForCurrentView();
-        //applicationView.setDesiredBoundsMode(Windows.UI.ViewManagement.ApplicationViewBoundsMode.useCoreWindow);
+        var applicationView = Windows.UI.ViewManagement.ApplicationView.getForCurrentView();
+        applicationView.setDesiredBoundsMode(Windows.UI.ViewManagement.ApplicationViewBoundsMode.useCoreWindow);
       } catch(e) {
         returnMessage = e.message;
       }
@@ -77,8 +81,6 @@ export class MyApp {
   }
 
   openPage(page) {
-    // Reset the content nav to have just this page
-    // we wouldn't want the back button to show in this scenario
     this.nav.push(page.component, page.params);
   }
 }

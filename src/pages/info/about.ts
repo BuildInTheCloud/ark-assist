@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, Platform } from 'ionic-angular';
 declare var window: any;
 @Component({
   selector: 'page-about',
@@ -8,15 +8,14 @@ declare var window: any;
 
 export class AboutPage {
   entityList:any[];
-  errorMessage: string;
-  isCordovaApp:boolean = !!window.cordova;
-  isWinJSApp:boolean = !!window.WinJS;
+  platformMessage: string;
 
-  constructor(public navCtrl: NavController) { }
+  constructor(public navCtrl: NavController, public platform: Platform) {
+    this.platform = platform;
+  }
 
   ngOnInit() {
-    if (this.isCordovaApp) {this.errorMessage = "CORDOVA APP";}
-    if (this.isWinJSApp) {this.errorMessage = "WinJS APP";}
+    this.platformMessage = this.platform.platforms().toString();
   }
 
 

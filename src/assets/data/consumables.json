@@ -192,6 +192,14 @@
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_FriaCurry.PrimalItemConsumable_Soup_FriaCurry'"
     },
     {
+        "id": 0,
+        "name": "Grape Juice (Primitive+)",
+        "category": "Consumable",
+        "stack": "100",
+        "icon": "images/grape-juice-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Resources/PrimalItemResource_GrapeJuice.PrimalItemResource_GrapeJuice'"
+    },
+    {
         "id": 228,
         "name": "Lazarus Chowder",
         "category": "Consumable",

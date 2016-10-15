@@ -976,10 +976,26 @@
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_TreeTap.PrimalItemStructure_TreeTap'"
     },
     {
+        "id": 0,
+        "name": "Tudor Bar (Primitive+)",
+        "category": "Structure",
+        "stack": 1,
+        "icon": "images/tudor-bar-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_TudorBar.PrimalItemStructure_TudorBar'"
+    },
+    {
+        "id": 0,
+        "name": "Tudor Bar L-Shape (Primitive+)",
+        "category": "Structure",
+        "stack": 1,
+        "icon": "images/tudor-bar-l-shape-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_TudorBar_L.PrimalItemStructure_TudorBar_L'"
+    },
+    {
         "id": 306,
         "name": "Vault",
         "category": "Structure",
-        "stack": "100",
+        "stack": 100,
         "icon": "images/vault.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_StorageBox_Huge.PrimalItemStructure_StorageBox_Huge'"
     },
