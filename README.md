@@ -26,3 +26,5 @@ http://ark.gamepedia.com/Item_IDs
 pm install --typecheck
 
 npm install --save ionic-angular@nightly
+
+ionic plugin add cordova-plugin-admobpro@2.20.1
