@@ -1153,6 +1153,14 @@
     },
     {
         "id": 0,
+        "name": "Wooden Stairs (One Level) (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/wooden-stairs-one-level-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_LumberStairs.PrimalItemStructure_LumberStairs'"
+    },
+    {
+        "id": 0,
         "name": "Wooden Table",
         "category": "Structure",
         "stack": 100,

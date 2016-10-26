@@ -116,6 +116,10 @@
 "icon": "images/dodo-rex.jpeg",
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/DodoRex/DodoRex_Character_BP.DodoRex_Character_BP'"
 },{
+"id": "DodoWyvern_Character_BP_C","name": "Dodo Wyvern","category": "Event Creatures",
+"icon": "images/dodo-wyvern.jpg",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/DodoWyvern/DodoWyvern_Character_BP.DodoWyvern_Character_BP'"
+},{
 "id": "Doed_Character_BP_C","name": "Doedicurus","category": "Mammals",
 "icon": "images/doedicurus.png",
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Doedicurus/Doed_Character_BP.Doed_Character_BP'"

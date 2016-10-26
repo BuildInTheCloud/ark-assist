@@ -35,19 +35,19 @@ export class MyApp {
 
   constructor(public events: Events, public menu: MenuController, public platform: Platform) {
     platform.ready().then(() => {
-      // Okay, so the platform is ready and our plugins are available.
-      // Here you can do any higher level native things you might need.
       StatusBar.styleDefault();
+      //if (this.platform.is("cordova")) {
+        var admobid = {banner: "ca-app-pub-4615642243411455/7055418360", interstitial: ""};
+        AdMob.createBanner({
+          adId:admobid.banner,
+          position: 8,
+          overlap: true,
+          offsetBottomBar: true,
+          offsetTopBar: true,
+          autoShow: true
+        });
+      //}
       //this.setXboxOne();
-      var admobid = {banner: "ca-app-pub-4615642243411455/7055418360", interstitial: ""};
-      AdMob.createBanner({
-        adId:admobid.banner,
-        position: 8,
-        overlap: true,
-        offsetBottomBar: true,
-        offsetTopBar: true,
-        autoShow: true
-      });
     });
   }
 
