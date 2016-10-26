@@ -27,7 +27,8 @@
   <preference name="SuppressesIncrementalRendering" value="true" />
 
   <platform name="android">
-    <android-targetSdkVersion value="24" />
+    <framework src="com.google.android.gms:play-services-ads:+" />
+    <android-targetSdkVersion value="25" />
     <allow-intent href="market:*"/>
     <!--
       ldpi    : 36x36 px

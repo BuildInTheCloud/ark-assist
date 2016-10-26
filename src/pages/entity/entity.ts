@@ -18,7 +18,7 @@ export class EntityPage {
   entityList:any[];
   errorMessage: string;
   pageTitle: string;
-  searchFor: string;
+  searchFor: string = "";
   shouldShowCancel:boolean;
   quality: number = 0;
   category: string;

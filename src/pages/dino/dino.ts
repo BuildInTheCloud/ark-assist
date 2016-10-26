@@ -15,7 +15,7 @@ export class DinoPage {
   dinos:any[];
   dinoList:any[];
   errorMessage: string;
-  searchFor:string;
+  searchFor:string = "";
   shouldShowCancel:boolean;
   dinoLevel: number = 500;
 

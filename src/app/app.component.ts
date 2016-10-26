@@ -38,23 +38,14 @@ export class MyApp {
       // Okay, so the platform is ready and our plugins are available.
       // Here you can do any higher level native things you might need.
       StatusBar.styleDefault();
-      this.setXboxOne();
+      //this.setXboxOne();
       var admobid = {banner: "ca-app-pub-4615642243411455/7055418360", interstitial: ""};
-      // select the right Ad Id according to platform
-      //if (/(android)/i.test(navigator.userAgent)) {
-      //  admobid.banner = 'ca-app-pub-4615642243411455~4101951960';
-      //} else if (/(ipod|iphone|ipad)/i.test(navigator.userAgent)) {
-      //  admobid.banner = 'ca-app-pub-4615642243411455~4101951960';
-      //} else {
-      //  admobid.banner = 'ca-app-pub-4615642243411455~4101951960';
-      //}
       AdMob.createBanner({
         adId:admobid.banner,
         position: 8,
-        overlap: false,
+        overlap: true,
         offsetBottomBar: true,
-        offsetTopBar: false,
-        isTesting: false,
+        offsetTopBar: true,
         autoShow: true
       });
     });
