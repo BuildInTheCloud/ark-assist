@@ -49,10 +49,10 @@
     },
     {
         "id": 0,
-        "name": "Bone Sauro",
+        "name": "Bone Bronto",
         "category": "Costume",
         "stack": 1,
-        "icon": "images/sauropod-vertebra.png",
+        "icon": "images/bone-bronto-costume.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BoneSauro.PrimalItemCostume_BoneSauro'"
     },
     {
@@ -105,7 +105,7 @@
     },
     {
         "id": 0,
-        "name": "Dino Witch Hat",
+        "name": "Dino Witch Hat Saddle",
         "category": "Skin",
         "stack": 1,
         "icon": "images/witch-hat-skin.png",
