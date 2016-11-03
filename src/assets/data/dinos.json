@@ -413,7 +413,7 @@
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Sauropod/Bone_Sauropod_Character_BP.Bone_Sauropod_Character_BP'"
 },{
 "id": "Bone_MegaWyvern_Character_BP_C","name": "Bone Mega Wyvern","category": "Halloween",
-"icon": "images/bone-wyvern-costume.png",
+"icon": "images/bone-mega-wyvern.png",
 "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Bone_MegaWyvern_Character_BP_Fire.Bone_MegaWyvern_Character_BP_Fire'"
 },{
 "id": "Bone_Jerboa_Character_BP_C","name": "Bone Jerboa","category": "Halloween",
@@ -425,15 +425,15 @@
 "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/DodoWyvern/DodoWyvern_Character_BP.DodoWyvern_Character_BP'"
 },{
 "id": "Wyvern_Character_BP_ZombieFire_C","name": "Zombie Fire Wyvern","category": "Halloween",
-"icon": "images/bone-wyvern-costume.png",
+"icon": "images/zombie-fire-wyvern.png",
 "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_ZombieFire.Wyvern_Character_BP_ZombieFire'"
 },{
 "id": "Wyvern_Character_BP_ZombieLightning_C","name": "Zombie Lightning Wyvern","category": "Halloween",
-"icon": "images/bone-wyvern-costume.png",
+"icon": "images/zombie-lightning-wyvern.png",
 "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_ZombieLightning.Wyvern_Character_BP_ZombieLightning'"
 },{
 "id": "Wyvern_Character_BP_ZombiePoison_C","name": "Zombie Poison Wyvern","category": "Halloween",
-"icon": "images/bone-wyvern-costume.png",
+"icon": "images/zombie-poison-wyvern.png",
 "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_ZombiePoison.Wyvern_Character_BP_ZombiePoison'"
 }
 ]
