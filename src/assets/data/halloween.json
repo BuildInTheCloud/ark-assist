@@ -1,0 +1,162 @@
+[
+    {
+        "id": 0,
+        "name": "Bone Carno",
+        "category": "Costume",
+        "stack": 1,
+        "icon": "images/bone-carno-costume.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BoneCarno.PrimalItemCostume_BoneCarno'"
+    },
+    {
+        "id": 0,
+        "name": "Bone Giganotosaurus",
+        "category": "Costume",
+        "stack": 1,
+        "icon": "images/bone-giganotosaurus-costume.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BoneGigant.PrimalItemCostume_BoneGigant'"
+    },
+    {
+        "id": 0,
+        "name": "Bone Jerboa",
+        "category": "Costume",
+        "stack": 1,
+        "icon": "images/bone-jerboa-costume.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BoneJerboa.PrimalItemCostume_BoneJerboa'"
+    },
+    {
+        "id": 0,
+        "name": "Bone Quetzalcoatlus",
+        "category": "Costume",
+        "stack": 1,
+        "icon": "images/bone-quetzalcoatlus-costume.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BoneQuetz.PrimalItemCostume_BoneQuetz'"
+    },
+    {
+        "id": 0,
+        "name": "Bone Raptor",
+        "category": "Custume",
+        "stack": 1,
+        "icon": "images/bone-raptor-custome.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BoneRaptor.PrimalItemCostume_BoneRaptor'"
+    },
+    {
+        "id": 0,
+        "name": "Bone Rex",
+        "category": "Costume",
+        "stack": 1,
+        "icon": "images/bone-rex-costume.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BoneRex.PrimalItemCostume_BoneRex'"
+    },
+    {
+        "id": 0,
+        "name": "Bone Sauro",
+        "category": "Costume",
+        "stack": 1,
+        "icon": "images/sauropod-vertebra.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BoneSauro.PrimalItemCostume_BoneSauro'"
+    },
+    {
+        "id": 0,
+        "name": "Bone Stego",
+        "category": "Costume",
+        "stack": 1,
+        "icon": "images/bone-stego-costume.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BoneStego.PrimalItemCostume_BoneStego'"
+    },
+    {
+        "id": 0,
+        "name": "Bone Trike",
+        "category": "Costume",
+        "stack": 1,
+        "icon": "images/bone-trike-costume.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BoneTrike.PrimalItemCostume_BoneTrike'"
+    },
+    {
+        "id": 0,
+        "name": "Bone Wyvern",
+        "category": "Costume",
+        "stack": 1,
+        "icon": "images/bone-wyvern-costume.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BoneWyvern.PrimalItemCostume_BoneWyvern'"
+    },
+    {
+        "id": 0,
+        "name": "Witch Hat",
+        "category": "Skin",
+        "stack": 100,
+        "icon": "images/witch-hat-skin.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_WitchHat.PrimalItemSkin_WitchHat'"
+    },
+    {
+        "id": 0,
+        "name": "Vampire Eyes Skin",
+        "category": "Skin",
+        "stack": 1,
+        "icon": "images/vampire-eyes-skin.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_VampireEyes.PrimalItemSkin_VampireEyes'"
+    },
+    {
+        "id": 0,
+        "name": "Dodo Rex Mask",
+        "category": "Skin",
+        "stack": 1,
+        "icon": "images/dodo-rex-mask-skin.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_DodorexMask.PrimalItemSkin_DodorexMask'"
+    },
+    {
+        "id": 0,
+        "name": "Dino Witch Hat",
+        "category": "Skin",
+        "stack": 1,
+        "icon": "images/witch-hat-skin.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_DinoWitchHat.PrimalItemSkin_DinoWitchHat'"
+    },
+    {
+        "id": 0,
+        "name": "stolen Headstone",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/stolen-headstone.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Halloween/PrimalItemStructure_HW_Grave.PrimalItemStructure_HW_Grave'"
+    },
+    {
+        "id": 0,
+        "name": "Pumpkin",
+        "category": "Resource",
+        "stack": 100,
+        "icon": "images/pumpkin.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Halloween/PrimalItemStructure_Pumpkin.PrimalItemStructure_Pumpkin'"
+    },
+    {
+        "id": 0,
+        "name": "Scarecrow",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/scarecrow.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Halloween/PrimalItemStructure_Scarecrow.PrimalItemStructure_Scarecrow'"
+    },
+    {
+        "id": 0,
+        "name": "dodo Wyvern Mask",
+        "category": "Skin",
+        "stack": 1,
+        "icon": "images/dodo-wyvern-mask-skin.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_DodowyvernHat.PrimalItemSkin_DodowyvernHat'"
+    },
+    {
+        "id": 0,
+        "name": "Werewolf Hat",
+        "category": "Skin",
+        "stack": 1,
+        "icon": "images/werewolf-mask-skin.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_WerewolfHat.PrimalItemSkin_WerewolfHat'"
+    },
+    {
+        "id": 0,
+        "name": "Clown Mask",
+        "category": "Skin",
+        "stack": 1,
+        "icon": "images/clown-mask-skin.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_ClownMask.PrimalItemSkin_ClownMask'"
+    }
+]

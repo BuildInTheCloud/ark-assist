@@ -116,10 +116,6 @@
 "icon": "images/dodo-rex.jpeg",
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/DodoRex/DodoRex_Character_BP.DodoRex_Character_BP'"
 },{
-"id": "DodoWyvern_Character_BP_C","name": "Dodo Wyvern","category": "Event Creatures",
-"icon": "images/dodo-wyvern.jpg",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/DodoWyvern/DodoWyvern_Character_BP.DodoWyvern_Character_BP'"
-},{
 "id": "Doed_Character_BP_C","name": "Doedicurus","category": "Mammals",
 "icon": "images/doedicurus.png",
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Doedicurus/Doed_Character_BP.Doed_Character_BP'"
@@ -383,5 +379,61 @@
 "id": "Yeti_Character_BP_C","name": "Yeti","category": "Mammals",
 "icon": "images/gigantopithecus.png",
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Bigfoot/Yeti_Character_BP.Yeti_Character_BP'"
+},{
+"id": "Bone_MegaCarno_Character_BP_C","name": "Bone Mega Carno","category": "Halloween",
+"icon": "images/bone_mega-carno.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Carno/Bone_MegaCarno_Character_BP.Bone_MegaCarno_Character_BP'"
+},{
+"id": "Bone_Gigant_Character_BP_C","name": "Bone Giganotosaurus","category": "Halloween",
+"icon": "images/bone-giganotosaurus.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Giganotosaurus/Bone_Gigant_Character_BP.Bone_Gigant_Character_BP'"
+},{
+"id": "Bone_Quetz_Character_BP_C","name": "Bone Quetz","category": "Halloween",
+"icon": "images/bone-quetz.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Quetzalcoatlus/Bone_Quetz_Character_BP.Bone_Quetz_Character_BP'"
+},{
+"id": "Bone_MegaRaptor_Character_BP_C","name": "Bone Mega Raptor","category": "Halloween",
+"icon": "images/bone-mega-raptor.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Raptor/Bone_MegaRaptor_Character_BP.Bone_MegaRaptor_Character_BP'"
+},{
+"id": "Bone_MegaRex_Character_BP_C","name": "Bone Mega Rex","category": "Halloween",
+"icon": "images/bone-mega-rex.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Rex/Bone_MegaRex_Character_BP.Bone_MegaRex_Character_BP'"
+},{
+"id": "Bone_Stego_Character_BP_C","name": "Bone Stego","category": "Halloween",
+"icon": "images/bone-stego.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Stego/Bone_Stego_Character_BP.Bone_Stego_Character_BP'"
+},{
+"id": "Bone_Trike_Character_BP_C","name": "Bone Trike","category": "Halloween",
+"icon": "images/bone-trike.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Trike/Bone_Trike_Character_BP.Bone_Trike_Character_BP'"
+},{
+"id": "Bone_Sauropod_Character_BP_C","name": "Bone Sauropod","category": "Halloween",
+"icon": "images/bone-sauropod.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Sauropod/Bone_Sauropod_Character_BP.Bone_Sauropod_Character_BP'"
+},{
+"id": "Bone_MegaWyvern_Character_BP_C","name": "Bone Mega Wyvern","category": "Halloween",
+"icon": "images/bone-wyvern-costume.png",
+"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Bone_MegaWyvern_Character_BP_Fire.Bone_MegaWyvern_Character_BP_Fire'"
+},{
+"id": "Bone_Jerboa_Character_BP_C","name": "Bone Jerboa","category": "Halloween",
+"icon": "images/bone-jerboa.png",
+"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Jerboa/Bone_Jerboa_Character_BP.Bone_Jerboa_Character_BP'"
+},{
+"id": "DodoWyvern_Character_BP_C","name": "Dodo Wyvern","category": "Halloween",
+"icon": "images/dodo-wyvern.jpg",
+"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/DodoWyvern/DodoWyvern_Character_BP.DodoWyvern_Character_BP'"
+},{
+"id": "Wyvern_Character_BP_ZombieFire_C","name": "Zombie Fire Wyvern","category": "Halloween",
+"icon": "images/bone-wyvern-costume.png",
+"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_ZombieFire.Wyvern_Character_BP_ZombieFire'"
+},{
+"id": "Wyvern_Character_BP_ZombieLightning_C","name": "Zombie Lightning Wyvern","category": "Halloween",
+"icon": "images/bone-wyvern-costume.png",
+"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_ZombieLightning.Wyvern_Character_BP_ZombieLightning'"
+},{
+"id": "Wyvern_Character_BP_ZombiePoison_C","name": "Zombie Poison Wyvern","category": "Halloween",
+"icon": "images/bone-wyvern-costume.png",
+"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_ZombiePoison.Wyvern_Character_BP_ZombiePoison'"
 }
 ]
