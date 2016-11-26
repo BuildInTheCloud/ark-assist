@@ -13,7 +13,7 @@
         "category": "Armor",
         "stack": 1,
         "icon": "images/chitin-chestpiece.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Chitin/Hide/PrimalItemArmor_ChitinShirt.PrimalItemArmor_ChitinShirt'"
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Chitin/PrimalItemArmor_ChitinShirt.PrimalItemArmor_ChitinShirt'"
     },
     {
         "id": 31,
@@ -37,7 +37,7 @@
         "category": "Armor",
         "stack": 1,
         "icon": "images/chitin-leggings.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Chitin/Hide/PrimalItemArmor_ChitinPants.PrimalItemArmor_ChitinPants'"
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Chitin/PrimalItemArmor_ChitinPants.PrimalItemArmor_ChitinPants'"
     },
     {
         "id": 20,

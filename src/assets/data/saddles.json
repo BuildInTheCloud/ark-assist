@@ -9,7 +9,7 @@
     },
     {
         "id": 209,
-        "name": "Ankylo Saddle",
+        "name": "Ankylosaurus Saddle",
         "category": "Saddle",
         "stack": "1",
         "icon": "images/ankylosaurus-saddle.png",
@@ -86,6 +86,14 @@
         "stack": 1,
         "icon": "images/castoroides-saddle.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_BeaverSaddle.PrimalItemArmor_BeaverSaddle'"
+    },
+    {
+        "id": 0,
+        "name": "Chalicotherium Saddle",
+        "category": "Saddle",
+        "stack": 1,
+        "icon": "images/Chalicotherium-saddle.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ChalicoSaddle.PrimalItemArmor_ChalicoSaddle'"
     },
     {
         "id": 0,

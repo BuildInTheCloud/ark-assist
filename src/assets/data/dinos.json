@@ -1,5 +1,9 @@
 [
 {
+"id": "Achatina_Character_BP_C","name": "Achatina","category": "Invertebrates",
+"icon": "images/achatina.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP.Achatina_Character_BP'"
+},{
 "id": "Allo_Character_BP_C","name": "Allosaurus","category": "Dinosaurs",
 "icon": "images/allosaurus.png",
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Allosaurus/Allo_Character_BP.Allo_Character_BP'"
@@ -80,6 +84,10 @@
 "icon": "images/castoroides.png",
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Beaver/Beaver_Character_BP.Beaver_Character_BP'"
 },{
+"id": "Chalico_Character_BP_C","name": "Chalicotherium","category": "Mammals",
+"icon": "images/chalicotherium.jpg",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Chalicotherium/Chalico_Character_BP.Chalico_Character_BP'"
+},{
 "id": "Coel_Character_BP_C","name": "Coelacanth","category": "Fish",
 "icon": "images/coelacanth.png",
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Coelacanth/Coel_Character_BP.Coel_Character_BP'"
@@ -91,6 +99,10 @@
 "id": "Dilo_Character_BP_C","name": "Dilophosaurus","category": "Dinosaurs",
 "icon": "images/dilophosaurus.png",
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dilo/Dilo_Character_BP.Dilo_Character_BP'"
+},{
+"id": "Diplocaulus_Character_BP_C","name": "Diplocaulus","category": "Amphibians",
+"icon": "images/diplocaulus.jpg",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Diplocaulus/Diplocaulus_Character_BP.Diplocaulus_Character_BP'"
 },{
 "id": "Dimetro_Character_BP_C","name": "Dimetrodon","category": "Dinosaurs",
 "icon": "images/dimetrodon.png",
@@ -148,6 +160,14 @@
 "icon": "images/gigantopithecus.png",
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Bigfoot/Bigfoot_Character_BP.Bigfoot_Character_BP'"
 },{
+"id": "PlayerPawnTest_Female_C","name": "Human Female","category": "Mammals",
+"icon": "images/human.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/PlayerPawnTest_Female.PlayerPawnTest_Female'"
+},{
+"id": "PlayerPawnTest_Male_C","name": "Human Male","category": "Mammals",
+"icon": "images/human.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/PlayerPawnTest_Male.PlayerPawnTest_Male'"
+},{
 "id": "Dolphin_Character_BP_C","name": "Ichthyosaurus","category": "Reptiles",
 "icon": "images/ichthyosaurus.png",
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dolphin/Dolphin_Character_BP.Dolphin_Character_BP'"
@@ -171,6 +191,10 @@
 "id": "Kairuku_Character_BP_C","name": "Kairuku","category": "Birds",
 "icon": "images/kairuku.jpg",
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Kairuku/Kairuku_Character_BP.Kairuku_Character_BP'"
+},{
+"id": "Kaprosuchus_Character_BP_C","name": "Kaprosuchus","category": "Birds",
+"icon": "images/kaprosuchus.jpg",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Kaprosuchus/Kaprosuchus_Character_BP.Kaprosuchus_Character_BP'"
 },{
 "id": "Leech_Character_C","name": "Leech","category": "Invertebrates",
 "icon": "images/leech.jpg",
@@ -212,6 +236,10 @@
 "icon": "images/megalodon.png",
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Megalodon/Megalodon_Character_BP.Megalodon_Character_BP'"
 },{
+"id": "Megalosaurus_Character_BP_C","name": "Megalosaurus","category": "Dinosaurs",
+"icon": "images/megalosaurus.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Megalosaurus/Megalosaurus_Character_BP.Megalosaurus_Character_BP'"
+},{
 "id": "Dragonfly_Character_BP_C","name": "Meganeura","category": "Invertebrates",
 "icon": "images/meganeura.png",
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dragonfly/Dragonfly_Character_BP.Dragonfly_Character_BP'"
@@ -232,6 +260,10 @@
 "icon": "images/mosasaurus.jpg",
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Mosasaurus/Mosa_Character_BP.Mosa_Character_BP'"
 },{
+"id": "Moschops_Character_BP_C","name": "Moschops","category": "Synapsids",
+"icon": "images/moschops.jpg",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Moschops/Moschops_Character_BP.Moschops_Character_BP'"
+},{
 "id": "OviRaptor_Character_BP_C","name": "Oviraptor","category": "Dinosaurs",
 "icon": "images/oviraptor.jpg",
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/oviRaptor/oviRaptor_Character_BP.OviRaptor_Character_BP'"
@@ -239,6 +271,10 @@
 "id": "Pachy_Character_BP_C","name": "Pachy","category": "Dinosaurs",
 "icon": "images/pachycephalosaurus.png",
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Pachy/Pachy_Character_BP.Pachy_Character_BP'"
+},{
+"id": "Pachyrhinosaurus_Character_BP_C","name": "Pachyrhinosaurus","category": "Dinosaurs",
+"icon": "images/pachyrhinosaurus.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Pachyrhinosaurus/Pachyrhinosaurus_Character_BP.Pachyrhinosaurus_Character_BP'"
 },{
 "id": "Paracer_Character_BP_C","name": "Paracer","category": "Mammals",
 "icon": "images/paraceratherium.jpg",
@@ -435,5 +471,9 @@
 "id": "Wyvern_Character_BP_ZombiePoison_C","name": "Zombie Poison Wyvern","category": "Fear Evolved",
 "icon": "images/zombie-poison-wyvern.png",
 "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_ZombiePoison.Wyvern_Character_BP_ZombiePoison'"
+},{
+"id": "Turkey_Character_BP_C","name": "Super Turkey","category": "Turkey Trial",
+"icon": "images/super-turkey.jpg",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dodo/Turkey_Character_BP.Turkey_Character_BP'"
 }
 ]

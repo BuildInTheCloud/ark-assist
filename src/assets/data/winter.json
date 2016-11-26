@@ -1,0 +1,10 @@
+[
+    {
+        "id": 0,
+        "name": "Holiday Lights",
+        "category": "Lighting",
+        "stack": 1,
+        "icon": "images/holiday-lights.png",
+        "blueprint": ""
+    }
+]

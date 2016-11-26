@@ -1,7 +1,7 @@
 {
   "name": "ark-assist",
   "description": "Ark Assist: An unoffical app for Ark Survival Evolved.",
-  "version": "2.0.5",
+  "version": "2.0.8",
   "author": "BuildInTheCloud",
   "homepage": "http://buildinthecloud.com/",
   "private": true,
@@ -9,36 +9,36 @@
     "type": "git",
     "url": "https://github.com/BuildInTheCloud/ark-assist.git"
   },
-"scripts": {
-    "build": "ionic-app-scripts build",
-    "watch": "ionic-app-scripts watch",
-    "serve:before": "watch",
-    "emulate:before": "build",
-    "deploy:before": "build",
-    "build:before": "build",
-    "run:before": "build"
+  "scripts": {
+    "ionic:build": "ionic-app-scripts build",
+    "ionic:serve": "ionic-app-scripts serve"
   },
   "dependencies": {
-    "@angular/common": "2.1.1",
-    "@angular/compiler": "2.1.1",
-    "@angular/compiler-cli": "2.1.1",
-    "@angular/core": "2.1.1",
-    "@angular/forms": "2.1.1",
-    "@angular/http": "2.1.1",
-    "@angular/platform-browser": "2.1.1",
-    "@angular/platform-browser-dynamic": "2.1.1",
-    "@angular/platform-server": "2.1.1",
+    "angular2-moment": "^1.0.0-beta.6",
+    "moment": "2.15.1",
+    "@angular/common": "2.2.1",
+    "@angular/compiler": "2.2.1",
+    "@angular/compiler-cli": "2.2.1",
+    "@angular/core": "2.2.1",
+    "@angular/forms": "2.2.1",
+    "@angular/http": "2.2.1",
+    "@angular/platform-browser": "2.2.1",
+    "@angular/platform-browser-dynamic": "2.2.1",
+    "@angular/platform-server": "2.2.1",
     "@ionic/storage": "1.1.6",
-    "ionic-angular": "2.0.0-rc.2",
+    "ionic-angular": "2.0.0-rc.3-201611211919",
     "ionic-native": "2.2.3",
     "ionicons": "3.0.0",
-    "moment": "2.15.1",
     "rxjs": "5.0.0-beta.12",
-    "zone.js": "0.6.21"
+    "zone.js": "0.6.26"
   },
   "devDependencies": {
-    "@ionic/app-scripts": "0.0.39",
-    "typescript": "^2.0.3"
+    "@ionic/app-scripts": "0.0.46",
+    "typescript": "2.0.9",
+    "webpack-bundle-analyzer": "^1.5.3"
+  },
+  "config": {
+    "ionic_bundler": "webpack"
   },
   "cordovaPlugins": [
     "cordova-plugin-whitelist",

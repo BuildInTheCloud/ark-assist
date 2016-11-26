@@ -1,5 +1,5 @@
-import { NgModule } from '@angular/core';
-import { IonicApp, IonicModule } from 'ionic-angular';
+import { NgModule, ErrorHandler } from '@angular/core';
+import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { ColorPage } from '../pages/color/color';
 import { AdminPage } from '../pages/commands/commands';
@@ -38,6 +38,8 @@ import { FavsPage } from '../pages/recent/favs';
     HelpPage,
     FavsPage
   ],
-  providers: []
+  providers: [
+    {provide: ErrorHandler, useClass: IonicErrorHandler}
+  ]
 })
 export class AppModule {}
