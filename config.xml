@@ -4,7 +4,7 @@
   <description>An unoffical app for Ark Survival Evolved.</description>
   <author email="mark@buildinthecloud.com" href="http://www.buildinthecloud.com/ark-assist">BuildInTheCloud</author>
   <content src="index.html"/>
-  <icon src="resources/android/icon/drawable-hdpi-icon.png" />
+  <!--icon src="resources/android/icon/drawable-hdpi-icon.png" /-->
 
   <access origin="*" />
   <allow-intent href="http://*/*" />
