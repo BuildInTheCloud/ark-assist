@@ -12,6 +12,7 @@ export class StaticService {
   constructor(private http: Http) {}
 
   getEntityList(jsonFileName:string): any {
+    //console.log("DATA: ", jsonFileName);
     return new Promise(resolve => {
       this.http.get("assets/data/"+jsonFileName.toLowerCase()+".json")
         .map(res => res.json())

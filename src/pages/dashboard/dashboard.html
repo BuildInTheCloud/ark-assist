@@ -9,6 +9,13 @@
 
 <ion-content responsive-md padding class="dashboard">
 
+  <ion-card (click)="goToPage('News')">
+    <img src="assets/images/ark.jpg"/>
+    <ion-card-content>
+      <button>News</button>
+    </ion-card-content>
+  </ion-card>
+
   <ion-card (click)="goToPage('Ammunitions')">
     <img src="assets/images/ballista-bolt.png"/>
     <ion-card-content>
@@ -174,6 +181,34 @@
     <img src="assets/images/winter-wonderland.png"/>
     <ion-card-content>
       <button>Christmas</button>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card (click)="goToPage('Controls')">
+    <img src="assets/images/controller.jpg"/>
+    <ion-card-content>
+      <button>Controls</button>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card (click)="goToPage('Notes Island')">
+    <img src="assets/images/map-the-island.jpg"/>
+    <ion-card-content>
+      <button>Island Notes</button>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card (click)="goToPage('Notes Scorched')">
+    <img src="assets/images/map-scorched-earth.jpg"/>
+    <ion-card-content>
+      <button>Scorched Notes</button>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card (click)="goToPage('Notes Center')" style="display:none;">
+    <img src="assets/images/map-the-center.jpg"/>
+    <ion-card-content>
+      <button>Center Notes</button>
     </ion-card-content>
   </ion-card>
 

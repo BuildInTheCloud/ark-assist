@@ -1,0 +1,358 @@
+<ion-header>
+  <ion-navbar>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Controls</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+    <ion-list-header>MOVEMENT</ion-list-header>
+    <ion-item>
+      <ion-avatar item-left>Forward</ion-avatar>
+      <p class="control"><img alt="Left Stick" src="assets/images/XboxOne_Left_Stick.png"/> Up</p>
+      <p>Move Forward</p>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>Backwards</ion-avatar>
+      <p class="control"><img alt="Left Stick" src="assets/images/XboxOne_Left_Stick.png"/> Down</p>
+      <p>Move Backwards</p>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>Left</ion-avatar>
+      <p class="control"><img alt="Left Stick" src="assets/images/XboxOne_Left_Stick.png"/> Left</p>
+      <p>Strafe Left</p>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>Right</ion-avatar>
+      <p class="control"><img alt="Left Stick" src="assets/images/XboxOne_Left_Stick.png"/> Right</p>
+      <p>Strafe Right</p>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>Run</ion-avatar>
+      <p class="control">Press <img alt="Left Stick" src="assets/images/XboxOne_Left_Stick.png"/></p>
+      <p>
+        When used while moving forward, will cause you to increase forward movement speed at the cost of increased stamina use, and over-rides 'Toggle Run' to on. A character may only run forwards; strafing and backpedaling speed will remain constant.
+      </p>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>Toggle<br/>Run</ion-avatar>
+      <p class="control">Press <img alt="Left Stick" src="assets/images/XboxOne_Left_Stick.png"/></p>
+      <p>
+        Will toggle whether run is on or off (I.E., whether you run or walk) upon input of 'Move Forward'. Can be used while standing still.
+      </p>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>Jump</ion-avatar>
+      <p class="control">Press <img alt="A Button" src="assets/images/XboxOne_A.png"/></p>
+      <p>
+        Causes a character to jump up while stationary, and jump directionally when moving. also to ascend to surface when diving.
+      </p>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>Crouch</ion-avatar>
+      <p class="control">Press <img alt="Right Stick" src="assets/images/XboxOne_Right_Stick.png"/></p>
+      <p>
+        Also used to descend while diving.
+      </p>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>Prone</ion-avatar>
+      <p class="control">Long Press <img alt="Right Stick" src="assets/images/XboxOne_Right_Stick.png"/></p>
+      <p>
+        Causes the player's character to lay down. One must release pressure after a pause. Also used to descend while diving.
+      </p>
+    </ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-list-header>BATTLING</ion-list-header>
+    <ion-item>
+      <ion-avatar item-left>Primary<br/>Fire</ion-avatar>
+      <p class="control">Pull <img alt="Right Trigger" src="assets/images/XboxOne_RT.png"/></p>
+      <p>
+        Will cause the primary attack with a weapon or tool, such as shooting a projectile weapon or swinging a melee weapon.
+      </p>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>Aim<br/>Alt Fire</ion-avatar>
+      <p class="control">Pull <img alt="Left Trigger" src="assets/images/XboxOne_LT.png"/></p>
+      <p>Aim-Down Sights / Alternate Fire<br/>
+        Will bring up the sights of a weapon, uses the alternate action of the object if one exists (such as the Grappling Hook un-spooling), or otherwise does nothing.
+      </p>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>Toggle<br/>Fists</ion-avatar>
+      <p class="control">
+        <img alt="Left Bumper" src="assets/images/XboxOne_LB.png"/> +
+        <img alt="Left Bumper" src="assets/images/XboxOne_Dpad_Up.png"/>
+      </p>
+      <p>
+        Removes (or equips) item so that fists can be used.
+      </p>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>Reload</ion-avatar>
+      <p class="control">Press <img alt="X Button" src="assets/images/XboxOne_X.png"/></p>
+      <p>
+        Will manually trigger the reload animation to fill the magazine with available corresponding ammunition.
+      </p>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>Drag<br/>Body</ion-avatar>
+      <p class="control">Press <img alt="Y Button" src="assets/images/XboxOne_Y.png"/></p>
+      <p>
+        Drags a corpse or unconscious body.
+      </p>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>Melee<br/>Pistol Whip</ion-avatar>
+      <p class="control">Press <img alt="Right Bumper" src="assets/images/XboxOne_RB.png"/></p>
+      <p>
+        Has the same effect as primary fire on a melee weapon, but will trigger a melee animation/attack with projectile weapons, if applicable.
+      </p>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>Toggle<br/>Weapon<br/>Attachment</ion-avatar>
+      <p class="control">Double Tap <img alt="X Button" src="assets/images/XboxOne_X.png"/></p>
+      <p>
+        Will turn off or on a weapon's attachment (if applicable). If the weapon attachment is toggle-able, it will always be off by default.
+      </p>
+    </ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-list-header>CAMERA</ion-list-header>
+    <ion-item>
+      <ion-avatar item-left>Orbit<br/>Camera</ion-avatar>
+      <p class="control">
+        <img alt="Window Button" src="assets/images/XboxOne_Windows.png"/> +
+        <img alt="Left Stick" src="assets/images/XboxOne_Right_Stick.png"/> +
+        to 11*
+      </p>
+      <p>
+        Gives the camera an inverted third-person view of the character, which is not recommended for use while playing the game.
+      </p>
+    </ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-list-header>EXTENDED HUD INFO</ion-list-header>
+    <ion-item>
+      <ion-avatar item-left>Orbit<br/>Camera</ion-avatar>
+      <p class="control">Hold <img alt="Window Button" src="assets/images/XboxOne_Windows.png"/></p>
+      <p>
+        Displays additional information such as map location, temperature, time of day, etc.
+      </p>
+    </ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-list-header>ACTIONS</ion-list-header>
+    <ion-item>
+      <ion-avatar item-left>Inventory</ion-avatar>
+      <p class="control">Press <img alt="B Button" src="assets/images/XboxOne_B.png"/></p>
+      <p>
+        Open Your Inventory.
+      </p>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>Use</ion-avatar>
+      <p class="control">Press <img alt="Y Button" src="assets/images/XboxOne_Y.png"/></p>
+      <p>
+        Activates the default action of an object, such as opening a door, climbing a ladder, or opening a storage box's inventory.
+      </p>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>Other's<br/>Inventory</ion-avatar>
+      <p class="control">Press <img alt="X Button" src="assets/images/XboxOne_X.png"/></p>
+      <p>
+        Opens the inventory of any applicable object, such as crafting stations, storages, and unconscious or dead bodies. Also throws shoulder-mounted creatures when pressed twice.
+      </p>
+    </ion-item>
+  </ion-list>
+<!--
+<table class="wikitable">
+<tbody>
+<tr>
+<td> Use Hotbar Slot Item </td>
+<td align="center"> <kbd>0</kbd> - <kbd>9</kbd> </td>
+<td> Directional Pad, LB + Y/B/X/A/D-pad Left/Right
+<p>OR
+</p><p>Hold<a href="/File:XboxOne_Windows.png" class="image" title="Windows"><img alt="Windows" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/c/cf/XboxOne_Windows.png/24px-XboxOne_Windows.png?version=7a47dfbc6d8afeb2879384ca8a7a870f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/c/cf/XboxOne_Windows.png/36px-XboxOne_Windows.png?version=7a47dfbc6d8afeb2879384ca8a7a870f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/c/cf/XboxOne_Windows.png/48px-XboxOne_Windows.png?version=7a47dfbc6d8afeb2879384ca8a7a870f 2x" height="24" width="24"></a> + <a href="/File:XboxOne_Left_Stick.png" class="image" title="Left Stick"><img alt="Left Stick" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/24px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/36px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/48px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f 2x" height="24" width="24"></a> to '12'* through '9'*
+</p>
+</td>
+<td> Uses item in the corresponding slot of your hotbar.
+</td></tr>
+<tr>
+<td>Open Map</td>
+<td align="center"><kbd>M</kbd>
+</td>
+<td><a href="/File:XboxOne_Windows.png" class="image" title="Windows"><img alt="Windows" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/c/cf/XboxOne_Windows.png/24px-XboxOne_Windows.png?version=7a47dfbc6d8afeb2879384ca8a7a870f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/c/cf/XboxOne_Windows.png/36px-XboxOne_Windows.png?version=7a47dfbc6d8afeb2879384ca8a7a870f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/c/cf/XboxOne_Windows.png/48px-XboxOne_Windows.png?version=7a47dfbc6d8afeb2879384ca8a7a870f 2x" height="24" width="24"></a>OR
+<p>Hold<a href="/File:XboxOne_Windows.png" class="image" title="Windows"><img alt="Windows" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/c/cf/XboxOne_Windows.png/24px-XboxOne_Windows.png?version=7a47dfbc6d8afeb2879384ca8a7a870f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/c/cf/XboxOne_Windows.png/36px-XboxOne_Windows.png?version=7a47dfbc6d8afeb2879384ca8a7a870f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/c/cf/XboxOne_Windows.png/48px-XboxOne_Windows.png?version=7a47dfbc6d8afeb2879384ca8a7a870f 2x" height="24" width="24"></a> + <a href="/File:XboxOne_Left_Stick.png" class="image" title="Left Stick"><img alt="Left Stick" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/24px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/36px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/48px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f 2x" height="24" width="24"></a> to '10'*
+</p>
+</td>
+<td>Opens the character's in-game map.
+</td></tr>
+<tr>
+<td>Item Menu
+</td>
+<td>?
+</td>
+<td>Hold <a href="/File:XboxOne_Windows.png" class="image" title="Windows"><img alt="Windows" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/c/cf/XboxOne_Windows.png/24px-XboxOne_Windows.png?version=7a47dfbc6d8afeb2879384ca8a7a870f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/c/cf/XboxOne_Windows.png/36px-XboxOne_Windows.png?version=7a47dfbc6d8afeb2879384ca8a7a870f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/c/cf/XboxOne_Windows.png/48px-XboxOne_Windows.png?version=7a47dfbc6d8afeb2879384ca8a7a870f 2x" height="24" width="24"></a>
+</td>
+<td>Opens the character's item selection radial wheel (XBOX).
+</td></tr>
+<tr>
+<td>Whistle Menu
+</td>
+<td><kbd>'</kbd>
+</td>
+<td>Hold <a href="/File:XboxOne_B.png" class="image" title="B"><img alt="B" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/24px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/36px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/48px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f 2x" height="24" width="24"></a>
+</td>
+<td>Displays the whistle selection menu (PC) or whistle selection radial wheel (XBOX).
+</td></tr>
+<tr>
+<th colspan="4"> Chat
+</th></tr>
+<tr>
+<td> Toggle Auto-Hide Chat box </td>
+<td align="center"> <kbd>\</kbd> </td>
+<td> None; Accessible in Options
+</td>
+<td> When on, chat box will disappear moments after the last message is sent.
+</td></tr>
+<tr>
+<td> Global <a href="/Chat" title="Chat">Chat</a> </td>
+<td align="center"> <kbd>ENTER</kbd> </td>
+<td>  <a href="/File:XboxOne_LB.png" class="image" title="LB"><img alt="LB" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/f/fe/XboxOne_LB.png/24px-XboxOne_LB.png?version=5c8cfceb1926c216fbf5236ffff46a0e" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/f/fe/XboxOne_LB.png/36px-XboxOne_LB.png?version=5c8cfceb1926c216fbf5236ffff46a0e 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/f/fe/XboxOne_LB.png/48px-XboxOne_LB.png?version=5c8cfceb1926c216fbf5236ffff46a0e 2x" height="24" width="24"></a> + <a href="/File:XboxOne_Windows.png" class="image" title="Windows"><img alt="Windows" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/c/cf/XboxOne_Windows.png/24px-XboxOne_Windows.png?version=7a47dfbc6d8afeb2879384ca8a7a870f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/c/cf/XboxOne_Windows.png/36px-XboxOne_Windows.png?version=7a47dfbc6d8afeb2879384ca8a7a870f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/c/cf/XboxOne_Windows.png/48px-XboxOne_Windows.png?version=7a47dfbc6d8afeb2879384ca8a7a870f 2x" height="24" width="24"></a></td>
+<td> Chat with all players on the server.
+</td></tr>
+<tr>
+<td> Tribe Chat </td>
+<td align="center"> <kbd>/</kbd> </td>
+<td><a href="/File:XboxOne_LB.png" class="image" title="LB"><img alt="LB" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/f/fe/XboxOne_LB.png/24px-XboxOne_LB.png?version=5c8cfceb1926c216fbf5236ffff46a0e" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/f/fe/XboxOne_LB.png/36px-XboxOne_LB.png?version=5c8cfceb1926c216fbf5236ffff46a0e 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/f/fe/XboxOne_LB.png/48px-XboxOne_LB.png?version=5c8cfceb1926c216fbf5236ffff46a0e 2x" height="24" width="24"></a> + <a href="/File:XboxOne_Menu.png" class="image" title="Menu"><img alt="Menu" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/4/4d/XboxOne_Menu.png/24px-XboxOne_Menu.png?version=1a4a0b0a605f1d6c62f55f3517174d18" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/4/4d/XboxOne_Menu.png/36px-XboxOne_Menu.png?version=1a4a0b0a605f1d6c62f55f3517174d18 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/4/4d/XboxOne_Menu.png/48px-XboxOne_Menu.png?version=1a4a0b0a605f1d6c62f55f3517174d18 2x" height="24" width="24"></a> </td>
+<td> Chat with tribe and alliance-mates.
+</td></tr>
+<tr>
+<th colspan="4"> <a href="/Whistling" title="Whistling">Whistles</a>
+</th></tr>
+<tr>
+<td>Whistle Selection
+</td>
+<td><kbd>'</kbd>
+</td>
+<td>Hold <a href="/File:XboxOne_B.png" class="image" title="B"><img alt="B" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/24px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/36px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/48px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f 2x" height="24" width="24"></a>
+</td>
+<td>Displays whistle selection menu.
+</td></tr>
+<tr>
+<td> Follow All </td>
+<td align="center"> <kbd>J</kbd> </td>
+<td align="center"> Hold <a href="/File:XboxOne_B.png" class="image" title="B"><img alt="B" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/24px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/36px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/48px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f 2x" height="24" width="24"></a> + <a href="/File:XboxOne_Left_Stick.png" class="image" title="Left Stick"><img alt="Left Stick" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/24px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/36px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/48px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f 2x" height="24" width="24"></a> to '12'* </td>
+<td> All dinosaurs within a certain radius will follow you.
+</td></tr>
+<tr>
+<td> Follow One </td>
+<td align="center"> <kbd>T</kbd> </td>
+<td>Hold <a href="/File:XboxOne_B.png" class="image" title="B"><img alt="B" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/24px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/36px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/48px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f 2x" height="24" width="24"></a> + <a href="/File:XboxOne_Left_Stick.png" class="image" title="Left Stick"><img alt="Left Stick" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/24px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/36px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/48px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f 2x" height="24" width="24"></a> to '1'*
+</td>
+<td> The dinosaur you are looking at will follow you.
+</td></tr>
+<tr>
+<td> Stop All </td>
+<td align="center"> <kbd>U</kbd> </td>
+<td>Hold <a href="/File:XboxOne_B.png" class="image" title="B"><img alt="B" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/24px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/36px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/48px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f 2x" height="24" width="24"></a> + <a href="/File:XboxOne_Left_Stick.png" class="image" title="Left Stick"><img alt="Left Stick" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/24px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/36px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/48px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f 2x" height="24" width="24"></a> to '2'*
+</td>
+<td> All dinosaurs within a certain radius will stop following you.
+</td></tr>
+<tr>
+<td> Stop One </td>
+<td align="center"> <kbd>Y</kbd> </td>
+<td>Hold <a href="/File:XboxOne_B.png" class="image" title="B"><img alt="B" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/24px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/36px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/48px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f 2x" height="24" width="24"></a> + <a href="/File:XboxOne_Left_Stick.png" class="image" title="Left Stick"><img alt="Left Stick" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/24px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/36px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/48px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f 2x" height="24" width="24"></a> to '3'*
+</td>
+<td> The dinosaur you are looking at will stop following you.
+</td></tr>
+<tr>
+<td> Aggressive </td>
+<td align="center"> None </td>
+<td>None
+</td>
+<td> All dinosaurs within a certain radius will change their aggression level to Aggressive.
+<p>Xbox: This aggression level is on the whistle wheel, but this will actually cause the aggression level 'Attack My Target' to be set, and it is unknown if this is intended.
+</p>
+</td></tr>
+<tr>
+<td>Attack My Target
+</td>
+<td><kbd>=</kbd>
+</td>
+<td>Hold <a href="/File:XboxOne_B.png" class="image" title="B"><img alt="B" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/24px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/36px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/48px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f 2x" height="24" width="24"></a> + <a href="/File:XboxOne_Left_Stick.png" class="image" title="Left Stick"><img alt="Left Stick" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/24px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/36px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/48px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f 2x" height="24" width="24"></a> to '4'*
+</td>
+<td>All dinosaurs within a certain radius will change their aggression level to Attacking Your Target.<br><small>They will terminate their current attacks and will defend themselves if they are attacked, but will prioritize attacking whatever you attack.</small>Xbox: Whistling 'aggressive' will actually cause this action to occur, and it is unknown if this is intended. This aggression setting does not actually have its own whistle.
+</td></tr>
+<tr>
+<td> Neutral </td>
+<td align="center"> <kbd>-</kbd> </td>
+<td>Hold <a href="/File:XboxOne_B.png" class="image" title="B"><img alt="B" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/24px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/36px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/48px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f 2x" height="24" width="24"></a> + <a href="/File:XboxOne_Left_Stick.png" class="image" title="Left Stick"><img alt="Left Stick" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/24px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/36px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/48px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f 2x" height="24" width="24"></a> to '5'*
+</td>
+<td> All dinosaurs within a certain radius will change their aggression level to Neutral.<br><small>They will terminate all their current attacks but will continue to defend themselves if they are attacked again.</small>
+</td></tr>
+<tr>
+<td> Passive </td>
+<td align="center"> <kbd>;</kbd> </td>
+<td>Hold <a href="/File:XboxOne_B.png" class="image" title="B"><img alt="B" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/24px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/36px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/48px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f 2x" height="24" width="24"></a> + <a href="/File:XboxOne_Left_Stick.png" class="image" title="Left Stick"><img alt="Left Stick" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/24px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/36px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/48px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f 2x" height="24" width="24"></a> to '6'*
+</td>
+<td> All dinosaurs within a certain radius will change their aggression level to Passive.<br><small>They will terminate all their current attacks and will not defend themselves if attacked further.</small>
+</td></tr>
+<tr>
+<td> Attack This Target </td>
+<td align="center"> <kbd>.</kbd> </td>
+<td>Hold <a href="/File:XboxOne_B.png" class="image" title="B"><img alt="B" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/24px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/36px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/48px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f 2x" height="24" width="24"></a> + <a href="/File:XboxOne_Left_Stick.png" class="image" title="Left Stick"><img alt="Left Stick" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/24px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/36px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/48px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f 2x" height="24" width="24"></a> to '7'*
+</td>
+<td> All dinosaurs within a certain radius will attack whatever target you are looking at. This whistle can be used while looking at a target through the <a href="/Spyglass" title="Spyglass">Spyglass</a>.
+</td></tr>
+<tr>
+<td>Show Inventory
+</td>
+<td>
+</td>
+<td>Hold <a href="/File:XboxOne_B.png" class="image" title="B"><img alt="B" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/24px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/36px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/48px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f 2x" height="24" width="24"></a> + <a href="/File:XboxOne_Left_Stick.png" class="image" title="Left Stick"><img alt="Left Stick" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/24px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/36px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/48px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f 2x" height="24" width="24"></a> to '8'*
+</td>
+<td>Xbox: This action will open your character's inventory, and is a long-form command of simply pressing the 'Open Inventory' command.
+</td></tr>
+<tr>
+<th colspan="4"> Misc.
+</th></tr>
+<tr>
+<td>Emotes
+</td>
+<td>?
+</td>
+<td>Hold <a href="/File:XboxOne_B.png" class="image" title="B"><img alt="B" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/24px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/36px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/48px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f 2x" height="24" width="24"></a> + <a href="/File:XboxOne_Left_Stick.png" class="image" title="Left Stick"><img alt="Left Stick" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/24px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/36px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/48px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f 2x" height="24" width="24"></a> to '9'*
+</td>
+<td>Xbox: Will open a further radial wheel for emotes.
+</td></tr>
+<tr>
+<td>Show Craftables
+</td>
+<td><kbd>V</kbd>
+</td>
+<td>Press <a href="/File:XboxOne_B.png" class="image" title="B"><img alt="B" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/24px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/36px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/48px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f 2x" height="24" width="24"></a> then <a href="/File:XboxOne_RB.png" class="image" title="RB"><img alt="RB" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/d7/XboxOne_RB.png/24px-XboxOne_RB.png?version=4ba04bfef22e01fc17d980504ee123a0" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/d7/XboxOne_RB.png/36px-XboxOne_RB.png?version=4ba04bfef22e01fc17d980504ee123a0 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/d7/XboxOne_RB.png/48px-XboxOne_RB.png?version=4ba04bfef22e01fc17d980504ee123a0 2x" height="24" width="24"></a>OR
+<p>Hold <a href="/File:XboxOne_B.png" class="image" title="B"><img alt="B" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/24px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/36px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/48px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f 2x" height="24" width="24"></a> + <a href="/File:XboxOne_Left_Stick.png" class="image" title="Left Stick"><img alt="Left Stick" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/24px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/36px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/48px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f 2x" height="24" width="24"></a> to '10'*
+</p>
+</td>
+<td>Xbox: This action will immediately open your craftable inventory, rather than the character inventory.
+</td></tr>
+<tr>
+<td> Defecate </td>
+<td align="center"> <kbd>Z</kbd> </td>
+<td>Hold <a href="/File:XboxOne_B.png" class="image" title="B"><img alt="B" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/24px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/36px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/0f/XboxOne_B.png/48px-XboxOne_B.png?version=e7c8ed3b1aaf55f8952f7f459627f39f 2x" height="24" width="24"></a> + <a href="/File:XboxOne_Left_Stick.png" class="image" title="Left Stick"><img alt="Left Stick" src="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/24px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f" srcset="https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/36px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f 1.5x, https://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dc/XboxOne_Left_Stick.png/48px-XboxOne_Left_Stick.png?version=e0842bbc7bd9d13da7f00cbc0235fd3f 2x" height="24" width="24"></a> to '11'*
+</td>
+<td> Makes character <a href="/Feces" title="Feces">defecate</a>.
+</td></tr></tbody></table>
+-->
+</ion-content>

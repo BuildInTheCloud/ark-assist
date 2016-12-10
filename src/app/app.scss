@@ -31,3 +31,20 @@ ion-header {
         }
     }
 }
+.toolbar-background {
+    background-color: transparent !important;
+    background-image:url(../assets/images/header-background.png);
+}
+
+button {
+    color:#FFF !important;
+    background-color: transparent !important;
+    background-image:url(../assets/images/button-background.png);
+}
+ion-menu {
+    button {
+        color:#333 !important;
+        background-color: transparent !important;
+        background-image:none !important;
+    }
+}

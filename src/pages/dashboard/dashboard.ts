@@ -3,6 +3,9 @@ import { NavController } from 'ionic-angular';
 import { EntityPage } from '../entity/entity';
 import { DinoPage } from '../dino/dino';
 import { ColorPage } from '../color/color';
+import { NewsPage } from '../info/news';
+import { ControlsPage } from '../commands/controls';
+import { ExplorerNotesPage } from '../notes/explorer';
 
 @Component({
   selector: 'page-dashboard',
@@ -22,6 +25,16 @@ export class DashboardPage {
       this.navCtrl.push(DinoPage);
     } else if (navTo == "colors") {
       this.navCtrl.push(ColorPage);
+    } else if (navTo == "News") {
+      this.navCtrl.push(NewsPage);
+    } else if (navTo == "Controls") {
+      this.navCtrl.push(ControlsPage);
+    } else if (navTo == "Notes Island") {
+      this.navCtrl.push(ExplorerNotesPage, { title: "The Island", dataset: "notes-island" } );
+    } else if (navTo == "Notes Scorched") {
+      this.navCtrl.push(ExplorerNotesPage, { title: "Scorched Earth", dataset: "notes-scorched" } );
+    } else if (navTo == "Notes Center") {
+      this.navCtrl.push(ExplorerNotesPage, { title: "The Center", dataset: "notes-center" } );
     } else {
       this.navCtrl.push(EntityPage, { title: navTo, dataset: navTo.toLowerCase() } );
     }

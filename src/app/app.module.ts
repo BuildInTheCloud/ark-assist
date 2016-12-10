@@ -9,6 +9,9 @@ import { EntityPage } from '../pages/entity/entity';
 import { AboutPage } from '../pages/info/about';
 import { HelpPage } from '../pages/info/help';
 import { FavsPage } from '../pages/recent/favs';
+import { NewsPage } from '../pages/info/news';
+import { ControlsPage } from '../pages/commands/controls';
+import { ExplorerNotesPage } from '../pages/notes/explorer';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { FavsPage } from '../pages/recent/favs';
     EntityPage,
     AboutPage,
     HelpPage,
-    FavsPage
+    FavsPage,
+    NewsPage,
+    ControlsPage,
+    ExplorerNotesPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -36,7 +42,10 @@ import { FavsPage } from '../pages/recent/favs';
     EntityPage,
     AboutPage,
     HelpPage,
-    FavsPage
+    FavsPage,
+    NewsPage,
+    ControlsPage,
+    ExplorerNotesPage
   ],
   providers: [
     {provide: ErrorHandler, useClass: IonicErrorHandler}

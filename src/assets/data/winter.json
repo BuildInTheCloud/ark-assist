@@ -6,5 +6,93 @@
         "stack": 1,
         "icon": "images/holiday-lights.png",
         "blueprint": ""
+    },
+    {
+        "id": 0,
+        "name": "Holiday Stocking",
+        "category": "Decoration",
+        "stack": 100,
+        "icon": "images/holiday-stocking.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Christmas/PrimalItemStructure_Stocking.PrimalItemStructure_Stocking'"
+    },
+    {
+        "id": 0,
+        "name": "Wreath",
+        "category": "Decoration",
+        "stack": 1,
+        "icon": "images/wreath.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Christmas/PrimalItemStructure_Wreath.PrimalItemStructure_Wreath'"
+    },
+    {
+        "id": 0,
+        "name": "Gift Box",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/gift-box.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Christmas/PrimalItemStructure_StorageBox_ChristmasGift.PrimalItemStructure_StorageBox_ChristmasGift'"
+    },
+    {
+        "id": 0,
+        "name": "Holiday Tree",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/holiday-tree.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Christmas/PrimalItemStructure_ChristmasTree.PrimalItemStructure_ChristmasTree'"
+    },
+    {
+        "id": 0,
+        "name": "Snowman",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/snowman.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Christmas/PrimalItemStructure_Snowman.PrimalItemStructure_Snowman'"
+    },
+    {
+        "id": 0,
+        "name": "Santa Hat Skin",
+        "category": "Skin",
+        "stack": 1,
+        "icon": "images/santa-hat-skin.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SantaHat.PrimalItemSkin_SantaHat'"
+    },
+    {
+        "id": 0,
+        "name": "Dino Santa Hat Skin",
+        "category": "Skin",
+        "stack": 1,
+        "icon": "images/santa-hat-skin.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_DinoSantaHat.PrimalItemSkin_DinoSantaHat'"
+    },
+    {
+        "id": 0,
+        "name": "Candy Cane Club Skin",
+        "category": "Skin",
+        "stack": 1,
+        "icon": "images/candy-cane-club-skin.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_CandyClub.PrimalItemSkin_CandyClub'"
+    },
+    {
+        "id": 0,
+        "name": "Megaloceros Reindeer Costume",
+        "category": "Skin",
+        "stack": 1,
+        "icon": "images/megaloceros-reindeer-costume.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_ReindeerStag.PrimalItemCostume_ReindeerStag'"
+    },
+    {
+        "id": 0,
+        "name": "Coal",
+        "category": "Resource",
+        "stack": 200,
+        "icon": "images/coal.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Coal.PrimalItemResource_Coal'"
+    },
+    {
+        "id": 0,
+        "name": "MistleToe",
+        "category": "Resource",
+        "stack": 200,
+        "icon": "images/mistletoe.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_MistleToe.PrimalItemResource_MistleToe'"
     }
 ]
