@@ -45,6 +45,28 @@ export class StaticService {
     });
   }
 
+  getCaves(): any {
+    return new Promise(resolve => {
+      this.http.get('assets/data/caves.json')
+        .map(res => res.json() )
+        .subscribe(data => {
+          resolve(data);
+        })
+      ;
+    });
+  }
+
+  getPGsettings(): any {
+    return new Promise(resolve => {
+      this.http.get('assets/data/pgark.json')
+        .map(res => res.json() )
+        .subscribe(data => {
+          resolve(data);
+        })
+      ;
+    });
+  }
+
   getCommandList(): any {
     return new Promise(resolve => {
       this.http.get('assets/data/commands.json')

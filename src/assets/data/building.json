@@ -273,6 +273,14 @@
     },
     {
         "id": 0,
+        "name": "Brick Dinosaur Gateway (Primitive+)",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/brick-dinosaur-gategsteway-primitive-plus.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_BrickGateframe_Large.PrimalItemStructure_BrickGateframe_Large'"
+    },
+    {
+        "id": 0,
         "name": "Brick Doorframe (Primitive+)",
         "category": "Structure",
         "stack": 100,

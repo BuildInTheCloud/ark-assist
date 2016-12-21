@@ -352,6 +352,22 @@
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumableSoap.PrimalItemConsumableSoap'"
     },
     {
+        "id": 0,
+        "name": "Spare Ribs Cooked (Primitive+)",
+        "category": "Consumable",
+        "stack": 50,
+        "icon": "images/spare-ribs-cooked.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Consumables/PrimalItemConsumable_CookedRibs.PrimalItemConsumable_CookedRibs'"
+    },
+    {
+        "id": 0,
+        "name": "Spare Ribs Raw (Primitive+)",
+        "category": "Consumable",
+        "stack": 25,
+        "icon": "images/spare-ribs-raw.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Consumables/PrimalItemConsumable_CookedRibs.PrimalItemConsumable_CookedRibs'"
+    },
+    {
         "id": 13,
         "name": "Spoiled Meat",
         "category": "Consumable",

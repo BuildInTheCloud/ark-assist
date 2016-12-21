@@ -6,6 +6,8 @@ import { ColorPage } from '../color/color';
 import { NewsPage } from '../info/news';
 import { ControlsPage } from '../commands/controls';
 import { ExplorerNotesPage } from '../notes/explorer';
+import { pgarkPage } from '../commands/pgark';
+import { CavesPage } from '../commands/caves';
 
 @Component({
   selector: 'page-dashboard',
@@ -29,6 +31,10 @@ export class DashboardPage {
       this.navCtrl.push(NewsPage);
     } else if (navTo == "Controls") {
       this.navCtrl.push(ControlsPage);
+    } else if (navTo == "PGARK") {
+      this.navCtrl.push(pgarkPage);
+    } else if (navTo == "caves") {
+      this.navCtrl.push(CavesPage);
     } else if (navTo == "Notes Island") {
       this.navCtrl.push(ExplorerNotesPage, { title: "The Island", dataset: "notes-island" } );
     } else if (navTo == "Notes Scorched") {

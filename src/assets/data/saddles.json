@@ -201,6 +201,14 @@
     },
     {
         "id": 0,
+        "name": "megalosaurus Saddle",
+        "category": "Saddle",
+        "stack": 1,
+        "icon": "images/megalosaurus-saddle.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalosaurusSaddle.PrimalItemArmor_MegalosaurusSaddle'"
+    },
+    {
+        "id": 0,
         "name": "Morellatops Saddle",
         "category": "Saddle",
         "stack": 1,
@@ -230,6 +238,14 @@
         "stack": 1,
         "icon": "images/pachycephalosaurus-saddle.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PachySaddle.PrimalItemArmor_PachySaddle'"
+    },
+    {
+        "id": 417,
+        "name": "Pachyrhinosaurus Saddle",
+        "category": "Saddle",
+        "stack": 1,
+        "icon": "images/pachyrhinosaurus-saddle.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PachyrhinoSaddle.PrimalItemArmor_PachyrhinoSaddle'"
     },
     {
         "id": 423,

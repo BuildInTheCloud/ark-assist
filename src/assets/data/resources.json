@@ -632,6 +632,14 @@
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Sparkpowder.PrimalItemResource_Sparkpowder'"
     },
     {
+        "id": 0,
+        "name": "Steel Ingot",
+        "category": "Resource",
+        "stack": 200,
+        "icon": "images/steel-ingot.png",
+        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Resources/PrimalItemResource_SteelIngot.PrimalItemResource_SteelIngot'"
+    },
+    {
         "id": 124,
         "name": "Stimulant",
         "category": "Resource",

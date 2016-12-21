@@ -12,6 +12,8 @@ import { FavsPage } from '../pages/recent/favs';
 import { NewsPage } from '../pages/info/news';
 import { ControlsPage } from '../pages/commands/controls';
 import { ExplorerNotesPage } from '../pages/notes/explorer';
+import { pgarkPage } from '../pages/commands/pgark';
+import { CavesPage } from '../pages/commands/caves';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { ExplorerNotesPage } from '../pages/notes/explorer';
     FavsPage,
     NewsPage,
     ControlsPage,
-    ExplorerNotesPage
+    ExplorerNotesPage,
+    pgarkPage,
+    CavesPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -45,7 +49,9 @@ import { ExplorerNotesPage } from '../pages/notes/explorer';
     FavsPage,
     NewsPage,
     ControlsPage,
-    ExplorerNotesPage
+    ExplorerNotesPage,
+    pgarkPage,
+    CavesPage
   ],
   providers: [
     {provide: ErrorHandler, useClass: IonicErrorHandler}

@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-navbar>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>PGARK</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <p class="note">
+    <b>Density Values</b>: There are several density values scattered throughout the settings for things like Grasslands Grass,
+    Jungle Grass, Mountain Trees, Redwood Trees, etc., but they can be explained first. As expected, these determine how often
+    these items appear in each biome. The higher the value, the more of them.<br/>
+    These density values can affect performance as you are basically asking ARK: Survival Evolved to render more objects. It’s also
+    worth pointing out that some of the default values will require adjusting. The Redwood Biome Tree Density of 0.35, for example,
+    is far too high and results in incredibly dense forest with Redwood tree trunks almost touching. A value of 0.001 will give a
+    density closer to The Island.<br/>
+    <a href="https://survivetheark.com/index.php?/forums/topic/99816-pgark-settings-basic-visual-guide-and-examples/" target="_blank">PGARK Settings Basic Visual Guide and Examples</a>
+  </p>
+  <ion-list>
+    <ion-item *ngFor="let item of pgSettings; let i = index">
+      <h2>{{item.ui}}</h2>
+      <h3>DEFAULT: {{item.default}}</h3>
+      <p>{{item.desc}}</p>
+    </ion-item>
+  </ion-list>
+
+</ion-content>

@@ -261,7 +261,7 @@
         "category": "Armor",
         "stack": 1,
         "icon": "images/hide-boots.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Hide/PrimalItemArmor_HideBoots.PrimalItemArmor_HideBoots'"
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemArmor_HideBoots.PrimalItemArmor_HideBoots'"
     },
     {
         "id": 26,
@@ -269,7 +269,7 @@
         "category": "Armor",
         "stack": 1,
         "icon": "images/hide-gloves.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Hide/PrimalItemArmor_HideGloves.PrimalItemArmor_HideGloves'"
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemArmor_HideGloves.PrimalItemArmor_HideGloves'"
     },
     {
         "id": 24,
@@ -277,7 +277,7 @@
         "category": "Armor",
         "stack": 1,
         "icon": "images/hide-hat.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Hide/PrimalItemArmor_HideHelmet.PrimalItemArmor_HideHelmet'"
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemArmor_HideHelmet.PrimalItemArmor_HideHelmet'"
     },
     {
         "id": 22,
@@ -285,7 +285,7 @@
         "category": "Armor",
         "stack": 1,
         "icon": "images/hide-pants.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Hide/PrimalItemArmor_HidePants.PrimalItemArmor_HidePants'"
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemArmor_HidePants.PrimalItemArmor_HidePants'"
     },
     {
         "id": 23,
@@ -293,7 +293,7 @@
         "category": "Armor",
         "stack": 1,
         "icon": "images/hide-shirt.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Hide/PrimalItemArmor_HideShirt.PrimalItemArmor_HideShirt'"
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemArmor_HideShirt.PrimalItemArmor_HideShirt'"
     },
     {
         "id": 0,

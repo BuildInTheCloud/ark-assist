@@ -1,0 +1,37 @@
+[
+
+{ "map" : "island", "type": "", "name": "Central", "artifact": "Clever", "lat": 41.6, "lon": 47.0 },
+{ "map" : "island", "type": "", "name": "North West", "artifact": "Skylord", "lat": 19.2, "lon": 19.0 },
+{ "map" : "island", "type": "", "name": "Lower South", "artifact": "Hunter", "lat": 80.2, "lon": 53.5 },
+{ "map" : "island", "type": "", "name": "North East", "artifact": "Devourer", "lat": 14.8, "lon": 85.3 },
+{ "map" : "island", "type": "", "name": "Upper South", "artifact": "Pack", "lat": 68.2, "lon": 56.1 },
+{ "map" : "island", "type": "", "name": "South East", "artifact": "Massive", "lat": 70.6, "lon": 86.1 },
+{ "map" : "island", "type": "", "name": "Swamp", "artifact": "Immune", "lat": 62.7, "lon": 37.3 },
+{ "map" : "island", "type": "", "name": "Snow", "artifact": "Strong", "lat": 29.1, "lon": 31.8 },
+{ "map" : "island", "type": "Underwater", "name": "01", "artifact": "", "lat": 16.0, "lon": 10.1 },
+{ "map" : "island", "type": "Underwater", "name": "02", "artifact": "", "lat": 10.0, "lon": 21.5 },
+{ "map" : "island", "type": "Underwater", "name": "03", "artifact": "", "lat": 10.4, "lon": 39.5 },
+{ "map" : "island", "type": "Underwater", "name": "04", "artifact": "", "lat": 7.9, "lon": 90.1 },
+{ "map" : "island", "type": "Underwater", "name": "05", "artifact": "", "lat": 36.3, "lon": 91.5 },
+{ "map" : "island", "type": "Underwater", "name": "06", "artifact": "", "lat": 50.5, "lon": 11.2 },
+{ "map" : "island", "type": "Underwater", "name": "07", "artifact": "", "lat": 52.7, "lon": 91.9 },
+{ "map" : "island", "type": "Underwater", "name": "08", "artifact": "", "lat": 83.0, "lon": 9.9 },
+{ "map" : "island", "type": "Underwater", "name": "09", "artifact": "", "lat": 90.8, "lon": 13.0 },
+{ "map" : "island", "type": "Underwater", "name": "10", "artifact": "", "lat": 89.8, "lon": 36.8 },
+{ "map" : "island", "type": "Underwater", "name": "11", "artifact": "", "lat": 90.3, "lon": 71.3 },
+{ "map" : "island", "type": "Underwater", "name": "12", "artifact": "", "lat": 87.1, "lon": 90.2 },
+
+{ "map" : "center", "type": "Enterance 1", "name": "Center", "artifact": "Devious", "lat": 36.0, "lon": 34.5 },
+{ "map" : "center", "type": "Enterance 2", "name": "Center", "artifact": "Devious", "lat": 37.0, "lon": 35.0 },
+{ "map" : "center", "type": "Enterance 3", "name": "Center", "artifact": "Devious", "lat": 40.0, "lon": 31.5 },
+{ "map" : "center", "type": "", "name": "Jungle", "artifact": "Immune", "lat": 54.2, "lon": 62.7 },
+{ "map" : "center", "type": "", "name": "North Ice", "artifact": "Clever", "lat": 18.7, "lon": 29.7 },
+{ "map" : "center", "type": "", "name": "South Ice", "artifact": "Skylord", "lat": 60.0, "lon": 22.5 },
+{ "map" : "center", "type": "", "name": "West Lava", "artifact": "Hunter and pack", "lat": 15.8, "lon": 50.5 },
+{ "map" : "center", "type": "", "name": "East Lava", "artifact": "Massive and Strong", "lat": 11.2, "lon": 67.4 },
+
+{ "map" : "scorched", "type": "", "name": "Grave Of The Tyrants", "artifact": "Crag", "lat": 28.5, "lon": 29.3 },
+{ "map" : "scorched", "type": "", "name": "The Old Tunnels", "artifact": "GateKeeper", "lat": 58.6, "lon": 47.7 },
+{ "map" : "scorched", "type": "", "name": "Ruins Of Nosti", "artifact": "Destroyer", "lat": 78.5, "lon": 78.6 }
+
+]
