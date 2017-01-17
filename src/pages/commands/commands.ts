@@ -9,7 +9,7 @@ import { StaticService } from '../../static-service/static-data';
   providers: [StaticService]
 })
 
-export class AdminPage {
+export class CommandsPage {
   cmdList:any[];
   errorMessage: string;
 
@@ -21,7 +21,7 @@ export class AdminPage {
 
   getList() {
     this.dataService.getCommandList()
-      .subscribe(
+      .then(
         data => { this.cmdList = data; },
         error => { this.cmdList = []; this.errorMessage = <any>error; }
       )

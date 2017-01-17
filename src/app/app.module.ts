@@ -2,7 +2,6 @@ import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { ColorPage } from '../pages/color/color';
-import { AdminPage } from '../pages/commands/commands';
 import { DashboardPage } from '../pages/dashboard/dashboard';
 import { DinoPage } from '../pages/dino/dino';
 import { EntityPage } from '../pages/entity/entity';
@@ -14,12 +13,13 @@ import { ControlsPage } from '../pages/commands/controls';
 import { ExplorerNotesPage } from '../pages/notes/explorer';
 import { pgarkPage } from '../pages/commands/pgark';
 import { CavesPage } from '../pages/commands/caves';
+import { CommandsPage } from '../pages/commands/commands';
 
 @NgModule({
   declarations: [
     MyApp,
     ColorPage,
-    AdminPage,
+    CommandsPage,
     DashboardPage,
     DinoPage,
     EntityPage,
@@ -40,7 +40,7 @@ import { CavesPage } from '../pages/commands/caves';
     MyApp,
     AboutPage,
     ColorPage,
-    AdminPage,
+    CommandsPage,
     DashboardPage,
     DinoPage,
     EntityPage,

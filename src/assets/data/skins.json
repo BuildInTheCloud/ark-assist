@@ -144,6 +144,14 @@
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ParaSaddle_Launch.PrimalItemArmor_ParaSaddle_Launch'"
     },
     {
+        "id": 0,
+        "name": "Party Hat Skin",
+        "category": "Skin",
+        "stack": 1,
+        "icon": "images/party-hat-skin.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_PartyHat.PrimalItemSkin_PartyHat'"
+    },
+    {
         "id": 71,
         "name": "Pistol Hat Skins",
         "category": "Skin",

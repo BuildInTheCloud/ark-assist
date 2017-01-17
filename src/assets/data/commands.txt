@@ -1,0 +1,377 @@
+
+},{
+"command":"",
+"target":"",
+"args":[
+    {"arg":"","values":[""],"description":""}
+],
+"description":"",
+"example":""
+}
+
+DisableSpectator	Y	Self		None	quits spectatormode (as the character is killed when enable spectating, the respawn menu is displayed)
+
+DisallowPlayerToJoinNoCheck <SteamID>	Y
+SteamID	Integer[64]	Player to remove
+Removes the specified player from the server's whitelist.
+admincheat DisallowPlayerToJoinNoCheck 18446744073709551615
+
+DoExit	Y			None	Shuts down the server as soon as possible.
+
+DoRestartLevel	Y			None	Unknown? Appears to trigger an internal map restart.
+
+DoTame	Y	Target		None	Tames the targeted creature if the creature is capable of being tamed, activating all triggers as if the player had tamed the creature normally (sound effect, dossier entry, gives experience, etc)
+
+EnemyInvisible true|false	Y	Self		true to be ignored, false for normal behavior	When enabled, all creatures on the map will ignore the current player, even when attacked.
+admincheat EnemyInvisible true
+
+ExecSetSleeping true|false	Y	Self		true to put to sleep, false to wake up	Puts the current player character to sleep or wakes them up.
+admincheat ExecSetSleeping true
+
+Fly	Y	Self	0.0 (UE1)	None	Activates "fly mode", permitting the player character to move freely in any direction without physics or gravity being applied. Use the walk command to disable the mode.
+admincheat fly
+
+ForceTame	Y	Target		None	Immediately tames the dinosaur under the player's crosshairs. Dinosaurs tamed with this command can be ridden even when no saddle is equipped.
+admincheat forcetame
+
+ForcePlayerToJoinTargetTribe <PlayerID>	Y	Target	196.0
+PlayerID	Integer[32]	Player's in-game UE4 ID
+Forces the player specified by their in-game UE4 ID to the tribe that the target entity or structure of the current player belongs to. Known to have problems if there are currently no longer members in the tribe, but this may be fixed in the future.
+ForcePlayerToJoinTribe <PlayerID> <TribeName>	Y
+PlayerID	Integer[32]	Player's in-game UE4 ID
+TribeName	String	Tribe's Name
+Forces the player specified by their in-game UE4 ID to the tribe specified by it's name. Known to have problems if there are currently no longer members in the tribe, but this may be fixed in the future.
+ForceTribes <PlayerName1> <PlayerName2> <NewTribeName>	Y
+PlayerName1	 ?	Unknown?
+PlayerName2	 ?	Unknown?
+NewTribeName	String	Unknown?
+Unknown?
+GameCommand <TheCommand>	Y
+TheCommand	String	Command
+Runs a game-mode specific command / trigger. For example, to start the game in the SoTF mod game mode, run:
+cheat gamecommand startgame
+
+GetChat	 ?		185.4	None	Returns the latest chat buffer (the same amount that the clients see).
+GetGameLog	?		224.0	None	Print 100 entries at a time also outputs to dated file in in "\Logs".
+Launch server with "-servergamelog" for this command to work.
+
+Set buffer size ?RCONServerGameLogBuffer e.g:
+
+TheIsland?RCONEnabled=true?RCONServerGameLogBuffer=600?listen -server -servergamelog
+
+Ghost	Y	Self	0.0 (UE1)	None	Toggles "ghost mode", permitting the player character to pass freely through objects in the world that normally block movement, including the terrain itself. Use the walk command to disable the mode.
+admincheat ghost
+
+GiveAllStructure	Y	Target	201.4	None	Gives the current player ownership of all the targeted structure and all structures connected to it recursively.
+GiveColors <Quantity>	Y	Self	209.4
+Quantity	Integer[32]	Item quantity
+Gives you quantity of each dye in the game. In vanilla Ark, this equates to only 2.6 weight units per set.
+GiveEngrams	Y	Self		None	Unlocks all crafting recipes for the player character. No longer crashes your game! But may lag a little. (The crash was caused by some hidden crazy broken duplicate engrams, which has been fixed- hopefully).
+admincheat giveengrams
+
+GiveExpToPlayer <PlayerID> <HowMuch> <FromTribeShare> <PreventSharingWithTribe>	Y
+PlayerID	Integer[32]	Player's in-game UE4 ID
+HowMuch	Float	Amount to give
+FromTribeShare	Boolean	Apply as if experience came from tribe.
+PreventSharingWithTribe	Boolean	1: player only
+0: share with tribe
+Gives the specified player the specified amount of experience points.
+To easily give yourself experience, use the AddExperience command.
+
+GiveItem <BlueprintPath> <Quantity> <Quality> <ForceBlueprint>	Y	Self
+BlueprintPath	String	The blueprint path of the item to give.
+Quantity	Integer[32]	Number of items to add
+Quality	Float	Quality of added items
+ForceBlueprint	Boolean	true to add the item's blueprint, false to add the item
+Adds the specified item to the player's inventory (or its blueprint) in the specified quantity and with the specified quality.
+To specify items by their item number, use GiveItemNum.
+
+To give items to another player, use GiveItemToPlayer.
+
+GiveItemNum <ItemID> <Quantity> <Quality> <ForceBlueprint>	Y	Self
+ItemNum	Integer[32]	Item ID to add
+Quantity	Integer[32]	Number of items to add
+Quality	Float	Quality of added items
+ForceBlueprint	Boolean	true to add the item's blueprint, false to add the item
+Adds the specified item to the player's inventory (or its blueprint) in the specified quantity and with the specified quality.
+To specify items by their blueprint path, use GiveItem.
+
+To give items to another player, use GiveItemNumToPlayer.
+
+admincheat GiveItemNum 1 1 1 0
+
+GiveItemToPlayer <PlayerID> <BlueprintPath> <Quantity> <Quality> <ForceBlueprint>	Y
+PlayerID	Integer[32]	PlayerID to give the item to.
+BlueprintPath	String	The blueprint path of the item to give.
+Quantity	Integer[32]	Number of items to add
+Quality	Float	Quality of added items
+ForceBlueprint	Boolean	true to add the item's blueprint, false to add the item
+Adds the specified item to the player's inventory (or its blueprint) in the specified quantity and with the specified quality.
+To specify items by their item number, use GiveItemNumToPlayer.
+
+To give items to yourself, use GiveItemNum.
+
+GiveItemNumToPlayer <PlayerID> <ItemID> <Quantity> <Quality> <ForceBlueprint>	Y
+PlayerID	Integer[32]	PlayerID to give the item to.
+ItemNum	Integer[32]	Item ID to add
+Quantity	Integer[32]	Number of items to add
+Quality	Float	Quality of added items
+ForceBlueprint	Boolean	true to add the item's blueprint, false to add the item
+Adds the specified item to the player's inventory (or its blueprint) in the specified quantity and with the specified quality.
+To specify items by their blueprint path, use GiveItemToPlayer.
+
+To give items to yourself, use GiveItemNum.
+
+admincheat GiveItemNumToPlayer 1234567890 1 1 0 0
+
+GiveResources	Y	Self		None	Add 50 units of each resource in the game to the player's inventory. In vanilla Ark, this equates to 300+ units of weight, so you will probably be encumbered. (200 of which comes from Metal Ore, Metal Ingots, Obsidian, and Crystal)
+admincheat giveresources
+
+GiveSlotItem <BlueprintPath> <SlotNum> <Quantity>	Y	Self
+BlueprintPath	String	Item's blueprint path.
+SlotNum	Integer[32]	Inventory slot number. (0-9)
+Quantity	Integer[32]	Number of items to add
+Adds the item specified by it's blueprint path into one of your item slots. If the item does not support stacking, items after the first will be dumped into your inventory. Specifying an invalid slot id will dump all the item(s) into your inventory. Item quality will always be 0 and you cannot request adding a blueprint.
+To specify items by their item ID, use the GiveSlotItemNum command.
+
+GiveSlotItemNum <ItemNum> <SlotNum> <Quantity>	Y	Self
+ItemNum	String	Item ID to add.
+SlotNum	Integer[32]	Inventory slot number. (0-9)
+Quantity	Integer[32]	Number of items to add
+Adds the item specified by it's item id into one of your item slots. If the item does not support stacking, items after the first will be dumped into your inventory. Specifying an invalid slot id will dump all the item(s) into your inventory. Item quality will always be 0 and you cannot request adding a blueprint.
+To specify items by their blueprint path, use the GiveSlotItem command.
+
+GiveToMe	Y	Target		None	Changes the owner of the targeted entity (structure or dino) to the current player. However, note that this command does not actually tame dinos - their inventory will not be accessible and they will not be rideable unless they were already tamed by another player or you use one of the dino taming commands afterwards.
+GMBuff	Y	Self	252.4	None	Gives player God, InfiniteStats, EnemyInvisible true, and a bunch of experience.
+For the same but without experience you can use LeaveMeAlone.
+
+GMSummon "<type>" <level>	Y	Self	252.4
+type	string	Entity ID to summon
+level	string	Level w/o taming bonus
+Spawn a creature of the specified type at the place of the player character and tames it.
+The dino isn't cheat-tamed, so still requires a saddle. The level is without taming bonus, so if you want to end with a level x you should divide that number by 1.5. E.g. you want level 150, that is 150 / 1.5 = 100. You type 100 and the result is 100 plus 50% taming bonus: 150.
+
+GMSummon "Dodo_Character_BP_C" 100
+
+See also Summon, SpawnDino
+
+God	Y	Self	0.0 (UE1)	None	Toggles "god mode", making the player invulnerable to damage from attacks, explosions or from falling. This does not prevent player character death by drowning (infinitestats must be enabled to prevent this). Repeat the command to disable the mode.
+To specifically enable or disable god mode, use the SetGodMode command.
+
+admincheat god
+
+HideTutorial <TutorialIndex>		Self
+TutorialIndex	Integer[32]	Tutorial index
+Hides the tutorial specified by it's tutorial index. See the ShowTutorial command description for a list of tutorial ids.
+HurtMe <Amount>	Y	Self
+Amount	Integer[64]	Damage to deal
+Damages the player character.
+admincheat HurtMe 50
+
+InfiniteStats	Y	Self		None	Gives the player character infinite food, water, stamina, carrying capacity and keeps Torpor at zero. Repeat the command to disable its effects.
+admincheat infinitestats
+
+KickPlayer <SteamID>	Y		178.0
+SteamID	Integer[64]	Player to kick[1]
+Forcibly disconnect the specified player from the server.
+Kill	Y	Target		None	Instantly kills the targeted structure or dinosaur, leaving behind a corpse.
+To kill an entity without leaving behind a corpse, use the DestroyMyTarget command.
+
+KillPlayer <PlayerID>	Y
+PlayerID	Integer[32]	Player's in-game UE4 ID.
+Kills the specified player.
+LeaveMeAlone	Y			None	Combination of God, InfiniteStats and EnemyInvisible true.
+See also GMBuff
+
+ListPlayers	Y		178.0	None	List all connected players and their SteamIDs.
+MakeTribeAdmin	Y	Self	196.0	None	Promotes you to an admin of the tribe you're currently a member of.
+MakeTribeFounder	Y	Self	196.0	None	Makes you the founder of the tribe you're currently a member of.
+OnToggleInGameMenu	 ?	Self		None	Opens or closes the in-game menu (when you hit the escape key).
+To specifically show the in-game menu, use the ShowInGameMenu command.
+
+OpenMap <MapName>	Y
+MapName	String	Map's Name
+Loads the map specified by it's name. (not sure if a file path is accepted)
+OpenMap TheIsland
+
+PlayersOnly	Y		0.0 (UE1)	None	Stops all creature movement in the game world and halts crafting. Players can still move normally. Repeat the command to disable its effects.
+admincheat PlayersOnly
+
+PrintColors				None	Prints the Color IDs.
+RemoveTribeAdmin	Y		196.0	None	Unknown?
+RenamePlayer "<PlayerName>" <NewName>	Y
+PlayerName	String	Player's current name.
+NewName	String	New name for player.
+Renames the player specified by their in-game string name.
+RenameTribe "<TribeName>" <NewName>	Y
+TribeName	String	Tribe's current name.
+NewName	String	New name for Tribe.
+Renames the tribe specified by it's string name.
+ReportLeastSpawnManagers	Y			None	Unknown?
+ReportSpawnManagers	Y			None	Unknown?
+RequestSpectator <Password>		Self	191.0
+Password	String	Spectator password.
+Requests spectator mode on servers where there is a spectator password. The password given must match the server's "SpectatorPassword".
+SaveWorld	Y			None	Forces the server to save the game world to disk in its current state. In single-player mode, the game saves this information locally.
+admincheat saveworld
+
+ScriptCommand <CommandString>	Y		197.x
+CommandString	String	Command string.
+Runs a game mode specific command / script. These can be implemented by mod authors. Currently, there are no official game modes that use custom scripts.
+ServerChat <MessageText>	Y
+MessageText	String	Message
+Sends a chat message to all currently connected players.
+ServerChatTo <SteamID> <MessageText>	Y
+SteamID	Integer[64]	Player's SteamID
+MessageText	String	Message
+Sends a direct chat message to the player specified by their int64 encoded steam id.
+ServerChatToPlayer "<PlayerName>" <MessageText>	Y		189.0
+PlayerName	String	Player's In-game name.
+MessageText	String	Message
+Sends a direct chat message to the player specified by their in-game player name.
+SetAdminIcon	Y	Self		true to enable, false to disable	Hides the Admin Icon next to the name in chat when a player that has enabled cheats writes something.
+SetBabyAge <AgeValue>	Y	Target
+AgeValue	Boolean	Value to set age to.
+Sets the age (0.01 to 1) of the target baby dino.
+SetImprintQuality <ImprintValue>	Y	Target
+ImprintValue	Float	Value to set imprint quality to.
+Sets value in the range from 0 to 1 (= 100%) of the target baby or adult bred dino.
+SetGlobalPause <IsPaused>	Y
+IsPaused	Boolean	Pause game?
+Pauses _EVERYTHING_ game related.
+SetGodMode <Enable>	Y	Self
+Enable	Boolean	Enable god mode?
+Enables or disables god mode for the current player.
+To simply toggle between god mode states, use the UE command God.
+
+SetGraphicsQuality <Quality>	 ?	Self
+Quality	Float	Graphics quality.
+Sets your client's graphics quality. Note that Ark claims the quality parameter is actually an Int32, but it does accept decimals (so I called it a float, not sure if that's correct). This command is a general command that affects many different graphics settings, all of which will be set to the new value (rounding if necessary). This command does not change the quality to the graphics presets, which are generally much better to use. The table below lists the approximate corresponding graphics qualities.
+<0	Low
+1	Medium
+2	High
+>3	Epic
+SetMessageOfTheDay <Message>	Y
+Message	string	Message to use
+Sets the server's "message of the day", displayed to players when they connect to it.
+admincheat SetMessageOfTheDay Beware the dodo.
+
+SetTargetDinoColor <ColorRegion> ColorID	Y	Target
+ColorRegion	Integer[32]	Color Region
+ColorID	Integer[32]	Color ID.
+Sets the dino you target to specified color/s. Example: cheat SetTargetDinoColor 0 0.
+admincheat SetTargetDinoColor 1 1
+
+SetTargetPlayerBodyVal <BodyValIndex> <BodyVal>	Y	Target	201.4
+BodyValIndex	Integer[32]	Body Regions
+BodyVal	Float	...
+Setting a value between 0.0 and 1.0 will adjust the targeted player area
+SetTargetPlayerColorVal <ColorValIndex> <ColorVal>	Y	Target	201.4
+ColorValIndex	Integer[32]	...
+ColorVal	Float	Color ID
+Will fill in later...
+SetPlayerPos <x> <y> <z>	Y	Self
+x, y, z	floats	Coordinates to use
+Moves the player character's to the specified position instantly.
+admincheat SetPlayerPos -71467 -52156 0
+
+SetTimeOfDay <Hour>:<Minute>[:<Second>]	Y
+Hour	integer, 0-23
+Minute	integer, 0-59
+Second	integer, 0-59
+(optional; defaults to 0)
+Sets the game world's time of day to the specified time.
+admincheat settimeofday 06:30:00
+
+ShowInGameMenu	 ?	Self		None	Displays the in-game menu (when you hit the escape key).
+ShowMessageOfTheDay		Self		None	Displays the message of the day.
+ShowTutorial <TutorialIndex> <ForceDisplay>		Self
+TutorialIndex	Integer[32]	Tutorial index.
+ForceDisplay	Boolean	True = show tutorial even if you've already seen it.
+Displays the tutorial specified by it's tutorial ID. Tutorials are localized messages coded into the game that are displayed in the same area as the message of the day that shows new users hints about the game. These tutorials disappear after some time, just like the message of the day. Currently there are only two tutorials:
+0	Blank
+1	Your first day.
+Slomo <SpeedMult>	Y		0.0 (UE2)
+SpeedMult	Float	Speed multiplier
+Sets the game speed multiplier. Change back to 1 to set back to normal.
+SpawnActor <BlueprintPath> <SpawnDistance> <SpawnYOffset> <ZOffset>	Y	Self	207.0
+BlueprintPath	String	Blueprint path
+SpawnDistance	Float	Unknown?
+SpawnYOffset	Float	Unknown?
+ZOffset	Float	Unknown?
+Spawns the entity specified by it's blueprint path.
+SpawnActorSpread <BlueprintPath> <SpawnDistance> <SpawnYOffset> <ZOffset> <NumberActors> <SpreadAmount>	Y	Self
+BlueprintPath	String	Blueprint path
+SpawnDistance	Float	Unknown?
+SpawnYOffset	Float	Unknown?
+ZOffset	Float	Unknown?
+NumberActors	Integer[32]	Number of the specified entities to spawn.
+SpreadAmount	Float	Unknown?
+Spawns a number of entities in the specified area.
+SpawnDino <BlueprintPath> <SpawnDistance> <SpawnYOffset> <ZOffset> <DinoLevel>	Y	Self
+BlueprintPath	String	Blueprint path
+SpawnDistance	Float	Unknown?
+SpawnYOffset	Float	Unknown?
+ZOffset	Float	Unknown?
+DinoLevel	Integer[32]	Dino level
+Spawns a leveled dino specified by it's blueprint path.
+Suicide	 ?	Self	0.0 (UE2)	None	Kills yourself. Does the same thing as hurting yourself (see HurtMe command) for your current health, so it will not work if you are invincible. Was originally part of the game when it came out, but it was removed in a later patch. Since then it was re-added (it's easier to type than the HurtMe command).
+Summon <type>	Y	Self	0.0 (UE1)
+type	string	Type to summon
+Spawn a creature of the specified type at the place of the player character. Also usable to spawn Beacons.
+admincheat summon Ankylo_Character_BP_C
+
+TakeAllDino	Y	Target	252.4	None	Changes ownership of all dinos of the tribe the player is currently looking at to the tribe of player.
+TakeAllStructure	Y	Target	252.4	None	Changes ownership of all structures of the tribe the player is currently looking at to the tribe of player.
+Teleport	Y	Self		None	Moves the player character forward in the direction the player is facing until the character collides with an object or the terrain. If the player wouldn't hit the terrian or an object, they are teleported to 0,0 instead.
+admincheat teleport
+
+TeleportPlayerIDToMe <PlayerID>	Y	Self
+PlayerID	Integer[32]	Player's in-game id.
+Teleports the player specified by their in-game ID to the current player.
+To teleport yourself to the other player, use the TeleportToPlayer command.
+
+To specify a player to teleport by their player name, use the TeleportPlayerNameToMe command.
+
+TeleportPlayerNameToMe <PlayerName>	Y	Self
+PlayerName	String	Player's in-game name.
+Teleports the player specified by their name to the current player.
+To specify a player to teleport by their in-game id, use the TeleportPlayerIDToMe command.
+
+TeleportToPlayer <PlayerID>	Y	Self
+PlayerID	Integer[32]	Player's in-game id.
+Teleports the current player to the player specified by their in-game ID.
+To teleport the other player to yourself, use the TeleportPlayerIDToMe command.
+
+TestSteamRefreshItems	Y			None	Unknown?
+ToggleInfiniteAmmo	Y	Self		None	Provides unlimited ammunition for all of the player character's weapons. Repeat the command to disable its effects.
+admincheat ToggleInfiniteAmmo
+
+UnbanPlayer <SteamID>	Y
+SteamID	Integer[64]	Player to unban
+Remove the specified player from the server's banned list.
+admincheat UnbanPlayer 18446744073709551615
+
+Walk	Y	Self	0.0 (UE1)	None	Deactivates "fly mode" (activated by the fly command). Physics and gravity will be applied to the player character normally.
+admincheat walk
+
+Stat <Command>			0.0 (UE2)
+Command	String	See Stat Commands.
+Enables an on-screen display showing various debug information. See Stat Commands for a list of stat commands.
+Stat fps
+
+ShowDebug <value>
+value	String	See ShowDebug values.
+Enables an on-screen overlay showing various debug information. See ShowDebug_values for a list.
+ShowMyAdminManager		Self	185.0	None	Opens the admin manager GUI, which gives you easy access to a number of useful admin things. It shows your player's current position, some useful server info, key server configurations, a list of currently logged in players, a list of banned players, a list of whitelisted players, allows you to modify the MoTD, and shows you a list of a good amount (but not all) admin commands.
+If you select a player in the connected player's list, you can easily copy their UE4 player ID (a 10 digit number) into a command's parameters for commands that require a player ID. Supposedly you should also be able to copy their Int64 encoded Steam ID for commands that require it, but it seems to be broken at the moment. Use the ListPlayers command or grep the server's save files to get a player's Int64 encoded Steam ID. ShowMyAdminManager
+
+EnableSpectator
+StopSpectating
+
+cheat EnableSpectator
+
+DestroyTribeStructures	Y	Target	v226.4	None	Will destroy all structures on the ARK, based on the Tribe owner (or player owner) of the thing that you are currently looking at.
+DestroyTribeDinos	Y	Target	v226.4	None	Will destroy all dinos on the ARK, based on the Tribe owner (or player owner) of the thing that you are currently looking at.
+DestroyTribePlayers	Y	Target	v226.4	None	Will destroy all players of a tribe on the ARK, based on the Tribe owner (or player owner) of the thing that you are currently looking at.
+

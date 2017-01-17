@@ -8,6 +8,7 @@ import { ControlsPage } from '../commands/controls';
 import { ExplorerNotesPage } from '../notes/explorer';
 import { pgarkPage } from '../commands/pgark';
 import { CavesPage } from '../commands/caves';
+import { CommandsPage } from '../commands/commands';
 
 @Component({
   selector: 'page-dashboard',
@@ -35,6 +36,8 @@ export class DashboardPage {
       this.navCtrl.push(pgarkPage);
     } else if (navTo == "caves") {
       this.navCtrl.push(CavesPage);
+    } else if (navTo == "commands") {
+      this.navCtrl.push(CommandsPage);
     } else if (navTo == "Notes Island") {
       this.navCtrl.push(ExplorerNotesPage, { title: "The Island", dataset: "notes-island" } );
     } else if (navTo == "Notes Scorched") {

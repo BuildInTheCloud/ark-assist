@@ -153,6 +153,14 @@
     },
     {
         "id": 0,
+        "name": "Kaprosuchus Saddle",
+        "category": "Saddle",
+        "stack": 1,
+        "icon": "images/kaprosuchus-saddle.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_KaprosuchusSaddle.PrimalItemArmor_KaprosuchusSaddle'"
+    },
+    {
+        "id": 0,
         "name": "Lymantria Saddle",
         "category": "Saddle",
         "stack": 1,

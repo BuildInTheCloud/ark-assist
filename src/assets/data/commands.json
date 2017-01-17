@@ -1,46 +1,119 @@
 [
 {
-"command":"EnableCheats",
+"command":"EnableCheats <Password>",
 "target":"self",
 "args":[
     {"arg":"Password","values":[""],"description":"Server administrator password"}
 ],
 "description":"Enable server administrator commands for the current player. The password provided should match the server's ServerAdminPassword option."
 },{
-"command":"SetCheatPlayer",
-"target":"",
+"command":"SetCheatPlayer <boolen>",
+"target":"self",
 "args":[
     {"arg":"boolen","values":["true","false"],"description":""}
 ],
 "description":"Enable cheat commands that affect the current player, mounted dinosaurs and the game world"
 },{
-"command":"",
+"command":"AddExperience <HowMuch> <FromTribeShare> <PreventSharingWithTribe>",
+"target":"self",
+"args":[
+    {"arg":"HowMuch","values":["0-99999"],"description":"Amount to add"},
+    {"arg":"FromTribeShare","values":["0,1"],"description":"Boolean Apply as if experience came from tribe"},
+    {"arg":"PreventSharingWithTribe","values":["0,1"],"description":"Boolean 1: player only 0: share with tribe"}
+],
+"description":"Adds the specified number of experience points to the player (or the currently mounted dinosaur if the player is mounted) To give another player experience, use the GiveExpToPlayer command."
+},{
+"command":"AllowPlayerToJoinNoCheck <SteamID>",
 "target":"",
 "args":[
-    {"arg":"","values":[""],"description":""}
+    {"arg":"SteamID","values":["Integer[64]"],"description":"SteamID Player to whitelist"}
+],
+"description":"Adds the player specified by the their Integer encoded Steam ID to the server's whitelist."
+},{
+"command":"AutoCycle <Duration>",
+"target":"",
+"args":[
+    {"arg":"Duration","values":[""],"description":""}
 ],
 "description":""
 },{
-"command":"",
+"command":"BanPlayer <SteamID>",
 "target":"",
 "args":[
-    {"arg":"","values":[""],"description":""}
+    {"arg":"SteamID","values":["Integer[64]"],"description":"Player to ban"}
 ],
-"description":""
+"description":"Add the specified player to the server's banned list."
 },{
-"command":"",
+"command":"Broadcast <MessageText>",
 "target":"",
 "args":[
-    {"arg":"","values":[""],"description":""}
+    {"arg":"MessageText","values":["String"],"description":"Message to broadcast"}
 ],
-"description":""
+"description":"Broadcast a message to all players on the server.",
+"example":"admincheat Broadcast Hi, everybody!"
 },{
-"command":"",
+"command":"ChangeSize <SizeMult>",
+"target":"Self",
+"args":[
+    {"arg":"SizeMult","values":["Float"],"description":"Size multiplier"}
+],
+"description":"Changes the current player's size. Your player character's model will only stretch or squash so far however, and if made too big will seem to float and bob up and down during different animations (too small and you'll sink through the ground). You will not become any slower or faster. Set back to 1 to go back to your normal size.",
+"example":""
+},{
+"command":"ClearPlayerInventory <PlayerID> <ClearInventory> <ClearSlotItems> <ClearEquippedItems>",
 "target":"",
 "args":[
-    {"arg":"","values":[""],"description":""}
+    {"arg":"PlayerID","values":["Integer[32]"],"description":"Player's in-game UE4 ID"},
+    {"arg":"ClearInventory","values":["0/1"],"description":"Clear player's inventory"},
+    {"arg":"ClearSlotItems","values":["0/1"],"description":"Clear player's slot items"},
+    {"arg":"ClearEquippedItems","values":["0/1"],"description":"Clear player's equipped items"}
 ],
-"description":""
-}
+"description":"Clears the specified player's inventory, equipped items, and/or slot items.",
+"example":""
+},{
+"command":"ClearTutorials",
+"target":"Self",
+"args":[],
+"description":"Resets all tutorials on your client (make them so that they will re-appear without being forced)",
+"example":""
+},{
+"command":"DebugStructures",
+"target":"Self",
+"args":[],
+"description":"Toggles the display of debug information on structures when you look at them, including the structure's class name and entity ID. You can use the class name in other commands.",
+"example":""
+},{
+"command":"DestroyAll <type>",
+"target":"",
+"args":[
+    {"arg":"type","values":["String"],"description":"Type to destroy"}
+],
+"description":"Destroys all creatures of the specified type, both wild and tamed.",
+"example":"admincheat DestroyAll Ankylo_Character_BP_C"
+},{
+"command":"DestroyAllEnemies",
+"target":"",
+"args":[],
+"description":"Destroys all non-player creatures on the map, including tamed creatures. This does not prevent new ones from spawning as usual.",
+"example":"admincheat destroyallenemies"
+},{
+"command":"DestroyMyTarget",
+"target":"Target",
+"args":[],
+"description":"Instantly destroys the creature or structure in the current player's crosshairs, without leaving any corpse. To kill an entity and leave a corpse, use the Kill command.",
+"example":""
+},{
+"command":"DestroyStructures",
+"target":"",
+"args":[],
+"description":"Destroys all structures owned by all players on the map.",
+"example":""
+},{
+"command":"DestroyWildDinos",
+"target":"",
+"args":[],
+"description":"Destroys all untamed creatures on the map. Useful for helping newly-released creatures to spawn.",
+"example":"admincheat destroywilddinos"
 
+}
 ]
