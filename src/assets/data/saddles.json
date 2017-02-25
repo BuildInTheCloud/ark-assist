@@ -369,6 +369,14 @@
     },
     {
         "id": 0,
+        "name": "Rex Tek Saddle",
+        "category": "Saddle",
+        "stack": 1,
+        "icon": "images/trex-tek-saddle.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RexSaddle_Tek.PrimalItemArmor_RexSaddle_Tek'"
+    },
+    {
+        "id": 0,
         "name": "Rock Golem Saddle",
         "category": "Saddle",
         "stack": 1,

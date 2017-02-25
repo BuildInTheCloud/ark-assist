@@ -21,7 +21,7 @@ export class ColorPage {
 
   getList() {
     this.dataService.getColorList().then(
-      data => { this.itemList = data; },
+      data => { this.itemList = <any>data; },
       error => { this.itemList = []; this.errorMessage = <any>error; }
     );
   }

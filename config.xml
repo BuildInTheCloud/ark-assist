@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.buildinthecloud.arkassist" version="2.2.2" Publisher="CN=4598A1B8-365D-4826-BDD0-0F97CB5BA647" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.buildinthecloud.arkassist" version="2.2.5" Publisher="CN=4598A1B8-365D-4826-BDD0-0F97CB5BA647" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>Ark Assist</name>
   <description>An unoffical app for Ark Survival Evolved.</description>
   <author email="mark@buildinthecloud.com" href="http://www.buildinthecloud.com/ark-assist">BuildInTheCloud</author>

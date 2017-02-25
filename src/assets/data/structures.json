@@ -929,6 +929,22 @@
     },
     {
         "id": 0,
+        "name": "Tek Replicator",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/tek-replicator.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekReplicator.PrimalItemStructure_TekReplicator'"
+    },
+    {
+        "id": 0,
+        "name": "Tek Transmitter",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/tek-transmitter.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekTransmitter.PrimalItemStructure_TekTransmitter'"
+    },
+    {
+        "id": 0,
         "name": "Trading Crate (Primitive+)",
         "category": "Structure",
         "stack": 100,

@@ -37,7 +37,8 @@
       <img src="assets/{{item.icon}}"/>
       <ion-card-content>
         <ion-card-title>{{item.name}}<br/><i>{{item.category}}</i></ion-card-title>
-        <p style="overflow:hidden;height:20px;margin-bottom:10px;">{{item.id}}&nbsp;</p>
+        <p style="overflow:hidden;height:20px;margin-bottom:1px;"><b>Tame With:</b>{{item.tame}}&nbsp;</p>
+        <p style="overflow:hidden;height:20px;margin-bottom:10px;"><b>ID:</b>{{item.id}}&nbsp;</p>
         <ion-row responsive-sm style="margin-bottom:5px;">
           <ion-col class="entity cmd">
             <button (click)="copyText([i])">COPY TO CLIPBOARD</button>

@@ -382,16 +382,49 @@
         "stack": 1,
         "icon": "images/scuba-mask.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/SCUBA/PrimalItemArmor_ScubaHelmet_Goggles.PrimalItemArmor_ScubaHelmet_Goggles'"
-    },
-    {
+    },{
         "id": 387,
         "name": "SCUBA Tank",
         "category": "Armor",
         "stack": 1,
         "icon": "images/scuba-tank.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/SCUBA/PrimalItemArmor_ScubaShirt_SuitWithTank.PrimalItemArmor_ScubaShirt_SuitWithTank'"
-    },
-    {
+    },{
+        "id": 0,
+        "name": "Tek Helmet",
+        "category": "Armor",
+        "stack": 1,
+        "icon": "images/tek-helmet.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Tek/PrimalItemArmor_TekHelmet.PrimalItemArmor_TekHelmet'"
+    },{
+        "id": 0,
+        "name": "Tek Chestpiece",
+        "category": "Armor",
+        "stack": 1,
+        "icon": "images/tek-chestpiece.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Tek/PrimalItemArmor_TekShirt.PrimalItemArmor_TekShirt'"
+    },{
+        "id": 0,
+        "name": "Tek Leggings",
+        "category": "Armor",
+        "stack": 1,
+        "icon": "images/tek-leggings.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Tek/PrimalItemArmor_TekPants.PrimalItemArmor_TekPants'"
+    },{
+        "id": 0,
+        "name": "Tek Boots",
+        "category": "Armor",
+        "stack": 1,
+        "icon": "images/tek-boots.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Tek/PrimalItemArmor_TekBoots.PrimalItemArmor_TekBoots'"
+    },{
+        "id": 0,
+        "name": "Tek Gauntlets",
+        "category": "Armor",
+        "stack": 1,
+        "icon": "images/tek-gauntlets.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Tek/PrimalItemArmor_TekGloves.PrimalItemArmor_TekGloves'"
+    },{
         "id": 0,
         "name": "Wooden Shield",
         "category": "Armor",

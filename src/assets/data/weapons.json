@@ -342,16 +342,21 @@
         "stack": 1,
         "icon": "images/spray-painter.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponSprayPaint.PrimalItem_WeaponSprayPaint'"
-    },
-    {
+    },{
         "id": 0,
         "name": "Stone Hunting Knife (Primitive+)",
         "category": "Weapons",
         "stack": 1,
         "icon": "images/stone-hunting-knife-primitive-plus.png",
         "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Weapons/PrimalItem_WeaponStoneHuntingKnife.PrimalItem_WeaponStoneHuntingKnife'"
-    },
-    {
+    },{
+        "id": 0,
+        "name": "Tek Rifle",
+        "category": "Weapons",
+        "stack": 1,
+        "icon": "images/tek-rifle.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_TekRifle.PrimalItem_TekRifle'"
+    },{
         "id": 372,
         "name": "Transponder Tracker",
         "category": "Weapons",

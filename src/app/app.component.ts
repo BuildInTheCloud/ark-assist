@@ -42,8 +42,6 @@ export class MyApp {
           adId:admobid.banner,
           position: 8,
           overlap: true,
-          offsetBottomBar: true,
-          offsetTopBar: true,
           autoShow: true
         });
       //}
@@ -71,7 +69,7 @@ export class MyApp {
       return returnMessage;
   }
 
-  openPage(page) {
+  openPage(page: any) {
     this.nav.push(page.component, page.params);
   }
 }

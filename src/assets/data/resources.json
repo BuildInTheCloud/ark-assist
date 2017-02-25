@@ -257,11 +257,11 @@
     },
     {
         "id": 0,
-        "name": "Element (Primitive+)",
+        "name": "Element",
         "category": "Resource",
         "stack": 100,
-        "icon": "images/element-primitive-plus.png",
-        "blueprint": ""
+        "icon": "images/element.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element_C'"
     },
     {
         "id": 0,
