@@ -9,6 +9,14 @@
     },
     {
         "id": 0,
+        "name": "Ammonite Bile",
+        "category": "Resource",
+        "stack": 100,
+        "icon": "images/ammonite-bile.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_AmmoniteBlood.PrimalItemResource_AmmoniteBlood'"
+    },
+    {
+        "id": 0,
         "name": "Angler Gel",
         "category": "Resource",
         "stack": 100,
@@ -22,6 +30,14 @@
         "stack": 100,
         "icon": "images/beeswax-primitive-plus.png",
         "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Resources/PrimalItemResource_Beeswax.PrimalItemResource_Beeswax'"
+    },
+    {
+        "id": 0,
+        "name": "Bio Toxin",
+        "category": "Resource",
+        "stack": 100,
+        "icon": "images/bio-toxin.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_JellyVenom.PrimalItemConsumable_JellyVenom'"
     },
     {
         "id": 0,
@@ -409,6 +425,14 @@
     },
     {
         "id": 0,
+        "name": "Human Hair",
+        "category": "Resource",
+        "stack": 200,
+        "icon": "images/human-hair.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Hair.PrimalItemResource_Hair'"
+    },
+    {
+        "id": 0,
         "name": "Leather (Primitive+)",
         "category": "Resource",
         "stack": 100,
@@ -502,6 +526,14 @@
         "stack": "100",
         "icon": "images/oil.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Oil.PrimalItemResource_Oil'"
+    },
+    {
+        "id": 0,
+        "name": "Oil (Tusoteuthis)",
+        "category": "Resource",
+        "stack": "100",
+        "icon": "images/oil-tusoteuthis.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Tusoteuthis/PrimalItemResource_SquidOil.PrimalItemResource_SquidOil'"
     },
     {
         "id": 0,

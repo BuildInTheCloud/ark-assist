@@ -7,7 +7,7 @@
 
 <ion-content padding>
   <ion-list>
-    <ion-item *ngFor="let item of entities; let i = index">
+    <ion-item class="tvBorder" *ngFor="let item of entities; let i = index">
       <ion-avatar item-left><img src="assets/images/{{item.image}}"></ion-avatar>
       <h2>{{item.topic}} {{item.type}}</h2>
       <h3>GPS: {{item.lat}}, {{item.lon}}</h3>

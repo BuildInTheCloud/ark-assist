@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, Platform, ToastController } from 'ionic-angular';
-import {Clipboard, Toast } from 'ionic-native';
+import { Clipboard } from '@ionic-native/clipboard';
+import { Toast } from '@ionic-native/toast';
 import { StaticService } from '../../static-service/static-data';
 declare var window: any;
 declare var Windows: any;
@@ -19,8 +20,11 @@ export class DinoPage {
   shouldShowCancel:boolean;
   dinoLevel: number = 500;
 
-  constructor(public navCtrl: NavController, public StaticService: StaticService,public platform: Platform, public toastCtrl: ToastController) {
+  constructor(public navCtrl: NavController, public StaticService: StaticService,
+              public platform: Platform, public toast: Toast, public clipboard: Clipboard, public toastCtrl: ToastController) {
     this.platform = platform;
+    this.toastCtrl = toastCtrl;
+    this.toast = toast;
   }
 
   ngOnInit() {
@@ -57,25 +61,34 @@ export class DinoPage {
     this.dinoList = this.dinos;
   }
 
-  copyText(indexVal:any) {
-    var inputOBJ:any = document.getElementById("dino"+indexVal);
+  copyTextEvent(event, indexVal:any, type:any) {
+    if (event.keyCode === 13 || event.keyCode === 195 || event.button === 0) {
+      this.copyText(indexVal, type);
+    }
+  }
+
+  copyText(indexVal:any, type:any) {
+    var inputOBJ:any = document.getElementById(type+indexVal);
     var pasteVAL = inputOBJ.innerText.replace(/\|/g,"\"");
-    if (
-          (this.platform.is("cordova") && this.platform.is("core")) ||
-          (this.platform.is("cordova") && this.platform.is("mobile") && this.platform.is("windows"))
-        ) {
+  if (
+        (this.platform.is("cordova") && this.platform.is("core")) ||
+        (this.platform.is("cordova") && this.platform.is("mobile") && this.platform.is("windows"))
+    ) {
+      console.log("FOR WINDOWS");
       var dataPackage = new Windows.ApplicationModel.DataTransfer.DataPackage();
       dataPackage.setText(pasteVAL);
       Windows.ApplicationModel.DataTransfer.Clipboard.setContent(dataPackage);
       let toastPopup = this.toastCtrl.create({message: "Copied: "+pasteVAL, duration: 3000, position: 'top'});
       toastPopup.present();
     } else if (this.platform.is("cordova")) {
-      Clipboard.copy(pasteVAL).then(function() {
-        Toast.show("Copied: "+pasteVAL, "short", "top").subscribe(toast => { console.log(toast); });
+      console.log("FOR CORDOVA");
+      this.clipboard.copy(pasteVAL).then(function() {
+        this.toast.show("Copied: "+pasteVAL, "short", "top").subscribe(toast => { console.log(toast); });
       }, function(err) {
-        Toast.show("There was an error copying to clipboard", "short", "top").subscribe(toast => { console.log(toast); });
+        this.toast.show("There was an error copying to clipboard", "short", "top").subscribe(toast => { console.log(toast); });
       });
     } else {
+      console.log("FOR BROWSER");
       var holdtext:any = document.getElementById("holdtext");
       holdtext.innerText = pasteVAL;
       this.selectElementText(holdtext);

@@ -20,7 +20,7 @@
     <a href="https://survivetheark.com/index.php?/forums/topic/99816-pgark-settings-basic-visual-guide-and-examples/" target="_blank">PGARK Settings Basic Visual Guide and Examples</a>
   </p>
   <ion-list>
-    <ion-item *ngFor="let item of pgSettings; let i = index">
+    <ion-item class="tvBorder" *ngFor="let item of pgSettings; let i = index">
       <h2>{{item.ui}}</h2>
       <h3>DEFAULT: {{item.default}}</h3>
       <p>{{item.desc}}</p>

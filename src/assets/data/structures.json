@@ -496,14 +496,6 @@
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalSign_Large.PrimalItemStructure_MetalSign_Large'"
     },
     {
-        "id": 171,
-        "name": "Metal Fence Foundation",
-        "category": "Structure",
-        "stack": "100",
-        "icon": "images/metal-fence-foundation.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalFenceFoundation.PrimalItemStructure_MetalFenceFoundation'"
-    },
-    {
         "id": 201,
         "name": "Metal Irrigation Pipe - Intersection",
         "category": "Structure",
@@ -926,6 +918,14 @@
         "stack": 100,
         "icon": "images/teepee-primitive-plus.png",
         "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_Teepee.PrimalItemStructure_Teepee'"
+    },
+    {
+        "id": 0,
+        "name": "Tek Forcefield",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/tek-forcefield.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekShield.PrimalItemStructure_TekShield'"
     },
     {
         "id": 0,

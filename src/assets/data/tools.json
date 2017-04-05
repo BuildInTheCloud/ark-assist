@@ -86,5 +86,37 @@
         "stack": 1,
         "icon": "images/torch.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponTorch.PrimalItem_WeaponTorch'"
+    },
+    {
+        "id": 15,
+        "name": "Water Jar (Empty)",
+        "category": "Consumable",
+        "stack": 1,
+        "icon": "images/water-jar-empty.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_WaterJarCraftable.PrimalItemConsumable_WaterJarCraftable'"
+    },
+    {
+        "id": 16,
+        "name": "Water Jar (Full)",
+        "category": "Consumable",
+        "stack": 1,
+        "icon": "images/water-jar-full.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_WaterJarRefill.PrimalItemConsumable_WaterJarRefill'"
+    },
+    {
+        "id": 47,
+        "name": "Waterskin (Empty)",
+        "category": "Consumable",
+        "stack": 1,
+        "icon": "images/waterskin-empty.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_WaterskinCraftable.PrimalItemConsumable_WaterskinCraftable'"
+    },
+    {
+        "id": 48,
+        "name": "Waterskin (Filled)",
+        "category": "Consumable",
+        "stack": 1,
+        "icon": "images/waterskin-filled.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_WaterskinCraftable.PrimalItemRefill_WaterskinRefill'"
     }
 ]

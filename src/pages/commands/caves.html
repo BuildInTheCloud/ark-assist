@@ -13,7 +13,7 @@
 
   <ion-list>
     <ion-list-header>THE ISLAND</ion-list-header>
-    <ion-item *ngFor="let item of islandCaves; let i = index">
+    <ion-item class="tvBorder" *ngFor="let item of islandCaves; let i = index">
       <h2>{{item.name}} Cave <i *ngIf="item.type">({{item.type}})</i></h2>
       <h3>GPS: {{item.lat}}, {{item.lon}}</h3>
       <p *ngIf="item.artifact">Artifact of the {{item.artifact}}</p>
@@ -22,7 +22,7 @@
 
   <ion-list>
     <ion-list-header>THE CENTER</ion-list-header>
-    <ion-item *ngFor="let item of centerCaves; let i = index">
+    <ion-item class="tvBorder" *ngFor="let item of centerCaves; let i = index">
       <h2>{{item.name}} Cave <i *ngIf="item.type">({{item.type}})</i></h2>
       <h3>GPS: {{item.lat}}, {{item.lon}}</h3>
       <p *ngIf="item.artifact">Artifact of the {{item.artifact}}</p>
@@ -31,7 +31,7 @@
 
   <ion-list>
     <ion-list-header>SCORCHED EARTH</ion-list-header>
-    <ion-item *ngFor="let item of scorchedCaves; let i = index">
+    <ion-item class="tvBorder" *ngFor="let item of scorchedCaves; let i = index">
       <h2>{{item.name}} Cave <i *ngIf="item.type">({{item.type}})</i></h2>
       <h3>GPS: {{item.lat}}, {{item.lon}}</h3>
       <p *ngIf="item.artifact">Artifact of the {{item.artifact}}</p>

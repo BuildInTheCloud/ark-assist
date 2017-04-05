@@ -41,6 +41,14 @@ button {
     background-color: transparent !important;
     background-image:url(../assets/images/button-background.png);
 }
+button.tv:focus {
+    background-color:#32db64 !important;
+    color:#222 !important;
+    background-image:none;
+}
+.tvBorder:focus {
+    border:1px solid #222;
+}
 ion-menu {
     button {
         color:#333 !important;

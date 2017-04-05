@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, ToastController } from 'ionic-angular';
 import { EntityPage } from '../entity/entity';
 import { DinoPage } from '../dino/dino';
 import { ColorPage } from '../color/color';
@@ -17,13 +17,23 @@ import { CommandsPage } from '../commands/commands';
 
 export class DashboardPage {
 
-  constructor(public navCtrl: NavController) { }
+  constructor(public navCtrl: NavController, public toastCtrl: ToastController) { }
 
   ngOnInit() {
 
   }
 
+  goToPageByEvent(event, navTo: string) {
+    //-- event, event.keyCode, event.keyIdentifier
+    //let toastPopup = this.toastCtrl.create({message: "KeyPress: " + event.keyCode, duration: 3000, position: 'top'});
+    //toastPopup.present();
+    if (event.keyCode === 13 || event.keyCode === 195 || event.button === 0) {
+      this.goToPage(navTo);
+    }
+  }
+
   goToPage( navTo: string ) {
+    console.log("NAV TO:" + navTo);
     if (navTo == "dino") {
       this.navCtrl.push(DinoPage);
     } else if (navTo == "colors") {

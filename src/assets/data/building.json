@@ -920,6 +920,30 @@
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Stone/PrimalItemStructure_StoneWall_Sloped_Right.PrimalItemStructure_StoneWall_Sloped_Right'"
     },
     {
+        "id": 0,
+        "name": "Sloped Tek Roof",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/sloped-tek-roof.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/tek/PrimalItemStructure_TekRoof.PrimalItemStructure_TekRoof'"
+    },
+    {
+        "id": 0,
+        "name": "Sloped Tek Wall Left",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/sloped-tek-wall-left.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/tek/PrimalItemStructure_TekWall_Sloped_Left.PrimalItemStructure_TekWall_Sloped_Left'"
+    },
+    {
+        "id": 0,
+        "name": "Sloped Tek Wall Right",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/sloped-tek-wall-right.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/tek/PrimalItemStructure_TekWall_Sloped_Right.PrimalItemStructure_TekWall_Sloped_Right'"
+    },
+    {
         "id": 394,
         "name": "Sloped Thatch Roof",
         "category": "Structure",
@@ -1078,6 +1102,166 @@
         "stack": "100",
         "icon": "images/stone-windowframe.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneWallWithWindow.PrimalItemStructure_StoneWallWithWindow'"
+    },
+    {
+        "id": 0,
+        "name": "Tek Behemoth Gate",
+        "category": "Structure",
+        "stack": 5,
+        "icon": "images/tek-behemoth-gate.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekGate_Large.PrimalItemStructure_TekGate_Large'"
+    },
+    {
+        "id": 0,
+        "name": "Tek Behemoth Gateway",
+        "category": "Structure",
+        "stack": 5,
+        "icon": "images/tek-behemoth-gateway.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekGateframe_Large.PrimalItemStructure_TekGateframe_Large'"
+    },
+    {
+        "id": 0,
+        "name": "Tek Catwalk",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/tek-catwalk.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekCatwalk.PrimalItemStructure_TekCatwalk'"
+    },
+    {
+        "id": 0,
+        "name": "Tek Ceiling",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/tek-ceiling.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekCeiling.PrimalItemStructure_TekCeiling'"
+    },
+    {
+        "id": 0,
+        "name": "Tek Dinosaur Gate",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/tek-dinosaur-gate.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekGate.PrimalItemStructure_TekGate'"
+    },
+    {
+        "id": 0,
+        "name": "Tek Dinosaur Gateway",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/tek-dinosaur-gateway.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekGateframe.PrimalItemStructure_TekGateframe'"
+    },
+    {
+        "id": 0,
+        "name": "Tek Door",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/tek-door.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekDoor.PrimalItemStructure_TekDoor'"
+    },
+    {
+        "id": 0,
+        "name": "Tek Doorframe",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/tek-doorframe.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekWallwithdoor.PrimalItemStructure_TekWallwithdoor'"
+    },
+    {
+        "id": 0,
+        "name": "Tek Fence Foundation",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/tek-fence-foundation.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/tek/PrimalItemStructure_Tekfencefoundation.PrimalItemStructure_Tekfencefoundation'"
+    },
+    {
+        "id": 0,
+        "name": "Tek Foundation",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/tek-foundation.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekFloor.PrimalItemStructure_TekFloor'"
+    },
+    {
+        "id": 0,
+        "name": "Tek Hatchframe",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/tek-hatchframe.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekCeilingWithTrapdoor.PrimalItemStructure_TekCeilingWithTrapdoor'"
+    },
+    {
+        "id": 0,
+        "name": "Tek Ladder",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/tek-ladder.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekLadder.PrimalItemStructure_TekLadder'"
+    },
+    {
+        "id": 0,
+        "name": "Tek Pillar",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/tek-pillar.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekPillar.PrimalItemStructure_TekPillar'"
+    },
+    {
+        "id": 0,
+        "name": "Tek Railing",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/tek-railing.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/tek/PrimalItemStructure_TekRailing.PrimalItemStructure_Tekrailing'"
+    },
+    {
+        "id": 0,
+        "name": "Tek Ramp",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/tek-ramp.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekRamp.PrimalItemStructure_TekRamp'"
+    },
+    {
+        "id": 0,
+        "name": "Tek Staircase",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/tek-staircase.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/tek/PrimalItemStructure_TekStairs.PrimalItemStructure_TekStairs'"
+    },
+    {
+        "id": 0,
+        "name": "Tek Trapdoor",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/tek-trapdoor.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekTrapdoor.PrimalItemStructure_TekTrapdoor'"
+    },
+    {
+        "id": 0,
+        "name": "Tek Wall",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/tek-wall.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekWall.PrimalItemStructure_TekWall'"
+    },
+    {
+        "id": 0,
+        "name": "Tek Window",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/tek-window.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekWindow.PrimalItemStructure_TekWindow'"
+    },
+    {
+        "id": 0,
+        "name": "Tek Windowframe",
+        "category": "Structure",
+        "stack": 100,
+        "icon": "images/tek-windowframe.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekWallWithWindow.PrimalItemStructure_TekWallWithWindow'"
     },
     {
         "id": 80,

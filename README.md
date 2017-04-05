@@ -23,8 +23,8 @@ http://ark.gamepedia.com/Engrams_(Primitive%2B)
 http://ark.gamepedia.com/Item_IDs
 
 #using latest ionic
-pm install --typecheck
+npm install --typecheck
 
 npm install --save ionic-angular@nightly
 
-ionic plugin add cordova-plugin-admobpro@2.20.1
+ionic plugin add cordova-plugin-admobpro@2.28.4

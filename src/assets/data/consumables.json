@@ -1,474 +1,490 @@
 [
-    {
-        "id": 117,
-        "name": "Amarberry",
-        "category": "Consumable",
-        "stack": 100,
-        "icon": "images/amarberry.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Amarberry.PrimalItemConsumable_Berry_Amarberry'"
-    },
-    {
-        "id": 0,
-        "name": "Amaberry Juice (Primitive+)",
-        "category": "Consumable",
-        "stack": 100,
-        "icon": "images/amaberry-juice-primitive-plus.png",
-        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Consumables/PrimalItemConsumable_Smoothie_Amarberry.PrimalItemConsumable_Smoothie_Amarberry'"
-    },
-    {
-        "id": 118,
-        "name": "Azulberry",
-        "category": "Consumable",
-        "stack": 100,
-        "icon": "images/azulberry.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Azulberry.PrimalItemConsumable_Berry_Azulberry'"
-    },
-    {
-        "id": 0,
-        "name": "Azulberry Juice (Primitive+)",
-        "category": "Consumable",
-        "stack": 100,
-        "icon": "images/azulberry-juice-primitive-plus.png",
-        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Consumables/PrimalItemConsumable_Smoothie_Azulberry.PrimalItemConsumable_Smoothie_Azulberry'"
-    },
-    {
-        "id": 254,
-        "name": "Battle Tartare",
-        "category": "Consumable",
-        "stack": "100",
-        "icon": "images/battle-tartare.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_BattleTartare.PrimalItemConsumable_Soup_BattleTartare'"
-    },
-    {
-        "id": 0,
-        "name": "Beer Jar",
-        "category": "Consumable",
-        "stack": 20,
-        "icon": "images/beer-jar.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_BeerJar.PrimalItemConsumable_BeerJar'"
-    },
-    {
-        "id": 0,
-        "name": "Beer Jar",
-        "category": "Consumable",
-        "stack": 1,
-        "icon": "images/beer-jar-full.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_BeerJarAlt.PrimalItemConsumable_BeerJarAlt'"
-    },
-    {
-        "id": 51,
-        "name": "Bingleberry Soup",
-        "category": "Consumable",
-        "stack": 100,
-        "icon": "images/bingleberry-soup.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_BerrySoup.PrimalItemConsumable_BerrySoup'"
-    },
-    {
-        "id": 453,
-        "name": "Broth of Enlightenment",
-        "category": "Consumable",
-        "stack": 1,
-        "icon": "images/broth-of-enlightenment.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_TheHorn.PrimalItemConsumable_TheHorn_C'"
-    },
-    {
-        "id": 0,
-        "name": "Bug Repellant",
-        "category": "Consumable",
-        "stack": 100,
-        "icon": "images/bug-repellant.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_BugRepellant.PrimalItemConsumable_BugRepellant'"
-    },
-    {
-        "id": 0,
-        "name": "Cactus Sap",
-        "category": "Consumable",
-        "stack": 100,
-        "icon": "images/cactus-sap.png",
-        "blueprint": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Consumables/PrimalItemConsumable_CactusSap.PrimalItemConsumable_CactusSap'"
-    },
-    {
-        "id": 229,
-        "name": "Calien Soup",
-        "category": "Consumable",
-        "stack": "100",
-        "icon": "images/calien-soup.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_CalienSoup.PrimalItemConsumable_Soup_CalienSoup'"
-    },
-    {
-        "id": 378,
-        "name": "Canteen (Empty)",
-        "category": "Consumable",
-        "stack": 1,
-        "icon": "images/canteen.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CanteenCraftable.PrimalItemConsumable_CanteenCraftable'"
-    },
-    {
-        "id": 379,
-        "name": "Canteen (Full)",
-        "category": "Consumable",
-        "stack": 1,
-        "icon": "images/canteen.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CanteenRefill.PrimalItemConsumable_CanteenRefill'"
-    },
-    {
-        "id": 99,
-        "name": "Citronal",
-        "category": "Consumable",
-        "stack": 100,
-        "icon": "images/citronal.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Citronal.PrimalItemConsumable_Veggie_Citronal'"
-    },
-    {
-        "id": 0,
-        "name": "Cooked Fish Meat",
-        "category": "Consumable",
-        "stack": 30,
-        "icon": "images/cooked-fish-meat.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedMeat_Fish.PrimalItemConsumable_CookedMeat_Fish'"
-    },
-    {
-        "id": 14,
-        "name": "Cooked Meat",
-        "category": "Consumable",
-        "stack": 30,
-        "icon": "images/cooked-meat.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedMeat.PrimalItemConsumable_CookedMeat'"
-    },
-    {
-        "id": 297,
-        "name": "Cooked Meat Jerky",
-        "category": "Consumable",
-        "stack": "30",
-        "icon": "images/cooked-meat-jerky.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedMeat_Jerky.PrimalItemConsumable_CookedMeat_Jerky'"
-    },
-    {
-        "id": 0,
-        "name": "Cooked Prime Fish Meat",
-        "category": "Consumable",
-        "stack": 30,
-        "icon": "images/cooked-prime-fish-meat.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedPrimeMeat_Fish.PrimalItemConsumable_CookedPrimeMeat_Fish'"
-    },
-    {
-        "id": 253,
-        "name": "Cooked Prime Meat",
-        "category": "Consumable",
-        "stack": "30",
-        "icon": "images/cooked-prime-meat.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedPrimeMeat.PrimalItemConsumable_CookedPrimeMeat'"
-    },
-    {
-        "id": 227,
-        "name": "Enduro Stew",
-        "category": "Consumable",
-        "stack": "100",
-        "icon": "images/enduro-stew.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_EnduroStew.PrimalItemConsumable_Soup_EnduroStew'"
-    },
-    {
-        "id": 53,
-        "name": "Energy Brew",
-        "category": "Consumable",
-        "stack": 100,
-        "icon": "images/energy-brew.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_StaminaSoup.PrimalItemConsumable_StaminaSoup'"
-    },
-    {
-        "id": 231,
-        "name": "Focal Chili",
-        "category": "Consumable",
-        "stack": "100",
-        "icon": "images/focal-chili.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_FocalChili.PrimalItemConsumable_Soup_FocalChili'"
-    },
-    {
-        "id": 230,
-        "name": "Fria Curry",
-        "category": "Consumable",
-        "stack": "100",
-        "icon": "images/fria-curry.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_FriaCurry.PrimalItemConsumable_Soup_FriaCurry'"
-    },
-    {
-        "id": 0,
-        "name": "Grape Juice (Primitive+)",
-        "category": "Consumable",
-        "stack": "100",
-        "icon": "images/grape-juice-primitive-plus.png",
-        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Resources/PrimalItemResource_GrapeJuice.PrimalItemResource_GrapeJuice'"
-    },
-    {
-        "id": 228,
-        "name": "Lazarus Chowder",
-        "category": "Consumable",
-        "stack": "100",
-        "icon": "images/lazarus-chowder.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_LazarusChowder.PrimalItemConsumable_Soup_LazarusChowder'"
-    },
-    {
-        "id": 0,
-        "name": "Lesser Antidote",
-        "category": "Consumable",
-        "stack": 100,
-        "icon": "images/lesser-antidote.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_CureLow.PrimalItemConsumable_CureLow'"
-    },
-    {
-        "id": 233,
-        "name": "Longrass",
-        "category": "Consumable",
-        "stack": "100",
-        "icon": "images/longrass.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Longrass.PrimalItemConsumable_Veggie_Longrass'"
-    },
-    {
-        "id": 52,
-        "name": "Medical Brew",
-        "category": "Consumable",
-        "stack": 100,
-        "icon": "images/medical-brew.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_HealSoup.PrimalItemConsumable_HealSoup'"
-    },
-    {
-        "id": 120,
-        "name": "Mejoberry",
-        "category": "Consumable",
-        "stack": 100,
-        "icon": "images/mejoberry.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Mejoberry.PrimalItemConsumable_Berry_Mejoberry'"
-    },
-    {
-        "id": 0,
-        "name": "Mejoberry Juice (Primitive+)",
-        "category": "Consumable",
-        "stack": 100,
-        "icon": "images/mejoberry-juice-primitive-plus.png",
-        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Consumables/PrimalItemConsumable_Smoothie_Mejoberry.PrimalItemConsumable_Smoothie_Mejoberry'"
-    },
-    {
-        "id": 413,
-        "name": "Mindwipe Tonic",
-        "category": "Consumable",
-        "stack": 100,
-        "icon": "images/mindwipe-tonic.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumableRespecSoup.PrimalItemConsumableRespecSoup'"
-    },
-    {
-        "id": 121,
-        "name": "Narcoberry",
-        "category": "Consumable",
-        "stack": 100,
-        "icon": "images/narcoberry.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Narcoberry.PrimalItemConsumable_Berry_Narcoberry'"
-    },
-    {
-        "id": 390,
-        "name": "Plant Species X Seed",
-        "category": "Consumable",
-        "stack": 100,
-        "icon": "images/plant-species-x-seed.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_DefensePlant.PrimalItemConsumable_Seed_DefensePlant'"
-    },
-    {
-        "id": 391,
-        "name": "Plant Species X Seed",
-        "category": "Consumable",
-        "stack": 100,
-        "icon": "images/plant-species-x-seed.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_DefensePlant_SpeedHack.PrimalItemConsumable_Seed_DefensePlant_SpeedHack'"
-    },
-    {
-        "id": 298,
-        "name": "Prime Meat Jerky",
-        "category": "Consumable",
-        "stack": "30",
-        "icon": "images/prime-meat-jerky.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedPrimeMeat_Jerky.PrimalItemConsumable_CookedPrimeMeat_Jerky'"
-    },
-    {
-        "id": 0,
-        "name": "Raw Fish Meat",
-        "category": "Consumable",
-        "stack": 20,
-        "icon": "images/raw-fish-meat.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawMeat_Fish.PrimalItemConsumable_RawMeat_Fish'"
-    },
-    {
-        "id": 12,
-        "name": "Raw Meat",
-        "category": "Consumable",
-        "stack": 20,
-        "icon": "images/raw-meat.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawMeat.PrimalItemConsumable_RawMeat'"
-    },
-    {
-        "id": 0,
-        "name": "Raw Prime Fish Meat",
-        "category": "Consumable",
-        "stack": 1,
-        "icon": "images/raw-prime-fish-meat.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawPrimeMeat_Fish.PrimalItemConsumable_RawPrimeMeat_Fish'"
-    },
-    {
-        "id": 252,
-        "name": "Raw Prime Meat",
-        "category": "Consumable",
-        "stack": "1",
-        "icon": "images/raw-prime-meat.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawPrimeMeat.PrimalItemConsumable_RawPrimeMeat'"
-    },
-    {
-        "id": 234,
-        "name": "Rockarrot",
-        "category": "Consumable",
-        "stack": "100",
-        "icon": "images/rockarrot.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Rockarrot.PrimalItemConsumable_Veggie_Rockarrot'"
-    },
-    {
-        "id": 232,
-        "name": "Savoroot",
-        "category": "Consumable",
-        "stack": "100",
-        "icon": "images/savoroot.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Savoroot.PrimalItemConsumable_Veggie_Savoroot'"
-    },
-    {
-        "id": 255,
-        "name": "Shadow Steak Saute",
-        "category": "Consumable",
-        "stack": "100",
-        "icon": "images/shadow-steak-saute.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_ShadowSteak.PrimalItemConsumable_Soup_ShadowSteak'"
-    },
-    {
-        "id": 0,
-        "name": "Soap",
-        "category": "Consumable",
-        "stack": 1,
-        "icon": "images/soap.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumableSoap.PrimalItemConsumableSoap'"
-    },
-    {
-        "id": 0,
-        "name": "Spare Ribs Cooked (Primitive+)",
-        "category": "Consumable",
-        "stack": 50,
-        "icon": "images/spare-ribs-cooked.png",
-        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Consumables/PrimalItemConsumable_CookedRibs.PrimalItemConsumable_CookedRibs'"
-    },
-    {
-        "id": 0,
-        "name": "Spare Ribs Raw (Primitive+)",
-        "category": "Consumable",
-        "stack": 25,
-        "icon": "images/spare-ribs-raw.png",
-        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Consumables/PrimalItemConsumable_CookedRibs.PrimalItemConsumable_CookedRibs'"
-    },
-    {
-        "id": 13,
-        "name": "Spoiled Meat",
-        "category": "Consumable",
-        "stack": 100,
-        "icon": "images/spoiled-meat.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_SpoiledMeat.PrimalItemConsumable_SpoiledMeat'"
-    },
-    {
-        "id": 122,
-        "name": "Stimberry",
-        "category": "Consumable",
-        "stack": 100,
-        "icon": "images/stimberry.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Stimberry.PrimalItemConsumable_Berry_Stimberry'"
-    },
-    {
-        "id": 0,
-        "name": "Stimbull Juice (Primitive+)",
-        "category": "Consumable",
-        "stack": 100,
-        "icon": "images/stimbull-juice-primitive-plus.png",
-        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Consumables/PrimalItemConsumable_Smoothie_Stimbull.PrimalItemConsumable_Smoothie_Stimbull'"
-    },
-    {
-        "id": 183,
-        "name": "Super Test Meat(Raw)",
-        "category": "Consumable",
-        "stack": "100",
-        "icon": "images/super-test-meat-raw.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_SuperTestMeat.PrimalItemConsumable'"
-    },
-    {
-        "id": 0,
-        "name": "Sweet Veggie Cake",
-        "category": "Consumable",
-        "stack": 5,
-        "icon": "images/sweet-veggie-cake.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_SweetVeggieCake.PrimalItemConsumable_SweetVeggieCake'"
-    },
-    {
-        "id": 119,
-        "name": "Tintoberry",
-        "category": "Consumable",
-        "stack": 100,
-        "icon": "images/tintoberry.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Tintoberry.PrimalItemConsumable_Berry_Tintoberry'"
-    },
-    {
-        "id": 0,
-        "name": "Tintoberry Juice (Primitive+)",
-        "category": "Consumable",
-        "stack": 100,
-        "icon": "images/tintoberry-juice-primitive-plus.png",
-        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Consumables/PrimalItemConsumable_Smoothie_Tintoberry.PrimalItemConsumable_Smoothie_Tintoberry'"
-    },
-    {
-        "id": 0,
-        "name": "Tomato Juice (Primitive+)",
-        "category": "Consumable",
-        "stack": 100,
-        "icon": "images/tomato-juice-primitive-plus.png",
-        "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Consumables/PrimalItemConsumable_Smoothie_Tomato.PrimalItemConsumable_Smoothie_Tomato'"
-    },
-    {
-        "id": 15,
-        "name": "Water Jar (Empty)",
-        "category": "Consumable",
-        "stack": 1,
-        "icon": "images/water-jar-empty.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_WaterJarCraftable.PrimalItemConsumable_WaterJarCraftable'"
-    },
-    {
-        "id": 16,
-        "name": "Water Jar (Full)",
-        "category": "Consumable",
-        "stack": 1,
-        "icon": "images/water-jar-full.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_WaterJarRefill.PrimalItemConsumable_WaterJarRefill'"
-    },
-    {
-        "id": 47,
-        "name": "Waterskin (Empty)",
-        "category": "Consumable",
-        "stack": 1,
-        "icon": "images/waterskin-empty.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_WaterskinCraftable.PrimalItemConsumable_WaterskinCraftable'"
-    },
-    {
-        "id": 48,
-        "name": "Waterskin (Filled)",
-        "category": "Consumable",
-        "stack": 1,
-        "icon": "images/waterskin-filled.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_WaterskinCraftable.PrimalItemRefill_WaterskinRefill'"
-    },
-    {
-        "id": 0,
-        "name": "Wyvern Milk",
-        "category": "Consumable",
-        "stack": 1,
-        "icon": "images/wyvern-milk.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_WyvernMilk.PrimalItemConsumable_WyvernMilk'"
-    }
+{
+"id": 117,
+"name": "Amarberry",
+"category": "Consumable",
+"stack": 100,
+"icon": "images/amarberry.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Amarberry.PrimalItemConsumable_Berry_Amarberry'"
+},
+{
+"id": 0,
+"name": "Amaberry Juice (Primitive+)",
+"category": "Consumable",
+"stack": 100,
+"icon": "images/amaberry-juice-primitive-plus.png",
+"blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Consumables/PrimalItemConsumable_Smoothie_Amarberry.PrimalItemConsumable_Smoothie_Amarberry'"
+},
+{
+"id": 118,
+"name": "Azulberry",
+"category": "Consumable",
+"stack": 100,
+"icon": "images/azulberry.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Azulberry.PrimalItemConsumable_Berry_Azulberry'"
+},
+{
+"id": 0,
+"name": "Azulberry Juice (Primitive+)",
+"category": "Consumable",
+"stack": 100,
+"icon": "images/azulberry-juice-primitive-plus.png",
+"blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Consumables/PrimalItemConsumable_Smoothie_Azulberry.PrimalItemConsumable_Smoothie_Azulberry'"
+},
+{
+"id": 254,
+"name": "Battle Tartare",
+"category": "Consumable",
+"stack": "100",
+"icon": "images/battle-tartare.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_BattleTartare.PrimalItemConsumable_Soup_BattleTartare'"
+},
+{
+"id": 0,
+"name": "Beer Jar",
+"category": "Consumable",
+"stack": 20,
+"icon": "images/beer-jar.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_BeerJar.PrimalItemConsumable_BeerJar'"
+},
+{
+"id": 0,
+"name": "Beer Jar",
+"category": "Consumable",
+"stack": 1,
+"icon": "images/beer-jar-full.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_BeerJarAlt.PrimalItemConsumable_BeerJarAlt'"
+},
+{
+"id": 51,
+"name": "Bingleberry Soup",
+"category": "Consumable",
+"stack": 100,
+"icon": "images/bingleberry-soup.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_BerrySoup.PrimalItemConsumable_BerrySoup'"
+},
+{
+"id": 453,
+"name": "Broth of Enlightenment",
+"category": "Consumable",
+"stack": 1,
+"icon": "images/broth-of-enlightenment.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_TheHorn.PrimalItemConsumable_TheHorn_C'"
+},
+{
+"id": 0,
+"name": "Bug Repellant",
+"category": "Consumable",
+"stack": 100,
+"icon": "images/bug-repellant.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_BugRepellant.PrimalItemConsumable_BugRepellant'"
+},
+{
+"id": 0,
+"name": "Cactus Sap",
+"category": "Consumable",
+"stack": 100,
+"icon": "images/cactus-sap.png",
+"blueprint": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Consumables/PrimalItemConsumable_CactusSap.PrimalItemConsumable_CactusSap'"
+},
+{
+"id": 229,
+"name": "Calien Soup",
+"category": "Consumable",
+"stack": "100",
+"icon": "images/calien-soup.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_CalienSoup.PrimalItemConsumable_Soup_CalienSoup'"
+},
+{
+"id": 378,
+"name": "Canteen (Empty)",
+"category": "Consumable",
+"stack": 1,
+"icon": "images/canteen.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CanteenCraftable.PrimalItemConsumable_CanteenCraftable'"
+},
+{
+"id": 379,
+"name": "Canteen (Full)",
+"category": "Consumable",
+"stack": 1,
+"icon": "images/canteen.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CanteenRefill.PrimalItemConsumable_CanteenRefill'"
+},
+{
+"id": 99,
+"name": "Citronal",
+"category": "Consumable",
+"stack": 100,
+"icon": "images/citronal.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Citronal.PrimalItemConsumable_Veggie_Citronal'"
+},
+{
+"id": 0,
+"name": "Cooked Fish Meat",
+"category": "Consumable",
+"stack": 30,
+"icon": "images/cooked-fish-meat.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedMeat_Fish.PrimalItemConsumable_CookedMeat_Fish'"
+},
+{
+"id": 0,
+"name": "Cooked Lamb Chop",
+"category": "Consumable",
+"stack": 30,
+"icon": "images/cooked-lamb-chop.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedLambChop.PrimalItemConsumable_CookedLambChop'"
+},
+{
+"id": 14,
+"name": "Cooked Meat",
+"category": "Consumable",
+"stack": 30,
+"icon": "images/cooked-meat.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedMeat.PrimalItemConsumable_CookedMeat'"
+},
+{
+"id": 297,
+"name": "Cooked Meat Jerky",
+"category": "Consumable",
+"stack": "30",
+"icon": "images/cooked-meat-jerky.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedMeat_Jerky.PrimalItemConsumable_CookedMeat_Jerky'"
+},
+{
+"id": 0,
+"name": "Cooked Prime Fish Meat",
+"category": "Consumable",
+"stack": 30,
+"icon": "images/cooked-prime-fish-meat.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedPrimeMeat_Fish.PrimalItemConsumable_CookedPrimeMeat_Fish'"
+},
+{
+"id": 253,
+"name": "Cooked Prime Meat",
+"category": "Consumable",
+"stack": "30",
+"icon": "images/cooked-prime-meat.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedPrimeMeat.PrimalItemConsumable_CookedPrimeMeat'"
+},
+{
+"id": 227,
+"name": "Enduro Stew",
+"category": "Consumable",
+"stack": "100",
+"icon": "images/enduro-stew.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_EnduroStew.PrimalItemConsumable_Soup_EnduroStew'"
+},
+{
+"id": 53,
+"name": "Energy Brew",
+"category": "Consumable",
+"stack": 100,
+"icon": "images/energy-brew.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_StaminaSoup.PrimalItemConsumable_StaminaSoup'"
+},
+{
+"id": 231,
+"name": "Focal Chili",
+"category": "Consumable",
+"stack": "100",
+"icon": "images/focal-chili.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_FocalChili.PrimalItemConsumable_Soup_FocalChili'"
+},
+{
+"id": 230,
+"name": "Fria Curry",
+"category": "Consumable",
+"stack": "100",
+"icon": "images/fria-curry.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_FriaCurry.PrimalItemConsumable_Soup_FriaCurry'"
+},
+{
+"id": 0,
+"name": "Grape Juice (Primitive+)",
+"category": "Consumable",
+"stack": "100",
+"icon": "images/grape-juice-primitive-plus.png",
+"blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Resources/PrimalItemResource_GrapeJuice.PrimalItemResource_GrapeJuice'"
+},
+{
+"id": 228,
+"name": "Lazarus Chowder",
+"category": "Consumable",
+"stack": "100",
+"icon": "images/lazarus-chowder.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_LazarusChowder.PrimalItemConsumable_Soup_LazarusChowder'"
+},
+{
+"id": 0,
+"name": "Lesser Antidote",
+"category": "Consumable",
+"stack": 100,
+"icon": "images/lesser-antidote.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_CureLow.PrimalItemConsumable_CureLow'"
+},
+{
+"id": 233,
+"name": "Longrass",
+"category": "Consumable",
+"stack": "100",
+"icon": "images/longrass.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Longrass.PrimalItemConsumable_Veggie_Longrass'"
+},
+{
+"id": 52,
+"name": "Medical Brew",
+"category": "Consumable",
+"stack": 100,
+"icon": "images/medical-brew.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_HealSoup.PrimalItemConsumable_HealSoup'"
+},
+{
+"id": 120,
+"name": "Mejoberry",
+"category": "Consumable",
+"stack": 100,
+"icon": "images/mejoberry.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Mejoberry.PrimalItemConsumable_Berry_Mejoberry'"
+},
+{
+"id": 0,
+"name": "Mejoberry Juice (Primitive+)",
+"category": "Consumable",
+"stack": 100,
+"icon": "images/mejoberry-juice-primitive-plus.png",
+"blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Consumables/PrimalItemConsumable_Smoothie_Mejoberry.PrimalItemConsumable_Smoothie_Mejoberry'"
+},
+{
+"id": 413,
+"name": "Mindwipe Tonic",
+"category": "Consumable",
+"stack": 100,
+"icon": "images/mindwipe-tonic.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumableRespecSoup.PrimalItemConsumableRespecSoup'"
+},
+{
+"id": 121,
+"name": "Narcoberry",
+"category": "Consumable",
+"stack": 100,
+"icon": "images/narcoberry.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Narcoberry.PrimalItemConsumable_Berry_Narcoberry'"
+},
+{
+"id": 390,
+"name": "Plant Species X Seed",
+"category": "Consumable",
+"stack": 100,
+"icon": "images/plant-species-x-seed.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_DefensePlant.PrimalItemConsumable_Seed_DefensePlant'"
+},
+{
+"id": 391,
+"name": "Plant Species X Seed",
+"category": "Consumable",
+"stack": 100,
+"icon": "images/plant-species-x-seed.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_DefensePlant_SpeedHack.PrimalItemConsumable_Seed_DefensePlant_SpeedHack'"
+},
+{
+"id": 298,
+"name": "Prime Meat Jerky",
+"category": "Consumable",
+"stack": "30",
+"icon": "images/prime-meat-jerky.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedPrimeMeat_Jerky.PrimalItemConsumable_CookedPrimeMeat_Jerky'"
+},
+{
+"id": 0,
+"name": "Raw Fish Meat",
+"category": "Consumable",
+"stack": 20,
+"icon": "images/raw-fish-meat.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawMeat_Fish.PrimalItemConsumable_RawMeat_Fish'"
+},
+{
+"id": 12,
+"name": "Raw Meat",
+"category": "Consumable",
+"stack": 20,
+"icon": "images/raw-meat.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawMeat.PrimalItemConsumable_RawMeat'"
+},
+{
+"id": 0,
+"name": "Raw Mutton",
+"category": "Consumable",
+"stack": 1,
+"icon": "images/raw-mutton.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawMutton.PrimalItemConsumable_RawMutton'"
+},
+{
+"id": 0,
+"name": "Raw Prime Fish Meat",
+"category": "Consumable",
+"stack": 1,
+"icon": "images/raw-prime-fish-meat.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawPrimeMeat_Fish.PrimalItemConsumable_RawPrimeMeat_Fish'"
+},
+{
+"id": 252,
+"name": "Raw Prime Meat",
+"category": "Consumable",
+"stack": "1",
+"icon": "images/raw-prime-meat.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawPrimeMeat.PrimalItemConsumable_RawPrimeMeat'"
+},
+{
+"id": 234,
+"name": "Rockarrot",
+"category": "Consumable",
+"stack": "100",
+"icon": "images/rockarrot.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Rockarrot.PrimalItemConsumable_Veggie_Rockarrot'"
+},
+{
+"id": 232,
+"name": "Savoroot",
+"category": "Consumable",
+"stack": "100",
+"icon": "images/savoroot.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Savoroot.PrimalItemConsumable_Veggie_Savoroot'"
+},
+{
+"id": 255,
+"name": "Shadow Steak Saute",
+"category": "Consumable",
+"stack": "100",
+"icon": "images/shadow-steak-saute.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_ShadowSteak.PrimalItemConsumable_Soup_ShadowSteak'"
+},
+{
+"id": 0,
+"name": "Soap",
+"category": "Consumable",
+"stack": 1,
+"icon": "images/soap.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumableSoap.PrimalItemConsumableSoap'"
+},
+{
+"id": 0,
+"name": "Spare Ribs Cooked (Primitive+)",
+"category": "Consumable",
+"stack": 50,
+"icon": "images/spare-ribs-cooked.png",
+"blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Consumables/PrimalItemConsumable_CookedRibs.PrimalItemConsumable_CookedRibs'"
+},
+{
+"id": 0,
+"name": "Spare Ribs Raw (Primitive+)",
+"category": "Consumable",
+"stack": 25,
+"icon": "images/spare-ribs-raw.png",
+"blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Consumables/PrimalItemConsumable_CookedRibs.PrimalItemConsumable_CookedRibs'"
+},
+{
+"id": 13,
+"name": "Spoiled Meat",
+"category": "Consumable",
+"stack": 100,
+"icon": "images/spoiled-meat.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_SpoiledMeat.PrimalItemConsumable_SpoiledMeat'"
+},
+{
+"id": 122,
+"name": "Stimberry",
+"category": "Consumable",
+"stack": 100,
+"icon": "images/stimberry.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Stimberry.PrimalItemConsumable_Berry_Stimberry'"
+},
+{
+"id": 0,
+"name": "Stimbull Juice (Primitive+)",
+"category": "Consumable",
+"stack": 100,
+"icon": "images/stimbull-juice-primitive-plus.png",
+"blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Consumables/PrimalItemConsumable_Smoothie_Stimbull.PrimalItemConsumable_Smoothie_Stimbull'"
+},
+{
+"id": 183,
+"name": "Super Test Meat(Raw)",
+"category": "Consumable",
+"stack": "100",
+"icon": "images/super-test-meat-raw.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_SuperTestMeat.PrimalItemConsumable'"
+},
+{
+"id": 0,
+"name": "Sweet Veggie Cake",
+"category": "Consumable",
+"stack": 5,
+"icon": "images/sweet-veggie-cake.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_SweetVeggieCake.PrimalItemConsumable_SweetVeggieCake'"
+},
+{
+"id": 119,
+"name": "Tintoberry",
+"category": "Consumable",
+"stack": 100,
+"icon": "images/tintoberry.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Tintoberry.PrimalItemConsumable_Berry_Tintoberry'"
+},
+{
+"id": 0,
+"name": "Tintoberry Juice (Primitive+)",
+"category": "Consumable",
+"stack": 100,
+"icon": "images/tintoberry-juice-primitive-plus.png",
+"blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Consumables/PrimalItemConsumable_Smoothie_Tintoberry.PrimalItemConsumable_Smoothie_Tintoberry'"
+},
+{
+"id": 0,
+"name": "Tomato Juice (Primitive+)",
+"category": "Consumable",
+"stack": 100,
+"icon": "images/tomato-juice-primitive-plus.png",
+"blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Consumables/PrimalItemConsumable_Smoothie_Tomato.PrimalItemConsumable_Smoothie_Tomato'"
+},
+{
+"id": 15,
+"name": "Water Jar (Empty)",
+"category": "Consumable",
+"stack": 1,
+"icon": "images/water-jar-empty.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_WaterJarCraftable.PrimalItemConsumable_WaterJarCraftable'"
+},
+{
+"id": 16,
+"name": "Water Jar (Full)",
+"category": "Consumable",
+"stack": 1,
+"icon": "images/water-jar-full.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_WaterJarRefill.PrimalItemConsumable_WaterJarRefill'"
+},
+{
+"id": 47,
+"name": "Waterskin (Empty)",
+"category": "Consumable",
+"stack": 1,
+"icon": "images/waterskin-empty.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_WaterskinCraftable.PrimalItemConsumable_WaterskinCraftable'"
+},
+{
+"id": 48,
+"name": "Waterskin (Filled)",
+"category": "Consumable",
+"stack": 1,
+"icon": "images/waterskin-filled.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_WaterskinCraftable.PrimalItemRefill_WaterskinRefill'"
+},
+{
+"id": 0,
+"name": "Wyvern Milk",
+"category": "Consumable",
+"stack": 1,
+"icon": "images/wyvern-milk.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_WyvernMilk.PrimalItemConsumable_WyvernMilk'"
+}
 ]

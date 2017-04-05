@@ -1,5 +1,13 @@
 import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
+import { HttpModule } from '@angular/http';
+import { BrowserModule } from '@angular/platform-browser';
+import { StatusBar } from '@ionic-native/status-bar';
+import { SplashScreen } from '@ionic-native/splash-screen';
+import {AdMob} from '@ionic-native/admob';
+import { Clipboard } from '@ionic-native/clipboard';
+import { Toast } from '@ionic-native/toast';
+
 import { MyApp } from './app.component';
 import { ColorPage } from '../pages/color/color';
 import { DashboardPage } from '../pages/dashboard/dashboard';
@@ -33,6 +41,8 @@ import { CommandsPage } from '../pages/commands/commands';
     CavesPage
   ],
   imports: [
+    BrowserModule,
+    HttpModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
@@ -54,7 +64,12 @@ import { CommandsPage } from '../pages/commands/commands';
     CavesPage
   ],
   providers: [
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler },
+    StatusBar,
+    SplashScreen,
+    AdMob,
+    Clipboard,
+    Toast
   ]
 })
 export class AppModule {}

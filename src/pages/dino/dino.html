@@ -31,22 +31,35 @@
   </ion-row>
 </ion-header>
 <ion-content responsive-md padding>
+  <h1 class="tv">&nbsp;</h1>
   <div id="holdtext" style="display:none;"></div>
-  <ion-col *ngFor="let item of dinoList; let i = index">
-    <ion-card>
-      <img src="assets/{{item.icon}}"/>
-      <ion-card-content>
-        <ion-card-title>{{item.name}}<br/><i>{{item.category}}</i></ion-card-title>
-        <p style="overflow:hidden;height:20px;margin-bottom:1px;"><b>Tame With:</b>{{item.tame}}&nbsp;</p>
-        <p style="overflow:hidden;height:20px;margin-bottom:10px;"><b>ID:</b>{{item.id}}&nbsp;</p>
-        <ion-row responsive-sm style="margin-bottom:5px;">
-          <ion-col class="entity cmd">
-            <button (click)="copyText([i])">COPY TO CLIPBOARD</button>
-            <span class="entity-copy" [attr.id]="'dino'+i">admincheat SpawnDino "{{item.blueprint}}" 500 0 0 {{dinoLevel}}</span>
-          </ion-col>
-        </ion-row>
-      </ion-card-content>
-    </ion-card>
-  </ion-col>
+  <ion-card *ngFor="let item of dinoList; let i = index">
+    <img src="assets/{{item.icon}}"/>
+    <ion-card-content>
+      <ion-card-title>{{item.name}}<br/><i>{{item.category}}</i></ion-card-title>
+      <p style="overflow:hidden;height:20px;margin-bottom:1px;"><b>Tame With:</b>{{item.tame}}&nbsp;</p>
+      <p style="overflow:hidden;height:20px;margin-bottom:10px;"><b>ID:</b>{{item.id}}&nbsp;</p>
+      <ion-row responsive-sm style="margin-bottom:5px;">
+        <ion-col class="entity cmd">
+          <button class="tv" (keyup)="copyTextEvent($event, [i], 'dino')" (mouseup)="copyTextEvent($event, [i], 'dino')">COPY DINO TO CLIPBOARD</button>
+          <span class="entity-copy" [attr.id]="'dino'+i">admincheat SpawnDino "{{item.blueprint}}" 500 0 0 {{dinoLevel}}</span>
+        </ion-col>
+      </ion-row>
+      <ion-row responsive-sm style="margin-bottom:5px;">
+        <ion-col class="entity cmd" *ngIf="item.saddle">
+          <button class="tv" (keyup)="copyTextEvent($event, [i], 'saddle')" (mouseup)="copyTextEvent($event, [i], 'saddle')">SADDLE</button>
+          <span class="entity-copy" [attr.id]="'saddle'+i">cheat giveitem "{{item.saddle}}" 1 99 0</span>
+        </ion-col>
+        <ion-col class="entity cmd" *ngIf="item.platform">
+          <button class="tv" (keyup)="copyTextEvent($event, [i], 'platform')" (mouseup)="copyTextEvent($event, [i], 'platform')">PLATFORM SADDLE</button>
+          <span class="entity-copy" [attr.id]="'platform'+i">cheat giveitem "{{item.platform}}" 1 99 0</span>
+        </ion-col>
+        <ion-col class="entity cmd" *ngIf="item.tek">
+          <button class="tv" (keyup)="copyTextEvent($event, [i], 'tek')" (mouseup)="copyTextEvent($event, [i], 'tek')">TEK SADDLE</button>
+          <span class="entity-copy" [attr.id]="'tek'+i">cheat giveitem "{{item.platform}}" 1 99 0</span>
+        </ion-col>
+      </ion-row>
+    </ion-card-content>
+  </ion-card>
   <p>{{errorMessage}}</p>
 </ion-content>

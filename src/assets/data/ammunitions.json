@@ -89,6 +89,14 @@
     },
     {
         "id": 0,
+        "name": "Pheromone Dart",
+        "category": "Ammunition",
+        "stack": 50,
+        "icon": "images/pheromone-dart.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_AggroTranqDart.PrimalItemAmmo_AggroTranqDart'"
+    },
+    {
+        "id": 0,
         "name": "Rocket Homing Missile",
         "category": "Ammunition",
         "stack": 50,
@@ -102,6 +110,14 @@
         "stack": "50",
         "icon": "images/rocket-propelled-grenade.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_Rocket.PrimalItemAmmo_Rocket'"
+    },
+    {
+        "id": 0,
+        "name": "Shocking Tranquilizer Dart",
+        "category": "Ammunition",
+        "stack": 50,
+        "icon": "images/shocking-tranquilizer-dart.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_RefinedTranqDart.PrimalItemAmmo_RefinedTranqDart'"
     },
     {
         "id": 4,
