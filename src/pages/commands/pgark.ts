@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, NavParams, LoadingController } from 'ionic-angular';
 //import { DataService } from '../../providers/data-service/data-service';
 import { StaticService } from '../../static-service/static-data';
 
@@ -12,8 +12,11 @@ import { StaticService } from '../../static-service/static-data';
 export class pgarkPage {
   pgSettings: any[];
   errorMessage: string;
+  loader: any;
 
-  constructor(public navCtrl: NavController, public StaticService: StaticService) { }
+  constructor(public navCtrl: NavController, public navParams: NavParams, public StaticService: StaticService, public loadingCtrl: LoadingController) {
+    this.loader = this.navParams.get("loading");
+  }
 
   ngOnInit() {
     this.getList();
@@ -21,7 +24,7 @@ export class pgarkPage {
 
   getList() {
     this.StaticService.getPGsettings().then(
-        data => { this.pgSettings = data; },
+        data => { this.pgSettings = data; this.loader.dismiss(); },
         error => { this.errorMessage = <any>error; }
     );
   }

@@ -1,6 +1,5 @@
-
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, NavParams, LoadingController } from 'ionic-angular';
 import { StaticService } from '../../static-service/static-data';
 
 @Component({
@@ -12,8 +11,11 @@ import { StaticService } from '../../static-service/static-data';
 export class ColorPage {
   itemList:any[];
   errorMessage: string;
+  loader: any;
 
-  constructor(public navCtrl: NavController, public dataService: StaticService) { }
+  constructor(public navCtrl: NavController, public navParams: NavParams, public dataService: StaticService, public loadingCtrl: LoadingController) {
+    this.loader = this.navParams.get("loading");
+  }
 
   ngOnInit() {
     this.getList();
@@ -21,7 +23,7 @@ export class ColorPage {
 
   getList() {
     this.dataService.getColorList().then(
-      data => { this.itemList = <any>data; },
+      data => { this.itemList = <any>data; this.loader.dismiss(); },
       error => { this.itemList = []; this.errorMessage = <any>error; }
     );
   }

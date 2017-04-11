@@ -1,8 +1,5 @@
 <ion-header>
   <ion-navbar>
-    <button menuToggle>
-      <ion-icon name="menu"></ion-icon>
-    </button>
     <ion-title>Spawn Dinos</ion-title>
   </ion-navbar>
   <ion-searchbar
@@ -41,21 +38,21 @@
       <p style="overflow:hidden;height:20px;margin-bottom:10px;"><b>ID:</b>{{item.id}}&nbsp;</p>
       <ion-row responsive-sm style="margin-bottom:5px;">
         <ion-col class="entity cmd">
-          <button class="tv" (keyup)="copyTextEvent($event, [i], 'dino')" (mouseup)="copyTextEvent($event, [i], 'dino')">COPY DINO TO CLIPBOARD</button>
+          <button class="tv" (keyup)="copyTextEvent($event, [i], 'dino')" (click)="copyText([i], 'dino')">COPY DINO TO CLIPBOARD</button>
           <span class="entity-copy" [attr.id]="'dino'+i">admincheat SpawnDino "{{item.blueprint}}" 500 0 0 {{dinoLevel}}</span>
         </ion-col>
       </ion-row>
       <ion-row responsive-sm style="margin-bottom:5px;">
         <ion-col class="entity cmd" *ngIf="item.saddle">
-          <button class="tv" (keyup)="copyTextEvent($event, [i], 'saddle')" (mouseup)="copyTextEvent($event, [i], 'saddle')">SADDLE</button>
+          <button class="tv" (keyup)="copyTextEvent($event, [i], 'saddle')" (click)="copyText([i], 'saddle')">SADDLE</button>
           <span class="entity-copy" [attr.id]="'saddle'+i">cheat giveitem "{{item.saddle}}" 1 99 0</span>
         </ion-col>
         <ion-col class="entity cmd" *ngIf="item.platform">
-          <button class="tv" (keyup)="copyTextEvent($event, [i], 'platform')" (mouseup)="copyTextEvent($event, [i], 'platform')">PLATFORM SADDLE</button>
+          <button class="tv" (keyup)="copyTextEvent($event, [i], 'platform')" (click)="copyText([i], 'platform')">PLATFORM SADDLE</button>
           <span class="entity-copy" [attr.id]="'platform'+i">cheat giveitem "{{item.platform}}" 1 99 0</span>
         </ion-col>
         <ion-col class="entity cmd" *ngIf="item.tek">
-          <button class="tv" (keyup)="copyTextEvent($event, [i], 'tek')" (mouseup)="copyTextEvent($event, [i], 'tek')">TEK SADDLE</button>
+          <button class="tv" (keyup)="copyTextEvent($event, [i], 'tek')" (click)="copyText([i], 'tek')">TEK SADDLE</button>
           <span class="entity-copy" [attr.id]="'tek'+i">cheat giveitem "{{item.platform}}" 1 99 0</span>
         </ion-col>
       </ion-row>

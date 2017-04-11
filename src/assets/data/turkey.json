@@ -1,18 +1,24 @@
 [
-    {
-        "id": 0,
-        "name": "Chieftan Hat Skin",
-        "category": "Costume",
-        "stack": 1,
-        "icon": "images/chieftan-hat-skin.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_TurkeyHat.PrimalItemSkin_TurkeyHat'"
-    },
-    {
-        "id": 0,
-        "name": "Wishbone",
-        "category": "Resource",
-        "stack": 1,
-        "icon": "images/wishbone.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Wishbone.PrimalItemResource_Wishbone'"
-    }
+{
+"id": 0,
+"name": "Captain's Hat Skin",
+"category": "Costume",
+"stack": 1,
+"icon": "images/Captain-hat-skin.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_CaptainsHat.PrimalItemSkin_CaptainsHat'"
+},{
+"id": 0,
+"name": "Chieftan Hat Skin",
+"category": "Costume",
+"stack": 1,
+"icon": "images/chieftan-hat-skin.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_TurkeyHat.PrimalItemSkin_TurkeyHat'"
+},{
+"id": 0,
+"name": "Wishbone",
+"category": "Resource",
+"stack": 1,
+"icon": "images/wishbone.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Wishbone.PrimalItemResource_Wishbone'"
+}
 ]

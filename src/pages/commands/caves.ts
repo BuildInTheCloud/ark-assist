@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, NavParams, LoadingController } from 'ionic-angular';
 //import { DataService } from '../../providers/data-service/data-service';
 import { StaticService } from '../../static-service/static-data';
 
@@ -14,8 +14,11 @@ export class CavesPage {
   centerCaves:any[];
   scorchedCaves:any[];
   errorMessage: string;
+  loader: any;
 
-  constructor(public navCtrl: NavController, public StaticService: StaticService) { }
+  constructor(public navCtrl: NavController, public navParams: NavParams, public StaticService: StaticService, public loadingCtrl: LoadingController) {
+    this.loader = this.navParams.get("loading");
+  }
 
   ngOnInit() {
     this.getList();
@@ -38,6 +41,7 @@ export class CavesPage {
               this.scorchedCaves.push(data[x]);
             }
           }
+          this.loader.dismiss();
         },
         error => { this.errorMessage = <any>error; }
     );

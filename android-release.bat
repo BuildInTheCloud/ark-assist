@@ -1,6 +1,6 @@
 @echo off
 @echo -- bundling --
-call ionic build android --release
+call ionic cordova:build android --release
 IF %ERRORLEVEL% == 0 (
     @echo -- signing --
     call "%JAVA_HOME%\bin\jarsigner.exe" -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.keystore platforms\android\build\outputs\apk\android-release-unsigned.apk alias_name

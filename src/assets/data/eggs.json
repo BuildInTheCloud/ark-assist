@@ -1,298 +1,427 @@
 [
-    {
-        "id": 0,
-        "name": "Allosaurus Egg",
-        "category": "Egg",
-        "stack": 100,
-        "icon": "images/allosaurus-egg.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Allo.PrimalItemConsumable_Egg_Allo'"
-    },
-    {
-        "id": 345,
-        "name": "Ankylo Egg",
-        "category": "Egg",
-        "stack": 100,
-        "icon": "images/ankylosaurus-egg.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Ankylo.PrimalItemConsumable_Egg_Ankylo'"
-    },
-    {
-        "id": 353,
-        "name": "Araneo Egg",
-        "category": "Egg",
-        "stack": 100,
-        "icon": "images/spider-egg.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Spider.PrimalItemConsumable_Egg_Spider'"
-    },
-    {
-        "id": 346,
-        "name": "Argentavis Egg",
-        "category": "Egg",
-        "stack": 100,
-        "icon": "images/argentavis-egg.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Argent.PrimalItemConsumable_Egg_Argent'"
-    },
-    {
-        "id": 288,
-        "name": "Bronto Egg",
-        "category": "Egg",
-        "stack": "100",
-        "icon": "images/brontosaurus-egg.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Bronto.PrimalItemConsumable_Egg_Bronto'"
-    },
-    {
-        "id": 0,
-        "name": "Camelsaurus Egg",
-        "category": "Egg",
-        "stack": 100,
-        "icon": "images/camelsaurus-egg.png",
-        "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Camelsaurus/PrimalItemConsumable_Egg_Camelsaurus.PrimalItemConsumable_Egg_Camelsaurus'"
-    },
-    {
-        "id": 348,
-        "name": "Carno Egg",
-        "category": "Egg",
-        "stack": 100,
-        "icon": "images/carnotaurus-egg.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Carno.PrimalItemConsumable_Egg_Carno'"
-    },
-    {
-        "id": 349,
-        "name": "Dilo Egg",
-        "category": "Egg",
-        "stack": 100,
-        "icon": "images/dilophosaurus-egg.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Dilo.PrimalItemConsumable_Egg_Dilo'"
-    },
-    {
-        "id": 0,
-        "name": "Dimetrodon Egg",
-        "category": "Egg",
-        "stack": 100,
-        "icon": "images/dimetrodon-egg.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Dimetrodon.PrimalItemConsumable_Egg_Dimetrodon'"
-    },
-    {
-        "id": 425,
-        "name": "Dimorph Egg",
-        "category": "Egg",
-        "stack": 100,
-        "icon": "images/dimorphodon-egg.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Dimorph.PrimalItemConsumable_Egg_Dimorph'"
-    },
-    {
-        "id": 0,
-        "name": "Diplo Egg",
-        "category": "Consumable",
-        "stack": 100,
-        "icon": "images/diplodocus-egg.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Diplo.PrimalItemConsumable_Egg_Diplo'"
-    },
-    {
-        "id": 294,
-        "name": "Dodo Egg",
-        "category": "Egg",
-        "stack": "100",
-        "icon": "images/dodo-egg.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Dodo.PrimalItemConsumable_Egg_Dodo'"
-    },
-    {
-        "id": 0,
-        "name": "Fertilized Wyvern Egg (Fire)",
-        "category": "Egg",
-        "stack": 1,
-        "icon": "images/fertilized-wyvern-egg-fire.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Wyvern_Fertilized_Fire.PrimalItemConsumable_Egg_Wyvern_Fertilized_Fire'"
-    },
-    {
-        "id": 0,
-        "name": "Fertilized Wyvern Egg (Lightning)",
-        "category": "Egg",
-        "stack": 1,
-        "icon": "images/fertilized-wyvern-egg-lLightning.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Wyvern_Fertilized_Lightning.PrimalItemConsumable_Egg_Wyvern_Fertilized_Lightning'"
-    },
-    {
-        "id": 0,
-        "name": "Fertilized Wyvern Egg (Poison)",
-        "category": "Egg",
-        "stack": 1,
-        "icon": "images/fertilized-wyvern-egg-pPoison.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Wyvern_Fertilized_Poison.PrimalItemConsumable_Egg_Wyvern_Fertilized_Poison'"
-    },
-    {
-        "id": 0,
-        "name": "Giganotosaurus Egg",
-        "category": "Egg",
-        "stack": 100,
-        "icon": "images/giganotosaurus-egg.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Gigant.PrimalItemConsumable_Egg_Gigant'"
-    },
-    {
-        "id": 0,
-        "name": "Kairuku Egg",
-        "category": "Egg",
-        "stack": 100,
-        "icon": "images/kairuku-egg.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Kairuku.PrimalItemConsumable_Egg_Kairuku'"
-    },
-    {
-        "id": 0,
-        "name": "Lystro Egg",
-        "category": "Consumable",
-        "stack": 100,
-        "icon": "images/lystrosaurus-egg.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Lystro.PrimalItemConsumable_Egg_Lystro'"
-    },
-    {
-        "id": 0,
-        "name": "Mantis Egg",
-        "category": "Egg",
-        "stack": 100,
-        "icon": "images/mantis-egg.png",
-        "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Mantis/PrimalItemConsumable_Egg_Mantis.PrimalItemConsumable_Egg_Mantis'"
-    },
-    {
-        "id": 0,
-        "name": "Moth Egg",
-        "category": "Egg",
-        "stack": 100,
-        "icon": "images/moth-egg.png",
-        "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Moth/PrimalItemConsumable_Egg_Moth.PrimalItemConsumable_Egg_Moth'"
-    },
-    {
-        "id": 0,
-        "name": "Oviraptor Egg",
-        "category": "Egg",
-        "stack": 100,
-        "icon": "images/oviraptor-egg.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Oviraptor.PrimalItemConsumable_Egg_Oviraptor'"
-    },
-    {
-        "id": 418,
-        "name": "Pachycephalosaurus Egg",
-        "category": "Egg",
-        "stack": 100,
-        "icon": "images/pachycephalosaurus-egg.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Pachy.PrimalItemConsumable_Egg_Pachy'"
-    },
-    {
-        "id": 289,
-        "name": "Parasaur Egg",
-        "category": "Egg",
-        "stack": "100",
-        "icon": "images/parasaur-egg.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Para.PrimalItemConsumable_Egg_Para'"
-    },
-    {
-        "id": 350,
-        "name": "Pteranodon Egg",
-        "category": "Egg",
-        "stack": 100,
-        "icon": "images/pteranodon-egg.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Ptero.PrimalItemConsumable_Egg_Ptero'"
-    },
-    {
-        "id": 352,
-        "name": "Pulmonoscorpius Egg",
-        "category": "Egg",
-        "stack": 100,
-        "icon": "images/pulmonoscorpius-egg.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Scorpion.PrimalItemConsumable_Egg_Scorpion'"
-    },
-    {
-        "id": 0,
-        "name": "Quetzal Egg",
-        "category": "Egg",
-        "stack": 100,
-        "icon": "images/quetzalcoatlus-egg.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Quetz.PrimalItemConsumable_Egg_Quetz'"
-    },
-    {
-        "id": 290,
-        "name": "Raptor Egg",
-        "category": "Egg",
-        "stack": "100",
-        "icon": "images/raptor-egg.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Raptor.PrimalItemConsumable_Egg_Raptor'"
-    },
-    {
-        "id": 291,
-        "name": "Rex Egg",
-        "category": "Egg",
-        "stack": "100",
-        "icon": "images/trex-egg.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Rex.PrimalItemConsumable_Egg_Rex'"
-    },
-    {
-        "id": 351,
-        "name": "Sarco Egg",
-        "category": "Egg",
-        "stack": 100,
-        "icon": "images/sarcosaurus-egg.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Sarco.PrimalItemConsumable_Egg_Sarco'"
-    },
-    {
-        "id": 354,
-        "name": "Spino Egg",
-        "category": "Egg",
-        "stack": 100,
-        "icon": "images/spinosaur-egg.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Spino.PrimalItemConsumable_Egg_Spino'"
-    },
-    {
-        "id": 56,
-        "name": "Stego Egg",
-        "category": "Egg",
-        "stack": 100,
-        "icon": "images/stegosaurus-egg.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Stego.PrimalItemConsumable_Egg_Stego'"
-    },
-    {
-        "id": 0,
-        "name": "Terror Bird Egg",
-        "category": "Egg",
-        "stack": 100,
-        "icon": "images/terror-bird-egg.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_TerrorBird.PrimalItemConsumable_Egg_TerrorBird'"
-    },
-    {
-        "id": 0,
-        "name": "Thorny Dragon Egg",
-        "category": "Egg",
-        "stack": 100,
-        "icon": "images/thorny-dragon-egg.png",
-        "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/SpineyLizard/PrimalItemConsumable_Egg_SpineyLizard.PrimalItemConsumable_Egg_SpineyLizard'"
-    },
-    {
-        "id": 347,
-        "name": "Titanoboa Egg",
-        "category": "Egg",
-        "stack": 100,
-        "icon": "images/titanoboa-egg.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Boa.PrimalItemConsumable_Egg_Boa'"
-    },
-    {
-        "id": 292,
-        "name": "Trike Egg",
-        "category": "Egg",
-        "stack": "100",
-        "icon": "images/triceratops-egg.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Trike.PrimalItemConsumable_Egg_Trike'"
-    },
-    {
-        "id": 355,
-        "name": "Turtle Egg",
-        "category": "Egg",
-        "stack": 100,
-        "icon": "images/carbonemys-egg.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Turtle.PrimalItemConsumable_Egg_Turtle'"
-    },
-    {
-        "id": 0,
-        "name": "Vulture Egg",
-        "category": "Egg",
-        "stack": 100,
-        "icon": "images/vulture-egg.png",
-        "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Vulture/PrimalItemConsumable_Egg_Vulture.PrimalItemConsumable_Egg_Vulture'"
-    }
+{
+"id": 0,
+"name": "Allosaurus Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/allosaurus-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Allo.PrimalItemConsumable_Egg_Allo'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Allo.PrimalItemConsumable_Kibble_Allo'"
+},{
+"id": 345,
+"name": "Ankylo Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/ankylosaurus-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Ankylo.PrimalItemConsumable_Egg_Ankylo'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_AnkyloEgg.PrimalItemConsumable_Kibble_AnkyloEgg'"
+},{
+"id": 353,
+"name": "Araneo Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/spider-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Spider.PrimalItemConsumable_Egg_Spider'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_SpiderEgg.PrimalItemConsumable_Kibble_SpiderEgg'"
+},{
+"id": 346,
+"name": "Argentavis Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/argentavis-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Argent.PrimalItemConsumable_Egg_Argent'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_ArgentEgg.PrimalItemConsumable_Kibble_ArgentEgg'"
+},{
+"id": 0,
+"name": "Baryonyx Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/baryonyx-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Baryonyx.PrimalItemConsumable_Egg_Baryonyx'"
+},{
+"id": 0,
+"name": "Beelzebufo Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/beelzebufo-egg.jpg",
+"blueprint": ""
+},{
+"id": 288,
+"name": "Bronto Egg",
+"category": "Egg",
+"stack": "100",
+"icon": "images/brontosaurus-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Bronto.PrimalItemConsumable_Egg_Bronto'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_SauroEgg.PrimalItemConsumable_Kibble_SauroEgg'"
+},{
+"id": 0,
+"name": "Camelsaurus Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/camelsaurus-egg.png",
+"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Camelsaurus/PrimalItemConsumable_Egg_Camelsaurus.PrimalItemConsumable_Egg_Camelsaurus'",
+"kibble": "Blueprint'/Game/ScorchedEarth/Dinos/Camelsaurus/PrimalItemConsumable_Kibble_Camelsaurus.PrimalItemConsumable_Kibble_Camelsaurus'"
+},{
+"id": 355,
+"name": "carbonemys Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/carbonemys-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Turtle.PrimalItemConsumable_Egg_Turtle'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_TurtleEgg.PrimalItemConsumable_Kibble_TurtleEgg'"
+},{
+"id": 348,
+"name": "Carno Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/carnotaurus-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Carno.PrimalItemConsumable_Egg_Carno'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_CarnoEgg.PrimalItemConsumable_Kibble_CarnoEgg'"
+},{
+"id": 0,
+"name": "Compy Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/compy-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Compy.PrimalItemConsumable_Egg_Compy'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Compy.PrimalItemConsumable_Kibble_Compy'"
+},{
+"id": 349,
+"name": "Dilo Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/dilophosaurus-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Dilo.PrimalItemConsumable_Egg_Dilo'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_DiloEgg.PrimalItemConsumable_Kibble_DiloEgg'"
+},{
+"id": 0,
+"name": "Dimetrodon Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/dimetrodon-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Dimetrodon.PrimalItemConsumable_Egg_Dimetrodon'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_DimetroEgg.PrimalItemConsumable_Kibble_DimetroEgg'"
+},{
+"id": 425,
+"name": "Dimorph Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/dimorphodon-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Dimorph.PrimalItemConsumable_Egg_Dimorph'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_DimorphEgg.PrimalItemConsumable_Kibble_DimorphEgg'"
+},{
+"id": 0,
+"name": "Diplodocus Egg",
+"category": "Consumable",
+"stack": 100,
+"icon": "images/diplodocus-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Diplo.PrimalItemConsumable_Egg_Diplo'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_DiploEgg.PrimalItemConsumable_Kibble_DiploEgg'"
+},{
+"id": 294,
+"name": "Dodo Egg",
+"category": "Egg",
+"stack": "100",
+"icon": "images/dodo-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Dodo.PrimalItemConsumable_Egg_Dodo'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_DodoEgg.PrimalItemConsumable_Kibble_DodoEgg'"
+},{
+"id": 0,
+"name": "Gallimimus Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/gallimimus-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Galli.PrimalItemConsumable_Egg_Galli'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_GalliEgg.PrimalItemConsumable_Kibble_GalliEgg'"
+},{
+"id": 0,
+"name": "Giganotosaurus Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/giganotosaurus-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Gigant.PrimalItemConsumable_Egg_Gigant'"
+},{
+"id": 0,
+"name": "Ichthyornis Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/ichthyornis-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Ichthyornis.PrimalItemConsumable_Egg_Ichthyornis'"
+},{
+"id": 0,
+"name": "Iguanodon Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/iguanodon-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Iguanodon.PrimalItemConsumable_Egg_Iguanodon'"
+},{
+"id": 0,
+"name": "JugBug Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/kibble.png",
+"blueprint": "",
+"kibble": "Blueprint'/Game/ScorchedEarth/Dinos/JugBug/PrimalItemConsumable_Kibble_JugBug.PrimalItemConsumable_Kibble_JugBug'"
+},{
+"id": 0,
+"name": "Kairuku Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/kairuku-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Kairuku.PrimalItemConsumable_Egg_Kairuku'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_KairukuEgg.PrimalItemConsumable_Kibble_KairukuEgg'"
+},{
+"id": 0,
+"name": "Kaprosuchus Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/kaprosuchus-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Kaprosuchus.PrimalItemConsumable_Egg_Kaprosuchus'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_KaproEgg.PrimalItemConsumable_Kibble_KaproEgg'"
+},{
+"id": 0,
+"name": "Lystro Egg",
+"category": "Consumable",
+"stack": 100,
+"icon": "images/lystrosaurus-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Lystro.PrimalItemConsumable_Egg_Lystro'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_LystroEgg.PrimalItemConsumable_Kibble_LystroEgg'"
+},{
+"id": 0,
+"name": "Mantis Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/mantis-egg.png",
+"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Mantis/PrimalItemConsumable_Egg_Mantis.PrimalItemConsumable_Egg_Mantis'",
+"kibble": "Blueprint'/Game/ScorchedEarth/Dinos/Mantis/PrimalItemConsumable_Kibble_Mantis.PrimalItemConsumable_Kibble_Mantis'"
+},{
+"id": 0,
+"name": "Megalosaurus Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/megalosaurus-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Megalosaurus.PrimalItemConsumable_Egg_Megalosaurus'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_MegalosaurusEgg.PrimalItemConsumable_Kibble_MegalosaurusEgg'"
+},{
+"id": 0,
+"name": "Microraptor Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/microraptor-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Microraptor.PrimalItemConsumable_Egg_Microraptor'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_MicroraptorEgg.PrimalItemConsumable_Kibble_MicroraptorEgg'"
+},{
+"id": 0,
+"name": "Moschops Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/moschops-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Moschops.PrimalItemConsumable_Egg_Moschops'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_MoschopsEgg.PrimalItemConsumable_Kibble_MoschopsEgg'"
+},{
+"id": 0,
+"name": "Moth Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/moth-egg.png",
+"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Moth/PrimalItemConsumable_Egg_Moth.PrimalItemConsumable_Egg_Moth'",
+"kibble": "Blueprint'/Game/ScorchedEarth/Dinos/Moth/PrimalItemConsumable_Kibble_Moth.PrimalItemConsumable_Kibble_Moth'"
+},{
+"id": 0,
+"name": "Oviraptor Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/oviraptor-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Oviraptor.PrimalItemConsumable_Egg_Oviraptor'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_OviraptorEgg.PrimalItemConsumable_Kibble_OviraptorEgg'"
+},{
+"id": 418,
+"name": "Pachycephalosaurus Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/pachycephalosaurus-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Pachy.PrimalItemConsumable_Egg_Pachy'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_PachyEgg.PrimalItemConsumable_Kibble_PachyEgg'"
+},{
+"id": 0,
+"name": "Pachyrhino Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/pachyrhino-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Pachyrhino.PrimalItemConsumable_Egg_Pachyrhino'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_PachyRhinoEgg.PrimalItemConsumable_Kibble_PachyRhinoEgg'"
+},{
+"id": 289,
+"name": "Parasaur Egg",
+"category": "Egg",
+"stack": "100",
+"icon": "images/parasaur-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Para.PrimalItemConsumable_Egg_Para'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_ParaEgg.PrimalItemConsumable_Kibble_ParaEgg'"
+},{
+"id": 0,
+"name": "Pegomastax Egg",
+"category": "Egg",
+"stack": "100",
+"icon": "images/pegomastax-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Pegomastax.PrimalItemConsumable_Egg_Pegomastax'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_PegomastaxEgg.PrimalItemConsumable_Kibble_PegomastaxEgg'"
+},{
+"id": 0,
+"name": "Pelagornis Egg",
+"category": "Egg",
+"stack": "100",
+"icon": "images/pelagornis-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Pela.PrimalItemConsumable_Egg_Pela'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Pela.PrimalItemConsumable_Kibble_Pela'"
+},{
+"id": 350,
+"name": "Pteranodon Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/pteranodon-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Ptero.PrimalItemConsumable_Egg_Ptero'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_PteroEgg.PrimalItemConsumable_Kibble_PteroEgg'"
+},{
+"id": 352,
+"name": "Pulmonoscorpius Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/pulmonoscorpius-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Scorpion.PrimalItemConsumable_Egg_Scorpion'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_ScorpionEgg.PrimalItemConsumable_Kibble_ScorpionEgg'"
+},{
+"id": 0,
+"name": "Quetzal Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/quetzalcoatlus-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Quetz.PrimalItemConsumable_Egg_Quetz'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_QuetzEgg.PrimalItemConsumable_Kibble_QuetzEgg'"
+},{
+"id": 290,
+"name": "Raptor Egg",
+"category": "Egg",
+"stack": "100",
+"icon": "images/raptor-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Raptor.PrimalItemConsumable_Egg_Raptor'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_RaptorEgg.PrimalItemConsumable_Kibble_RaptorEgg'"
+},{
+"id": 291,
+"name": "Rex Egg",
+"category": "Egg",
+"stack": "100",
+"icon": "images/trex-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Rex.PrimalItemConsumable_Egg_Rex'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_RexEgg.PrimalItemConsumable_Kibble_RexEgg'"
+},{
+"id": 351,
+"name": "Sarco Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/sarcosaurus-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Sarco.PrimalItemConsumable_Egg_Sarco'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_SarcoEgg.PrimalItemConsumable_Kibble_SarcoEgg'"
+},{
+"id": 354,
+"name": "Spino Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/spinosaur-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Spino.PrimalItemConsumable_Egg_Spino'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_SpinoEgg.PrimalItemConsumable_Kibble_SpinoEgg'"
+},{
+"id": 56,
+"name": "Stego Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/stegosaurus-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Stego.PrimalItemConsumable_Egg_Stego'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_StegoEgg.PrimalItemConsumable_Kibble_StegoEgg'"
+},{
+"id": 0,
+"name": "Tapejara Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/tapejara-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Tapejara.PrimalItemConsumable_Egg_Tapejara'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_TapejaraEgg.PrimalItemConsumable_Kibble_TapejaraEgg'"
+},{
+"id": 0,
+"name": "Terror Bird Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/terror-bird-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_TerrorBird.PrimalItemConsumable_Egg_TerrorBird'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_TerrorBirdEgg.PrimalItemConsumable_Kibble_TerrorBirdEgg'"
+},{
+"id": 0,
+"name": "Therizino Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/therizino-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Therizino.PrimalItemConsumable_Egg_Therizino'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_TherizinoEgg.PrimalItemConsumable_Kibble_TherizinoEgg'"
+},{
+"id": 0,
+"name": "Thorny Dragon Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/thorny-dragon-egg.png",
+"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/SpineyLizard/PrimalItemConsumable_Egg_SpineyLizard.PrimalItemConsumable_Egg_SpineyLizard'",
+"kibble": "Blueprint'/Game/ScorchedEarth/Dinos/SpineyLizard/PrimalItemConsumable_Kibble_SpineyLizard.PrimalItemConsumable_Kibble_SpineyLizard'"
+},{
+"id": 347,
+"name": "Titanoboa Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/titanoboa-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Boa.PrimalItemConsumable_Egg_Boa'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_BoaEgg.PrimalItemConsumable_Kibble_BoaEgg'"
+},{
+"id": 292,
+"name": "Trike Egg",
+"category": "Egg",
+"stack": "100",
+"icon": "images/triceratops-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Trike.PrimalItemConsumable_Egg_Trike'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_TrikeEgg.PrimalItemConsumable_Kibble_TrikeEgg'"
+},{
+"id": 0,
+"name": "Troodon Egg",
+"category": "Egg",
+"stack": "100",
+"icon": "images/troodon-egg.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Troodon.PrimalItemConsumable_Egg_Troodon'",
+"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_TroodonEgg.PrimalItemConsumable_Kibble_TroodonEgg'"
+},{
+"id": 0,
+"name": "Vulture Egg",
+"category": "Egg",
+"stack": 100,
+"icon": "images/vulture-egg.png",
+"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Vulture/PrimalItemConsumable_Egg_Vulture.PrimalItemConsumable_Egg_Vulture'",
+"kibble": "Blueprint'/Game/ScorchedEarth/Dinos/Vulture/PrimalItemConsumable_Kibble_Vulture.PrimalItemConsumable_Kibble_Vulture'"
+},{
+"id": 0,
+"name": "Wyvern Egg Fertilized (Fire)",
+"category": "Egg",
+"stack": 1,
+"icon": "images/fertilized-wyvern-egg-fire.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Wyvern_Fertilized_Fire.PrimalItemConsumable_Egg_Wyvern_Fertilized_Fire'"
+},{
+"id": 0,
+"name": "Wyvern Egg Fertilized (Lightning)",
+"category": "Egg",
+"stack": 1,
+"icon": "images/fertilized-wyvern-egg-lLightning.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Wyvern_Fertilized_Lightning.PrimalItemConsumable_Egg_Wyvern_Fertilized_Lightning'"
+},{
+"id": 0,
+"name": "Wyvern Egg Fertilized (Poison)",
+"category": "Egg",
+"stack": 1,
+"icon": "images/fertilized-wyvern-egg-pPoison.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Wyvern_Fertilized_Poison.PrimalItemConsumable_Egg_Wyvern_Fertilized_Poison'"
+}
 ]

@@ -1,6 +1,6 @@
 <ion-header>
   <ion-navbar>
-    <button menuToggle>
+    <button menuToggle class="tv">
       <ion-icon name="menu"></ion-icon>
     </button>
     <ion-title>{{pageTitle}}</ion-title>
@@ -47,16 +47,24 @@
       <h2>{{item.name}} (<i>{{item.stack}} </i>)</h2>
       <ion-row responsive-sm style="margin-bottom:5px;">
         <ion-col class="entity cmd" *ngIf="item.blueprint !== '' && item.category == 'Dye'">
-          <button class="tv" (keyup)="copyTextEvent($event, [i])" (mouseup)="copyTextEvent($event, [i])">COPY TO CLIPBOARD</button>
+          <button class="tv" (keyup)="copyTextEvent($event, [i], 'entity')" (click)="copyText([i], 'entity')">COPY TO CLIPBOARD</button>
           <span class="entity-copy" [attr.id]="'entity'+i">cheat giveitemnum {{item.id}} {{item.stack}} 1 0</span>
         </ion-col>
         <ion-col class="entity cmd" *ngIf="item.blueprint !== '' && item.category != 'Dye'">
-          <button class="tv" (keyup)="copyTextEvent($event, [i])" (mouseup)="copyTextEvent($event, [i])">COPY TO CLIPBOARD</button>
+          <button class="tv" (keyup)="copyTextEvent($event, [i], 'entity')" (click)="copyText([i], 'entity')">COPY TO CLIPBOARD</button>
           <span class="entity-copy" [attr.id]="'entity'+i">cheat giveitem "{{item.blueprint}}" {{item.stack > 50 ? 50 : item.stack}} {{quality}} 0</span>
         </ion-col>
         <ion-col class="entity cmd missing" *ngIf="item.blueprint == ''">
           <strong>MISSING</strong>
           <span class="entity-copy" [attr.id]="'entity'+i"></span>
+        </ion-col>
+        <ion-col class="entity cmd" *ngIf="item.unlock && item.category != 'Dye'">
+          <button class="tv" (keyup)="copyTextEvent($event, [i], 'unlock')" (click)="copyText([i], 'unlock')">UNLOCK</button>
+          <span class="entity-copy" [attr.id]="'unlock'+i">cheat unlockengram "{{item.blueprint}}"</span>
+        </ion-col>
+        <ion-col class="entity cmd" *ngIf="item.kibble && item.category != 'Dye'">
+          <button class="tv" (keyup)="copyTextEvent($event, [i], 'kibble')" (click)="copyText([i], 'kibble')">KIBBLE</button>
+          <span class="entity-copy" [attr.id]="'kibble'+i">cheat giveitem "{{item.kibble}}" {{item.stack > 50 ? 50 : item.stack}} {{quality}} 0</span>
         </ion-col>
       </ion-row>
     </ion-item>

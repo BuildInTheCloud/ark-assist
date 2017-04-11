@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, Platform, ToastController } from 'ionic-angular';
+import { NavController, NavParams, Platform, ToastController, LoadingController } from 'ionic-angular';
 import { Clipboard } from '@ionic-native/clipboard';
 import { Toast } from '@ionic-native/toast';
 import { StaticService } from '../../static-service/static-data';
@@ -9,7 +9,7 @@ declare var Windows: any;
 @Component({
   selector: 'page-dino',
   templateUrl: 'dino.html',
-  providers: [StaticService]
+  providers: [StaticService, Clipboard, Toast]
 })
 
 export class DinoPage {
@@ -19,12 +19,16 @@ export class DinoPage {
   searchFor:string = "";
   shouldShowCancel:boolean;
   dinoLevel: number = 500;
+  loader: any;
 
-  constructor(public navCtrl: NavController, public StaticService: StaticService,
-              public platform: Platform, public toast: Toast, public clipboard: Clipboard, public toastCtrl: ToastController) {
+  constructor(public navCtrl: NavController, public StaticService: StaticService, public navParams: NavParams,
+              public platform: Platform, public toast: Toast, public clipboard: Clipboard,
+              public toastCtrl: ToastController, public loadingCtrl: LoadingController) {
+    this.loader = this.navParams.get("loading");
     this.platform = platform;
     this.toastCtrl = toastCtrl;
     this.toast = toast;
+    this.clipboard = clipboard;
   }
 
   ngOnInit() {
@@ -36,6 +40,7 @@ export class DinoPage {
       data => {
         this.dinos = data;
         this.dinoList = this.dinos;
+        this.loader.dismiss();
       },
       error => { this.dinos = []; this.dinoList = []; this.errorMessage = <any>error; }
     );
@@ -74,21 +79,24 @@ export class DinoPage {
         (this.platform.is("cordova") && this.platform.is("core")) ||
         (this.platform.is("cordova") && this.platform.is("mobile") && this.platform.is("windows"))
     ) {
-      console.log("FOR WINDOWS");
+      //console.log("FOR WINDOWS");
       var dataPackage = new Windows.ApplicationModel.DataTransfer.DataPackage();
       dataPackage.setText(pasteVAL);
       Windows.ApplicationModel.DataTransfer.Clipboard.setContent(dataPackage);
       let toastPopup = this.toastCtrl.create({message: "Copied: "+pasteVAL, duration: 3000, position: 'top'});
       toastPopup.present();
     } else if (this.platform.is("cordova")) {
-      console.log("FOR CORDOVA");
-      this.clipboard.copy(pasteVAL).then(function() {
-        this.toast.show("Copied: "+pasteVAL, "short", "top").subscribe(toast => { console.log(toast); });
-      }, function(err) {
-        this.toast.show("There was an error copying to clipboard", "short", "top").subscribe(toast => { console.log(toast); });
-      });
+      //console.log("FOR CORDOVA");
+      //this.clipboard.copy(pasteVAL).then(function() {
+      //  this.toast.show("Copied: "+pasteVAL, "short", "top").subscribe(toast => { console.log(toast); });
+      //}, function(err) {
+      //  this.toast.show("There was an error copying to clipboard", "short", "top").subscribe(toast => { console.log(toast); });
+      //});
+      this.clipboard.copy(pasteVAL);
+      let toastPopup = this.toastCtrl.create({message: "Copied: "+pasteVAL, duration: 3000, position: 'top'});
+      toastPopup.present();
     } else {
-      console.log("FOR BROWSER");
+      //console.log("FOR BROWSER");
       var holdtext:any = document.getElementById("holdtext");
       holdtext.innerText = pasteVAL;
       this.selectElementText(holdtext);

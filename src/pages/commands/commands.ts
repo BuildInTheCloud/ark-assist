@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, NavParams, LoadingController } from 'ionic-angular';
 //import { DataService } from '../../providers/data-service/data-service';
 import { StaticService } from '../../static-service/static-data';
 
@@ -12,8 +12,11 @@ import { StaticService } from '../../static-service/static-data';
 export class CommandsPage {
   cmdList:any[];
   errorMessage: string;
+  loader: any;
 
-  constructor(public navCtrl: NavController, public dataService: StaticService) { }
+  constructor(public navCtrl: NavController, public navParams: NavParams, public dataService: StaticService, public loadingCtrl: LoadingController) {
+    this.loader = this.navParams.get("loading");
+  }
 
   ngOnInit() {
     this.getList();
@@ -22,7 +25,7 @@ export class CommandsPage {
   getList() {
     this.dataService.getCommandList()
       .then(
-        data => { this.cmdList = data; },
+        data => { this.cmdList = data; this.loader.dismiss(); },
         error => { this.cmdList = []; this.errorMessage = <any>error; }
       )
     ;

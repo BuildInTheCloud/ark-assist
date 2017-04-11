@@ -15,6 +15,16 @@
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
 
+ion-content {
+    background-image:url(../assets/images/ark.jpg);
+    background-size: cover;
+    ion-list {
+        ion-item {
+            background-color:rgba(255,255,255, 0.7) !important;
+        }
+    }
+}
+
 .scroll-content { padding-bottom:100px !important;}
 
 ion-searchbar {
@@ -41,18 +51,18 @@ button {
     background-color: transparent !important;
     background-image:url(../assets/images/button-background.png);
 }
-button.tv:focus {
-    background-color:#32db64 !important;
-    color:#222 !important;
-    background-image:none;
-}
-.tvBorder:focus {
-    border:1px solid #222;
-}
 ion-menu {
     button {
         color:#333 !important;
         background-color: transparent !important;
         background-image:none !important;
     }
+}
+button.tv:focus, ion-select:focus, .back-button:focus, .bar-buttons:focus, .editing-view-port:focus {
+    background-color:#32db64 !important;
+    color:#222 !important;
+    background-image:none;
+}
+.tvBorder:focus {
+    border:1px solid #222;
 }
