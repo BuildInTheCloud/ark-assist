@@ -66,3 +66,9 @@ button.tv:focus, ion-select:focus, .back-button:focus, .bar-buttons:focus, .edit
 .tvBorder:focus {
     border:1px solid #222;
 }
+p.note {
+    background-color:yellow !important;
+    border: 1px solid red;
+    margin: 10px !important;
+    padding: 8px;
+}

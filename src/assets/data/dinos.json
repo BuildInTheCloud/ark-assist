@@ -271,6 +271,12 @@
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Gallimimus/Galli_Character_BP.Galli_Character_BP'",
 "saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_Gallimimus.PrimalItemArmor_Gallimimus'"
 },{
+"id": "GiantBee_Character_BP_C","name": "Giant Bee","category": "Invertebrates",
+"icon": "images/giant-bee.jpg",
+"tame" : "",
+"blueprint": "",
+"saddle": ""
+},{
 "id": "Gigant_Character_BP_C","name": "Giganotosaurus","category": "Dinosaurs",
 "icon": "images/giganotosaurus.png",
 "tame" : "",
@@ -281,6 +287,12 @@
 "icon": "images/gigantopithecus.png",
 "tame" : "",
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Bigfoot/Bigfoot_Character_BP.Bigfoot_Character_BP'"
+},{
+"id": "Hesperornis_Character_BP_C","name": "Hesperornis","category": "Birds",
+"icon": "images/hesperornis.jpg",
+"tame" : "",
+"blueprint": "",
+"saddle": ""
 },{
 "id": "PlayerPawnTest_Female_C","name": "Human Female","category": "Mammals",
 "icon": "images/human.png",
@@ -340,6 +352,12 @@
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Kaprosuchus/Kaprosuchus_Character_BP.Kaprosuchus_Character_BP'",
 "saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_KaprosuchusSaddle.PrimalItemArmor_KaprosuchusSaddle'"
 },{
+"id": "Kentrosaurus_Character_BP_C","name": "Kentrosaurus","category": "Dinosaurs",
+"icon": "images/kentrosaurus.jpg",
+"tame" : "",
+"blueprint": "",
+"saddle": ""
+},{
 "id": "Leech_Character_C","name": "Leech","category": "Invertebrates",
 "icon": "images/leech.jpg",
 "tame" : "",
@@ -354,6 +372,12 @@
 "icon": "images/leedsichthys.jpg",
 "tame" : "No",
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Leedsichthys/Leedsichthys_Character_BP.Leedsichthys_Character_BP'"
+},{
+"id": "Liopleurodon_Character_BP_C","name": "Liopleurodon","category": "Reptiles",
+"icon": "images/liopleurodon.jpg",
+"tame" : "",
+"blueprint": "",
+"saddle": ""
 },{
 "id": "Moth_Character_BP_C","name": "Lymantria","category": "Invertebrates",
 "icon": "images/lymantria.jpg",

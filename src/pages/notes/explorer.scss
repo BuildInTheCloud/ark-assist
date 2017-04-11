@@ -1,6 +1,10 @@
 page-explorer-notes {
     ion-avatar {
         width:55px !important;
+        img {
+            width:auto !important;
+            height:65px !important;
+        }
     }
     h2 {
         font-weight:bold;
