@@ -1,12 +1,12 @@
-#Ark Assist
+# Ark Assist
 Ark Assist is a ARK: Survival Evolved app for copying admin/cheat commands to your xbox one console.
 
-#App Links
+# App Links
 Android: https://play.google.com/store/apps/details?id=com.buildinthecloud.arkassist
 
 Windows/XBOX: https://www.microsoft.com/en-us/store/p/ascendant-ark-assist/9ndkxd5r1m70
 
-#suggestions
+# Suggestions
 1. provide a pull request if you have improvements
 2. post a suggestion https://github.com/BuildInTheCloud/ark-assist/issues
 
@@ -15,7 +15,7 @@ All apps take time to create. If you find this app useful, please donate so I ca
 
 https://PayPal.Me/buildinthecloud/
 
-#reference
+# Reference
 http://ark.gamepedia.com/Engrams_(Primitive%2B)
 
 http://ark.gamepedia.com/Item_IDs
