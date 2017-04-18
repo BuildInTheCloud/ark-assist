@@ -4,7 +4,7 @@ Ark Assist is a ARK: Survival Evolved app for copying admin/cheat commands to yo
 #App Links
 Android: https://play.google.com/store/apps/details?id=com.buildinthecloud.arkassist
 
-Windows: https://www.microsoft.com/en-us/store/p/ark-assist/9nblggh4tn3z
+Windows: https://www.microsoft.com/en-us/store/p/ascendant-ark-assist/9ndkxd5r1m70
 
 XBOX:
 
