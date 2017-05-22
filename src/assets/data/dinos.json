@@ -166,9 +166,9 @@
 },{
 "id": "Daeodon_Character_BP_C","name": "Daeodon","category": "Mammals",
 "icon": "images/daeodon.jpg",
-"tame" : "",
-"blueprint": "",
-"saddle": ""
+"tame" : "Iguanodon Kibble",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Daeodon/Daeodon_Character_BP.Daeodon_Character_BP'",
+"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DaeodonSaddle.PrimalItemArmor_DaeodonSaddle'"
 },{
 "id": "Deathworm_Character_BP_C","name": "Deathworm","category": "Invertebrates",
 "icon": "images/deathworm.png",
@@ -271,10 +271,16 @@
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Gallimimus/Galli_Character_BP.Galli_Character_BP'",
 "saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_Gallimimus.PrimalItemArmor_Gallimimus'"
 },{
-"id": "GiantBee_Character_BP_C","name": "Giant Bee","category": "Invertebrates",
+"id": "Bee_Character_BP_C","name": "Giant Bee Drone","category": "Invertebrates",
 "icon": "images/giant-bee.jpg",
 "tame" : "",
-"blueprint": "",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Bee/Bee_Character_BP.Bee_Character_BP'",
+"saddle": ""
+},{
+"id": "Bee_Queen_Character_BP_C","name": "Giant Bee Queen","category": "Invertebrates",
+"icon": "images/giant-bee.jpg",
+"tame" : "Ichthyornis Kibble",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Bee/Bee_Queen_Character_BP.Bee_Queen_Character_BP'",
 "saddle": ""
 },{
 "id": "Gigant_Character_BP_C","name": "Giganotosaurus","category": "Dinosaurs",
@@ -354,8 +360,8 @@
 },{
 "id": "Kentrosaurus_Character_BP_C","name": "Kentrosaurus","category": "Dinosaurs",
 "icon": "images/kentrosaurus.jpg",
-"tame" : "",
-"blueprint": "",
+"tame" : "Compy Kibble",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Kentrosaurus/Kentro_Character_BP.Kentro_Character_BP'",
 "saddle": ""
 },{
 "id": "Leech_Character_C","name": "Leech","category": "Invertebrates",
@@ -375,8 +381,8 @@
 },{
 "id": "Liopleurodon_Character_BP_C","name": "Liopleurodon","category": "Reptiles",
 "icon": "images/liopleurodon.jpg",
-"tame" : "",
-"blueprint": "",
+"tame" : "Giant Bee Honey",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Liopleurodon/Liopleurodon_Character_BP.Liopleurodon_Character_BP'",
 "saddle": ""
 },{
 "id": "Moth_Character_BP_C","name": "Lymantria","category": "Invertebrates",
@@ -423,7 +429,8 @@
 "icon": "images/megalodon.png",
 "tame" : "",
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Megalodon/Megalodon_Character_BP.Megalodon_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalodonSaddle.PrimalItemArmor_MegalodonSaddle'"
+"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalodonSaddle.PrimalItemArmor_MegalodonSaddle'",
+"tek": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalodonSaddle_Tek.PrimalItemArmor_MegalodonSaddle_Tek'"
 },{
 "id": "Megalosaurus_Character_BP_C","name": "Megalosaurus","category": "Dinosaurs",
 "icon": "images/megalosaurus.jpg",
@@ -691,7 +698,8 @@
 "tame" : "",
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP'",
 "saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RexSaddle.PrimalItemArmor_RexSaddle'",
-"tek": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RexSaddle_Tek.PrimalItemArmor_RexSaddle_Tek'"
+"tek": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RexSaddle_Tek.PrimalItemArmor_RexSaddle_Tek'",
+"unlock": true
 },{
 "id": "Equus_Character_BP_C","name": "Unicorn","category": "Mammals",
 "icon": "images/equus.jpg",

@@ -52,8 +52,10 @@
           <span class="entity-copy" [attr.id]="'platform'+i">cheat giveitem "{{item.platform}}" 1 99 0</span>
         </ion-col>
         <ion-col class="entity cmd" *ngIf="item.tek">
-          <button class="tv" (keyup)="copyTextEvent($event, [i], 'tek')" (click)="copyText([i], 'tek')">TEK SADDLE</button>
-          <span class="entity-copy" [attr.id]="'tek'+i">cheat giveitem "{{item.platform}}" 1 99 0</span>
+          <button style="width:50%;margin:0;" class="tv" (keyup)="copyTextEvent($event, [i], 'tek')" (click)="copyText([i], 'tek')">TEK SADDLE</button>
+          <span class="entity-copy" [attr.id]="'tek'+i">cheat giveitem "{{item.tek}}" 1 99 0</span>
+          <button style="width:50%" class="tv" (keyup)="copyTextEvent($event, [i], 'unlock')" (click)="copyText([i], 'unlock')">TEK UNLOCK</button>
+          <span class="entity-copy" [attr.id]="'unlock'+i">cheat unlockengram "{{item.blueprint}}"</span>
         </ion-col>
       </ion-row>
     </ion-card-content>

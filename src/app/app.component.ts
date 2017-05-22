@@ -2,7 +2,8 @@ import { Component, ViewChild } from '@angular/core';
 import { Events, MenuController, Nav, Platform, ToastController } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import {AdMob, AdMobOptions, AdSize, AdExtras} from '@ionic-native/admob';
+//import {AdMob, AdMobOptions, AdSize, AdExtras} from '@ionic-native/admob';
+import {AdMob} from '@ionic-native/admob';
 import { DashboardPage } from '../pages/dashboard/dashboard';
 import { AboutPage } from '../pages/info/about';
 import { HelpPage } from '../pages/info/help';
@@ -47,7 +48,7 @@ export class MyApp {
       }
 
       if (this.platform.is("cordova")) {
-        var admobid = {banner: "ca-app-pub-4615642243411455/7055418360", interstitial: ""};
+        //var admobid = {banner: "ca-app-pub-4615642243411455/7055418360", interstitial: ""};
         var options = {
           adId:"ca-app-pub-4615642243411455/7055418360",
           position: 8,

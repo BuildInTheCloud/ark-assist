@@ -920,6 +920,14 @@
 "blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_Teepee.PrimalItemStructure_Teepee'"
 },{
 "id": 0,
+"name": "Tek Cloning Chamber",
+"category": "Structure",
+"stack": 1,
+"icon": "images/tek-cloning-chamber.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/BuildingBases/PrimalItemStructure_TekCloningChamber.PrimalItemStructure_TekCloningChamber'",
+"unlock": true
+},{
+"id": 0,
 "name": "Tek Generator",
 "category": "Structure",
 "stack": 1,
@@ -957,6 +965,14 @@
 "stack": 100,
 "icon": "images/tek-transmitter.png",
 "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekTransmitter.PrimalItemStructure_TekTransmitter'",
+"unlock": true
+},{
+"id": 0,
+"name": "Tek Turret",
+"category": "Structure",
+"stack": 5,
+"icon": "images/tek-turret.png",
+"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TurretTek.PrimalItemStructure_TurretTek'",
 "unlock": true
 },{
 "id": 0,

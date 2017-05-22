@@ -1,5 +1,4 @@
 [
-
 { "map" : "island", "type": "", "name": "Central", "artifact": "Clever", "lat": 41.6, "lon": 47.0 },
 { "map" : "island", "type": "", "name": "North West", "artifact": "Skylord", "lat": 19.2, "lon": 19.0 },
 { "map" : "island", "type": "", "name": "Lower South", "artifact": "Hunter", "lat": 80.2, "lon": 53.5 },

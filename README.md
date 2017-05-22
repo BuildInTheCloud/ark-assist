@@ -2,9 +2,8 @@
 Ark Assist is a ARK: Survival Evolved app for copying admin/cheat commands to your xbox one console.
 
 #App Links
-Android: https://play.google.com/store/apps/details?id=com.buildinthecloud.arkassist
-
-Windows: https://www.microsoft.com/en-us/store/p/ark-assist/9nblggh4tn3z
+1. Android: https://play.google.com/store/apps/details?id=com.buildinthecloud.arkassist
+2. Windows: https://www.microsoft.com/en-us/store/p/ark-assist/9nblggh4tn3z
 
 XBOX:
 
@@ -18,13 +17,40 @@ All apps take time to create. If you find this app useful, please donate so I ca
 https://PayPal.Me/buildinthecloud/
 
 #reference
-http://ark.gamepedia.com/Engrams_(Primitive%2B)
+1. http://ark.gamepedia.com/Engrams_(Primitive%2B)
+2. http://ark.gamepedia.com/Item_IDs
 
-http://ark.gamepedia.com/Item_IDs
+#Android
+1. Enabling USB connected device
+    1. https://developer.android.com/studio/run/device.html#rsa
+
+#Windows
+1. (optional) Install Python https://www.python.org/downloads/release/python-2713/
+2. User Variables
+    1. _JAVA_OPTIONS `-Xmx512M`
+    2. ANDROID_HOME `C:\Program Files (x86)\Android\android-sdk`
+    3. GYP_MSVS_VERSION `2015`
+    4. JAVA_HOME `C:\Program Files (x86)\Java\jdk1.8.0_92`
+    5. GRADLE_HOME `C:\gradle\gradle-3.5`
+3. System Variables
+    1. ANDROID_HOME `C:\Program Files (x86)\Android\android-sdk`
+4. Path
+    1. %ANDROID_HOME%\tools;
+    2. %ANDROID_HOME%\build-tools;
+    3. %ANDROID_HOME%\platform-tools;
+    4. %GRADLE_HOME%\bin;
+
+#npm
+1. npm list -g --depth=0
 
 #using latest ionic
-npm install --typecheck
+1. existing project
+    1. npm install -g ionic
+    2. npm install --save-dev @ionic/cli-plugin-ionic-angular @ionic/cli-plugin-cordova
+    4. ionic info
+2. edge
+    1. npm install --typecheck
+    2. npm install --save ionic-angular@nightly
+3. ionic plugin add cordova-plugin-admobpro@2.28.4
 
-npm install --save ionic-angular@nightly
 
-ionic plugin add cordova-plugin-admobpro@2.28.4

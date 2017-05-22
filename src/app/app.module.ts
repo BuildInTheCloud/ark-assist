@@ -4,7 +4,8 @@ import { HttpModule } from '@angular/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import {AdMob, AdMobOptions, AdSize, AdExtras} from '@ionic-native/admob';
+//import {AdMob, AdMobOptions, AdSize, AdExtras} from '@ionic-native/admob';
+import {AdMob} from '@ionic-native/admob';
 import { Clipboard } from '@ionic-native/clipboard';
 import { Toast } from '@ionic-native/toast';
 
