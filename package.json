@@ -1,7 +1,7 @@
 {
     "name": "ark-assist",
     "description": "Ark Assist: An unoffical app for Ark Survival Evolved.",
-    "version": "2.3.0",
+    "version": "2.5.0",
     "author": "BuildInTheCloud",
     "homepage": "http://buildinthecloud.com/",
     "private": true,
@@ -64,7 +64,8 @@
     "cordova": {
         "platforms": [
             "android",
-            "ios"
+            "ios",
+            "windows"
         ],
         "plugins": {
             "cordova-plugin-splashscreen": {},

@@ -683,15 +683,15 @@
 "tame" : "",
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Trilobite/Trilobite_Character.Trilobite_Character'"
 },{
-"id": "Troodon_Character_C","name": "Troodon","category": "Dinosaurs",
+"id": "Troodon_Character_BP_C","name": "Troodon","category": "Dinosaurs",
 "icon": "images/troodon.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Troodon/Troodon_Character.Troodon_Character'"
+"tame" : "Live Creatures",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Troodon/Troodon_Character_BP.Troodon_Character_BP'"
 },{
-"id": "Tusoteuthis_Character_C","name": "Tusoteuthis","category": "Invertebrates",
+"id": "Tusoteuthis_Character_BP_C","name": "Tusoteuthis","category": "Invertebrates",
 "icon": "images/tusoteuthis.jpeg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Tusoteuthis/Tusoteuthis_Character.Tusoteuthis_Character'"
+"tame" : "Black Pearls",
+"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Tusoteuthis/Tusoteuthis_Character_BP.Tusoteuthis_Character_BP'"
 },{
 "id": "Rex_Character_BP_C","name": "Tyrannosaurus Rex","category": "Dinosaurs",
 "icon": "images/trex.png",
@@ -701,7 +701,7 @@
 "tek": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RexSaddle_Tek.PrimalItemArmor_RexSaddle_Tek'",
 "unlock": true
 },{
-"id": "Equus_Character_BP_C","name": "Unicorn","category": "Mammals",
+"id": "Equus_Character_BP_Unicorn_C","name": "Unicorn","category": "Mammals",
 "icon": "images/equus.jpg",
 "tame" : "Troodon Kibble",
 "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Equus/Equus_Character_BP_Unicorn.Equus_Character_BP_Unicorn'",

@@ -23,16 +23,17 @@ https://PayPal.Me/buildinthecloud/
     1. https://developer.android.com/studio/run/device.html#rsa
 
 #Windows
-1. (optional) Install Python https://www.python.org/downloads/release/python-2713/
-2. User Variables
+1. npm install --global --production windows-build-tools
+2. (optional) Install Python https://www.python.org/downloads/release/python-2713/
+3. User Variables
     1. _JAVA_OPTIONS `-Xmx512M`
     2. ANDROID_HOME `C:\Program Files (x86)\Android\android-sdk`
     3. GYP_MSVS_VERSION `2015`
     4. JAVA_HOME `C:\Program Files (x86)\Java\jdk1.8.0_92`
     5. GRADLE_HOME `C:\gradle\gradle-3.5`
-3. System Variables
+4. System Variables
     1. ANDROID_HOME `C:\Program Files (x86)\Android\android-sdk`
-4. Path
+5. Path
     1. %ANDROID_HOME%\tools;
     2. %ANDROID_HOME%\build-tools;
     3. %ANDROID_HOME%\platform-tools;

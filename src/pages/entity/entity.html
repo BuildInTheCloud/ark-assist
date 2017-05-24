@@ -67,6 +67,16 @@
           <span class="entity-copy" [attr.id]="'kibble'+i">cheat giveitem "{{item.kibble}}" {{item.stack > 50 ? 50 : item.stack}} {{quality}} 0</span>
         </ion-col>
       </ion-row>
+      <ion-row responsive-sm style="margin-bottom:5px;" *ngIf="item.gamma">
+        <ion-col class="entity cmd">
+          <button style="width:30%" class="tv" (keyup)="copyTextEvent($event, [i], 'gamma')" (click)="copyText([i], 'gamma')">GAMMA</button>
+          <span class="entity-copy" [attr.id]="'gamma'+i">cheat giveitem "{{item.gamma}}" {{item.stack > 50 ? 50 : item.stack}} {{quality}} 0</span>
+          <button style="width:30%" class="tv" (keyup)="copyTextEvent($event, [i], 'beta')" (click)="copyText([i], 'beta')">BETA</button>
+          <span class="entity-copy" [attr.id]="'beta'+i">cheat giveitem "{{item.beta}}" {{item.stack > 50 ? 50 : item.stack}} {{quality}} 0</span>
+          <button style="width:30%" class="tv" (keyup)="copyTextEvent($event, [i], 'alpha')" (click)="copyText([i], 'alpha')">ALPHA</button>
+          <span class="entity-copy" [attr.id]="'alpha'+i">cheat giveitem "{{item.alpha}}" {{item.stack > 50 ? 50 : item.stack}} {{quality}} 0</span>
+        </ion-col>
+      </ion-row>
     </ion-item>
   </ion-list>
   <p>{{errorMessage}}</p>

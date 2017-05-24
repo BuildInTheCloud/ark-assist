@@ -9,11 +9,30 @@
     },
     {
         "id": 0,
+        "name": "Alpha Deathworm Trophy",
+        "category": "Trophy",
+        "stack": 1,
+        "icon": "images/alpha-deathworm-trophy.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_AlphaWorm.PrimalItemTrophy_AlphaWorm'"
+    },
+    {
+        "id": 0,
+        "name": "Alpha Wyvern Trophy",
+        "category": "Trophy",
+        "stack": 1,
+        "icon": "images/alpha-wyvern-trophy.png",
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_AlphaWyvern.PrimalItemTrophy_AlphaWyvern'"
+    },
+    {
+        "id": 0,
         "name": "Broodmother Trophy",
         "category": "Trophy",
         "stack": 1,
         "icon": "images/broodmother-trophy.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Broodmother.PrimalItemTrophy_Broodmother'"
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Broodmother.PrimalItemTrophy_Broodmother'",
+        "gamma": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Broodmother_Gamma.PrimalItemTrophy_Broodmother_Gamma'",
+        "beta": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Broodmother_Beta.PrimalItemTrophy_Broodmother_Beta'",
+        "alpha": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Broodmother_Alpha.PrimalItemTrophy_Broodmother_Alpha'"
     },
     {
         "id": 0,
@@ -21,11 +40,14 @@
         "category": "Trophy",
         "stack": 1,
         "icon": "images/dragon-trophy.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Dragon.PrimalItemTrophy_Dragon'"
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Dragon.PrimalItemTrophy_Dragon'",
+        "gamma": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Dragon_Gamma.PrimalItemTrophy_Dragon_Gamma'",
+        "beta": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Dragon_Beta.PrimalItemTrophy_Dragon_Beta'",
+        "alpha": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Dragon_Alpha.PrimalItemTrophy_Dragon_Alpha'"
     },
     {
         "id": 0,
-        "name": "Manticore Trophy (Scorched Earth)",
+        "name": "Manticore Trophy",
         "category": "Trophy",
         "stack": 1,
         "icon": "images/manticore-trophy-scorched-earth.png",
@@ -37,7 +59,10 @@
         "category": "Trophy",
         "stack": 1,
         "icon": "images/megapithecus-trophy.png",
-        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Gorilla.PrimalItemTrophy_Gorilla'"
+        "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Gorilla.PrimalItemTrophy_Gorilla'",
+        "gamma": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Gorilla_Gamma.PrimalItemTrophy_Gorilla_Gamma'",
+        "beta": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Gorilla_Beta.PrimalItemTrophy_Gorilla_Beta'",
+        "alpha": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Gorilla_ALpha.PrimalItemTrophy_Gorilla_Alpha'"
     },
     {
         "id": 0,
