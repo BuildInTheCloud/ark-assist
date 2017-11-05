@@ -70,6 +70,7 @@ export class DashboardPage {
           navTo.toLowerCase() == "turkey trial" || 
           navTo.toLowerCase() == "winter wonderland" || 
           navTo.toLowerCase() == "fear evolved" || 
+          navTo.toLowerCase() == "aberration" || 
           navTo.toLowerCase() == "anniversary"
           ) {
         this.navCtrl.push(EntityPage, { title: navTo, category: "all", dlc: navTo.toLowerCase(), loading: this.loader } );

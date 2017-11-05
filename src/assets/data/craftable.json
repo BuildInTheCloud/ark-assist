@@ -1,6 +1,24 @@
 [
 	{
 		"id": 0,
+		"name": "Aberrant Helmet",
+		"category": "Skin",
+		"stack": 1,
+		"icon": "images/aberrant-helmet.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_AberrationHelmet.PrimalItemSkin_AberrationHelmet'",
+		"dlc": "Aberration"
+	},
+	{
+		"id": 0,
+		"name": "Aberrant Sword",
+		"category": "Skin",
+		"stack": 1,
+		"icon": "images/aberrant-sword.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_AberrationSword.PrimalItemSkin_AberrationSword'",
+		"dlc": "Aberration"
+	},
+	{
+		"id": 0,
 		"name": "Absorbent Substrate",
 		"category": "Resource",
 		"stack": 100,
@@ -226,6 +244,16 @@
 		"dlc": ""
 	},
 	{
+		"id": 0,
+		"name": "Afro (head)",
+		"category": "Hairstyle",
+		"stack": 1,
+		"icon": "images/afro.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockHair_Head_Afro.PrimalItemConsumable_UnlockHair_Head_Afro'",
+		"dlc": "",
+		"note": "Must have scissors in your hand and use hairstyle in inventory"
+	},
+	{
 		"id": 188,
 		"name": "Air Conditioner",
 		"category": "Structure",
@@ -362,19 +390,19 @@
 		"dlc": ""
 	},
 	{
-		"id": 270,
+		"id": 116,
 		"name": "Amarberry Seed",
 		"category": "Farming",
-		"stack": "100",
+		"stack": 100,
 		"icon": "images/amarberry-seed.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Amarberry.PrimalItemConsumable_Seed_Amarberry'",
 		"dlc": ""
 	},
 	{
-		"id": 116,
+		"id": 270,
 		"name": "Amarberry Seed",
 		"category": "Farming",
-		"stack": 100,
+		"stack": "100",
 		"icon": "images/amarberry-seed.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Amarberry.PrimalItemConsumable_Seed_Amarberry'",
 		"dlc": ""
@@ -447,7 +475,7 @@
 	},
 	{
 		"id": 0,
-		"name": "ARK Dev Kit Master Hat Skin",
+		"name": "ARK Dev Kit Master Hat",
 		"category": "Skin",
 		"stack": 1,
 		"icon": "images/ark-dev-kit-master-hat-skin.png",
@@ -1140,6 +1168,16 @@
 	},
 	{
 		"id": 0,
+		"name": "Braids (Head)",
+		"category": "Hairstyle",
+		"stack": 1,
+		"icon": "images/braids.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockHair_Head_Braids.PrimalItemConsumable_UnlockHair_Head_Braids'",
+		"dlc": "",
+		"note": "Must have scissors in your hand and use hairstyle in inventory"
+	},
+	{
+		"id": 0,
 		"name": "Brazier",
 		"category": "Structure",
 		"stack": 25,
@@ -1285,6 +1323,15 @@
 		"icon": "images/bug-repellant.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_BugRepellant.PrimalItemConsumable_BugRepellant'",
 		"dlc": ""
+	},
+	{
+		"id": 0,
+		"name": "Bulbdog Mask",
+		"category": "Skin",
+		"stack": 1,
+		"icon": "images/bulbdog-mask.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_PugMask.PrimalItemSkin_PugMask'",
+		"dlc": "Aberration"
 	},
 	{
 		"id": 0,
@@ -1699,18 +1746,18 @@
 		"name": "Clay",
 		"category": "Resource",
 		"stack": 100,
-		"icon": "images/clay-scorched-earth.png",
-		"blueprint": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Clay.PrimalItemResource_Clay'",
-		"dlc": "Scorched Earth"
+		"icon": "images/clay-primitive-plus.png",
+		"blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Resources/PrimalItemResource_Clay.PrimalItemResource_Clay'",
+		"dlc": "Primitive Plus"
 	},
 	{
 		"id": 0,
 		"name": "Clay",
 		"category": "Resource",
 		"stack": 100,
-		"icon": "images/clay-primitive-plus.png",
-		"blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Resources/PrimalItemResource_Clay.PrimalItemResource_Clay'",
-		"dlc": "Primitive Plus"
+		"icon": "images/clay-scorched-earth.png",
+		"blueprint": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Clay.PrimalItemResource_Clay'",
+		"dlc": "Scorched Earth"
 	},
 	{
 		"id": 0,
@@ -1993,6 +2040,16 @@
 		"dlc": "Primitive Plus"
 	},
 	{
+		"id": 0,
+		"name": "Curly Beard (Facial)",
+		"category": "Hairstyle",
+		"stack": 1,
+		"icon": "images/curly-beard.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockHair_Facial_CurlyBeard.PrimalItemConsumable_UnlockHair_Facial_CurlyBeard'",
+		"dlc": "",
+		"note": "Must have scissors in your hand and use hairstyle in inventory"
+	},
+	{
 		"id": 67,
 		"name": "Cyan Coloring",
 		"category": "Dye",
@@ -2179,6 +2236,26 @@
 		"beta": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Dragon_Beta.PrimalItemTrophy_Dragon_Beta'",
 		"alpha": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Dragon_Alpha.PrimalItemTrophy_Dragon_Alpha'",
 		"dlc": ""
+	},
+	{
+		"id": 0,
+		"name": "Dread Beard (Facial)",
+		"category": "Hairstyle",
+		"stack": 1,
+		"icon": "images/dread-beard.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockHair_Facial_Dreadbeard.PrimalItemConsumable_UnlockHair_Facial_Dreadbeard'",
+		"dlc": "",
+		"note": "Must have scissors in your hand and use hairstyle in inventory"
+	},
+	{
+		"id": 0,
+		"name": "Dreadlocks (Head)",
+		"category": "Hairstyle",
+		"stack": 1,
+		"icon": "images/dreadlocks.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockHair_Head_Dreadlocks.PrimalItemConsumable_UnlockHair_Head_Dreadlocks'",
+		"dlc": "",
+		"note": "Must have scissors in your hand and use hairstyle in inventory"
 	},
 	{
 		"id": 0,
@@ -2963,6 +3040,16 @@
 		"icon": "images/glass-window-reinforced-primitive-plus.png",
 		"blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/PrimalItemStructure_LumberGlassWindow.PrimalItemStructure_LumberGlassWindow'",
 		"dlc": "Primitive Plus"
+	},
+	{
+		"id": 0,
+		"name": "Goatee (Facial)",
+		"category": "Hairstyle",
+		"stack": 1,
+		"icon": "images/goatee.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockHair_Facial_Goatee.PrimalItemConsumable_UnlockHair_Facial_Goatee'",
+		"dlc": "",
+		"note": "Must have scissors in your hand and use hairstyle in inventory"
 	},
 	{
 		"id": 0,
@@ -4388,6 +4475,16 @@
 		"dlc": "Primitive Plus"
 	},
 	{
+		"id": 0,
+		"name": "Mohawk (head)",
+		"category": "Hairstyle",
+		"stack": 1,
+		"icon": "images/mohawk.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockHair_Head_Mohawk.PrimalItemConsumable_UnlockHair_Head_Mohawk'",
+		"dlc": "",
+		"note": "Must have scissors in your hand and use hairstyle in inventory"
+	},
+	{
 		"id": 107,
 		"name": "Mortar And Pestle",
 		"category": "Structure",
@@ -4426,6 +4523,16 @@
 		"dlc": ""
 	},
 	{
+		"id": 0,
+		"name": "Moustache (Facial)",
+		"category": "Hairstyle",
+		"stack": 1,
+		"icon": "images/moustache.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockHair_Facial_Moustache.PrimalItemConsumable_UnlockHair_Facial_Moustache'",
+		"dlc": "",
+		"note": "Must have scissors in your hand and use hairstyle in inventory"
+	},
+	{
 		"id": 409,
 		"name": "Mud Coloring",
 		"category": "Dye",
@@ -4451,6 +4558,16 @@
 		"icon": "images/musket-primitive-plus.png",
 		"blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Weapons/PrimalItem_WeaponPrimitiveRifle.PrimalItem_WeaponPrimitiveRifle'",
 		"dlc": "Primitive Plus"
+	},
+	{
+		"id": 0,
+		"name": "Mutton Chops (Facial)",
+		"category": "Hairstyle",
+		"stack": 1,
+		"icon": "images/mutton-chops.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockHair_Facial_MuttonChops.PrimalItemConsumable_UnlockHair_Facial_MuttonChops'",
+		"dlc": "",
+		"note": "Must have scissors in your hand and use hairstyle in inventory"
 	},
 	{
 		"id": 121,
@@ -4837,6 +4954,16 @@
 		"dlc": "Primitive Plus"
 	},
 	{
+		"id": 0,
+		"name": "Ponytail (Head)",
+		"category": "Hairstyle",
+		"stack": 1,
+		"icon": "images/ponytail.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockHair_Head_Ponytail.PrimalItemConsumable_UnlockHair_Head_Ponytail'",
+		"dlc": "",
+		"note": "Must have scissors in your hand and use hairstyle in inventory"
+	},
+	{
 		"id": 295,
 		"name": "Preserving Bin",
 		"category": "Structure",
@@ -5064,6 +5191,15 @@
 		"icon": "images/re-fertilizer.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumableMiracleGro.PrimalItemConsumableMiracleGro'",
 		"dlc": ""
+	},
+	{
+		"id": 0,
+		"name": "Reaper Helmet",
+		"category": "Skin",
+		"stack": 1,
+		"icon": "images/reaper-helmet.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_ReaperHelmet.PrimalItemSkin_ReaperHelmet'",
+		"dlc": "Aberration"
 	},
 	{
 		"id": 0,
@@ -5419,6 +5555,26 @@
 	},
 	{
 		"id": 0,
+		"name": "Romantic (Facial)",
+		"category": "Hairstyle",
+		"stack": 1,
+		"icon": "images/romantic-face.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockHairstyle_Facial_Romantic.PrimalItemConsumable_UnlockHairstyle_Facial_Romantic'",
+		"dlc": "",
+		"note": "Must have scissors in your hand and use hairstyle in inventory"
+	},
+	{
+		"id": 0,
+		"name": "Romantic (Head)",
+		"category": "Hairstyle",
+		"stack": 1,
+		"icon": "images/romantic.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockHairstyle_Head_Romantic.PrimalItemConsumable_UnlockHairstyle_Head_Romantic'",
+		"dlc": "",
+		"note": "Must have scissors in your hand and use hairstyle in inventory"
+	},
+	{
+		"id": 0,
 		"name": "Rope Ladder",
 		"category": "Structure",
 		"stack": 100,
@@ -5542,6 +5698,15 @@
 		"icon": "images/scarecrow.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Halloween/PrimalItemStructure_Scarecrow.PrimalItemStructure_Scarecrow'",
 		"dlc": "Fear Evolved"
+	},
+	{
+		"id": 0,
+		"name": "Scissors",
+		"category": "tools",
+		"stack": 1,
+		"icon": "images/scissors.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponScissors.PrimalItem_WeaponScissors'",
+		"dlc": ""
 	},
 	{
 		"id": 138,
@@ -7429,12 +7594,32 @@
 	},
 	{
 		"id": 0,
+		"name": "Viking (Head)",
+		"category": "Hairstyle",
+		"stack": 1,
+		"icon": "images/viking.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockHair_Head_Viking.PrimalItemConsumable_UnlockHair_Head_Viking'",
+		"dlc": "",
+		"note": "Must have scissors in your hand and use hairstyle in inventory"
+	},
+	{
+		"id": 0,
 		"name": "Viking Axe",
 		"category": "Weapons",
 		"stack": 1,
 		"icon": "images/viking-axe-primitive-plus.png",
 		"blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Weapons/PrimalItem_VikingAxe.PrimalItem_VikingAxe'",
 		"dlc": "Primitive Plus"
+	},
+	{
+		"id": 0,
+		"name": "Viking Beard (Facial)",
+		"category": "Hairstyle",
+		"stack": 1,
+		"icon": "images/viking-beard.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockHair_Facial_VikingBeard.PrimalItemConsumable_UnlockHair_Facial_VikingBeard'",
+		"dlc": "",
+		"note": "Must have scissors in your hand and use hairstyle in inventory"
 	},
 	{
 		"id": 0,

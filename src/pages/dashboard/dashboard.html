@@ -134,6 +134,13 @@
   </ion-card>
 
   <ion-card>
+    <img src="assets/images/afro.png"/>
+    <ion-card-content>
+      <button class="tv" (keyup)="goToPageByEvent($event, 'Hairstyle')" (click)="goToPage('Hairstyle')">Hairstyle</button>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
     <img src="assets/images/dragon-trophy.png"/>
     <ion-card-content>
       <button class="tv" (keyup)="goToPageByEvent($event, 'Trophy')" (click)="goToPage('Trophy')">Trophies</button>

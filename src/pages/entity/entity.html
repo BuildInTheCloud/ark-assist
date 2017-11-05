@@ -75,6 +75,9 @@
           <span class="entity-copy" [attr.id]="'alpha'+i">cheat giveitem "{{item.alpha}}" {{item.stack > 50 ? 50 : item.stack}} {{quality}} 0</span>
         </ion-col>
       </ion-row>
+      <ion-row responsive-sm style="margin-bottom:5px;" *ngIf="item.note">
+        <ion-col class="note">{{item.note}}</ion-col>
+      </ion-row>
     </ion-item>
   </ion-list>
   <textarea id="holdtext" style="width:100%;height:60px;display:none;"></textarea>
