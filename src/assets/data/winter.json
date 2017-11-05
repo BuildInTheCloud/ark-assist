@@ -6,6 +6,7 @@
         "stack": 1,
         "icon": "images/holiday-lights.png",
         "blueprint": ""
+        ,"dlc": "Winter Wonderland"
     },
     {
         "id": 0,
@@ -14,6 +15,7 @@
         "stack": 100,
         "icon": "images/holiday-stocking.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Christmas/PrimalItemStructure_Stocking.PrimalItemStructure_Stocking'"
+        ,"dlc": "Winter Wonderland"
     },
     {
         "id": 0,
@@ -22,6 +24,7 @@
         "stack": 1,
         "icon": "images/wreath.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Christmas/PrimalItemStructure_Wreath.PrimalItemStructure_Wreath'"
+        ,"dlc": "Winter Wonderland"
     },
     {
         "id": 0,
@@ -30,6 +33,7 @@
         "stack": 100,
         "icon": "images/gift-box.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Christmas/PrimalItemStructure_StorageBox_ChristmasGift.PrimalItemStructure_StorageBox_ChristmasGift'"
+        ,"dlc": "Winter Wonderland"
     },
     {
         "id": 0,
@@ -38,6 +42,7 @@
         "stack": 100,
         "icon": "images/holiday-tree.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Christmas/PrimalItemStructure_ChristmasTree.PrimalItemStructure_ChristmasTree'"
+        ,"dlc": "Winter Wonderland"
     },
     {
         "id": 0,
@@ -46,6 +51,7 @@
         "stack": 100,
         "icon": "images/snowman.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Christmas/PrimalItemStructure_Snowman.PrimalItemStructure_Snowman'"
+        ,"dlc": "Winter Wonderland"
     },
     {
         "id": 0,
@@ -54,6 +60,7 @@
         "stack": 1,
         "icon": "images/santa-hat-skin.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SantaHat.PrimalItemSkin_SantaHat'"
+        ,"dlc": "Winter Wonderland"
     },
     {
         "id": 0,
@@ -62,6 +69,7 @@
         "stack": 1,
         "icon": "images/santa-hat-skin.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_DinoSantaHat.PrimalItemSkin_DinoSantaHat'"
+        ,"dlc": "Winter Wonderland"
     },
     {
         "id": 0,
@@ -70,6 +78,7 @@
         "stack": 1,
         "icon": "images/candy-cane-club-skin.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_CandyClub.PrimalItemSkin_CandyClub'"
+        ,"dlc": "Winter Wonderland"
     },
     {
         "id": 0,
@@ -78,6 +87,7 @@
         "stack": 1,
         "icon": "images/megaloceros-reindeer-costume.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_ReindeerStag.PrimalItemCostume_ReindeerStag'"
+        ,"dlc": "Winter Wonderland"
     },
     {
         "id": 0,
@@ -86,6 +96,7 @@
         "stack": 200,
         "icon": "images/coal.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Coal.PrimalItemResource_Coal'"
+        ,"dlc": "Winter Wonderland"
     },
     {
         "id": 0,
@@ -94,5 +105,6 @@
         "stack": 200,
         "icon": "images/mistletoe.png",
         "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_MistleToe.PrimalItemResource_MistleToe'"
+        ,"dlc": "Winter Wonderland"
     }
 ]

@@ -65,7 +65,17 @@ export class DashboardPage {
     } else if (navTo == "about") {
       this.navCtrl.push(AboutPage, {loading: this.loader});
     } else {
-      this.navCtrl.push(EntityPage, { title: navTo, dataset: navTo.toLowerCase(), loading: this.loader } );
+      if (navTo.toLowerCase() == "primitive plus" || 
+          navTo.toLowerCase() == "scorched earth" || 
+          navTo.toLowerCase() == "turkey trial" || 
+          navTo.toLowerCase() == "winter wonderland" || 
+          navTo.toLowerCase() == "fear evolved" || 
+          navTo.toLowerCase() == "anniversary"
+          ) {
+        this.navCtrl.push(EntityPage, { title: navTo, category: "all", dlc: navTo.toLowerCase(), loading: this.loader } );
+      } else {
+        this.navCtrl.push(EntityPage, { title: navTo, category: navTo.toLowerCase(), dlc: "", loading: this.loader } );
+      }
     }
   }
 

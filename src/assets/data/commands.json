@@ -1,5 +1,10 @@
 [
 {
+"command":"admincheat LeaveMeAlone",
+"target":"self",
+"args":[{}],
+"description":"Combination of God, InfiniteStats and EnemyInvisible true."
+},{
 "command":"EnableCheats <Password>",
 "target":"self",
 "args":[

@@ -5,12 +5,11 @@
 </ion-header>
 
 <ion-content responsive-md padding class="dashboard">
-  <p class="tv note">Click button to select a command category.</p>
 
   <ion-card>
-    <img src="assets/images/metal-pick.png"/>
+    <img src="assets/images/fabricator.png"/>
     <ion-card-content>
-      <button class="tv" (keyup)="goToPageByEvent($event, 'Craftable')" (click)="goToPage('Craftable')">Craftable</button>
+      <button class="tv" (keyup)="goToPageByEvent($event, 'all')" (click)="goToPage('All')">Everything</button>
     </ion-card-content>
   </ion-card>
 
@@ -21,17 +20,60 @@
     </ion-card-content>
   </ion-card>
 
+  <!-- categories -->
+  <ion-card>
+    <img src="assets/images/flame-arrow.png"/>
+    <ion-card-content>
+      <button class="tv" (keyup)="goToPageByEvent($event, 'Ammunition')" (click)="goToPage('Ammunition')">Ammunition</button>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <img src="assets/images/riot-chestpiece.png"/>
+    <ion-card-content>
+      <button class="tv" (keyup)="goToPageByEvent($event, 'Armor')" (click)="goToPage('Armor')">Armor</button>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <img src="assets/images/scope-attachment.png"/>
+    <ion-card-content>
+      <button class="tv" (keyup)="goToPageByEvent($event, 'Attachment')" (click)="goToPage('Attachment')">Attachment</button>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <img src="assets/images/thatch-wall.png"/>
+    <ion-card-content>
+      <button class="tv" (keyup)="goToPageByEvent($event, 'Structure')" (click)="goToPage('Structure')">Structure</button>
+    </ion-card-content>
+  </ion-card>
+    
+  <ion-card>
+    <img src="assets/images/metal-pick.png"/>
+    <ion-card-content>
+      <button class="tv" (keyup)="goToPageByEvent($event, 'Tools')" (click)="goToPage('Tools')">Tools</button>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <img src="assets/images/crossbow.png"/>
+    <ion-card-content>
+      <button class="tv" (keyup)="goToPageByEvent($event, 'Weapons')" (click)="goToPage('Weapons')">Weapons</button>
+    </ion-card-content>
+  </ion-card>
+
   <ion-card>
     <img src="assets/images/cooked-prime-meat.png"/>
     <ion-card-content>
-      <button class="tv" (keyup)="goToPageByEvent($event, 'Consumables')" (click)="goToPage('Consumables')">Consumables</button>
+      <button class="tv" (keyup)="goToPageByEvent($event, 'Consumable')" (click)="goToPage('Consumable')">Consumables</button>
     </ion-card-content>
   </ion-card>
 
   <ion-card>
     <img src="assets/images/crystal.png"/>
     <ion-card-content>
-      <button class="tv" (keyup)="goToPageByEvent($event, 'Resources')" (click)="goToPage('Resources')">Resources</button>
+      <button class="tv" (keyup)="goToPageByEvent($event, 'Resource')" (click)="goToPage('Resource')">Resources</button>
     </ion-card-content>
   </ion-card>
 
@@ -45,21 +87,21 @@
   <ion-card>
     <img src="assets/images/brontosaurus-egg.png"/>
     <ion-card-content>
-      <button class="tv" (keyup)="goToPageByEvent($event, 'Eggs')" (click)="goToPage('Eggs')">Eggs/Kibble</button>
+      <button class="tv" (keyup)="goToPageByEvent($event, 'Egg')" (click)="goToPage('Egg')">Eggs/Kibble</button>
     </ion-card-content>
   </ion-card>
 
   <ion-card>
     <img src="assets/images/amarberry-seed.png"/>
     <ion-card-content>
-      <button class="tv" (keyup)="goToPageByEvent($event, 'Seeds')" (click)="goToPage('Seeds')">Seeds</button>
+      <button class="tv" (keyup)="goToPageByEvent($event, 'Seed')" (click)="goToPage('Seed')">Seeds</button>
     </ion-card-content>
   </ion-card>
 
   <ion-card>
     <img src="assets/images/notes-on-rockwell-recipes.png"/>
     <ion-card-content>
-      <button class="tv" (keyup)="goToPageByEvent($event, 'Recipes')" (click)="goToPage('Recipes')">Recipes</button>
+      <button class="tv" (keyup)="goToPageByEvent($event, 'Recipe')" (click)="goToPage('Recipe')">Recipes</button>
     </ion-card-content>
   </ion-card>
 
@@ -73,52 +115,83 @@
   <ion-card>
     <img src="assets/images/blue-coloring.png"/>
     <ion-card-content>
-      <button class="tv" (keyup)="goToPageByEvent($event, 'Dyes')" (click)="goToPage('Dyes')">Dyes</button>
+      <button class="tv" (keyup)="goToPageByEvent($event, 'Dye')" (click)="goToPage('Dye')">Dyes</button>
     </ion-card-content>
   </ion-card>
 
   <ion-card>
     <img src="assets/images/artifact-of-the-devious.png"/>
     <ion-card-content>
-      <button class="tv" (keyup)="goToPageByEvent($event, 'Artifacts')" (click)="goToPage('Artifacts')">Artifacts</button>
+      <button class="tv" (keyup)="goToPageByEvent($event, 'Artifact')" (click)="goToPage('Artifact')">Artifacts</button>
     </ion-card-content>
   </ion-card>
 
   <ion-card>
     <img src="assets/images/trike-bone-helmet-skin.png"/>
     <ion-card-content>
-      <button class="tv" (keyup)="goToPageByEvent($event, 'Skins')" (click)="goToPage('Skins')">Skins</button>
+      <button class="tv" (keyup)="goToPageByEvent($event, 'Skin')" (click)="goToPage('Skin')">Skins</button>
     </ion-card-content>
   </ion-card>
 
   <ion-card>
     <img src="assets/images/dragon-trophy.png"/>
     <ion-card-content>
-      <button class="tv" (keyup)="goToPageByEvent($event, 'Trophies')" (click)="goToPage('Trophies')">Trophies</button>
+      <button class="tv" (keyup)="goToPageByEvent($event, 'Trophy')" (click)="goToPage('Trophy')">Trophies</button>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- DLC -->
+  <ion-card>
+    <img src="assets/images/aberration.jpg"/>
+    <ion-card-content>
+      <button class="tv" (keyup)="goToPageByEvent($event, 'Aberration')" (click)="goToPage('Aberration')">Aberration</button>
     </ion-card-content>
   </ion-card>
 
   <ion-card>
+    <img src="assets/images/primitive-plus.png"/>
+    <ion-card-content>
+      <button class="tv" (keyup)="goToPageByEvent($event, 'Primitive Plus')" (click)="goToPage('Primitive Plus')">Primitive Plus</button>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <img src="assets/images/scorched-earth.jpg"/>
+    <ion-card-content>
+      <button class="tv" (keyup)="goToPageByEvent($event, 'Scorched Earth')" (click)="goToPage('Scorched Earth')">Scorched Earth</button>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- events -->
+  <ion-card>
     <img src="assets/images/fear-evolved.jpg"/>
     <ion-card-content>
-      <button class="tv" (keyup)="goToPageByEvent($event, 'Halloween')" (click)="goToPage('Halloween')">Fear Evolved</button>
+      <button class="tv" (keyup)="goToPageByEvent($event, 'Fear Evolved')" (click)="goToPage('Fear Evolved')">Fear Evolved</button>
     </ion-card-content>
   </ion-card>
 
   <ion-card>
     <img src="assets/images/turkey-trial.jpg"/>
     <ion-card-content>
-      <button class="tv" (keyup)="goToPageByEvent($event, 'turkey')" (click)="goToPage('turkey')">Turkey Trial</button>
+      <button class="tv" (keyup)="goToPageByEvent($event, 'Turkey Trial')" (click)="goToPage('Turkey Trial')">Turkey Trial</button>
     </ion-card-content>
   </ion-card>
 
   <ion-card>
     <img src="assets/images/winter-wonderland.png"/>
     <ion-card-content>
-      <button class="tv" (keyup)="goToPageByEvent($event, 'winter')" (click)="goToPage('winter')">Christmas</button>
+      <button class="tv" (keyup)="goToPageByEvent($event, 'Winter Wonderland')" (click)="goToPage('Winter Wonderland')">Wonderland</button>
     </ion-card-content>
   </ion-card>
 
+  <ion-card>
+    <img src="assets/images/anniversary.jpg"/>
+    <ion-card-content>
+      <button class="tv" (keyup)="goToPageByEvent($event, 'Anniversary')" (click)="goToPage('Anniversary')">Anniversary</button>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- notes and caves -->
   <ion-card>
     <img src="assets/images/caves.jpg"/>
     <ion-card-content>
@@ -147,6 +220,7 @@
     </ion-card-content>
   </ion-card>
 
+  <!-- misc -->
   <ion-card>
     <img src="assets/images/commands.png"/>
     <ion-card-content>

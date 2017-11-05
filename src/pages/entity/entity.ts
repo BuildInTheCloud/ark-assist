@@ -4,7 +4,7 @@ import { Clipboard } from '@ionic-native/clipboard';
 import { Toast } from '@ionic-native/toast';
 //import { DataService } from '../../providers/data-service/data-service';
 import { StaticService } from '../../static-service/static-data';
-declare var window: any;
+import { ClipboardModule } from 'ngx-clipboard';
 declare var Windows: any;
 declare var document: any;
 
@@ -23,22 +23,27 @@ export class EntityPage {
   shouldShowCancel:boolean;
   quality: number = 0;
   category: string;
+  dlc: string;
   loader: any;
+  clipboardJS: any;
 
   constructor(public navCtrl: NavController, public dataService: StaticService, public navParams: NavParams,
               public platform: Platform, public toast: Toast, public clipboard: Clipboard,
-              public toastCtrl: ToastController, public loadingCtrl: LoadingController) {
+              public toastCtrl: ToastController, public loadingCtrl: LoadingController,
+              clipboardModule: ClipboardModule) {
     this.loader = this.navParams.get("loading");
     this.platform = platform;
     this.toastCtrl = toastCtrl;
     this.toast = toast;
     this.clipboard = clipboard;
+    this.clipboardJS = clipboardModule;
   }
 
   ngOnInit() {
-    this.category = this.navParams.get("dataset");
+    this.dlc = this.navParams.get("dlc");
+    this.category = this.navParams.get("category");
     this.pageTitle = this.navParams.get("title");
-    this.getList(this.navParams.get("dataset"));
+    this.getList();
   }
 
   showQuality() {
@@ -49,10 +54,32 @@ export class EntityPage {
     }
   }
 
-  getList(jsonFileName:string) {
-    this.dataService.getEntityList(jsonFileName).then(
+  getList() {
+    this.dataService.getEntityList("craftable").then(
       data => {
-        this.entities = data;
+        this.entities = [];
+        if (this.category != "all") {
+          for (var xx = 0; xx < data.length; xx++) {
+            if (data[xx].category) {
+              if (data[xx].category.toLowerCase() == this.category.toLowerCase()) {
+                this.entities.push(data[xx]);
+              }
+            }
+          }
+        } else {
+          this.entities = data;
+        }
+        if (this.dlc != "") {
+          let tempData = this.entities;
+          this.entities = [];
+          for (var x = 0; x < tempData.length; x++) {
+            if (tempData[x].dlc) {
+              if (tempData[x].dlc.toLowerCase() == this.dlc.toLowerCase()) {
+                this.entities.push(tempData[x]);
+              }
+            }
+          }
+        }
         this.entityList = this.entities;
         this.loader.dismiss();
       },
@@ -86,7 +113,7 @@ export class EntityPage {
     }
   }
 
-  copyText(indexVal:any, type:any) {
+  copyText(indexVal:any, type:any, e?:any) {
     var inputOBJ:any = document.getElementById(type+indexVal);
     var pasteVAL = inputOBJ.innerText.replace(/\|/g,"\"");
     if (
@@ -107,30 +134,14 @@ export class EntityPage {
     } else {
       //console.log("FOR BROWSER");
       var holdtext:any = document.getElementById("holdtext");
+      holdtext.style.display = "block";
       holdtext.innerText = pasteVAL;
-      this.selectElementText(holdtext);
-      var copysuccess = this.copySelectionText();
-      let toastPopup = this.toastCtrl.create({message: (copysuccess ? "COPIED: ": "FAILED COPY: ") + holdtext.innerText, duration: 3000, position: 'top'});
+      holdtext.select();      
+      var successful = document.execCommand('copy');
+      let toastPopup = this.toastCtrl.create({ message: "COPIED: " + pasteVAL, duration: 3000, position: 'top' });
       toastPopup.present();
+      holdtext.style.display = "none";
     }
-  }
-
-  selectElementText(el){
-    var range = document.createRange() // create new range object
-    range.selectNodeContents(el) // set range to encompass desired element text
-    var selection = window.getSelection() // get Selection object from currently user selected text
-    selection.removeAllRanges() // unselect any user selected text (if any)
-    selection.addRange(range) // add range to Selection object to select it
-  }
-
-  copySelectionText(){
-    var copysuccess // var to check whether execCommand successfully executed
-    try{
-      copysuccess = document.execCommand("copy") // run command to copy selected text to clipboard
-    } catch(e){
-      copysuccess = false
-    }
-    return copysuccess
   }
 
 }

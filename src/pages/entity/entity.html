@@ -38,20 +38,18 @@
   </ion-row>
 </ion-header>
 <ion-content padding>
-  <p class="tv note">Click button to copy command to clipboard.</p>
-  <div id="holdtext" style="display:none;"></div>
   <ion-list>
     <ion-item *ngFor="let item of entityList; let i = index">
       <ion-thumbnail item-left *ngIf="item.id > 0"><span class="entity id">{{item.id}}</span><img src="assets/{{item.icon}}"/></ion-thumbnail>
       <ion-thumbnail item-left *ngIf="item.id == 0"><img src="assets/{{item.icon}}"/></ion-thumbnail>
-      <h2>{{item.name}} (<i>{{item.stack}} </i>)</h2>
+      <h2>{{item.name}} <i *ngIf="item.dlc != ''">{{item.dlc}}</i></h2>
       <ion-row responsive-sm style="margin-bottom:5px;">
         <ion-col class="entity cmd" *ngIf="item.blueprint !== '' && item.category == 'Dye'">
-          <button class="tv" (keyup)="copyTextEvent($event, [i], 'entity')" (click)="copyText([i], 'entity')">COPY TO CLIPBOARD</button>
+          <button class="tv" (keyup)="copyTextEvent($event, [i], 'entity')" (click)="copyText([i], 'entity', $event)">COPY</button>
           <span class="entity-copy" [attr.id]="'entity'+i">cheat giveitemnum {{item.id}} {{item.stack}} 1 0</span>
         </ion-col>
         <ion-col class="entity cmd" *ngIf="item.blueprint !== '' && item.category != 'Dye'">
-          <button class="tv" (keyup)="copyTextEvent($event, [i], 'entity')" (click)="copyText([i], 'entity')">COPY TO CLIPBOARD</button>
+          <button class="tv" (keyup)="copyTextEvent($event, [i], 'entity')" (click)="copyText([i], 'entity', $event)">COPY</button>
           <span class="entity-copy" [attr.id]="'entity'+i">cheat giveitem "{{item.blueprint}}" {{item.stack > 50 ? 50 : item.stack}} {{quality}} 0</span>
         </ion-col>
         <ion-col class="entity cmd missing" *ngIf="item.blueprint == ''">
@@ -79,5 +77,5 @@
       </ion-row>
     </ion-item>
   </ion-list>
-  <p>{{errorMessage}}</p>
+  <textarea id="holdtext" style="width:100%;height:60px;display:none;"></textarea>
 </ion-content>

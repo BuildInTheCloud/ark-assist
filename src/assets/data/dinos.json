@@ -1,826 +1,1368 @@
 [
-{
-"id": "Achatina_Character_BP_C","name": "Achatina","category": "Invertebrates",
-"icon": "images/achatina.png",
-"tame": "Sweet Vegetable Cake",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP.Achatina_Character_BP'"
-},{
-"id": "Allo_Character_BP_C","name": "Allosaurus","category": "Dinosaurs",
-"icon": "images/allosaurus.png",
-"tame": "Diplo Kibble",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Allosaurus/Allo_Character_BP.Allo_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_AlloSaddle.PrimalItemArmor_AlloSaddle'"
-},{
-"id": "MegaCarno_Character_BP_C","name": "Alpha Carno","category": "Alpha Predator",
-"icon": "images/alpha-carno.png",
-"tame": "Can't Tame",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Carno/MegaCarno_Character_BP.MegaCarno_Character_BP'"
-},{
-"id": "MegaDeathworm_Character_BP_C","name": "Alpha Deathworm","category": "Invertebrates",
-"icon": "images/alpha-deathworm.jpg",
-"tame": "Can't Tame",
-"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Deathworm/MegaDeathworm_Character_BP.MegaDeathworm_Character_BP'"
-},{
-"id": "MegaWyvern_Character_BP_Fire_C","name": "Alpha Fire Wyvern","category": "Fantasy",
-"icon": "images/alpha-fire-wyvern.png",
-"tame": "Can't Tame",
-"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/MegaWyvern_Character_BP_Fire.MegaWyvern_Character_BP_Fire'"
-},{
-"id": "Mosa_Character_BP_Mega_C","name": "Alpha Mosasaurus","category": "Alpha Predator",
-"icon": "images/alpha-mosa.jpg",
-"tame": "Can't Tame",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Mosasaurus/Mosa_Character_BP_Mega.Mosa_Character_BP_Mega'"
-},{
-"id": "MegaRaptor_Character_BP_C","name": "Alpha Raptor","category": "Alpha Predator",
-"icon": "images/alpha-raptor.png",
-"tame": "Can't Tame",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Raptor/MegaRaptor_Character_BP.MegaRaptor_Character_BP'"
-},{
-"id": "MegaRex_Character_BP_C","name": "Alpha Rex","category": "Alpha Predator",
-"icon": "images/alpha-rex.png",
-"tame": "Can't Tame",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Rex/MegaRex_Character_BP.MegaRex_Character_BP'"
-},{
-"id": "Mega_Tusoteuthis_Character_BP_C","name": "Alpha Tusoteuthis","category": "Alpha Predator",
-"icon": "images/alpha-tusoteuthis.png",
-"tame": "Can't Tame",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Tusoteuthis/Mega_Tusoteuthis_Character_BP.Mega_Tusoteuthis_Character_BP'"
-},{
-"id": "Ammonite_Character_BP_C","name": "Ammonite","category": "Fish",
-"icon": "images/ammonite.jpg",
-"tame": "Can't Tame",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ammonite/Ammonite_Character.Ammonite_Character'"
-},{
-"id": "Angler_Character_BP_C","name": "Angler","category": "Fish",
-"icon": "images/angler.jpg",
-"tame": "Kairuku Kibble",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Anglerfish/Angler_Character_BP.Angler_Character_BP'"
-},{
-"id": "Ankylo_Character_BP_C","name": "Ankylosaurus","category": "Dinosaurs",
-"icon": "images/ankylosaurus.png",
-"tame": "Dilo Kibble",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ankylo/Ankylo_Character_BP.Ankylo_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_AnkyloSaddle.PrimalItemArmor_AnkyloSaddle'"
-},{
-"id": "SpiderS_Character_BP_C","name": "Araneo","category": "Spider",
-"icon": "images/araneo.png",
-"tame": "Spoiled Meat",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Spider-Small/SpiderS_Character_BP.SpiderS_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SpiderSaddle.PrimalItemArmor_SpiderSaddle'"
-},{
-"id": "Archa_Character_BP_C","name": "Archaeopteryx","category": "Birds",
-"icon": "images/archaeopteryx.jpg",
-"tame": "Pelagornis Kibble",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Archaeopteryx/Archa_Character_BP.Archa_Character_BP'"
-},{
-"id": "Argent_Character_BP_C","name": "Argentavis","category": "Birds",
-"icon": "images/argentavis.png",
-"tame" : "Stego Kibble",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Argentavis/Argent_Character_BP.Argent_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ArgentavisSaddle.PrimalItemArmor_ArgentavisSaddle'"
-},{
-"id": "Arthro_Character_BP_C","name": "Arthropluera","category": "Invertebrates",
-"icon": "images/arthropluera.png",
-"tame" : "Broth of Enlightenment",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Arthropluera/Arthro_Character_BP.Arthro_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ArthroSaddle.PrimalItemArmor_ArthroSaddle'"
-},{
-"id": "Baryonyx_Character_BP_C","name": "Baryonyx","category": "Dinosaurs",
-"icon": "images/baryonyx.jpeg",
-"tame" : "Pachyrhino Kibble",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Baryonyx/Baryonyx_Character_BP.Baryonyx_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_BaryonyxSaddle.PrimalItemArmor_BaryonyxSaddle'"
-},{
-"id": "Basilosaurus_Character_BP_C","name": "Basilosaurus","category": "Mammals",
-"icon": "images/basilosaurus.jpg",
-"tame" : "Therizino Kibble",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Basilosaurus/Basilosaurus_Character_BP.Basilosaurus_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_BasiloSaddle.PrimalItemArmor_BasiloSaddle'"
-},{
-"id": "Toad_Character_BP_C","name": "Beelzebufo","category": "Reptiles",
-"icon": "images/beelzebufo.png",
-"tame" : "Pulmonoscorpius Kibble",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Toad/Toad_Character_BP.Toad_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ToadSaddle.PrimalItemArmor_ToadSaddle'"
-},{
-"id": "BunnyDodo","name": "BunnyDodo","category": "Event",
-"icon": "images/bunny-dodo.jpeg",
-"tame" : "Can't Tame",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP_Bunny.Dodo_Character_BP_Bunny'"
-},{
-"id": "BunnyOviraptor","name": "BunnyOviraptor","category": "Event",
-"icon": "images/bunny-oviraptor.png",
-"tame" : "Can't Tame",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/oviRaptor/BunnyoviRaptor_Character_BP.BunnyOviRaptor_Character_BP'"
-},{
-"id": "Sauropod_Character_BP_C","name": "Brontosaurus","category": "Dinosaurs",
-"icon": "images/brontosaurus.png",
-"tame" : "Carbonemys Kibble",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Sauropod/Sauropod_Character_BP.Sauropod_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SauroSaddle.PrimalItemArmor_SauroSaddle'",
-"platform": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SauroSaddle_Platform.PrimalItemArmor_SauroSaddle_Platform'"
-},{
-"id": "SpiderL_Character_BP_C","name": "Broodmother Lysrix","category": "Bosses",
-"icon": "images/broodmother-lysrix.png",
-"tame" : "Can't Tame",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Spider-Large/SpiderL_Character_BP.SpiderL_Character_BP'"
-},{
-"id": "Turtle_Character_BP_C","name": "Carbonemys","category": "Reptiles",
-"icon": "images/carbonemys.png",
-"tame" : "Pteranodon Kibble",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Turtle/Turtle_Character_BP.Turtle_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TurtleSaddle.PrimalItemArmor_TurtleSaddle'"
-},{
-"id": "Carno_Character_BP_C","name": "Carnotaurus","category": "Dinosaurs",
-"icon": "images/carnotaurus.png",
-"tame" : "Ankylo Kibble",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Carno/Carno_Character_BP.Carno_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_CarnoSaddle.PrimalItemArmor_CarnoSaddle'"
-},{
-"id": "Beaver_Character_BP_C","name": "Castoroides","category": "Mammals",
-"icon": "images/castoroides.png",
-"tame" : "Gallimimus Kibble",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Beaver/Beaver_Character_BP.Beaver_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_BeaverSaddle.PrimalItemArmor_BeaverSaddle'"
-},{
-"id": "Chalico_Character_BP_C","name": "Chalicotherium","category": "Mammals",
-"icon": "images/chalicotherium.jpg",
-"tame" : "Beer",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Chalicotherium/Chalico_Character_BP.Chalico_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ChalicoSaddle.PrimalItemArmor_ChalicoSaddle'"
-},{
-"id": "Cnidaria_Character_BP_C","name": "Cnidaria","category": "Invertebrates",
-"icon": "images/cnidaria.jpg",
-"tame" : "Can't Tame",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Cnidaria/Cnidaria_Character_BP.Cnidaria_Character_BP'"
-},{
-"id": "Coel_Character_BP_C","name": "Coelacanth","category": "Fish",
-"icon": "images/coelacanth.png",
-"tame" : "Can't Tame",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Coelacanth/Coel_Character_BP.Coel_Character_BP'"
-},{
-"id": "Compy_Character_BP_C","name": "Compsognathus","category": "Dinosaurs",
-"icon": "images/compsognathus.png",
-"tame" : "Raw Prime Meat",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Compy/Compy_Character_BP.Compy_Character_BP'"
-},{
-"id": "Daeodon_Character_BP_C","name": "Daeodon","category": "Mammals",
-"icon": "images/daeodon.jpg",
-"tame" : "Iguanodon Kibble",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Daeodon/Daeodon_Character_BP.Daeodon_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DaeodonSaddle.PrimalItemArmor_DaeodonSaddle'"
-},{
-"id": "Deathworm_Character_BP_C","name": "Deathworm","category": "Invertebrates",
-"icon": "images/deathworm.png",
-"tame" : "Can't Tame",
-"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/DeathWorm/DeathWorm_Character_BP.DeathWorm_Character_BP'"
-},{
-"id": "Dilo_Character_BP_C","name": "Dilophosaurus","category": "Dinosaurs",
-"icon": "images/dilophosaurus.png",
-"tame" : "Raw Mutton",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dilo/Dilo_Character_BP.Dilo_Character_BP'"
-},{
-"id": "Dimetro_Character_BP_C","name": "Dimetrodon","category": "Dinosaurs",
-"icon": "images/dimetrodon.png",
-"tame" : "Quetzal Kibble",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dimetrodon/Dimetro_Character_BP.Dimetro_Character_BP'"
-},{
-"id": "Dimorph_Character_BP_C","name": "Dimorphodon","category": "Dinosaurs",
-"icon": "images/dimorphodon.png",
-"tame" : "Raw Mutton",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dimorphodon/Dimorph_Character_BP.Dimorph_Character_BP'"
-},{
-"id": "Diplocaulus_Character_BP_C","name": "Diplocaulus","category": "Amphibians",
-"icon": "images/diplocaulus.jpg",
-"tame" : "Archaeopteryx Kibble",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Diplocaulus/Diplocaulus_Character_BP.Diplocaulus_Character_BP'"
-},{
-"id": "Diplodocus_Character_BP_C","name": "Diplodocus","category": "Dinosaurs",
-"icon": "images/diplodocus.jpg",
-"tame" : "Lystrosaurus Kibble",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Diplodocus/Diplodocus_Character_BP.Diplodocus_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DiplodocusSaddle.PrimalItemArmor_DiplodocusSaddle'"
-},{
-"id": "Direbear_Character_BP_C","name": "Direbear","category": "Mammals",
-"icon": "images/direbear.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Direbear/Direbear_Character_BP.Direbear_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DireBearSaddle.PrimalItemArmor_DireBearSaddle'"
-},{
-"id": "Direwolf_Character_BP_C","name": "Direwolf","category": "Mammals",
-"icon": "images/direwolf.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Direwolf/Direwolf_Character_BP.Direwolf_Character_BP'"
-},{
-"id": "Dodo_Character_BP_C","name": "Dodo","category": "Birds",
-"icon": "images/dodo.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP'"
-},{
-"id": "DodoRex_Character_BP_C","name": "Dodo Rex","category": "Bosses",
-"icon": "images/dodo-rex.jpeg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/DodoRex/DodoRex_Character_BP.DodoRex_Character_BP'"
-},{
-"id": "DodoWyvern_Character_BP_C","name": "Dodo Wyvern","category": "Bosses",
-"icon": "images/dodo-wyvern.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/DodoWyvern/DodoWyvern_Character_BP.DodoWyvern_Character_BP'"
-},{
-"id": "Doed_Character_BP_C","name": "Doedicurus","category": "Mammals",
-"icon": "images/doedicurus.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Doedicurus/Doed_Character_BP.Doed_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DoedSaddle.PrimalItemArmor_DoedSaddle'"
-},{
-"id": "Dragon_Character_BP_C","name": "Dragon","category": "Bosses",
-"icon": "images/dragon.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dragon/Dragon_Character_BP.Dragon_Character_BP'"
-},{
-"id": "DungBeetle_Character_BP_C","name": "Dung Beetle","category": "Invertebrates",
-"icon": "images/dung-beetle.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/DungBeetle/DungBeetle_Character_BP.DungBeetle_Character_BP'"
-},{
-"id": "Dunkle_Character_BP_C","name": "Dunkleosteus","category": "Fish",
-"icon": "images/dunkleosteus.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dunkleosteus/Dunkle_Character_BP.Dunkle_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DunkleosteusSaddle.PrimalItemArmor_DunkleosteusSaddle'"
-},{
-"id": "Eel_Character_BP_C","name": "Electrophorus","category": "Fish",
-"icon": "images/electrophorus.png",
-"tame" : "Bio Toxin, Raw Mutton",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Eel/Eel_Character_BP.Eel_Character_BP'"
-},{
-"id": "Euryp_Character_C","name": "Eurypterid","category": "Invertebrates",
-"icon": "images/eurypterid.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Eurypterid/Euryp_Character.Euryp_Character'"
-},{
-"id": "Equus_Character_BP_C","name": "Equus","category": "Mammals",
-"icon": "images/equus.jpg",
-"tame" : "Troodon Kibble",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Equus/Equus_Character_BP.Equus_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_EquusSaddle.PrimalItemArmor_EquusSaddle'"
-},{
-"id": "Galli_Character_BP_C","name": "Gallimimus","category": "Dinosaurs",
-"icon": "images/gallimimus.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Gallimimus/Galli_Character_BP.Galli_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_Gallimimus.PrimalItemArmor_Gallimimus'"
-},{
-"id": "Bee_Character_BP_C","name": "Giant Bee Drone","category": "Invertebrates",
-"icon": "images/giant-bee.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Bee/Bee_Character_BP.Bee_Character_BP'",
-"saddle": ""
-},{
-"id": "Bee_Queen_Character_BP_C","name": "Giant Bee Queen","category": "Invertebrates",
-"icon": "images/giant-bee.jpg",
-"tame" : "Ichthyornis Kibble",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Bee/Bee_Queen_Character_BP.Bee_Queen_Character_BP'",
-"saddle": ""
-},{
-"id": "Gigant_Character_BP_C","name": "Giganotosaurus","category": "Dinosaurs",
-"icon": "images/giganotosaurus.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Giganotosaurus/Gigant_Character_BP.Gigant_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_GigantSaddle.PrimalItemArmor_GigantSaddle'"
-},{
-"id": "BigFoot_Character_BP_C","name": "Gigantopithecus","category": "Mammals",
-"icon": "images/gigantopithecus.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Bigfoot/Bigfoot_Character_BP.Bigfoot_Character_BP'"
-},{
-"id": "Hesperornis_Character_BP_C","name": "Hesperornis","category": "Birds",
-"icon": "images/hesperornis.jpg",
-"tame" : "",
-"blueprint": "",
-"saddle": ""
-},{
-"id": "PlayerPawnTest_Female_C","name": "Human Female","category": "Mammals",
-"icon": "images/human.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/PlayerPawnTest_Female.PlayerPawnTest_Female'"
-},{
-"id": "PlayerPawnTest_Male_C","name": "Human Male","category": "Mammals",
-"icon": "images/human.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/PlayerPawnTest_Male.PlayerPawnTest_Male'"
-},{
-"id": "Ichthyornis_Character_BP_C","name": "Ichthyornis","category": "Birds",
-"icon": "images/ichthyornis.png",
-"tame" : "Pegomastax Kibble",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ichthyornis/Ichthyornis_Character_BP.Ichthyornis_Character_BP'"
-},{
-"id": "Dolphin_Character_BP_C","name": "Ichthyosaurus","category": "Reptiles",
-"icon": "images/ichthyosaurus.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dolphin/Dolphin_Character_BP.Dolphin_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DolphinSaddle.PrimalItemArmor_DolphinSaddle'"
-},{
-"id": "Iguanodon_Character_BP_C","name": "Iguanodon","category": "Dinosaurs",
-"icon": "images/iguanodon.jpg",
-"tame" : "Microraptor Kibble",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Iguanodon/Iguanodon_Character_BP.Iguanodon_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_IguanodonSaddle.PrimalItemArmor_IguanodonSaddle'"
-},{
-"id": "Jerboa_Character_BP_C","name": "Jerboa","category": "Mammals",
-"icon": "images/jerboa.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Jerboa/Jerboa_Character_BP.Jerboa_Character_BP'"
-},{
-"id": "Jugbug_Character_BaseBP_C","name": "Jug Bug","category": "Invertebrates",
-"icon": "images/jug-bug.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Jugbug/JugBug_Character_BaseBP.JugBug_Character_BaseBP'"
-},{
-"id": "Jugbug_Oil_Character_BP_C","name": "Jug Bug (Oil)","category": "Invertebrates",
-"icon": "images/jug-bug.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Jugbug/Jugbug_Oil_Character_BP.Jugbug_Oil_Character_BP'"
-},{
-"id": "Jugbug_Water_Character_BP_C","name": "Jug Bug (Water)","category": "Invertebrates",
-"icon": "images/jug-bug.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Jugbug/Jugbug_Water_Character_BP.Jugbug_Water_Character_BP'"
-},{
-"id": "Kairuku_Character_BP_C","name": "Kairuku","category": "Birds",
-"icon": "images/kairuku.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Kairuku/Kairuku_Character_BP.Kairuku_Character_BP'"
-},{
-"id": "Kaprosuchus_Character_BP_C","name": "Kaprosuchus","category": "Birds",
-"icon": "images/kaprosuchus.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Kaprosuchus/Kaprosuchus_Character_BP.Kaprosuchus_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_KaprosuchusSaddle.PrimalItemArmor_KaprosuchusSaddle'"
-},{
-"id": "Kentrosaurus_Character_BP_C","name": "Kentrosaurus","category": "Dinosaurs",
-"icon": "images/kentrosaurus.jpg",
-"tame" : "Compy Kibble",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Kentrosaurus/Kentro_Character_BP.Kentro_Character_BP'",
-"saddle": ""
-},{
-"id": "Leech_Character_C","name": "Leech","category": "Invertebrates",
-"icon": "images/leech.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Leech/Leech_Character.Leech_Character'"
-},{
-"id": "Leech_Character_Diseased_C","name": "Diseased Leech","category": "Invertebrates",
-"icon": "images/leech.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Leech/Leech_Character_Diseased.Leech_Character_Diseased'"
-},{
-"id": "Leedsichthys_Character_BP_C","name": "Leedsichthys","category": "Fish",
-"icon": "images/leedsichthys.jpg",
-"tame" : "No",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Leedsichthys/Leedsichthys_Character_BP.Leedsichthys_Character_BP'"
-},{
-"id": "Liopleurodon_Character_BP_C","name": "Liopleurodon","category": "Reptiles",
-"icon": "images/liopleurodon.jpg",
-"tame" : "Giant Bee Honey",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Liopleurodon/Liopleurodon_Character_BP.Liopleurodon_Character_BP'",
-"saddle": ""
-},{
-"id": "Moth_Character_BP_C","name": "Lymantria","category": "Invertebrates",
-"icon": "images/lymantria.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Moth/Moth_Character_BP.Moth_Character_BP'",
-"saddle": "Blueprint'/Game/ScorchedEarth/Dinos/Moth/PrimalItemArmor_MothSaddle.PrimalItemArmor_MothSaddle'"
-},{
-"id": "Lystro_Character_BP_C","name": "Lystrosaurus","category": "Dinosaurs",
-"icon": "images/lystrosaurus.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Lystrosaurus/Lystro_Character_BP.Lystro_Character_BP'"
-},{
-"id": "Mammoth_Character_BP_C","name": "Mammoth","category": "Mammals",
-"icon": "images/mammoth.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Mammoth/Mammoth_Character_BP.Mammoth_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MammothSaddle.PrimalItemArmor_MammothSaddle'"
-},{
-"id": "Manta_Character_BP_C","name": "Manta","category": "Fish",
-"icon": "images/manta.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Manta/Manta_Character_BP.Manta_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MantaSaddle.PrimalItemArmor_MantaSaddle'"
-},{
-"id": "Manticore_Character_BP_C","name": "Manticore","category": "Bosses",
-"icon": "images/manticore.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Manticore/Manticore_Character_BP.Manticore_Character_BP'"
-},{
-"id": "Mantis_Character_BP_C","name": "Mantis","category": "Invertebrates",
-"icon": "images/mantis.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Mantis/Mantis_Character_BP.Mantis_Character_BP'",
-"saddle": "Blueprint'/Game/ScorchedEarth/Dinos/Mantis/PrimalItemArmor_MantisSaddle.PrimalItemArmor_MantisSaddle'"
-},{
-"id": "Stag_Character_BP_C","name": "Megaloceros","category": "Mammals",
-"icon": "images/Megaloceros.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Stag/Stag_Character_BP.Stag_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_StagSaddle.PrimalItemArmor_StagSaddle'"
-},{
-"id": "Megalodon_Character_BP_C","name": "Megalodon","category": "Fish",
-"icon": "images/megalodon.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Megalodon/Megalodon_Character_BP.Megalodon_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalodonSaddle.PrimalItemArmor_MegalodonSaddle'",
-"tek": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalodonSaddle_Tek.PrimalItemArmor_MegalodonSaddle_Tek'"
-},{
-"id": "Megalosaurus_Character_BP_C","name": "Megalosaurus","category": "Dinosaurs",
-"icon": "images/megalosaurus.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Megalosaurus/Megalosaurus_Character_BP.Megalosaurus_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalosaurusSaddle.PrimalItemArmor_MegalosaurusSaddle'"
-},{
-"id": "Dragonfly_Character_BP_C","name": "Meganeura","category": "Invertebrates",
-"icon": "images/meganeura.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dragonfly/Dragonfly_Character_BP.Dragonfly_Character_BP'"
-},{
-"id": "Gorila_Character_BP_C","name": "Megapithecus","category": "Bosses",
-"icon": "images/megapithecus.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Gorilla/Gorilla_Character_BP.Gorilla_Character_BP'"
-},{
-"id": "Monkey_Character_BP_C","name": "Mesopithecus","category": "Mammals",
-"icon": "images/mesopithecus.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Monkey/Monkey_Character_BP.Monkey_Character_BP'"
-},{
-"id": "Microraptor_Character_BP_C","name": "Microraptor","category": "Dinosaurs",
-"icon": "images/microraptor.jpg",
-"tame" : "Rare Flower",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Microraptor/Microraptor_Character_BP.Microraptor_Character_BP'"
-},{
-"id": "Camelsaurus_Character_BP_C","name": "Morellatops","category": "Herbivore",
-"icon": "images/morellatops.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Camelsaurus/Camelsaurus_Character_BP.Camelsaurus_Character_BP'",
-"saddle": "Blueprint'/Game/ScorchedEarth/Dinos/Camelsaurus/PrimalItemArmor_CamelsaurusSaddle.PrimalItemArmor_CamelsaurusSaddle'"
-},{
-"id": "Mosa_Character_BP_C","name": "Mosasaurus","category": "Reptiles",
-"icon": "images/mosasaurus.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Mosasaurus/Mosa_Character_BP.Mosa_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MosaSaddle.PrimalItemArmor_MosaSaddle'",
-"platform": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MosaSaddle_Platform.PrimalItemArmor_MosaSaddle_Platform'"
-},{
-"id": "Moschops_Character_BP_C","name": "Moschops","category": "Synapsids",
-"icon": "images/moschops.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Moschops/Moschops_Character_BP.Moschops_Character_BP'"
-},{
-"id": "Bat_Character_BP_C","name": "Onychonycteris","category": "Mammals",
-"icon": "images/onyc.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Bat/Bat_Character_BP.Bat_Character_BP'"
-},{
-"id": "OviRaptor_Character_BP_C","name": "Oviraptor","category": "Dinosaurs",
-"icon": "images/oviraptor.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/oviRaptor/oviRaptor_Character_BP.OviRaptor_Character_BP'"
-},{
-"id": "Sheep_Character_BP_C","name": "Ovis","category": "Mammals",
-"icon": "images/ovis.jpg",
-"tame" : "1 Sweet Vegetable Cake",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Sheep/Sheep_Character_BP.Sheep_Character_BP'"
-},{
-"id": "Pachy_Character_BP_C","name": "Pachycephalosaurus","category": "Dinosaurs",
-"icon": "images/pachycephalosaurus.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Pachy/Pachy_Character_BP.Pachy_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PachySaddle.PrimalItemArmor_PachySaddle'"
-},{
-"id": "Pachyrhinosaurus_Character_BP_C","name": "Pachyrhinosaurus","category": "Dinosaurs",
-"icon": "images/pachyrhinosaurus.jpeg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Pachyrhinosaurus/Pachyrhino_Character_BP.Pachyrhino_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PachyrhinoSaddle.PrimalItemArmor_PachyrhinoSaddle'"
-},{
-"id": "Paracer_Character_BP_C","name": "Paraceratherium","category": "Mammals",
-"icon": "images/paraceratherium.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Paraceratherium/Paracer_Character_BP.Paracer_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_Paracer_Saddle.PrimalItemArmor_Paracer_Saddle'",
-"platform": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ParacerSaddle_Platform.PrimalItemArmor_ParacerSaddle_Platform'"
-},{
-"id": "Para_Character_BP_C","name": "Parasaurolophus","category": "Mammals",
-"icon": "images/Parasaur.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Para/Para_Character_BP.Para_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ParaSaddle.PrimalItemArmor_ParaSaddle'"
-},{
-"id": "Pegomastax_Character_BP_C","name": "Pegomastax","category": "Dinosaurs",
-"icon": "images/pegomastax.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Pegomastax/Pegomastax_Character_BP.Pegomastax_Character_BP'"
-},{
-"id": "Pela_Character_BP_C","name": "Pelagornis","category": "Birds",
-"icon": "images/pelagornis.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Pelagornis/Pela_Character_BP.Pela_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PelaSaddle.PrimalItemArmor_PelaSaddle'"
-},{
-"id": "Phiomia_Character_BP_C","name": "Phiomia","category": "Mammals",
-"icon": "images/phiomia.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Phiomia/Phiomia_Character_BP.Phiomia_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PhiomiaSaddle.PrimalItemArmor_PhiomiaSaddle'"
-},{
-"id": "Piranha_Character_BP_C","name": "Piranha","category": "Fish",
-"icon": "images/piranha.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Piranha/Piranha_Character_BP.Piranha_Character_BP'"
-},{
-"id": "Plesiosaur_Character_BP_C","name": "Plesiosaur","category": "Reptiles",
-"icon": "images/plesiosaur.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Plesiosaur/Plesiosaur_Character_BP.Plesiosaur_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PlesiSaddle_Platform.PrimalItemArmor_PlesiSaddle_Platform'"
-},{
-"id": "Procoptodon_Character_BP_C","name": "Procoptodon","category": "Mammals",
-"icon": "images/procoptodon.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Procoptodon/Procoptodon_Character_BP.Procoptodon_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ProcoptodonSaddle.PrimalItemArmor_ProcoptodonSaddle'"
-},{
-"id": "Ptero_Character_BP_C","name": "Pteranodon","category": "Dinosaurs",
-"icon": "images/pteranodon.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ptero/Ptero_Character_BP.Ptero_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PteroSaddle.PrimalItemArmor_PteroSaddle'"
-},{
-"id": "Scorpion_Character_BP_C","name": "Pulmonoscorpius","category": "Invertebrates",
-"icon": "images/scorpion.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Scorpion/Scorpion_Character_BP.Scorpion_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ScorpionSaddle.PrimalItemArmor_ScorpionSaddle'"
-},{
-"id": "Purlovia_Character_BP_C","name": "Purlovia","category": "Synapsids",
-"icon": "images/purlovia.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Purlovia/Purlovia_Character_BP.Purlovia_Character_BP'"
-},{
-"id": "Quetz_Character_BP_C","name": "Quetzalcoatlus","category": "Reptiles",
-"icon": "images/quetzalcoatlus.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Quetzalcoatlus/Quetz_Character_BP.Quetz_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_QuetzSaddle.PrimalItemArmor_QuetzSaddle'",
-"platform": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_QuetzSaddle_Platform.PrimalItemArmor_QuetzSaddle_Platform'"
-},{
-"id": "Raptor_Character_BP_C","name": "Raptor","category": "Dinosaurs",
-"icon": "images/raptor.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Raptor/Raptor_Character_BP.Raptor_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RaptorSaddle.PrimalItemArmor_RaptorSaddle'"
-},{
-"id": "RockGolem_Character_BP_C","name": "Rock Elemental","category": "Fantasy",
-"icon": "images/rock-elemental.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/RockGolem/RockGolem_Character_BP.RockGolem_Character_BP'",
-"saddle": "Blueprint'/Game/ScorchedEarth/Dinos/RockGolem/PrimalItemArmor_RockGolemSaddle.PrimalItemArmor_RockGolemSaddle'"
-},{
-"id": "RubbleGolem_Character_BP_C","name": "Rubble Golem","category": "Fantasy",
-"icon": "images/rubble-golem.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/RockGolem/RubbleGolem_Character_BP.RubbleGolem_Character_BP'",
-"saddle": "Blueprint'/Game/ScorchedEarth/Dinos/RockGolem/PrimalItemArmor_RockGolemSaddle.PrimalItemArmor_RockGolemSaddle'"
-},{
-"id": "Saber_Character_BP_C","name": "Sabertooth","category": "Mammals",
-"icon": "images/sabertooth.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Saber/Saber_Character_BP.Saber_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SaberSaddle.PrimalItemArmor_SaberSaddle'"
-},{
-"id": "Salmon_Character_BP_C","name": "Sabertooth Salmon","category": "Fish",
-"icon": "images/sabertooth-salmon.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Salmon/Salmon_Character_BP.Salmon_Character_BP'"
-},{
-"id": "Sarco_Character_BP_C","name": "Sarcosuchus","category": "Reptiles",
-"icon": "images/sarcosaurus.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Sarco/Sarco_Character_BP.Sarco_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SarcoSaddle.PrimalItemArmor_SarcoSaddle'"
-},{
-"id": "Spino_Character_BP_C","name": "Spinosaur","category": "Dinosaurs",
-"icon": "images/spinosaur.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Spino/Spino_Character_BP.Spino_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SpinoSaddle.PrimalItemArmor_SpinoSaddle'"
-},{
-"id": "Stego_Character_BP_C","name": "Stegosaurus","category": "Dinosaurs",
-"icon": "images/stegosaurus.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Stego/Stego_Character_BP.Stego_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_StegoSaddle.PrimalItemArmor_StegoSaddle'"
-},{
-"id": "Tapejara_Character_BP_C","name": "Tapejara","category": "Birds",
-"icon": "images/tapejara.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Tapejara/Tapejara_Character_BP.Tapejara_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TapejaraSaddle.PrimalItemArmor_TapejaraSaddle'"
-},{
-"id": "TerrorBird_Character_BP_C","name": "Terror Bird","category": "Birds",
-"icon": "images/terror-bird.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/TerrorBird/TerrorBird_Character_BP.TerrorBird_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TerrorBirdSaddle.PrimalItemArmor_TerrorBirdSaddle'"
-},{
-"id": "Therizinosaurus_Character_BP_C","name": "Therizinosaurus","category": "Dinosaurs",
-"icon": "images/therizinosaurus.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Therizinosaurus/Therizinosaurus_Character_BP.Therizinosaurus_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TherizinosaurusSaddle.PrimalItemArmor_TherizinosaurusSaddle'"
-},{
-"id": "SpineyLizard_Character_BP_C","name": "Thorny Dragon","category": "Reptiles",
-"icon": "images/thorny-dragon.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/SpineyLizard/SpineyLizard_Character_BP.SpineyLizard_Character_BP'",
-"saddle": "Blueprint'/Game/ScorchedEarth/Dinos/SpineyLizard/PrimalItemArmor_SpineyLizardSaddle.PrimalItemArmor_SpineyLizardSaddle'"
-},{
-"id": "Thylacoleo_Character_BP_C","name": "Thylacoleo","category": "Mammals",
-"icon": "images/thylacoleo.jpg",
-"tame" : "Titanoboa Kibble",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Thylacoleo/Thylacoleo_Character_BP.Thylacoleo_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ThylacoSaddle.PrimalItemArmor_ThylacoSaddle'"
-},{
-"id": "BoaFrill_Character_BP_C","name": "Titanoboa","category": "Reptiles",
-"icon": "images/titanoboa.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/BoaFrill/BoaFrill_Character_BP.BoaFrill_Character_BP'"
-},{
-"id": "Ant_Character_BP_C","name": "Titanomyrma","category": "Invertebrates",
-"icon": "images/titanomyrma.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ant/Ant_Character_BP.Ant_Character_BP'"
-},{
-"id": "FlyingAnt_Character_BP_C","name": "Titanomyrma (Flying)","category": "Invertebrates",
-"icon": "images/titanomyrma.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ant/FlyingAnt_Character_BP.FlyingAnt_Character_BP'"
-},{
-"id": "Titanosaur_Character_BP_C","name": "Titanosaur","category": "Dinosaurs",
-"icon": "images/titanosaur.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/titanosaur/Titanosaur_Character_BP.Titanosaur_Character_BP'",
-"platform": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TitanSaddle_Platform.PrimalItemArmor_TitanSaddle_Platform'"
-},{
-"id": "Trike_Character_BP_C","name": "Triceratops","category": "Dinosaurs",
-"icon": "images/triceratops.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Trike/Trike_Character_BP.Trike_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TrikeSaddle.PrimalItemArmor_TrikeSaddle'"
-},{
-"id": "Trilobite_Character_C","name": "Trilobite","category": "Invertebrates",
-"icon": "images/trilobite.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Trilobite/Trilobite_Character.Trilobite_Character'"
-},{
-"id": "Troodon_Character_BP_C","name": "Troodon","category": "Dinosaurs",
-"icon": "images/troodon.jpg",
-"tame" : "Live Creatures",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Troodon/Troodon_Character_BP.Troodon_Character_BP'"
-},{
-"id": "Tusoteuthis_Character_BP_C","name": "Tusoteuthis","category": "Invertebrates",
-"icon": "images/tusoteuthis.jpeg",
-"tame" : "Black Pearls",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Tusoteuthis/Tusoteuthis_Character_BP.Tusoteuthis_Character_BP'"
-},{
-"id": "Rex_Character_BP_C","name": "Tyrannosaurus Rex","category": "Dinosaurs",
-"icon": "images/trex.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RexSaddle.PrimalItemArmor_RexSaddle'",
-"tek": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RexSaddle_Tek.PrimalItemArmor_RexSaddle_Tek'",
-"unlock": true
-},{
-"id": "Equus_Character_BP_Unicorn_C","name": "Unicorn","category": "Mammals",
-"icon": "images/equus.jpg",
-"tame" : "Troodon Kibble",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Equus/Equus_Character_BP_Unicorn.Equus_Character_BP_Unicorn'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_EquusSaddle.PrimalItemArmor_EquusSaddle'"
-},{
-"id": "Vulture_Character_BP_C","name": "Vulture","category": "Birds",
-"icon": "images/vulture.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Vulture/Vulture_Character_BP.Vulture_Character_BP'"
-},{
-"id": "Wyvern_Character_BP_Base_C","name": "Wyvern","category": "Fantasy",
-"icon": "images/wyvern.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Base.Wyvern_Character_BP_Base'"
-},{
-"id": "Wyvern_Character_BP_Fire_C","name": "Fire Wyvern","category": "Fantasy",
-"icon": "images/wyvern.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Fire.Wyvern_Character_BP_Fire'"
-},{
-"id": "Wyvern_Character_BP_Lightning_C","name": "Lightning Wyvern","category": "Fantasy",
-"icon": "images/wyvern.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Lightning.Wyvern_Character_BP_Lightning'"
-},{
-"id": "Wyvern_Character_BP_Poison_C","name": "Poison Wyvern","category": "Fantasy",
-"icon": "images/wyvern.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Poison.Wyvern_Character_BP_Poison'"
-},{
-"id": "Rhino_Character_BP_C","name": "Woolly Rhino","category": "Mammals",
-"icon": "images/woolly-rhino.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/WoollyRhino/Rhino_Character_BP.Rhino_Character_BP'",
-"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RhinoSaddle.PrimalItemArmor_RhinoSaddle'"
-},{
-"id": "Yeti_Character_BP_C","name": "Yeti","category": "Mammals",
-"icon": "images/gigantopithecus.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Bigfoot/Yeti_Character_BP.Yeti_Character_BP'"
-},{
-"id": "Yutyrannus_Character_BP_C","name": "Yutyrannus","category": "Dinosaurs",
-"icon": "images/yutyrannus.jpg",
-"tame" : "",
-"blueprint": ""
-},{
-"id": "Bone_MegaCarno_Character_BP_C","name": "Bone Mega Carno","category": "Fear Evolved",
-"icon": "images/bone_mega-carno.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Carno/Bone_MegaCarno_Character_BP.Bone_MegaCarno_Character_BP'"
-},{
-"id": "Bone_Gigant_Character_BP_C","name": "Bone Giganotosaurus","category": "Fear Evolved",
-"icon": "images/bone-giganotosaurus.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Giganotosaurus/Bone_Gigant_Character_BP.Bone_Gigant_Character_BP'"
-},{
-"id": "Bone_Quetz_Character_BP_C","name": "Bone Quetz","category": "Fear Evolved",
-"icon": "images/bone-quetz.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Quetzalcoatlus/Bone_Quetz_Character_BP.Bone_Quetz_Character_BP'"
-},{
-"id": "Bone_MegaRaptor_Character_BP_C","name": "Bone Mega Raptor","category": "Fear Evolved",
-"icon": "images/bone-mega-raptor.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Raptor/Bone_MegaRaptor_Character_BP.Bone_MegaRaptor_Character_BP'"
-},{
-"id": "Bone_MegaRex_Character_BP_C","name": "Bone Mega Rex","category": "Fear Evolved",
-"icon": "images/bone-mega-rex.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Rex/Bone_MegaRex_Character_BP.Bone_MegaRex_Character_BP'"
-},{
-"id": "Bone_Stego_Character_BP_C","name": "Bone Stego","category": "Fear Evolved",
-"icon": "images/bone-stego.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Stego/Bone_Stego_Character_BP.Bone_Stego_Character_BP'"
-},{
-"id": "Bone_Trike_Character_BP_C","name": "Bone Trike","category": "Fear Evolved",
-"icon": "images/bone-trike.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Trike/Bone_Trike_Character_BP.Bone_Trike_Character_BP'"
-},{
-"id": "Bone_Sauropod_Character_BP_C","name": "Bone Sauropod","category": "Fear Evolved",
-"icon": "images/bone-sauropod.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Sauropod/Bone_Sauropod_Character_BP.Bone_Sauropod_Character_BP'"
-},{
-"id": "Bone_MegaWyvern_Character_BP_C","name": "Bone Mega Wyvern","category": "Fear Evolved",
-"icon": "images/bone-mega-wyvern.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Bone_MegaWyvern_Character_BP_Fire.Bone_MegaWyvern_Character_BP_Fire'"
-},{
-"id": "Bone_Jerboa_Character_BP_C","name": "Bone Jerboa","category": "Fear Evolved",
-"icon": "images/bone-jerboa.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Jerboa/Bone_Jerboa_Character_BP.Bone_Jerboa_Character_BP'"
-},{
-"id": "DodoWyvern_Character_BP_C","name": "Dodo Wyvern","category": "Fear Evolved",
-"icon": "images/dodo-wyvern.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/DodoWyvern/DodoWyvern_Character_BP.DodoWyvern_Character_BP'"
-},{
-"id": "Wyvern_Character_BP_ZombieFire_C","name": "Zombie Fire Wyvern","category": "Fear Evolved",
-"icon": "images/zombie-fire-wyvern.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_ZombieFire.Wyvern_Character_BP_ZombieFire'"
-},{
-"id": "Wyvern_Character_BP_ZombieLightning_C","name": "Zombie Lightning Wyvern","category": "Fear Evolved",
-"icon": "images/zombie-lightning-wyvern.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_ZombieLightning.Wyvern_Character_BP_ZombieLightning'"
-},{
-"id": "Wyvern_Character_BP_ZombiePoison_C","name": "Zombie Poison Wyvern","category": "Fear Evolved",
-"icon": "images/zombie-poison-wyvern.png",
-"tame" : "",
-"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_ZombiePoison.Wyvern_Character_BP_ZombiePoison'"
-},{
-"id": "Turkey_Character_BP_C","name": "Super Turkey","category": "Turkey Trial",
-"icon": "images/super-turkey.jpg",
-"tame" : "",
-"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dodo/Turkey_Character_BP.Turkey_Character_BP'"
-}
+	{
+		"id": "Achatina_Character_BP_C",
+		"name": "Achatina",
+		"category": "Invertebrates",
+		"icon": "images/achatina.png",
+		"tame": "Sweet Vegetable Cake",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP.Achatina_Character_BP'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_SweetVeggieCake.PrimalItemConsumable_SweetVeggieCake'"
+	},
+	{
+		"id": "Allo_Character_BP_C",
+		"name": "Allosaurus",
+		"category": "Dinosaurs",
+		"icon": "images/allosaurus.png",
+		"tame": "Diplo Kibble",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Allosaurus/Allo_Character_BP.Allo_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_AlloSaddle.PrimalItemArmor_AlloSaddle'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_DiploEgg.PrimalItemConsumable_Kibble_DiploEgg'"
+	},
+	{
+		"id": "Ammonite_Character_BP_C",
+		"name": "Ammonite",
+		"category": "Fish",
+		"icon": "images/ammonite.jpg",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ammonite/Ammonite_Character.Ammonite_Character'"
+	},
+	{
+		"id": "Angler_Character_BP_C",
+		"name": "Angler",
+		"category": "Fish",
+		"icon": "images/angler.jpg",
+		"tame": "Kairuku Kibble",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Anglerfish/Angler_Character_BP.Angler_Character_BP'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_KairukuEgg.PrimalItemConsumable_Kibble_KairukuEgg'"
+	},
+	{
+		"id": "Ankylo_Character_BP_C",
+		"name": "Ankylosaurus",
+		"category": "Dinosaurs",
+		"icon": "images/ankylosaurus.png",
+		"tame": "Dilo Kibble",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ankylo/Ankylo_Character_BP.Ankylo_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_AnkyloSaddle.PrimalItemArmor_AnkyloSaddle'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_DiloEgg.PrimalItemConsumable_Kibble_DiloEgg'"
+	},
+	{
+		"id": "SpiderS_Character_BP_C",
+		"name": "Araneo",
+		"category": "Spider",
+		"icon": "images/araneo.png",
+		"tame": "Spoiled Meat",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Spider-Small/SpiderS_Character_BP.SpiderS_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SpiderSaddle.PrimalItemArmor_SpiderSaddle'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_SpoiledMeat.PrimalItemConsumable_SpoiledMeat'"
+	},
+	{
+		"id": "Archa_Character_BP_C",
+		"name": "Archaeopteryx",
+		"category": "Birds",
+		"icon": "images/archaeopteryx.jpg",
+		"tame": "Pelagornis Kibble",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Archaeopteryx/Archa_Character_BP.Archa_Character_BP'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Pela.PrimalItemConsumable_Kibble_Pela'"
+	},
+	{
+		"id": "Argent_Character_BP_C",
+		"name": "Argentavis",
+		"category": "Birds",
+		"icon": "images/argentavis.png",
+		"tame": "Stego Kibble",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Argentavis/Argent_Character_BP.Argent_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ArgentavisSaddle.PrimalItemArmor_ArgentavisSaddle'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_StegoEgg.PrimalItemConsumable_Kibble_StegoEgg'"
+	},
+	{
+		"id": "Arthro_Character_BP_C",
+		"name": "Arthropluera",
+		"category": "Invertebrates",
+		"icon": "images/arthropluera.png",
+		"tame": "Broth of Enlightenment",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Arthropluera/Arthro_Character_BP.Arthro_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ArthroSaddle.PrimalItemArmor_ArthroSaddle'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_TheHorn.PrimalItemConsumable_TheHorn_C'"
+	},
+	{
+		"id": "Baryonyx_Character_BP_C",
+		"name": "Baryonyx",
+		"category": "Dinosaurs",
+		"icon": "images/baryonyx.jpeg",
+		"tame": "Pachyrhino Kibble",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Baryonyx/Baryonyx_Character_BP.Baryonyx_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_BaryonyxSaddle.PrimalItemArmor_BaryonyxSaddle'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_PachyRhinoEgg.PrimalItemConsumable_Kibble_PachyRhinoEgg'"
+	},
+	{
+		"id": "Basilosaurus_Character_BP_C",
+		"name": "Basilosaurus",
+		"category": "Mammals",
+		"icon": "images/basilosaurus.jpg",
+		"tame": "Therizino Kibble",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Basilosaurus/Basilosaurus_Character_BP.Basilosaurus_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_BasiloSaddle.PrimalItemArmor_BasiloSaddle'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_TherizinoEgg.PrimalItemConsumable_Kibble_TherizinoEgg'"
+	},
+	{
+		"id": "Toad_Character_BP_C",
+		"name": "Beelzebufo",
+		"category": "Reptiles",
+		"icon": "images/beelzebufo.png",
+		"tame": "Pulmonoscorpius Kibble",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Toad/Toad_Character_BP.Toad_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ToadSaddle.PrimalItemArmor_ToadSaddle'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_ScorpionEgg.PrimalItemConsumable_Kibble_ScorpionEgg'"
+	},
+	{
+		"id": "Sauropod_Character_BP_C",
+		"name": "Brontosaurus",
+		"category": "Dinosaurs",
+		"icon": "images/brontosaurus.png",
+		"tame": "Carbonemys Kibble",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Sauropod/Sauropod_Character_BP.Sauropod_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SauroSaddle.PrimalItemArmor_SauroSaddle'",
+		"platform": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SauroSaddle_Platform.PrimalItemArmor_SauroSaddle_Platform'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_TurtleEgg.PrimalItemConsumable_Kibble_TurtleEgg'"
+	},
+	{
+		"id": "SpiderL_Character_BP_C",
+		"name": "Broodmother Lysrix",
+		"category": "Bosses",
+		"icon": "images/broodmother-lysrix.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Spider-Large/SpiderL_Character_BP.SpiderL_Character_BP'"
+	},
+	{
+		"id": "BunnyDodo",
+		"name": "BunnyDodo",
+		"category": "Event",
+		"icon": "images/bunny-dodo.jpeg",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP_Bunny.Dodo_Character_BP_Bunny'"
+	},
+	{
+		"id": "BunnyOviraptor",
+		"name": "BunnyOviraptor",
+		"category": "Event",
+		"icon": "images/bunny-oviraptor.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/oviRaptor/BunnyoviRaptor_Character_BP.BunnyOviRaptor_Character_BP'"
+	},
+	{
+		"id": "Turtle_Character_BP_C",
+		"name": "Carbonemys",
+		"category": "Reptiles",
+		"icon": "images/carbonemys.png",
+		"tame": "Pteranodon Kibble",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Turtle/Turtle_Character_BP.Turtle_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TurtleSaddle.PrimalItemArmor_TurtleSaddle'"
+	},
+	{
+		"id": "MegaCarno_Character_BP_C",
+		"name": "Carno (Alpha)",
+		"category": "Alpha Predator",
+		"icon": "images/alpha-carno.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Carno/MegaCarno_Character_BP.MegaCarno_Character_BP'"
+	},
+	{
+		"id": "Bone_MegaCarno_Character_BP_C",
+		"name": "Carno (Bone Mega)",
+		"category": "Fear Evolved",
+		"icon": "images/bone_mega-carno.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Carno/Bone_MegaCarno_Character_BP.Bone_MegaCarno_Character_BP'"
+	},
+	{
+		"id": "Carno_Character_BP_C",
+		"name": "Carnotaurus",
+		"category": "Dinosaurs",
+		"icon": "images/carnotaurus.png",
+		"tame": "Ankylo Kibble",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Carno/Carno_Character_BP.Carno_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_CarnoSaddle.PrimalItemArmor_CarnoSaddle'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_AnkyloEgg.PrimalItemConsumable_Kibble_AnkyloEgg'"
+	},
+	{
+		"id": "Beaver_Character_BP_C",
+		"name": "Castoroides",
+		"category": "Mammals",
+		"icon": "images/castoroides.png",
+		"tame": "Gallimimus Kibble",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Beaver/Beaver_Character_BP.Beaver_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_BeaverSaddle.PrimalItemArmor_BeaverSaddle'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_GalliEgg.PrimalItemConsumable_Kibble_GalliEgg'"
+	},
+	{
+		"id": "Chalico_Character_BP_C",
+		"name": "Chalicotherium",
+		"category": "Mammals",
+		"icon": "images/chalicotherium.jpg",
+		"tame": "Beer",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Chalicotherium/Chalico_Character_BP.Chalico_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ChalicoSaddle.PrimalItemArmor_ChalicoSaddle'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_BeerJar.PrimalItemConsumable_BeerJar'"
+	},
+	{
+		"id": "Cnidaria_Character_BP_C",
+		"name": "Cnidaria",
+		"category": "Invertebrates",
+		"icon": "images/cnidaria.jpg",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Cnidaria/Cnidaria_Character_BP.Cnidaria_Character_BP'"
+	},
+	{
+		"id": "Coel_Character_BP_C",
+		"name": "Coelacanth",
+		"category": "Fish",
+		"icon": "images/coelacanth.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Coelacanth/Coel_Character_BP.Coel_Character_BP'"
+	},
+	{
+		"id": "Compy_Character_BP_C",
+		"name": "Compsognathus",
+		"category": "Dinosaurs",
+		"icon": "images/compsognathus.png",
+		"tame": "Raw Prime Meat",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Compy/Compy_Character_BP.Compy_Character_BP'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawPrimeMeat.PrimalItemConsumable_RawPrimeMeat'"
+	},
+	{
+		"id": "Daeodon_Character_BP_C",
+		"name": "Daeodon",
+		"category": "Mammals",
+		"icon": "images/daeodon.jpg",
+		"tame": "Iguanodon Kibble",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Daeodon/Daeodon_Character_BP.Daeodon_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DaeodonSaddle.PrimalItemArmor_DaeodonSaddle'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_IguanodonEgg.PrimalItemConsumable_Kibble_IguanodonEgg'"
+	},
+	{
+		"id": "Deathworm_Character_BP_C",
+		"name": "Deathworm",
+		"category": "Invertebrates",
+		"icon": "images/deathworm.png",
+		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/DeathWorm/DeathWorm_Character_BP.DeathWorm_Character_BP'"
+	},
+	{
+		"id": "MegaDeathworm_Character_BP_C",
+		"name": "Deathworm (Alpha)",
+		"category": "Alpha Predator",
+		"icon": "images/alpha-deathworm.jpg",
+		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Deathworm/MegaDeathworm_Character_BP.MegaDeathworm_Character_BP'"
+	},
+	{
+		"id": "Dilo_Character_BP_C",
+		"name": "Dilophosaurus",
+		"category": "Dinosaurs",
+		"icon": "images/dilophosaurus.png",
+		"tame": "Raw Mutton",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dilo/Dilo_Character_BP.Dilo_Character_BP'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawMutton.PrimalItemConsumable_RawMutton'"
+	},
+	{
+		"id": "Dimetro_Character_BP_C",
+		"name": "Dimetrodon",
+		"category": "Dinosaurs",
+		"icon": "images/dimetrodon.png",
+		"tame": "Quetzal Kibble",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dimetrodon/Dimetro_Character_BP.Dimetro_Character_BP'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_QuetzEgg.PrimalItemConsumable_Kibble_QuetzEgg'"
+	},
+	{
+		"id": "Dimorph_Character_BP_C",
+		"name": "Dimorphodon",
+		"category": "Dinosaurs",
+		"icon": "images/dimorphodon.png",
+		"tame": "Raw Mutton",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dimorphodon/Dimorph_Character_BP.Dimorph_Character_BP'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawMutton.PrimalItemConsumable_RawMutton'"
+	},
+	{
+		"id": "Diplocaulus_Character_BP_C",
+		"name": "Diplocaulus",
+		"category": "Amphibians",
+		"icon": "images/diplocaulus.jpg",
+		"tame": "Archaeopteryx Kibble",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Diplocaulus/Diplocaulus_Character_BP.Diplocaulus_Character_BP'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_ArchaEgg.PrimalItemConsumable_Kibble_ArchaEgg'"
+	},
+	{
+		"id": "Diplodocus_Character_BP_C",
+		"name": "Diplodocus",
+		"category": "Dinosaurs",
+		"icon": "images/diplodocus.jpg",
+		"tame": "Lystrosaurus Kibble",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Diplodocus/Diplodocus_Character_BP.Diplodocus_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DiplodocusSaddle.PrimalItemArmor_DiplodocusSaddle'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_LystroEgg.PrimalItemConsumable_Kibble_LystroEgg'"
+	},
+	{
+		"id": "Direbear_Character_BP_C",
+		"name": "Direbear",
+		"category": "Mammals",
+		"icon": "images/direbear.png",
+		"tame": "Carno Kibble",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Direbear/Direbear_Character_BP.Direbear_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DireBearSaddle.PrimalItemArmor_DireBearSaddle'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_CarnoEgg.PrimalItemConsumable_Kibble_CarnoEgg'"
+	},
+	{
+		"id": "Direwolf_Character_BP_C",
+		"name": "Direwolf",
+		"category": "Mammals",
+		"icon": "images/direwolf.png",
+		"tame": "Carno Kibble",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Direwolf/Direwolf_Character_BP.Direwolf_Character_BP'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_CarnoEgg.PrimalItemConsumable_Kibble_CarnoEgg'"
+	},
+	{
+		"id": "Dodo_Character_BP_C",
+		"name": "Dodo",
+		"category": "Birds",
+		"icon": "images/dodo.png",
+		"tame": "Vegatables",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Rockarrot.PrimalItemConsumable_Veggie_Rockarrot'"
+	},
+	{
+		"id": "DodoRex_Character_BP_C",
+		"name": "Dodo Rex",
+		"category": "Bosses",
+		"icon": "images/dodo-rex.jpeg",
+		"tame": "Pulmonoscorpius Kibble",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/DodoRex/DodoRex_Character_BP.DodoRex_Character_BP'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_ScorpionEgg.PrimalItemConsumable_Kibble_ScorpionEgg'"
+	},
+	{
+		"id": "DodoWyvern_Character_BP_C",
+		"name": "Dodo Wyvern",
+		"category": "Fear Evolved",
+		"icon": "images/dodo-wyvern.jpg",
+		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/DodoWyvern/DodoWyvern_Character_BP.DodoWyvern_Character_BP'"
+	},
+	{
+		"id": "Doed_Character_BP_C",
+		"name": "Doedicurus",
+		"category": "Mammals",
+		"icon": "images/doedicurus.png",
+		"tame": "Dilo Kibble",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Doedicurus/Doed_Character_BP.Doed_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DoedSaddle.PrimalItemArmor_DoedSaddle'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_DiloEgg.PrimalItemConsumable_Kibble_DiloEgg'"
+	},
+	{
+		"id": "Dragon_Character_BP_C",
+		"name": "Dragon",
+		"category": "Bosses",
+		"icon": "images/dragon.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dragon/Dragon_Character_BP.Dragon_Character_BP'"
+	},
+	{
+		"id": "DungBeetle_Character_BP_C",
+		"name": "Dung Beetle",
+		"category": "Invertebrates",
+		"icon": "images/dung-beetle.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/DungBeetle/DungBeetle_Character_BP.DungBeetle_Character_BP'"
+	},
+	{
+		"id": "Dunkle_Character_BP_C",
+		"name": "Dunkleosteus",
+		"category": "Fish",
+		"icon": "images/dunkleosteus.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dunkleosteus/Dunkle_Character_BP.Dunkle_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DunkleosteusSaddle.PrimalItemArmor_DunkleosteusSaddle'"
+	},
+	{
+		"id": "Eel_Character_BP_C",
+		"name": "Electrophorus",
+		"category": "Fish",
+		"icon": "images/electrophorus.png",
+		"tame": "Bio Toxin, Raw Mutton",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Eel/Eel_Character_BP.Eel_Character_BP'"
+	},
+	{
+		"id": "Equus_Character_BP_C",
+		"name": "Equus",
+		"category": "Mammals",
+		"icon": "images/equus.jpg",
+		"tame": "Troodon Kibble",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Equus/Equus_Character_BP.Equus_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_EquusSaddle.PrimalItemArmor_EquusSaddle'"
+	},
+	{
+		"id": "Euryp_Character_C",
+		"name": "Eurypterid",
+		"category": "Invertebrates",
+		"icon": "images/eurypterid.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Eurypterid/Euryp_Character.Euryp_Character'"
+	},
+	{
+		"id": "Galli_Character_BP_C",
+		"name": "Gallimimus",
+		"category": "Dinosaurs",
+		"icon": "images/gallimimus.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Gallimimus/Galli_Character_BP.Galli_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_Gallimimus.PrimalItemArmor_Gallimimus'"
+	},
+	{
+		"id": "Bee_Character_BP_C",
+		"name": "Giant Bee Drone",
+		"category": "Invertebrates",
+		"icon": "images/giant-bee.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Bee/Bee_Character_BP.Bee_Character_BP'",
+		"saddle": ""
+	},
+	{
+		"id": "Bee_Queen_Character_BP_C",
+		"name": "Giant Bee Queen",
+		"category": "Invertebrates",
+		"icon": "images/giant-bee.jpg",
+		"tame": "Ichthyornis Kibble",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Bee/Bee_Queen_Character_BP.Bee_Queen_Character_BP'",
+		"saddle": ""
+	},
+	{
+		"id": "Gigant_Character_BP_C",
+		"name": "Giganotosaurus",
+		"category": "Dinosaurs",
+		"icon": "images/giganotosaurus.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Giganotosaurus/Gigant_Character_BP.Gigant_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_GigantSaddle.PrimalItemArmor_GigantSaddle'"
+	},
+	{
+		"id": "Bone_Gigant_Character_BP_C",
+		"name": "Giganotosaurus (Bone)",
+		"category": "Fear Evolved",
+		"icon": "images/bone-giganotosaurus.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Giganotosaurus/Bone_Gigant_Character_BP.Bone_Gigant_Character_BP'"
+	},
+	{
+		"id": "BigFoot_Character_BP_C",
+		"name": "Gigantopithecus",
+		"category": "Mammals",
+		"icon": "images/gigantopithecus.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Bigfoot/Bigfoot_Character_BP.Bigfoot_Character_BP'"
+	},
+	{
+		"id": "Griffin_Character_BP_C",
+		"name": "Griffin",
+		"category": "Fantasy",
+		"icon": "images/griffin.jpg",
+		"tame": "Allosaurus",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Griffin/Griffin_Character_BP.Griffin_Character_BP'"
+	},
+	{
+		"id": "Hesperornis_Character_BP_C",
+		"name": "Hesperornis",
+		"category": "Birds",
+		"icon": "images/hesperornis.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Hesperornis/Hesperornis_Character_BP.Hesperornis_Character_BP'"
+	},
+	{
+		"id": "PlayerPawnTest_Female_C",
+		"name": "Human Female",
+		"category": "Mammals",
+		"icon": "images/human.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/PlayerPawnTest_Female.PlayerPawnTest_Female'"
+	},
+	{
+		"id": "PlayerPawnTest_Male_C",
+		"name": "Human Male",
+		"category": "Mammals",
+		"icon": "images/human.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/PlayerPawnTest_Male.PlayerPawnTest_Male'"
+	},
+	{
+		"id": "Hyaenodon_Character_BP_C",
+		"name": "Hyaenodon",
+		"category": "Mammals",
+		"icon": "images/hyaenodon.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Hyaenodon/Hyaenodon_Character_BP.Hyaenodon_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_HyaenodonSaddle.PrimalItemArmor_HyaenodonSaddle'"
+	},
+	{
+		"id": "Ichthyornis_Character_BP_C",
+		"name": "Ichthyornis",
+		"category": "Birds",
+		"icon": "images/ichthyornis.jpg",
+		"tame": "Pegomastax Kibble",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ichthyornis/Ichthyornis_Character_BP.Ichthyornis_Character_BP'"
+	},
+	{
+		"id": "Dolphin_Character_BP_C",
+		"name": "Ichthyosaurus",
+		"category": "Reptiles",
+		"icon": "images/ichthyosaurus.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dolphin/Dolphin_Character_BP.Dolphin_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DolphinSaddle.PrimalItemArmor_DolphinSaddle'"
+	},
+	{
+		"id": "Iguanodon_Character_BP_C",
+		"name": "Iguanodon",
+		"category": "Dinosaurs",
+		"icon": "images/iguanodon.jpg",
+		"tame": "Microraptor Kibble",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Iguanodon/Iguanodon_Character_BP.Iguanodon_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_IguanodonSaddle.PrimalItemArmor_IguanodonSaddle'"
+	},
+	{
+		"id": "Jerboa_Character_BP_C",
+		"name": "Jerboa",
+		"category": "Mammals",
+		"icon": "images/jerboa.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Jerboa/Jerboa_Character_BP.Jerboa_Character_BP'"
+	},
+	{
+		"id": "Bone_Jerboa_Character_BP_C",
+		"name": "Jerboa (Bone)",
+		"category": "Fear Evolved",
+		"icon": "images/bone-jerboa.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Jerboa/Bone_Jerboa_Character_BP.Bone_Jerboa_Character_BP'"
+	},
+	{
+		"id": "Jugbug_Character_BaseBP_C",
+		"name": "Jug Bug",
+		"category": "Invertebrates",
+		"icon": "images/jug-bug.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Jugbug/JugBug_Character_BaseBP.JugBug_Character_BaseBP'"
+	},
+	{
+		"id": "Jugbug_Oil_Character_BP_C",
+		"name": "Jug Bug (Oil)",
+		"category": "Invertebrates",
+		"icon": "images/jug-bug.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Jugbug/Jugbug_Oil_Character_BP.Jugbug_Oil_Character_BP'"
+	},
+	{
+		"id": "Jugbug_Water_Character_BP_C",
+		"name": "Jug Bug (Water)",
+		"category": "Invertebrates",
+		"icon": "images/jug-bug.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Jugbug/Jugbug_Water_Character_BP.Jugbug_Water_Character_BP'"
+	},
+	{
+		"id": "Kairuku_Character_BP_C",
+		"name": "Kairuku",
+		"category": "Birds",
+		"icon": "images/kairuku.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Kairuku/Kairuku_Character_BP.Kairuku_Character_BP'"
+	},
+	{
+		"id": "Kaprosuchus_Character_BP_C",
+		"name": "Kaprosuchus",
+		"category": "Birds",
+		"icon": "images/kaprosuchus.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Kaprosuchus/Kaprosuchus_Character_BP.Kaprosuchus_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_KaprosuchusSaddle.PrimalItemArmor_KaprosuchusSaddle'"
+	},
+	{
+		"id": "Kentrosaurus_Character_BP_C",
+		"name": "Kentrosaurus",
+		"category": "Dinosaurs",
+		"icon": "images/kentrosaurus.jpg",
+		"tame": "Compy Kibble",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Kentrosaurus/Kentro_Character_BP.Kentro_Character_BP'",
+		"saddle": ""
+	},
+	{
+		"id": "Krakinos_Character_BP_C",
+		"name": "Krakinos",
+		"category": "Dinosaurs",
+		"icon": "images/Krakinos.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Krakinos/Krakinos_Character_BP.Krakinos_Character_BP'"
+	},
+	{
+		"id": "LavaGolem_Character_BP_C",
+		"name": "Lava Elemental",
+		"category": "Fantasy",
+		"icon": "images/rock-elemental.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/Mods/Ragnarok/Custom_Assets/JacksonL/LavaGolem/LavaGolem_Character_BP.LavaGolem_Character_BP'",
+		"saddle": "Blueprint'/Game/ScorchedEarth/Dinos/RockGolem/PrimalItemArmor_RockGolemSaddle.PrimalItemArmor_RockGolemSaddle'"
+	},
+	{
+		"id": "Leech_Character_C",
+		"name": "Leech",
+		"category": "Invertebrates",
+		"icon": "images/leech.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Leech/Leech_Character.Leech_Character'"
+	},
+	{
+		"id": "Leech_Character_Diseased_C",
+		"name": "Leech (Diseased)",
+		"category": "Invertebrates",
+		"icon": "images/leech.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Leech/Leech_Character_Diseased.Leech_Character_Diseased'"
+	},
+	{
+		"id": "Leedsichthys_Character_BP_C",
+		"name": "Leedsichthys",
+		"category": "Fish",
+		"icon": "images/leedsichthys.jpg",
+		"tame": "No",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Leedsichthys/Leedsichthys_Character_BP.Leedsichthys_Character_BP'"
+	},
+	{
+		"id": "Alpha_Leedsichthys_Character_BP_C",
+		"name": "Leedsichthys (Alpha)",
+		"category": "Alpha Predator",
+		"icon": "images/leedsichthys.jpg",
+		"tame": "No",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Leedsichthys/Alpha_Leedsichthys_Character_BP.Alpha_Leedsichthys_Character_BP'"
+	},
+	{
+		"id": "Liopleurodon_Character_BP_C",
+		"name": "Liopleurodon",
+		"category": "Reptiles",
+		"icon": "images/liopleurodon.jpg",
+		"tame": "Giant Bee Honey",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Liopleurodon/Liopleurodon_Character_BP.Liopleurodon_Character_BP'",
+		"saddle": ""
+	},
+	{
+		"id": "Moth_Character_BP_C",
+		"name": "Lymantria",
+		"category": "Invertebrates",
+		"icon": "images/lymantria.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Moth/Moth_Character_BP.Moth_Character_BP'",
+		"saddle": "Blueprint'/Game/ScorchedEarth/Dinos/Moth/PrimalItemArmor_MothSaddle.PrimalItemArmor_MothSaddle'"
+	},
+	{
+		"id": "Lystro_Character_BP_C",
+		"name": "Lystrosaurus",
+		"category": "Dinosaurs",
+		"icon": "images/lystrosaurus.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Lystrosaurus/Lystro_Character_BP.Lystro_Character_BP'"
+	},
+	{
+		"id": "Mammoth_Character_BP_C",
+		"name": "Mammoth",
+		"category": "Mammals",
+		"icon": "images/mammoth.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Mammoth/Mammoth_Character_BP.Mammoth_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MammothSaddle.PrimalItemArmor_MammothSaddle'"
+	},
+	{
+		"id": "Manta_Character_BP_C",
+		"name": "Manta",
+		"category": "Fish",
+		"icon": "images/manta.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Manta/Manta_Character_BP.Manta_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MantaSaddle.PrimalItemArmor_MantaSaddle'"
+	},
+	{
+		"id": "Manticore_Character_BP_C",
+		"name": "Manticore",
+		"category": "Bosses",
+		"icon": "images/manticore.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Manticore/Manticore_Character_BP.Manticore_Character_BP'"
+	},
+	{
+		"id": "Mantis_Character_BP_C",
+		"name": "Mantis",
+		"category": "Invertebrates",
+		"icon": "images/mantis.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Mantis/Mantis_Character_BP.Mantis_Character_BP'",
+		"saddle": "Blueprint'/Game/ScorchedEarth/Dinos/Mantis/PrimalItemArmor_MantisSaddle.PrimalItemArmor_MantisSaddle'"
+	},
+	{
+		"id": "Megalania_Character_BP_C",
+		"name": "Megalania",
+		"category": "Mammals",
+		"icon": "images/megalania.jpg",
+		"tame": "Baryonyx Kibble",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Megalania/Megalania_Character_BP.Megalania_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalaniaSaddle.PrimalItemArmor_MegalaniaSaddle'"
+	},
+	{
+		"id": "Stag_Character_BP_C",
+		"name": "Megaloceros",
+		"category": "Mammals",
+		"icon": "images/megaloceros.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Stag/Stag_Character_BP.Stag_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_StagSaddle.PrimalItemArmor_StagSaddle'"
+	},
+	{
+		"id": "Megalodon_Character_BP_C",
+		"name": "Megalodon",
+		"category": "Fish",
+		"icon": "images/megalodon.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Megalodon/Megalodon_Character_BP.Megalodon_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalodonSaddle.PrimalItemArmor_MegalodonSaddle'",
+		"tek": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalodonSaddle_Tek.PrimalItemArmor_MegalodonSaddle_Tek'"
+	},
+	{
+		"id": "MegaMegalodon_Character_BP_C",
+		"name": "Megalodon (Alpha)",
+		"category": "Alpha Predator",
+		"icon": "images/megalodon.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Megalodon/MEgaMegalodon_Character_BP.MegaMegalodon_Character_BP'"
+	},
+	{
+		"id": "Megalosaurus_Character_BP_C",
+		"name": "Megalosaurus",
+		"category": "Dinosaurs",
+		"icon": "images/megalosaurus.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Megalosaurus/Megalosaurus_Character_BP.Megalosaurus_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalosaurusSaddle.PrimalItemArmor_MegalosaurusSaddle'"
+	},
+	{
+		"id": "Dragonfly_Character_BP_C",
+		"name": "Meganeura",
+		"category": "Invertebrates",
+		"icon": "images/meganeura.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dragonfly/Dragonfly_Character_BP.Dragonfly_Character_BP'"
+	},
+	{
+		"id": "Gorila_Character_BP_C",
+		"name": "Megapithecus",
+		"category": "Bosses",
+		"icon": "images/megapithecus.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Gorilla/Gorilla_Character_BP.Gorilla_Character_BP'"
+	},
+	{
+		"id": "Megatherium_Character_BP_C",
+		"name": "Megatherium",
+		"category": "Mammals",
+		"icon": "images/megatherium.jpg",
+		"tame": "Megalania Kibble",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Megatherium/Megatherium_Character_BP.Megatherium_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegatheriumSaddle.PrimalItemArmor_MegatheriumSaddle'"
+	},
+	{
+		"id": "Monkey_Character_BP_C",
+		"name": "Mesopithecus",
+		"category": "Mammals",
+		"icon": "images/mesopithecus.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Monkey/Monkey_Character_BP.Monkey_Character_BP'"
+	},
+	{
+		"id": "Microraptor_Character_BP_C",
+		"name": "Microraptor",
+		"category": "Dinosaurs",
+		"icon": "images/microraptor.jpg",
+		"tame": "Rare Flower",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Microraptor/Microraptor_Character_BP.Microraptor_Character_BP'"
+	},
+	{
+		"id": "Camelsaurus_Character_BP_C",
+		"name": "Morellatops",
+		"category": "Herbivore",
+		"icon": "images/morellatops.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Camelsaurus/Camelsaurus_Character_BP.Camelsaurus_Character_BP'",
+		"saddle": "Blueprint'/Game/ScorchedEarth/Dinos/Camelsaurus/PrimalItemArmor_CamelsaurusSaddle.PrimalItemArmor_CamelsaurusSaddle'"
+	},
+	{
+		"id": "Mosa_Character_BP_C",
+		"name": "Mosasaurus",
+		"category": "Reptiles",
+		"icon": "images/mosasaurus.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Mosasaurus/Mosa_Character_BP.Mosa_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MosaSaddle.PrimalItemArmor_MosaSaddle'",
+		"platform": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MosaSaddle_Platform.PrimalItemArmor_MosaSaddle_Platform'"
+	},
+	{
+		"id": "Mosa_Character_BP_Mega_C",
+		"name": "Mosasaurus (Alpha)",
+		"category": "Alpha Predator",
+		"icon": "images/mosasaurus.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Mosasaurus/Mosa_Character_BP_Mega.Mosa_Character_BP_Mega'"
+	},
+	{
+		"id": "Moschops_Character_BP_C",
+		"name": "Moschops",
+		"category": "Synapsids",
+		"icon": "images/moschops.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Moschops/Moschops_Character_BP.Moschops_Character_BP'"
+	},
+	{
+		"id": "Bat_Character_BP_C",
+		"name": "Onychonycteris",
+		"category": "Mammals",
+		"icon": "images/onyc.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Bat/Bat_Character_BP.Bat_Character_BP'"
+	},
+	{
+		"id": "Otter_Character_BP_C",
+		"name": "Otter",
+		"category": "Mammals",
+		"icon": "images/otter.png",
+		"tame": "Fish Corpses",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Otter/Otter_Character_BP.Otter_Character_BP'"
+	},
+	{
+		"id": "OviRaptor_Character_BP_C",
+		"name": "Oviraptor",
+		"category": "Dinosaurs",
+		"icon": "images/oviraptor.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/oviRaptor/oviRaptor_Character_BP.OviRaptor_Character_BP'"
+	},
+	{
+		"id": "Sheep_Character_BP_C",
+		"name": "Ovis",
+		"category": "Mammals",
+		"icon": "images/ovis.jpg",
+		"tame": "1 Sweet Vegetable Cake",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Sheep/Sheep_Character_BP.Sheep_Character_BP'"
+	},
+	{
+		"id": "Pachy_Character_BP_C",
+		"name": "Pachycephalosaurus",
+		"category": "Dinosaurs",
+		"icon": "images/pachycephalosaurus.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Pachy/Pachy_Character_BP.Pachy_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PachySaddle.PrimalItemArmor_PachySaddle'"
+	},
+	{
+		"id": "Pachyrhino_Character_BP_C",
+		"name": "Pachyrhinosaurus",
+		"category": "Dinosaurs",
+		"icon": "images/pachyrhinosaurus.jpeg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Pachyrhinosaurus/Pachyrhino_Character_BP.Pachyrhino_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PachyrhinoSaddle.PrimalItemArmor_PachyrhinoSaddle'"
+	},
+	{
+		"id": "Paracer_Character_BP_C",
+		"name": "Paraceratherium",
+		"category": "Mammals",
+		"icon": "images/paraceratherium.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Paraceratherium/Paracer_Character_BP.Paracer_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_Paracer_Saddle.PrimalItemArmor_Paracer_Saddle'",
+		"platform": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ParacerSaddle_Platform.PrimalItemArmor_ParacerSaddle_Platform'"
+	},
+	{
+		"id": "Para_Character_BP_C",
+		"name": "Parasaurolophus",
+		"category": "Mammals",
+		"icon": "images/Parasaur.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Para/Para_Character_BP.Para_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ParaSaddle.PrimalItemArmor_ParaSaddle'"
+	},
+	{
+		"id": "Pegomastax_Character_BP_C",
+		"name": "Pegomastax",
+		"category": "Dinosaurs",
+		"icon": "images/pegomastax.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Pegomastax/Pegomastax_Character_BP.Pegomastax_Character_BP'"
+	},
+	{
+		"id": "Pela_Character_BP_C",
+		"name": "Pelagornis",
+		"category": "Birds",
+		"icon": "images/pelagornis.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Pelagornis/Pela_Character_BP.Pela_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PelaSaddle.PrimalItemArmor_PelaSaddle'"
+	},
+	{
+		"id": "Phiomia_Character_BP_C",
+		"name": "Phiomia",
+		"category": "Mammals",
+		"icon": "images/phiomia.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Phiomia/Phiomia_Character_BP.Phiomia_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PhiomiaSaddle.PrimalItemArmor_PhiomiaSaddle'"
+	},
+	{
+		"id": "Phoenix_Character_BP_C",
+		"name": "Phoenix",
+		"category": "Birds",
+		"icon": "images/phoenix.png",
+		"tame": "Fire",
+		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Phoenix/Phoenix_Character_BP.Phoenix_Character_BP'"
+	},
+	{
+		"id": "Piranha_Character_BP_C",
+		"name": "Piranha",
+		"category": "Fish",
+		"icon": "images/piranha.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Piranha/Piranha_Character_BP.Piranha_Character_BP'"
+	},
+	{
+		"id": "Plesiosaur_Character_BP_C",
+		"name": "Plesiosaur",
+		"category": "Reptiles",
+		"icon": "images/plesiosaur.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Plesiosaur/Plesiosaur_Character_BP.Plesiosaur_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PlesiSaddle_Platform.PrimalItemArmor_PlesiSaddle_Platform'"
+	},
+	{
+		"id": "Procoptodon_Character_BP_C",
+		"name": "Procoptodon",
+		"category": "Mammals",
+		"icon": "images/procoptodon.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Procoptodon/Procoptodon_Character_BP.Procoptodon_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ProcoptodonSaddle.PrimalItemArmor_ProcoptodonSaddle'"
+	},
+	{
+		"id": "Ptero_Character_BP_C",
+		"name": "Pteranodon",
+		"category": "Dinosaurs",
+		"icon": "images/pteranodon.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ptero/Ptero_Character_BP.Ptero_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PteroSaddle.PrimalItemArmor_PteroSaddle'"
+	},
+	{
+		"id": "Scorpion_Character_BP_C",
+		"name": "Pulmonoscorpius",
+		"category": "Invertebrates",
+		"icon": "images/scorpion.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Scorpion/Scorpion_Character_BP.Scorpion_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ScorpionSaddle.PrimalItemArmor_ScorpionSaddle'"
+	},
+	{
+		"id": "Purlovia_Character_BP_C",
+		"name": "Purlovia",
+		"category": "Synapsids",
+		"icon": "images/purlovia.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Purlovia/Purlovia_Character_BP.Purlovia_Character_BP'"
+	},
+	{
+		"id": "Bone_Quetz_Character_BP_C",
+		"name": "Quetz (Bone)",
+		"category": "Fear Evolved",
+		"icon": "images/bone-quetz.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Quetzalcoatlus/Bone_Quetz_Character_BP.Bone_Quetz_Character_BP'"
+	},
+	{
+		"id": "Quetz_Character_BP_C",
+		"name": "Quetzalcoatlus",
+		"category": "Reptiles",
+		"icon": "images/quetzalcoatlus.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Quetzalcoatlus/Quetz_Character_BP.Quetz_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_QuetzSaddle.PrimalItemArmor_QuetzSaddle'",
+		"platform": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_QuetzSaddle_Platform.PrimalItemArmor_QuetzSaddle_Platform'"
+	},
+	{
+		"id": "Raptor_Character_BP_C",
+		"name": "Raptor",
+		"category": "Dinosaurs",
+		"icon": "images/raptor.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Raptor/Raptor_Character_BP.Raptor_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RaptorSaddle.PrimalItemArmor_RaptorSaddle'"
+	},
+	{
+		"id": "MegaRaptor_Character_BP_C",
+		"name": "Raptor (Alpha)",
+		"category": "Alpha Predator",
+		"icon": "images/raptor.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Raptor/MegaRaptor_Character_BP.MegaRaptor_Character_BP'"
+	},
+	{
+		"id": "Bone_MegaRaptor_Character_BP_C",
+		"name": "Raptor (Bone Mega)",
+		"category": "Fear Evolved",
+		"icon": "images/bone-mega-raptor.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Raptor/Bone_MegaRaptor_Character_BP.Bone_MegaRaptor_Character_BP'"
+	},
+	{
+		"id": "Rex_Character_BP_C",
+		"name": "Rex",
+		"category": "Dinosaurs",
+		"icon": "images/trex.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RexSaddle.PrimalItemArmor_RexSaddle'",
+		"tek": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RexSaddle_Tek.PrimalItemArmor_RexSaddle_Tek'",
+		"unlock": true
+	},
+	{
+		"id": "MegaRex_Character_BP_C",
+		"name": "Rex (Alpha)",
+		"category": "Alpha Predator",
+		"icon": "images/trex.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Rex/MegaRex_Character_BP.MegaRex_Character_BP'"
+	},
+	{
+		"id": "Bone_MegaRex_Character_BP_C",
+		"name": "Rex (Bone Mega)",
+		"category": "Fear Evolved",
+		"icon": "images/bone-mega-rex.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Rex/Bone_MegaRex_Character_BP.Bone_MegaRex_Character_BP'"
+	},
+	{
+		"id": "RockGolem_Character_BP_C",
+		"name": "Rock Elemental",
+		"category": "Fantasy",
+		"icon": "images/rock-elemental.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/RockGolem/RockGolem_Character_BP.RockGolem_Character_BP'",
+		"saddle": "Blueprint'/Game/ScorchedEarth/Dinos/RockGolem/PrimalItemArmor_RockGolemSaddle.PrimalItemArmor_RockGolemSaddle'"
+	},
+	{
+		"id": "RubbleGolem_Character_BP_C",
+		"name": "Rubble Golem",
+		"category": "Fantasy",
+		"icon": "images/rubble-golem.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/RockGolem/RubbleGolem_Character_BP.RubbleGolem_Character_BP'",
+		"saddle": "Blueprint'/Game/ScorchedEarth/Dinos/RockGolem/PrimalItemArmor_RockGolemSaddle.PrimalItemArmor_RockGolemSaddle'"
+	},
+	{
+		"id": "Saber_Character_BP_C",
+		"name": "Sabertooth",
+		"category": "Mammals",
+		"icon": "images/sabertooth.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Saber/Saber_Character_BP.Saber_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SaberSaddle.PrimalItemArmor_SaberSaddle'"
+	},
+	{
+		"id": "Salmon_Character_BP_C",
+		"name": "Sabertooth Salmon",
+		"category": "Fish",
+		"icon": "images/sabertooth-salmon.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Salmon/Salmon_Character_BP.Salmon_Character_BP'"
+	},
+	{
+		"id": "Sarco_Character_BP_C",
+		"name": "Sarcosuchus",
+		"category": "Reptiles",
+		"icon": "images/sarcosaurus.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Sarco/Sarco_Character_BP.Sarco_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SarcoSaddle.PrimalItemArmor_SarcoSaddle'"
+	},
+	{
+		"id": "Bone_Sauropod_Character_BP_C",
+		"name": "Sauropod (Bone)",
+		"category": "Fear Evolved",
+		"icon": "images/bone-sauropod.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Sauropod/Bone_Sauropod_Character_BP.Bone_Sauropod_Character_BP'"
+	},
+	{
+		"id": "Spino_Character_BP_C",
+		"name": "Spinosaur",
+		"category": "Dinosaurs",
+		"icon": "images/spinosaur.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Spino/Spino_Character_BP.Spino_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SpinoSaddle.PrimalItemArmor_SpinoSaddle'"
+	},
+	{
+		"id": "Bone_Stego_Character_BP_C",
+		"name": "Stego (Bone)",
+		"category": "Fear Evolved",
+		"icon": "images/bone-stego.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Stego/Bone_Stego_Character_BP.Bone_Stego_Character_BP'"
+	},
+	{
+		"id": "Stego_Character_BP_C",
+		"name": "Stegosaurus",
+		"category": "Dinosaurs",
+		"icon": "images/stegosaurus.png",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Stego/Stego_Character_BP.Stego_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_StegoSaddle.PrimalItemArmor_StegoSaddle'"
+	},
+	{
+		"id": "Turkey_Character_BP_C",
+		"name": "Super Turkey",
+		"category": "Turkey Trial",
+		"icon": "images/super-turkey.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dodo/Turkey_Character_BP.Turkey_Character_BP'"
+	},
+	{
+		"id": "Tapejara_Character_BP_C",
+		"name": "Tapejara",
+		"category": "Birds",
+		"icon": "images/tapejara.jpg",
+		"tame": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Tapejara/Tapejara_Character_BP.Tapejara_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TapejaraSaddle.PrimalItemArmor_TapejaraSaddle'",
+		"tek": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_Tapejara_Tek.PrimalItemArmor_Tapejara_Tek'",
+		"unlock": true
+	},
+	{
+		"id": "TerrorBird_Character_BP_C",
+		"name": "Terror Bird",
+		"category": "Birds",
+		"icon": "images/terror-bird.jpg",
+		"tame": "Gallimimus",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/TerrorBird/TerrorBird_Character_BP.TerrorBird_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TerrorBirdSaddle.PrimalItemArmor_TerrorBirdSaddle'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_GalliEgg.PrimalItemConsumable_Kibble_GalliEgg'"
+	},
+	{
+		"id": "Therizino_Character_BP_C",
+		"name": "Therizinosaurus",
+		"category": "Dinosaurs",
+		"icon": "images/therizinosaurus.jpg",
+		"tame": "Megalosaurus",
+		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Therizinosaurus/Therizinosaurus_Character_BP.Therizinosaurus_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TherizinosaurusSaddle.PrimalItemArmor_TherizinosaurusSaddle'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_MegalosaurusEgg.PrimalItemConsumable_Kibble_MegalosaurusEgg'"
+	},
+	{
+		"id": "SpineyLizard_Character_BP_C",
+		"name": "Thorny Dragon",
+		"category": "Reptiles",
+		"icon": "images/thorny-dragon.jpg",
+		"tame": "Camelsaurus Kibble",
+		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/SpineyLizard/SpineyLizard_Character_BP.SpineyLizard_Character_BP'",
+		"saddle": "Blueprint'/Game/ScorchedEarth/Dinos/SpineyLizard/PrimalItemArmor_SpineyLizardSaddle.PrimalItemArmor_SpineyLizardSaddle'",
+		"kibble": "Blueprint'/Game/ScorchedEarth/Dinos/Camelsaurus/PrimalItemConsumable_Kibble_Camelsaurus.PrimalItemConsumable_Kibble_Camelsaurus'"
+	},
+	{
+		"id": "Thylacoleo_Character_BP_C",
+		"name": "Thylacoleo",
+		"category": "Mammals",
+		"icon": "images/thylacoleo.jpg",
+		"tame": "Titanoboa Kibble",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Thylacoleo/Thylacoleo_Character_BP.Thylacoleo_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ThylacoSaddle.PrimalItemArmor_ThylacoSaddle'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_BoaEgg.PrimalItemConsumable_Kibble_BoaEgg'"
+	},
+	{
+		"id": "BoaFrill_Character_BP_C",
+		"name": "Titanoboa",
+		"category": "Reptiles",
+		"icon": "images/titanoboa.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/BoaFrill/BoaFrill_Character_BP.BoaFrill_Character_BP'"
+	},
+	{
+		"id": "Ant_Character_BP_C",
+		"name": "Titanomyrma",
+		"category": "Invertebrates",
+		"icon": "images/titanomyrma.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ant/Ant_Character_BP.Ant_Character_BP'"
+	},
+	{
+		"id": "FlyingAnt_Character_BP_C",
+		"name": "Titanomyrma (Flying)",
+		"category": "Invertebrates",
+		"icon": "images/titanomyrma.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ant/FlyingAnt_Character_BP.FlyingAnt_Character_BP'"
+	},
+	{
+		"id": "Titanosaur_Character_BP_C",
+		"name": "Titanosaur",
+		"category": "Dinosaurs",
+		"icon": "images/titanosaur.jpg",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/titanosaur/Titanosaur_Character_BP.Titanosaur_Character_BP'",
+		"platform": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TitanSaddle_Platform.PrimalItemArmor_TitanSaddle_Platform'"
+	},
+	{
+		"id": "Trike_Character_BP_C",
+		"name": "Triceratops",
+		"category": "Dinosaurs",
+		"icon": "images/triceratops.png",
+		"tame": "Carno Kibble",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Trike/Trike_Character_BP.Trike_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TrikeSaddle.PrimalItemArmor_TrikeSaddle'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_CarnoEgg.PrimalItemConsumable_Kibble_CarnoEgg'"
+	},
+	{
+		"id": "Bone_Trike_Character_BP_C",
+		"name": "Trike (Bone)",
+		"category": "Fear Evolved",
+		"icon": "images/bone-trike.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Trike/Bone_Trike_Character_BP.Bone_Trike_Character_BP'"
+	},
+	{
+		"id": "Trilobite_Character_C",
+		"name": "Trilobite",
+		"category": "Invertebrates",
+		"icon": "images/trilobite.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Trilobite/Trilobite_Character.Trilobite_Character'"
+	},
+	{
+		"id": "Troodon_Character_BP_C",
+		"name": "Troodon",
+		"category": "Dinosaurs",
+		"icon": "images/troodon.jpg",
+		"tame": "Live Creatures",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Troodon/Troodon_Character_BP.Troodon_Character_BP'"
+	},
+	{
+		"id": "Tusoteuthis_Character_BP_C",
+		"name": "Tusoteuthis",
+		"category": "Invertebrates",
+		"icon": "images/tusoteuthis.jpeg",
+		"tame": "Black Pearls",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Tusoteuthis/Tusoteuthis_Character_BP.Tusoteuthis_Character_BP'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_BlackPearl.PrimalItemResource_BlackPearl_C'"
+	},
+	{
+		"id": "Mega_Tusoteuthis_Character_BP_C",
+		"name": "Tusoteuthis (Alpha)",
+		"category": "Alpha Predator",
+		"icon": "images/tusoteuthis.jpeg",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Tusoteuthis/Mega_Tusoteuthis_Character_BP.Mega_Tusoteuthis_Character_BP'"
+	},
+	{
+		"id": "Equus_Character_BP_Unicorn_C",
+		"name": "Unicorn",
+		"category": "Mammals",
+		"icon": "images/equus.jpg",
+		"tame": "Troodon Kibble",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Equus/Equus_Character_BP_Unicorn.Equus_Character_BP_Unicorn'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_EquusSaddle.PrimalItemArmor_EquusSaddle'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_TroodonEgg.PrimalItemConsumable_Kibble_TroodonEgg'"
+	},
+	{
+		"id": "Vulture_Character_BP_C",
+		"name": "Vulture",
+		"category": "Birds",
+		"icon": "images/vulture.jpg",
+		"tame": "Spoiled Meat",
+		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Vulture/Vulture_Character_BP.Vulture_Character_BP'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_SpoiledMeat.PrimalItemConsumable_SpoiledMeat'"
+	},
+	{
+		"id": "Rhino_Character_BP_C",
+		"name": "Woolly Rhino",
+		"category": "Mammals",
+		"icon": "images/woolly-rhino.jpg",
+		"tame": "Terror Bird Kibble",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/WoollyRhino/Rhino_Character_BP.Rhino_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RhinoSaddle.PrimalItemArmor_RhinoSaddle'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_TerrorBirdEgg.PrimalItemConsumable_Kibble_TerrorBirdEgg'"
+	},
+	{
+		"id": "Wyvern_Character_BP_Base_C",
+		"name": "Wyvern",
+		"category": "Fantasy",
+		"icon": "images/wyvern.png",
+		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Base.Wyvern_Character_BP_Base'"
+	},
+	{
+		"id": "Bone_MegaWyvern_Character_BP_C",
+		"name": "Wyvern (Bone Mega)",
+		"category": "Fear Evolved",
+		"icon": "images/bone-mega-wyvern.png",
+		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Bone_MegaWyvern_Character_BP_Fire.Bone_MegaWyvern_Character_BP_Fire'"
+	},
+	{
+		"id": "MegaWyvern_Character_BP_Fire_C",
+		"name": "Wyvern (Fire Alpha)",
+		"category": "Alpha Predator",
+		"icon": "images/alpha-fire-wyvern.png",
+		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/MegaWyvern_Character_BP_Fire.MegaWyvern_Character_BP_Fire'"
+	},
+	{
+		"id": "Ragnarok_Wyvern_Override_Ice_C",
+		"name": "Wyvern (Ice)",
+		"category": "Fantasy",
+		"icon": "images/wyvern.png",
+		"blueprint": "Blueprint'/Game/Mods/Ragnarok/Custom_Assets/Dinos/Wyvern/Ice_Wyvern/Ragnarok_Wyvern_Override_Ice.Ragnarok_Wyvern_Override_Ice'"
+	},
+	{
+		"id": "Wyvern_Character_BP_Lightning_C",
+		"name": "Wyvern (Lightning)",
+		"category": "Fantasy",
+		"icon": "images/wyvern.png",
+		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Lightning.Wyvern_Character_BP_Lightning'"
+	},
+	{
+		"id": "Wyvern_Character_BP_Poison_C",
+		"name": "Wyvern (Poison)",
+		"category": "Fantasy",
+		"icon": "images/wyvern.png",
+		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Poison.Wyvern_Character_BP_Poison'"
+	},
+	{
+		"id": "Wyvern_Character_BP_ZombieFire_C",
+		"name": "Wyvern (Zombie Fire)",
+		"category": "Fear Evolved",
+		"icon": "images/zombie-fire-wyvern.png",
+		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_ZombieFire.Wyvern_Character_BP_ZombieFire'"
+	},
+	{
+		"id": "Wyvern_Character_BP_ZombieLightning_C",
+		"name": "Wyvern (Zombie Lightning)",
+		"category": "Fear Evolved",
+		"icon": "images/zombie-lightning-wyvern.png",
+		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_ZombieLightning.Wyvern_Character_BP_ZombieLightning'"
+	},
+	{
+		"id": "Wyvern_Character_BP_ZombiePoison_C",
+		"name": "Wyvern (Zombie Poison)",
+		"category": "Fear Evolved",
+		"icon": "images/zombie-poison-wyvern.png",
+		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_ZombiePoison.Wyvern_Character_BP_ZombiePoison'"
+	},
+	{
+		"id": "Wyvern_Character_BP_Fire_C",
+		"name": "Wyvern Fire",
+		"category": "Fantasy",
+		"icon": "images/wyvern.png",
+		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Fire.Wyvern_Character_BP_Fire'"
+	},
+	{
+		"id": "Yeti_Character_BP_C",
+		"name": "Yeti",
+		"category": "Mammals",
+		"icon": "images/gigantopithecus.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Bigfoot/Yeti_Character_BP.Yeti_Character_BP'"
+	},
+	{
+		"id": "Yutyrannus_Character_BP_C",
+		"name": "Yutyrannus",
+		"category": "Dinosaurs",
+		"icon": "images/yutyrannus.jpg",
+		"tame": "Kentrosaurus Kibble",
+		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Yutyrannus/Yutyrannus_Character_BP.Yutyrannus_Character_BP'",
+		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_YutySaddle.PrimalItemArmor_YutySaddle'",
+		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_KentroEgg.PrimalItemConsumable_Kibble_KentroEgg'"
+	}
 ]

@@ -21,4 +21,10 @@ page-entity {
         float:left;
     }
     .entity.cmd span.entity-copy {display:none;}
+    h2 i {
+        display:inline-block;
+        padding:6px;
+        margin-left:15px;
+        background-color:yellow;
+    }
 }

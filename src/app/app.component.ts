@@ -23,7 +23,7 @@ export interface PageObj {
 }
 
 @Component({
-  templateUrl: 'app.template.html',
+  templateUrl: 'app.html',
   providers: [StatusBar, SplashScreen, AdMob]
 })
 
@@ -107,8 +107,8 @@ export class MyApp {
 
         if (WinJS) {
           //-- .win-xbox class
-          let toastPopup = this.toastCtrl.create({message: "This app requires a keyboard when used on the xbox to perform paste(crtl-v)", duration: 8000, position: 'top'});
-          toastPopup.present();
+          //let toastPopup = this.toastCtrl.create({message: "This app requires a keyboard when used on the xbox to perform paste(crtl-v)", duration: 8000, position: 'top'});
+          //toastPopup.present();
         }
 
       }

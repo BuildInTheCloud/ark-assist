@@ -10,6 +10,6 @@ IF %ERRORLEVEL% == 0 (
     @echo -- zipalign --
     call del platforms\android\build\outputs\apk\android-armv7-release-signed.apk
     call del platforms\android\build\outputs\apk\android-x86-release-signed.apk
-    call "%ANDROID_HOME%\build-tools\26.0.0-preview\zipalign.exe" -v 4 platforms\android\build\outputs\apk\android-armv7-release-unsigned.apk platforms\android\build\outputs\apk\android-armv7-release-signed.apk
-    call "%ANDROID_HOME%\build-tools\26.0.0-preview\zipalign.exe" -v 4 platforms\android\build\outputs\apk\android-x86-release-unsigned.apk platforms\android\build\outputs\apk\android-x86-release-signed.apk
+    call "%ANDROID_HOME%\build-tools\26.0.0\zipalign.exe" -v 4 platforms\android\build\outputs\apk\android-armv7-release-unsigned.apk platforms\android\build\outputs\apk\android-armv7-release-signed.apk
+    call "%ANDROID_HOME%\build-tools\26.0.0\zipalign.exe" -v 4 platforms\android\build\outputs\apk\android-x86-release-unsigned.apk platforms\android\build\outputs\apk\android-x86-release-signed.apk
 )
