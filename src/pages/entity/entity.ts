@@ -137,7 +137,7 @@ export class EntityPage {
       holdtext.style.display = "block";
       holdtext.innerText = pasteVAL;
       holdtext.select();      
-      var successful = document.execCommand('copy');
+      document.execCommand('copy');
       let toastPopup = this.toastCtrl.create({ message: "COPIED: " + pasteVAL, duration: 3000, position: 'top' });
       toastPopup.present();
       holdtext.style.display = "none";

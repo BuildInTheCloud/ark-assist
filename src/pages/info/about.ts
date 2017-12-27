@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams, Platform, LoadingController } from 'ionic-angular';
-declare var window: any;
+
 @Component({
   selector: 'page-about',
   templateUrl: 'about.html'

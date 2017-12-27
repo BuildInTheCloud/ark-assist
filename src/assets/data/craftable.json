@@ -15,7 +15,8 @@
 		"stack": 1,
 		"icon": "images/aberrant-sword.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_AberrationSword.PrimalItemSkin_AberrationSword'",
-		"dlc": "Aberration"
+		"dlc": "Aberration",
+		"note": "You can use this to skin the appearance of a Sword. A strange blade imbued with energy..."
 	},
 	{
 		"id": 0,
@@ -1503,7 +1504,8 @@
 		"stack": 1,
 		"icon": "images/Captain-hat-skin.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_CaptainsHat.PrimalItemSkin_CaptainsHat'",
-		"dlc": "Turkey Trial"
+		"dlc": "Turkey Trial",
+		"note":"Found deep within the belly of a great white beast, this hat is all that remains of the last brave soul that tried to slay the creature."
 	},
 	{
 		"id": 0,
@@ -4621,7 +4623,8 @@
 		"stack": "1",
 		"icon": "images/nerdry-glasses.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_Glasses.PrimalItemSkin_Glasses'",
-		"dlc": ""
+		"dlc": "",
+		"note": "ou can use this to skin the appearance of a helmet or hat. Slightly cracked and chewed, but still provides an intelligent look!"
 	},
 	{
 		"id": 0,
@@ -8242,5 +8245,578 @@
 		"icon": "images/yutyrannus-lungs.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_apexdrop_Yuty.primalitemresource_apexdrop_yuty'",
 		"dlc": ""
+	},
+	{
+		"id": 0,
+		"name": "Basilisk Fang",
+		"category": "Resource",
+		"stack": 10,
+		"icon": "images/basilisk-fang.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Basilisk_Alpha.PrimalItemResource_ApexDrop_Basilisk_Alpha'",
+		"dlc": "Aberration"
+	},
+	{
+		"id": 0,
+		"name": "Basilisk Scales",
+		"category": "Resource",
+		"stack": 10,
+		"icon": "images/basilisk-scales.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Basilisk.PrimalItemResource_ApexDrop_Basilisk'",
+		"dlc": "Aberration"
+	},
+	{
+		"id": 0,
+		"name": "Charge Battery",
+		"category": "Resource",
+		"stack": 1,
+		"icon": "images/charge-battery.png",
+		"blueprint": "Blueprint'/Game/Aberration/WeaponGlowStickCharge/PrimalItem_ChargeBattery.PrimalItem_ChargeBattery'",
+		"dlc": "Aberration",
+		"note": "Stores Charge from Power Nodes, and can be placed in various Electrical Devices to power them."
+	},
+	{
+		"id": 0,
+		"name": "Charge Lantern",
+		"category": "Resource",
+		"stack": 1,
+		"icon": "images/charge-lantern.png",
+		"blueprint": "Blueprint'/Game/Aberration/WeaponRadioactiveLanternCharge/PrimalItem_WeaponRadioactiveLanternCharge.PrimalItem_WeaponRadioactiveLanternCharge'",
+		"dlc": "Aberration",
+		"note": "Weaponized Charge Light that damages and stuns lifeforms. Place down to ward of dangers in an area. Uses Charge Batteries as fuel."
+	},
+	{
+		"id": 0,
+		"name": "Chili Mask",
+		"category": "Skin",
+		"stack": 1,
+		"icon": "images/chili-mask.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_Chili.PrimalItemSkin_Chili'",
+		"dlc": "Aberration",
+		"note": "You can use this to skin the appearance of a helmet or hat."
+	},
+	{
+		"id": 0,
+		"name": "Climbing Pick",
+		"category": "Tools",
+		"stack": 1,
+		"icon": "images/climbing-pick.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Weapons/PrimalItem_WeaponClimbPick.PrimalItem_WeaponClimbPick'" ,
+		"dlc": "Aberration",
+		"note": "Climb up and hang from nearly any surface with these!"
+	},
+	{
+		"id": 0,
+		"name": "Cute Dino Helmet Mask",
+		"category": "Skin",
+		"stack": 1,
+		"icon": "images/cute-dino-helmet.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_DinoCute.PrimalItemSkin_DinoCute'",
+		"dlc": "Aberration",
+		"note": "You can use this to skin the appearance of a helmet or hat."
+	},
+	{
+		"id": 0,
+		"name": "Decorative Ravager Saddle Skin",
+		"category": "Skin",
+		"stack": 1,
+		"icon": "images/decorative-ravager-saddle-skin.png",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/CaveWolf/PrimalItemArmor_CaveWolfPromoSaddle.PrimalItemArmor_CaveWolfPromoSaddle'",
+		"dlc": "Aberration",
+		"note": "Place this on a Ravager Saddle to have a more aesthetically pleasing saddle."
+	},
+	{
+		"id": 0,
+		"name": "Fish Basket",
+		"category": "Structure",
+		"stack": 1,
+		"icon": "images/fishbasket.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_FishBasket.PrimalItemStructure_FishBasket'",
+		"dlc": "Aberration",
+		"note": "Trap certain fish in this basket to tame and transport them!"
+	},
+	{
+		"id": 0,
+		"name": "Gas Collector",
+		"category": "Structure",
+		"stack": 1,
+		"icon": "images/gas-collector.png",
+		"blueprint": "Blueprint'/Game/Aberration/Structures/GasCollector/PrimalItemStructure_GasCollector.PrimalItemStructure_GasCollector'",
+		"dlc": "Aberration",
+		"note": "Place on a Gas Vent to extract Congealed Gas Balls over time."
+	},
+	{
+		"id": 0,
+		"name": "Glider",
+		"category": "Armor",
+		"stack": 1,
+		"icon": "images/glider.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Items/Armor/PrimalItemArmor_Glider.PrimalItemArmor_Glider'",
+		"dlc": "Aberration",
+		"note": "When attached to a Chest Armor, the Glider Suit enables sailing through the air by double-tapping jump, while gaining speed by running and diving!"
+	},
+	{
+		"id": 0,
+		"name": "Glowstick",
+		"category": "Resource",
+		"stack": 20,
+		"icon": "images/glowstick.png",
+		"blueprint": "Blueprint'/Game/Aberration/WeaponGlowStickThrow/PrimalItem_GlowStick.PrimalItem_GlowStick'",
+		"dlc": "Aberration",
+		"note": "Glow Sticks generate light in a radius around them. Throw it and it will stick immediately to the location they first impact."
+	},
+	{
+		"id": 0,
+		"name": "Hazard Boots",
+		"category": "Armor",
+		"stack": 1,
+		"icon": "images/hazard-boots.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Items/Armor/HazardSuit/PrimalItemArmor_HazardSuitBoots.PrimalItemArmor_HazardSuitBoots'",
+		"dlc": "Aberration",
+		"note": "Boots made from a unique combination of materials that protect the wearer from environmental contaminants."
+	},
+	{
+		"id": 0,
+		"name": "Hazard Gloves",
+		"category": "Armor",
+		"stack": 1,
+		"icon": "images/hazard-gloves.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Items/Armor/HazardSuit/PrimalItemArmor_HazardSuitGloves.PrimalItemArmor_HazardSuitGloves'",
+		"dlc": "Aberration",
+		"note": "Gloves made from a unique combination of materials that protect the wearer from environmental contaminants."
+	},
+	{
+		"id": 0,
+		"name": "Hazard Helmet",
+		"category": "Armor",
+		"stack": 1,
+		"icon": "images/hazard-helmet.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Items/Armor/HazardSuit/PrimalItemArmor_HazardSuitHelmet.PrimalItemArmor_HazardSuitHelmet'",
+		"dlc": "Aberration",
+		"note": "A helmet made from a unique combination of materials that protect the wearer from environmental contaminants."
+	},
+	{
+		"id": 0,
+		"name": "Hazard Pants",
+		"category": "Armor",
+		"stack": 1,
+		"icon": "images/hazard-pants.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Items/Armor/HazardSuit/PrimalItemArmor_HazardSuitPants.PrimalItemArmor_HazardSuitPants'",
+		"dlc": "Aberration",
+		"note": "Pants made from a unique combination of materials that protect the wearer from environmental contaminants."
+	},
+	{
+		"id": 0,
+		"name": "Hazard Shirt",
+		"category": "Armor",
+		"stack": 1,
+		"icon": "images/hazard-shirt.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Items/Armor/HazardSuit/PrimalItemArmor_HazardSuitShirt.PrimalItemArmor_HazardSuitShirt'",
+		"dlc": "Aberration",
+		"note": "A shirt made from a unique combination of materials that protect the wearer from environmental contaminants."
+	},
+	{
+		"id": 0,
+		"name": "Karkinos Claw",
+		"category": "Resource",
+		"stack": 10,
+		"icon": "images/karkinos-claw.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_CrabClaw.PrimalItemResource_ApexDrop_CrabClaw'",
+		"dlc": "Aberration"
+	},
+	{
+		"id": 0,
+		"name": "Metal Cliff Platform",
+		"category": "Structure",
+		"stack": 1,
+		"icon": "images/metal-cliff-platform.png",
+		"blueprint": "Blueprint'/Game/Aberration/Structures/CliffPlatforms/Metal_CliffPlatform/PrimalItemStructure_Metal_CliffPlatform.PrimalItemStructure_Metal_CliffPlatform'",
+		"dlc": "Aberration",
+		"note": "A Cliff Platform is required to build structures extending from a cliff. This one is made from shiny metal."
+	},
+	{
+		"id": 0,
+		"name": "Otter Mask",
+		"category": "Skin",
+		"stack": 1,
+		"icon": "images/otter-mask.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_OtterMask.PrimalItemSkin_OtterMask'",
+		"dlc": "Aberration",
+		"note": "You can use this to skin the appearance of a helmet or hat."
+	},
+	{
+		"id": 0,
+		"name": "Plant Z Grenade",
+		"category": "Weapons",
+		"stack": 10,
+		"icon": "images/plant-z-grenade.png",
+		"blueprint": "Blueprint'/Game/Aberration/WeaponPlantSpeciesZ/PrimalItem_PlantSpeciesZ_Grenade.PrimalItem_PlantSpeciesZ_Grenade'",
+		"dlc": "Aberration",
+		"note": "Bioluminescent Fruit that provides a flash of Charge lighting"
+	},
+	{
+		"id": 0,
+		"name": "Pliers",
+		"category": "Tools",
+		"stack": 1,
+		"icon": "images/pliers.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/PrimalItem_Pliers.PrimalItem_Pliers'",
+		"dlc": "Aberration",
+		"note": "Use on a Smithy-crafted item in need of repairing and you can repair it on the go within any inventory, at a higher cost of resources."
+	},
+	{
+		"id": 0,
+		"name": "Portable Rope Ladder",
+		"category": "Structure",
+		"stack": 10,
+		"icon": "images/portable-rope-ladder.png",
+		"blueprint": "Blueprint'/Game/Aberration/Structures/PortableRopeLadder/PrimalItemStructure_PortableLadder.PrimalItemStructure_PortableLadder'",
+		"dlc": "Aberration",
+		"note": "A portable ladder that can be used to climb up or down. Place onto structures or terrain at waist height or lower."
+	},
+	{
+		"id": 0,
+		"name": "Reaper Barb",
+		"category": "Resource",
+		"stack": 10,
+		"icon": "images/reaper-barb.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_ReaperBarb.PrimalItemResource_ApexDrop_ReaperBarb'",
+		"dlc": "Aberration"
+	},
+	{
+		"id": 0,
+		"name": "Rock Drake Feather",
+		"category": "Resource",
+		"stack": 10,
+		"icon": "images/rock-drake-feather.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_RockDrake.PrimalItemResource_ApexDrop_RockDrake'",
+		"dlc": "Aberration",
+		"note": "This trophy proves your worth as a hunter."
+	},
+	{
+		"id": 0,
+		"name": "Scarcy Skull Mask",
+		"category": "Skin",
+		"stack": 1,
+		"icon": "images/scarcy-skull-mask.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_ScarySkull.PrimalItemSkin_ScarySkull'",
+		"dlc": "Aberration",
+		"note": "You can use this to skin the appearance of a helmet or hat."
+	},
+	{
+		"id": 0,
+		"name": "Shag Rug",
+		"category": "Structure",
+		"stack": 10,
+		"icon": "images/shaggy-rug.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Items/Structures/PrimalItemStructure_Furniture_Rug.PrimalItemStructure_Furniture_Rug'",
+		"dlc": "Aberration",
+		"note": "A decorative, paintable rug with a shaggy appearance, which dulls the sound of footsteps."
+	},
+	{
+		"id": 0,
+		"name": "Stone Cliff Platform",
+		"category": "Structure",
+		"stack": 1,
+		"icon": "images/stone-cliff-platform.png",
+		"blueprint": "Blueprint'/Game/Aberration/Structures/CliffPlatforms/Stone_CliffPlatform/PrimalItemStructure_Stone_CliffPlatform.PrimalItemStructure_Stone_CliffPlatform'",
+		"dlc": "Aberration",
+		"note": "A Cliff Platform is required to build structures extending from a cliff. This one is made from heavy stone."
+	},
+	{
+		"id": 0,
+		"name": "Tek Sleeping Pod",
+		"category": "Structure",
+		"stack": 1,
+		"icon": "images/tek-bed.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Bed_Tek.PrimalItemStructure_Bed_Tek'",
+		"unlock": true,
+		"dlc": "Aberration",
+		"note": "This Tek-powered Chamber lets you rapidly recover vitals, and slowly gain XP even when sleeping. You can also sleep soundly within it, protected even while on a moving platform!"
+	},
+	{
+		"id": 0,
+		"name": "Tek Railgun",
+		"category": "Weapons",
+		"stack": 1,
+		"icon": "images/tek-railgun.png",
+		"blueprint": "Blueprint'/Game/Aberration/WeaponTekSniper/PrimalItem_TekSniper.PrimalItem_TekSniper'",
+		"unlock": true,
+		"dlc": "Aberration",
+		"note": "Shoots explosive plasma bolts, with an infrared zoomable scope."
+	},
+	{
+		"id": 0,
+		"name": "Wood Elevator Platform Large",
+		"category": "Structure",
+		"stack": 1,
+		"icon": "images/wood-elevator-platform-large.png",
+		"blueprint": "Blueprint'/Game/Aberration/Structures/PrimitiveElevator/PrimalItemStructure_WoodElevatorPlatform_Large.PrimalItemStructure_WoodElevatorPlatform_Large'",
+		"dlc": "Aberration"
+	},
+	{
+		"id": 0,
+		"name": "Wood Elevator Platform Medium",
+		"category": "Structure",
+		"stack": 1,
+		"icon": "images/wood-elevator-platform-medium.png",
+		"blueprint": "Blueprint'/Game/Aberration/Structures/PrimitiveElevator/PrimalItemStructure_WoodElevatorPlatform_Medium.PrimalItemStructure_WoodElevatorPlatform_Medium'",
+		"dlc": "Aberration"
+	},
+	{
+		"id": 0,
+		"name": "Wood Elevator Platform Small",
+		"category": "Structure",
+		"stack": 1,
+		"icon": "images/wood-elevator-platform-small.png",
+		"blueprint": "Blueprint'/Game/Aberration/Structures/PrimitiveElevator/PrimalItemStructure_WoodElevatorPlatform_Small.PrimalItemStructure_WoodElevatorPlatform_Small'",
+		"dlc": "Aberration"
+	},
+	{
+		"id": 0,
+		"name": "Wood Elevator Switch",
+		"category": "Structure",
+		"stack": 1,
+		"icon": "images/wood-elevator-switch.png",
+		"blueprint": "Blueprint'/Game/Aberration/Structures/PrimitiveElevator/PrimalItemStructure_WoodElevatorTopSwitch.PrimalItemStructure_WoodElevatorTopSwitch'",
+		"dlc": "Aberration"
+	},
+	{
+		"id": 0,
+		"name": "Wood Elevator Track",
+		"category": "Structure",
+		"stack": 10,
+		"icon": "images/wood-elevator-track.png",
+		"blueprint": "Blueprint'/Game/Aberration/Structures/PrimitiveElevator/PrimalItemStructure_WoodElevatorTrack.PrimalItemStructure_WoodElevatorTrack'",
+		"dlc": "Aberration"
+	},
+	{
+		"id": 0,
+		"name": "Zipline Anchor",
+		"category": "Ammunition",
+		"stack": 10,
+		"icon": "images/zipline-ammo.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Weapons/PrimalItemAmmo_Zipline.PrimalItemAmmo_Zipline'",
+		"dlc": "Aberration",
+		"note": "Apply onto a Crossbow to fire Zip-Line anchor points. Use two anchor points to complete a Zip-Line, which you can then grab onto."
+	},
+	{
+		"id": 0,
+		"name": "Zipline Motor",
+		"category": "Structure",
+		"stack": 1,
+		"icon": "images/zipline-motor.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Items/Armor/PrimalItemArmor_ZiplineMotor.PrimalItemArmor_ZiplineMotor'",
+		"dlc": "Aberration",
+		"note": "Equip onto pants and combine with Gasoline to power yourself up a Zip-Line."
+	},
+	{
+		"id": 0,
+		"name": "Aggeravic Mushroom",
+		"category": "Consumable",
+		"stack": 10,
+		"icon": "images/aggeravic-mushroom.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Items/Consumables/PrimalItemResource_CommonMushroom.PrimalItemResource_CommonMushroom'",
+		"dlc": "Aberration"
+	},
+	{
+		"id": 0,
+		"name": "Aquatic Mushroom",
+		"category": "Consumable",
+		"stack": 10,
+		"icon": "images/aquatic-mushroom.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Mushroom_Aquatic.PrimalItemConsumable_Mushroom_Aquatic'",
+		"dlc": "Aberration"
+	},
+	{
+		"id": 0,
+		"name": "Ascerbic Mushroom",
+		"category": "Consumable",
+		"stack": 10,
+		"icon": "images/ascerbic-mushroom.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Mushroom_Ascerbic.PrimalItemConsumable_Mushroom_Ascerbic'",
+		"dlc": "Aberration"
+	},
+	{
+		"id": 0,
+		"name": "Auric Mushroom",
+		"category": "Consumable",
+		"stack": 10,
+		"icon": "images/auric-mushroom.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Mushroom_Auric.PrimalItemConsumable_Mushroom_Auric'",
+		"dlc": "Aberration"
+	},
+	{
+		"id": 0,
+		"name": "Bioluminescent Gem",
+		"category": "Resource",
+		"stack": 10,
+		"icon": "images/bioluminescent-gem.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_Gem_BioLum.PrimalItemResource_Gem_BioLum'",
+		"dlc": "Aberration"
+	},
+	{
+		"id": 0,
+		"name": "Element Gem",
+		"category": "Resource",
+		"stack": 10,
+		"icon": "images/element-gem.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_Gem_Element.PrimalItemResource_Gem_Element'",
+		"dlc": "Aberration"
+	},
+	{
+		"id": 0,
+		"name": "Element Ore",
+		"category": "Resource",
+		"stack": 10,
+		"icon": "images/element-ore.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ElementOre.PrimalItemResource_ElementOre'",
+		"dlc": "Aberration"
+	},
+	{
+		"id": 0,
+		"name": "Fertile Gem",
+		"category": "Resource",
+		"stack": 10,
+		"icon": "images/fertile-gem.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_Gem_Fertile.PrimalItemResource_Gem_Fertile'",
+		"dlc": "Aberration"
+	},
+	{
+		"id": 0,
+		"name": "Fungal Wood",
+		"category": "Resource",
+		"stack": 10,
+		"icon": "images/fungal-wood.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_FungalWood.PrimalItemResource_FungalWood'",
+		"dlc": "Aberration"
+	},
+	{
+		"id": 0,
+		"name": "Gas Resource",
+		"category": "Resource",
+		"stack": 10,
+		"icon": "images/gas-resource.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_Gas.PrimalItemResource_Gas'",
+		"dlc": "Aberration"
+	},
+	{
+		"id": 0,
+		"name": "Mushroom Soup",
+		"category": "Consumable",
+		"stack": 10,
+		"icon": "images/mushroom-soup.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_MushroomSoup.PrimalItemConsumable_Soup_MushroomSoup'",
+		"dlc": "Aberration"
+	},
+	{
+		"id": 0,
+		"name": "Nameless Venom",
+		"category": "Consumable",
+		"stack": 1,
+		"icon": "images/nameless-venom.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemConsumable_NamelessVenom.PrimalItemConsumable_NamelessVenom'",
+		"dlc": "Aberration"
+	},
+	{
+		"id": 0,
+		"name": "Plant Z Seed",
+		"category": "Resource",
+		"stack": 10,
+		"icon": "images/plant-z-seed.png",
+		"blueprint": "Blueprint'/Game/Aberration/WeaponPlantSpeciesZ/PrimalItemConsumable_Seed_PlantSpeciesZ.PrimalItemConsumable_Seed_PlantSpeciesZ'",
+		"dlc": "Aberration"
+	},
+	{
+		"id": 0,
+		"name": "Plant Z Seed (Speed)",
+		"category": "Resource",
+		"stack": 10,
+		"icon": "images/plant-z-seed.png",
+		"blueprint": "Blueprint'/Game/Aberration/WeaponPlantSpeciesZ/PrimalItemConsumable_Seed_PlantSpeciesZ_SpeedHack.PrimalItemConsumable_Seed_PlantSpeciesZ_SpeedHack'",
+		"dlc": "Aberration"
+	},
+	{
+		"id": 0,
+		"name": "Reaper Pheremone",
+		"category": "Resource",
+		"stack": 10,
+		"icon": "images/reaper-pheremone.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_XenomorphPheromoneGland.PrimalItemResource_XenomorphPheromoneGland'",
+		"dlc": "Aberration"
+	},
+	{
+		"id": 0,
+		"name": "Artifact Of The Shadows",
+		"category": "Artifact",
+		"stack": 1,
+		"icon": "images/artifact-of-the-shadows.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactAB_2.PrimalItemArtifactAB_2'",
+		"dlc": "Aberration",
+		"note": "Cave lat 55.2, lon 65.9"
+	},
+	{
+		"id": 0,
+		"name": "Artifact Of The Stalker",
+		"category": "Artifact",
+		"stack": 1,
+		"icon": "images/artifact-of-the-stalker.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactAB_3.PrimalItemArtifactAB_3'",
+		"dlc": "Aberration",
+		"note": "Cave lat 81, lon 46"
+	},
+	{
+		"id": 0,
+		"name": "Artifact Of The Depths",
+		"category": "Artifact",
+		"stack": 1,
+		"icon": "images/artifact-of-the-depths.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactAB.PrimalItemArtifactAB'",
+		"dlc": "Aberration",
+		"note": "Cave lat 48.3, lon 27.2"
+	},
+	{
+		"id": 0,
+		"name": "Artifact Of The Lost",
+		"category": "Artifact",
+		"stack": 1,
+		"icon": "images/artifact-of-the-lost.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactAB_4.PrimalItemArtifactAB_4'",
+		"dlc": "Aberration"
+	},
+	{
+		"id": 0,
+		"name": "Rock Drake Egg",
+		"category": "Egg",
+		"stack": 10,
+		"icon": "images/rock-drake-egg.png",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/RockDrake/PrimalItemConsumable_Egg_RockDrake.PrimalItemConsumable_Egg_RockDrake'",
+		"dlc": "Aberration"
+	},
+	{
+		"id": 347,
+		"name": "Basilisk Egg",
+		"category": "Egg",
+		"stack": 10,
+		"icon": "images/basilisk-egg.png",
+		"blueprint": "",
+		"dlc": "Aberration"
+	},
+	{
+		"id": 0,
+		"name": "Featherlight Egg",
+		"category": "Egg",
+		"stack": 10,
+		"icon": "images/featherlight-egg.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Egg_LanternBird.PrimalItemConsumable_Egg_LanternBird'",
+		"dlc": "Aberration"
+	},
+	{
+		"id": 0,
+		"name": "Glowtail Egg",
+		"category": "Egg",
+		"stack": 10,
+		"icon": "images/glowtail-egg.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Egg_LanternLizard.PrimalItemConsumable_Egg_LanternLizard'",
+		"dlc": "Aberration"
 	}
 ]

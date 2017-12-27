@@ -60,6 +60,14 @@
           <button style="width:50%" class="tv" (keyup)="copyTextEvent($event, [i], 'unlock')" (click)="copyText([i], 'unlock')">TEK UNLOCK</button>
           <span class="entity-copy" [attr.id]="'unlock'+i">cheat unlockengram "{{item.tek}}"</span>
         </ion-col>
+        <ion-col class="entity cmd" *ngIf="item.alpha">
+          <button style="width:33%" class="tv" (keyup)="copyTextEvent($event, [i], 'alpha')" (click)="copyText([i], 'alpha')">ALPHA</button>
+          <span class="entity-copy" [attr.id]="'alpha'+i">admincheat SpawnDino "{{item.alpha}}" 500 0 0 {{dinoLevel}}</span>
+          <button style="width:33%" class="tv" (keyup)="copyTextEvent($event, [i], 'beta')" (click)="copyText([i], 'beta')">BETA</button>
+          <span class="entity-copy" [attr.id]="'beta'+i">admincheat SpawnDino "{{item.beta}}" 500 0 0 {{dinoLevel}}</span>
+          <button style="width:33%" class="tv" (keyup)="copyTextEvent($event, [i], 'gamma')" (click)="copyText([i], 'gamma')">GAMMA</button>
+          <span class="entity-copy" [attr.id]="'gamma'+i">admincheat SpawnDino "{{item.gamma}}" 500 0 0 {{dinoLevel}}</span>
+        </ion-col>
       </ion-row>
     </ion-card-content>
   </ion-card>

@@ -7,7 +7,11 @@ page-dino {
         max-width:325px;
         height:445px;
         float:left;
-        img {height:195px;width:auto;}
+        img {
+            height:195px;
+            width:auto;
+            margin:auto;
+        }
         textarea {height:75px}
     }
     .entity {padding:0 8px 0 0;white-space: nowrap;}

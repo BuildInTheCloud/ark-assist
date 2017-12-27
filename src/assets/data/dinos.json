@@ -135,14 +135,14 @@
 		"id": "BunnyDodo",
 		"name": "BunnyDodo",
 		"category": "Event",
-		"icon": "images/bunny-dodo.jpeg",
+		"icon": "images/dodo.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP_Bunny.Dodo_Character_BP_Bunny'"
 	},
 	{
 		"id": "BunnyOviraptor",
 		"name": "BunnyOviraptor",
 		"category": "Event",
-		"icon": "images/bunny-oviraptor.png",
+		"icon": "images/oviraptor.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/oviRaptor/BunnyoviRaptor_Character_BP.BunnyOviRaptor_Character_BP'"
 	},
 	{
@@ -158,14 +158,14 @@
 		"id": "MegaCarno_Character_BP_C",
 		"name": "Carno (Alpha)",
 		"category": "Alpha Predator",
-		"icon": "images/alpha-carno.png",
+		"icon": "images/carnotaurus.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Carno/MegaCarno_Character_BP.MegaCarno_Character_BP'"
 	},
 	{
 		"id": "Bone_MegaCarno_Character_BP_C",
 		"name": "Carno (Bone Mega)",
 		"category": "Fear Evolved",
-		"icon": "images/bone_mega-carno.png",
+		"icon": "images/carnotaurus.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Carno/Bone_MegaCarno_Character_BP.Bone_MegaCarno_Character_BP'"
 	},
 	{
@@ -236,14 +236,16 @@
 		"name": "Deathworm",
 		"category": "Invertebrates",
 		"icon": "images/deathworm.png",
-		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/DeathWorm/DeathWorm_Character_BP.DeathWorm_Character_BP'"
+		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/DeathWorm/DeathWorm_Character_BP.DeathWorm_Character_BP'",
+		"dlc": "Scorched Earth"
 	},
 	{
 		"id": "MegaDeathworm_Character_BP_C",
 		"name": "Deathworm (Alpha)",
 		"category": "Alpha Predator",
-		"icon": "images/alpha-deathworm.jpg",
-		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Deathworm/MegaDeathworm_Character_BP.MegaDeathworm_Character_BP'"
+		"icon": "images/deathworm.png",
+		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Deathworm/MegaDeathworm_Character_BP.MegaDeathworm_Character_BP'",
+		"dlc": "Scorched Earth"
 	},
 	{
 		"id": "Dilo_Character_BP_C",
@@ -434,7 +436,7 @@
 		"id": "Bone_Gigant_Character_BP_C",
 		"name": "Giganotosaurus (Bone)",
 		"category": "Fear Evolved",
-		"icon": "images/bone-giganotosaurus.png",
+		"icon": "images/blank-dino.png",
 		"tame": "",
 		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Giganotosaurus/Bone_Gigant_Character_BP.Bone_Gigant_Character_BP'"
 	},
@@ -525,7 +527,7 @@
 		"id": "Bone_Jerboa_Character_BP_C",
 		"name": "Jerboa (Bone)",
 		"category": "Fear Evolved",
-		"icon": "images/bone-jerboa.png",
+		"icon": "images/blank-dino.png",
 		"tame": "",
 		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Jerboa/Bone_Jerboa_Character_BP.Bone_Jerboa_Character_BP'"
 	},
@@ -578,14 +580,6 @@
 		"tame": "Compy Kibble",
 		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Kentrosaurus/Kentro_Character_BP.Kentro_Character_BP'",
 		"saddle": ""
-	},
-	{
-		"id": "Krakinos_Character_BP_C",
-		"name": "Krakinos",
-		"category": "Dinosaurs",
-		"icon": "images/Krakinos.jpg",
-		"tame": "",
-		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Krakinos/Krakinos_Character_BP.Krakinos_Character_BP'"
 	},
 	{
 		"id": "LavaGolem_Character_BP_C",
@@ -830,7 +824,7 @@
 		"id": "OviRaptor_Character_BP_C",
 		"name": "Oviraptor",
 		"category": "Dinosaurs",
-		"icon": "images/oviraptor.jpg",
+		"icon": "images/oviraptor.png",
 		"tame": "",
 		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/oviRaptor/oviRaptor_Character_BP.OviRaptor_Character_BP'"
 	},
@@ -969,7 +963,7 @@
 		"id": "Bone_Quetz_Character_BP_C",
 		"name": "Quetz (Bone)",
 		"category": "Fear Evolved",
-		"icon": "images/bone-quetz.png",
+		"icon": "images/blank-dino.png",
 		"tame": "",
 		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Quetzalcoatlus/Bone_Quetz_Character_BP.Bone_Quetz_Character_BP'"
 	},
@@ -1004,7 +998,7 @@
 		"id": "Bone_MegaRaptor_Character_BP_C",
 		"name": "Raptor (Bone Mega)",
 		"category": "Fear Evolved",
-		"icon": "images/bone-mega-raptor.png",
+		"icon": "images/raptor.png",
 		"tame": "",
 		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Raptor/Bone_MegaRaptor_Character_BP.Bone_MegaRaptor_Character_BP'"
 	},
@@ -1031,7 +1025,7 @@
 		"id": "Bone_MegaRex_Character_BP_C",
 		"name": "Rex (Bone Mega)",
 		"category": "Fear Evolved",
-		"icon": "images/bone-mega-rex.png",
+		"icon": "images/trex.png",
 		"tame": "",
 		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Rex/Bone_MegaRex_Character_BP.Bone_MegaRex_Character_BP'"
 	},
@@ -1083,7 +1077,7 @@
 		"id": "Bone_Sauropod_Character_BP_C",
 		"name": "Sauropod (Bone)",
 		"category": "Fear Evolved",
-		"icon": "images/bone-sauropod.png",
+		"icon": "images/brontosaurus.png",
 		"tame": "",
 		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Sauropod/Bone_Sauropod_Character_BP.Bone_Sauropod_Character_BP'"
 	},
@@ -1100,7 +1094,7 @@
 		"id": "Bone_Stego_Character_BP_C",
 		"name": "Stego (Bone)",
 		"category": "Fear Evolved",
-		"icon": "images/bone-stego.png",
+		"icon": "images/stegosaurus.png",
 		"tame": "",
 		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Stego/Bone_Stego_Character_BP.Bone_Stego_Character_BP'"
 	},
@@ -1215,7 +1209,7 @@
 		"id": "Bone_Trike_Character_BP_C",
 		"name": "Trike (Bone)",
 		"category": "Fear Evolved",
-		"icon": "images/bone-trike.png",
+		"icon": "images/triceratops.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Trike/Bone_Trike_Character_BP.Bone_Trike_Character_BP'"
 	},
 	{
@@ -1289,14 +1283,14 @@
 		"id": "Bone_MegaWyvern_Character_BP_C",
 		"name": "Wyvern (Bone Mega)",
 		"category": "Fear Evolved",
-		"icon": "images/bone-mega-wyvern.png",
+		"icon": "images/wyvern.png",
 		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Bone_MegaWyvern_Character_BP_Fire.Bone_MegaWyvern_Character_BP_Fire'"
 	},
 	{
 		"id": "MegaWyvern_Character_BP_Fire_C",
 		"name": "Wyvern (Fire Alpha)",
 		"category": "Alpha Predator",
-		"icon": "images/alpha-fire-wyvern.png",
+		"icon": "images/wyvern.png",
 		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/MegaWyvern_Character_BP_Fire.MegaWyvern_Character_BP_Fire'"
 	},
 	{
@@ -1324,21 +1318,21 @@
 		"id": "Wyvern_Character_BP_ZombieFire_C",
 		"name": "Wyvern (Zombie Fire)",
 		"category": "Fear Evolved",
-		"icon": "images/zombie-fire-wyvern.png",
+		"icon": "images/wyvern.png",
 		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_ZombieFire.Wyvern_Character_BP_ZombieFire'"
 	},
 	{
 		"id": "Wyvern_Character_BP_ZombieLightning_C",
 		"name": "Wyvern (Zombie Lightning)",
 		"category": "Fear Evolved",
-		"icon": "images/zombie-lightning-wyvern.png",
+		"icon": "images/wyvern.png",
 		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_ZombieLightning.Wyvern_Character_BP_ZombieLightning'"
 	},
 	{
 		"id": "Wyvern_Character_BP_ZombiePoison_C",
 		"name": "Wyvern (Zombie Poison)",
 		"category": "Fear Evolved",
-		"icon": "images/zombie-poison-wyvern.png",
+		"icon": "images/wyvern.png",
 		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_ZombiePoison.Wyvern_Character_BP_ZombiePoison'"
 	},
 	{
@@ -1364,5 +1358,185 @@
 		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Yutyrannus/Yutyrannus_Character_BP.Yutyrannus_Character_BP'",
 		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_YutySaddle.PrimalItemArmor_YutySaddle'",
 		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_KentroEgg.PrimalItemConsumable_Kibble_KentroEgg'"
+	},
+	{
+		"id": "MegaBasilisk_Character_BP",
+		"name": "Alpha Basilisk",
+		"category": "",
+		"dlc": "Aberration",
+		"icon": "images/basilisk.png",
+		"saddle":"Blueprint'/Game/Aberration/Dinos/Basilisk/PrimalItemArmor_BasiliskSaddle.PrimalItemArmor_BasiliskSaddle'",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/Basilisk/MegaBasilisk_Character_BP.MegaBasilisk_Character_BP'"
+	},
+	{
+		"id": "MegaCrab_Character_BP",
+		"name": "Alpha Karkinos",
+		"category": "",
+		"dlc": "Aberration",
+		"icon": "images/karkinos.png",
+		"saddle": "Blueprint'/Game/Aberration/Dinos/Crab/PrimalItemArmor_CrabSaddle.PrimalItemArmor_CrabSaddle'",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/Crab/MegaCrab_Character_BP.MegaCrab_Character_BP'"
+	},
+	{
+		"id": "MegaCrab_Character_BP",
+		"name": "Alpha Surface Reaper",
+		"category": "",
+		"dlc": "Aberration",
+		"icon": "images/reaper.png",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/Nameless/MegaXenomorph_Character_BP_Male_Surface.MegaXenomorph_Character_BP_Male_Surface'"
+	},
+	{
+		"id": "Basilisk_Character_BP_C",
+		"name": "Basilisk",
+		"category": "Serpens Regulus",
+		"dlc": "Aberration",
+		"icon": "images/basilisk.png",
+		"saddle":"Blueprint'/Game/Aberration/Dinos/Basilisk/PrimalItemArmor_BasiliskSaddle.PrimalItemArmor_BasiliskSaddle'",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/Basilisk/Basilisk_Character_BP.Basilisk_Character_BP'",
+		"kibble": "Blueprint'/Game/Aberration/Dinos/RockDrake/PrimalItemConsumable_Egg_RockDrake.PrimalItemConsumable_Egg_RockDrake'"
+	},
+	{
+		"id": "LanternPug_Character_BP_C",
+		"name": "Bulbdog",
+		"category": "",
+		"dlc": "Aberration",
+		"icon": "images/bulbdog.png",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/LanternPug/LanternPug_Character_BP.LanternPug_Character_BP'"
+	},
+	{
+		"id": "CaveWolf_Character_BP_C",
+		"name": "Ravager",
+		"category": "Mammals",
+		"dlc": "Aberration",
+		"icon": "images/ravager.png",
+		"saddle":"Blueprint'/Game/Aberration/Dinos/CaveWolf/PrimalItemArmor_CavewolfSaddle.PrimalItemArmor_CavewolfSaddle'",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/CaveWolf/CaveWolf_Character_BP.CaveWolf_Character_BP'"
+	},
+	{
+		"id": "LanternBird_Character_BP_C",
+		"name": "Featherlight",
+		"category": "Birds",
+		"dlc": "Aberration",
+		"icon": "images/featherlight.png",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/LanternBird/LanternBird_Character_BP.LanternBird_Character_BP'"
+	},
+	{
+		"id": "Lightbug_Character_BaseBP_C",
+		"name": "Glowbug",
+		"category": "",
+		"dlc": "Aberration",
+		"icon": "images/glowbug.png",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/Lightbug/Lightbug_Character_BaseBP.Lightbug_Character_BaseBP'"
+	},
+	{
+		"id": "LanternLizard_Character_BP_C",
+		"name": "Glowtail",
+		"category": "",
+		"dlc": "Aberration",
+		"icon": "images/glowtail.png",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/LanternLizard/LanternLizard_Character_BP.LanternLizard_Character_BP'"
+	},
+	{
+		"id": "Crab_Character_BP_C",
+		"name": "Karkinos",
+		"category": "",
+		"dlc": "Aberration",
+		"icon": "images/karkinos.png",
+		"saddle":"Blueprint'/Game/Aberration/Dinos/Crab/PrimalItemArmor_CrabSaddle.PrimalItemArmor_CrabSaddle'",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/Crab/Crab_Character_BP.Crab_Character_BP'"
+	},
+	{
+		"id": "Lamprey_Character_C",
+		"name": "Lamprey",
+		"category": "",
+		"dlc": "Aberration",
+		"icon": "images/lamprey.png",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/Lamprey/Lamprey_Character.Lamprey_Character'"
+	},
+	{
+		"id": "Chupacabra_Character_BP_C",
+		"name": "Nameless",
+		"category": "",
+		"dlc": "Aberration",
+		"icon": "images/nameless.png",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/ChupaCabra/ChupaCabra_Character_BP.ChupaCabra_Character_BP'"
+	},
+	{
+		"id": "Xenomorph_Character_BP_Male_Tamed",
+		"name": "Reaper King",
+		"category": "",
+		"dlc": "Aberration",
+		"icon": "images/reaper.png",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/Nameless/Xenomorph_Character_BP_Male_Tamed.Xenomorph_Character_BP_Male_Tamed'"
+	},
+	{
+		"id": "Xenomorph_Character_BP_Male_Chupa",
+		"name": "Reaper King (Chupa)",
+		"category": "",
+		"dlc": "Aberration",
+		"icon": "images/reaper.png",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/Nameless/Xenomorph_Character_BP_Male_Chupa.Xenomorph_Character_BP_Male_Chupa'"
+	},
+	{
+		"id": "Xenomorph_Character_BP_Male_Surface",
+		"name": "Reaper King (Surface)",
+		"category": "",
+		"dlc": "Aberration",
+		"icon": "images/reaper.png",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/Nameless/Xenomorph_Character_BP_Male_Surface.Xenomorph_Character_BP_Male_Surface'"
+	},
+	{
+		"id": "Xenomorph_character_bp_female_c",
+		"name": "Reaper Queen",
+		"category": "",
+		"dlc": "Aberration",
+		"icon": "images/reaper.png",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/Nameless/Xenomorph_Character_BP_Female.Xenomorph_Character_BP_Female'"
+	},
+	{
+		"id": "RockDrake_Character_BP",
+		"name": "Rock Drake",
+		"category": "",
+		"dlc": "Aberration",
+		"icon": "images/rock-drake.png",
+		"saddle": "Blueprint'/Game/Aberration/Dinos/RockDrake/PrimalItemArmor_RockDrakeSaddle.PrimalItemArmor_RockDrakeSaddle'",
+		"tek":"Blueprint'/Game/Aberration/Dinos/RockDrake/PrimalItemArmor_RockDrakeSaddle_Tek.PrimalItemArmor_RockDrakeSaddle_Tek'",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/RockDrake/RockDrake_Character_BP.RockDrake_Character_BP'"
+	},
+	{
+		"id": "MoleRat_Character_BP_C",
+		"name": "Role Rat",
+		"category": "Mammals",
+		"dlc": "Aberration",
+		"icon": "images/role-rat.png",
+		"saddle":"Blueprint'/Game/Aberration/Dinos/MoleRat/PrimalItemArmor_MoleRatSaddle.PrimalItemArmor_MoleRatSaddle'",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/MoleRat/MoleRat_Character_BP.MoleRat_Character_BP'"
+	},
+	{
+		"id": "Pteroteuthis_Char_BP_C",
+		"name": "Seeker",
+		"category": "Chimaeram odiosus",
+		"dlc": "Aberration",
+		"icon": "images/seeker.png",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/Pteroteuthis/Pteroteuthis_Char_BP.Pteroteuthis_Char_BP'"
+	},
+	{
+		"id": "LanternGoat_Character_BP_C",
+		"name": "Shinehorn",
+		"category": "Mammals",
+		"dlc": "Aberration",
+		"icon": "images/shinehorn.png",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/LanternGoat/LanternGoat_Character_BP.LanternGoat_Character_BP'"
+	},
+	{
+		"id": "Rockwell_Character_BP_C",
+		"name": "Rockwell",
+		"category": "Bosses",
+		"dlc": "Aberration",
+		"icon": "images/rockwell.png",
+		"blueprint": "Blueprint'/Game/Aberration/Boss/Rockwell/Rockwell_Character_BP.Rockwell_Character_BP'",
+		"gamma": "Blueprint'/Game/Aberration/Boss/Rockwell/Rockwell_Character_BP_Easy.Rockwell_Character_BP_Easy'",
+		"beta": "Blueprint'/Game/Aberration/Boss/Rockwell/Rockwell_Character_BP_Medium.Rockwell_Character_BP_Medium'",
+		"alpha": "Blueprint'/Game/Aberration/Boss/Rockwell/Rockwell_Character_BP_Hard.Rockwell_Character_BP_Hard'"
 	}
 ]

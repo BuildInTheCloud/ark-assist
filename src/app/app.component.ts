@@ -8,7 +8,6 @@ import { DashboardPage } from '../pages/dashboard/dashboard';
 import { AboutPage } from '../pages/info/about';
 import { HelpPage } from '../pages/info/help';
 
-declare var window: any;
 declare var Windows: any;
 declare var navigator: any;
 declare var TVJS: any;
