@@ -2,14 +2,12 @@ import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { HttpModule } from '@angular/http';
 import { BrowserModule } from '@angular/platform-browser';
-import { StatusBar } from '@ionic-native/status-bar';
-import { SplashScreen } from '@ionic-native/splash-screen';
+import { StatusBar } from '@ionic-native/status-bar/ngx';
+import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 //import {AdMob, AdMobOptions, AdSize, AdExtras} from '@ionic-native/admob';
-import { AdMob } from '@ionic-native/admob';
-import { Clipboard } from '@ionic-native/clipboard';
-import { Toast } from '@ionic-native/toast';
-import { ClipboardModule } from 'ngx-clipboard';
-
+import { AdMobPro } from '@ionic-native/admob-pro/ngx';
+import { Clipboard } from '@ionic-native/clipboard/ngx';
+import { Toast } from '@ionic-native/toast/ngx';
 import { MyApp } from './app.component';
 import { ColorPage } from '../pages/color/color';
 import { DashboardPage } from '../pages/dashboard/dashboard';
@@ -26,53 +24,52 @@ import { CavesPage } from '../pages/commands/caves';
 import { CommandsPage } from '../pages/commands/commands';
 
 @NgModule({
-  declarations: [
-    MyApp,
-    ColorPage,
-    CommandsPage,
-    DashboardPage,
-    DinoPage,
-    EntityPage,
-    AboutPage,
-    HelpPage,
-    FavsPage,
-    NewsPage,
-    ControlsPage,
-    ExplorerNotesPage,
-    pgarkPage,
-    CavesPage
-  ],
-  imports: [
-    ClipboardModule,
-    BrowserModule,
-    HttpModule,
-    IonicModule.forRoot(MyApp)
-  ],
-  bootstrap: [IonicApp],
-  entryComponents: [
-    MyApp,
-    AboutPage,
-    ColorPage,
-    CommandsPage,
-    DashboardPage,
-    DinoPage,
-    EntityPage,
-    AboutPage,
-    HelpPage,
-    FavsPage,
-    NewsPage,
-    ControlsPage,
-    ExplorerNotesPage,
-    pgarkPage,
-    CavesPage
-  ],
-  providers: [
-    {provide: ErrorHandler, useClass: IonicErrorHandler },
-    StatusBar,
-    SplashScreen,
-    AdMob,
-    Clipboard,
-    Toast
-  ]
+	declarations: [
+		MyApp,
+		ColorPage,
+		CommandsPage,
+		DashboardPage,
+		DinoPage,
+		EntityPage,
+		AboutPage,
+		HelpPage,
+		FavsPage,
+		NewsPage,
+		ControlsPage,
+		ExplorerNotesPage,
+		pgarkPage,
+		CavesPage
+	],
+	imports: [
+		BrowserModule,
+		HttpModule,
+		IonicModule.forRoot(MyApp)
+	],
+	bootstrap: [IonicApp],
+	entryComponents: [
+		MyApp,
+		AboutPage,
+		ColorPage,
+		CommandsPage,
+		DashboardPage,
+		DinoPage,
+		EntityPage,
+		AboutPage,
+		HelpPage,
+		FavsPage,
+		NewsPage,
+		ControlsPage,
+		ExplorerNotesPage,
+		pgarkPage,
+		CavesPage
+	],
+	providers: [
+		{ provide: ErrorHandler, useClass: IonicErrorHandler },
+		StatusBar,
+		SplashScreen,
+		AdMobPro,
+		Clipboard,
+		Toast
+	]
 })
-export class AppModule {}
+export class AppModule { }

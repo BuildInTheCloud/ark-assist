@@ -21,6 +21,11 @@ https://PayPal.Me/buildinthecloud/
 #Android
 1. Enabling USB connected device
     1. https://developer.android.com/studio/run/device.html#rsa
+2. ionic cordova platform add android@6.4.0
+2. ionic cordova platform add https://github.com/apache/cordova-android
+4. cordova platform rm android && cordova platform add https://github.com/apache/cordova-android
+"cordova-plugin-admobpro": "git+https://github.com/floatinghotpot/cordova-admob-pro.git",
+
 
 #Windows
 1. npm install --global --production windows-build-tools

@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams, Platform, ToastController, LoadingController } from 'ionic-angular';
-import { Clipboard } from '@ionic-native/clipboard';
-import { Toast } from '@ionic-native/toast';
+import { Clipboard } from '@ionic-native/clipboard/ngx';
+import { Toast } from '@ionic-native/toast/ngx';
 //import { DataService } from '../../providers/data-service/data-service';
 import { StaticService } from '../../static-service/static-data';
-import { ClipboardModule } from 'ngx-clipboard';
 declare var Windows: any;
 declare var document: any;
 
@@ -25,18 +24,15 @@ export class EntityPage {
   category: string;
   dlc: string;
   loader: any;
-  clipboardJS: any;
 
   constructor(public navCtrl: NavController, public dataService: StaticService, public navParams: NavParams,
               public platform: Platform, public toast: Toast, public clipboard: Clipboard,
-              public toastCtrl: ToastController, public loadingCtrl: LoadingController,
-              clipboardModule: ClipboardModule) {
+              public toastCtrl: ToastController, public loadingCtrl: LoadingController) {
     this.loader = this.navParams.get("loading");
     this.platform = platform;
     this.toastCtrl = toastCtrl;
     this.toast = toast;
     this.clipboard = clipboard;
-    this.clipboardJS = clipboardModule;
   }
 
   ngOnInit() {

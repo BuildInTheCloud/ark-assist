@@ -158,6 +158,7 @@
 		"id": "MegaCarno_Character_BP_C",
 		"name": "Carno (Alpha)",
 		"category": "Alpha Predator",
+		"untameable": true,
 		"icon": "images/carnotaurus.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Carno/MegaCarno_Character_BP.MegaCarno_Character_BP'"
 	},
@@ -243,6 +244,7 @@
 		"id": "MegaDeathworm_Character_BP_C",
 		"name": "Deathworm (Alpha)",
 		"category": "Alpha Predator",
+		"untameable": true,
 		"icon": "images/deathworm.png",
 		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Deathworm/MegaDeathworm_Character_BP.MegaDeathworm_Character_BP'",
 		"dlc": "Scorched Earth"
@@ -618,6 +620,7 @@
 		"id": "Alpha_Leedsichthys_Character_BP_C",
 		"name": "Leedsichthys (Alpha)",
 		"category": "Alpha Predator",
+		"untameable": true,
 		"icon": "images/leedsichthys.jpg",
 		"tame": "No",
 		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Leedsichthys/Alpha_Leedsichthys_Character_BP.Alpha_Leedsichthys_Character_BP'"
@@ -715,6 +718,7 @@
 		"id": "MegaMegalodon_Character_BP_C",
 		"name": "Megalodon (Alpha)",
 		"category": "Alpha Predator",
+		"untameable": true,
 		"icon": "images/megalodon.png",
 		"tame": "",
 		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Megalodon/MEgaMegalodon_Character_BP.MegaMegalodon_Character_BP'"
@@ -792,6 +796,7 @@
 		"id": "Mosa_Character_BP_Mega_C",
 		"name": "Mosasaurus (Alpha)",
 		"category": "Alpha Predator",
+		"untameable": true,
 		"icon": "images/mosasaurus.jpg",
 		"tame": "",
 		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Mosasaurus/Mosa_Character_BP_Mega.Mosa_Character_BP_Mega'"
@@ -990,6 +995,7 @@
 		"id": "MegaRaptor_Character_BP_C",
 		"name": "Raptor (Alpha)",
 		"category": "Alpha Predator",
+		"untameable": true,
 		"icon": "images/raptor.png",
 		"tame": "",
 		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Raptor/MegaRaptor_Character_BP.MegaRaptor_Character_BP'"
@@ -1017,6 +1023,7 @@
 		"id": "MegaRex_Character_BP_C",
 		"name": "Rex (Alpha)",
 		"category": "Alpha Predator",
+		"untameable": true,
 		"icon": "images/trex.png",
 		"tame": "",
 		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Rex/MegaRex_Character_BP.MegaRex_Character_BP'"
@@ -1240,6 +1247,7 @@
 		"id": "Mega_Tusoteuthis_Character_BP_C",
 		"name": "Tusoteuthis (Alpha)",
 		"category": "Alpha Predator",
+		"untameable": true,
 		"icon": "images/tusoteuthis.jpeg",
 		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Tusoteuthis/Mega_Tusoteuthis_Character_BP.Mega_Tusoteuthis_Character_BP'"
 	},
@@ -1290,6 +1298,7 @@
 		"id": "MegaWyvern_Character_BP_Fire_C",
 		"name": "Wyvern (Fire Alpha)",
 		"category": "Alpha Predator",
+		"untameable": true,
 		"icon": "images/wyvern.png",
 		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/MegaWyvern_Character_BP_Fire.MegaWyvern_Character_BP_Fire'"
 	},
@@ -1362,7 +1371,8 @@
 	{
 		"id": "MegaBasilisk_Character_BP",
 		"name": "Alpha Basilisk",
-		"category": "",
+		"category": "Alpha Predator",
+		"untameable": true,
 		"dlc": "Aberration",
 		"icon": "images/basilisk.png",
 		"saddle":"Blueprint'/Game/Aberration/Dinos/Basilisk/PrimalItemArmor_BasiliskSaddle.PrimalItemArmor_BasiliskSaddle'",
@@ -1371,7 +1381,8 @@
 	{
 		"id": "MegaCrab_Character_BP",
 		"name": "Alpha Karkinos",
-		"category": "",
+		"category": "Alpha Predator",
+		"untameable": true,
 		"dlc": "Aberration",
 		"icon": "images/karkinos.png",
 		"saddle": "Blueprint'/Game/Aberration/Dinos/Crab/PrimalItemArmor_CrabSaddle.PrimalItemArmor_CrabSaddle'",
@@ -1380,7 +1391,8 @@
 	{
 		"id": "MegaCrab_Character_BP",
 		"name": "Alpha Surface Reaper",
-		"category": "",
+		"category": "Alpha Predator",
+		"untameable": true,
 		"dlc": "Aberration",
 		"icon": "images/reaper.png",
 		"blueprint": "Blueprint'/Game/Aberration/Dinos/Nameless/MegaXenomorph_Character_BP_Male_Surface.MegaXenomorph_Character_BP_Male_Surface'"
@@ -1465,6 +1477,7 @@
 		"id": "Xenomorph_Character_BP_Male_Tamed",
 		"name": "Reaper King",
 		"category": "",
+		"untameable": true,
 		"dlc": "Aberration",
 		"icon": "images/reaper.png",
 		"blueprint": "Blueprint'/Game/Aberration/Dinos/Nameless/Xenomorph_Character_BP_Male_Tamed.Xenomorph_Character_BP_Male_Tamed'"
@@ -1474,6 +1487,7 @@
 		"name": "Reaper King (Chupa)",
 		"category": "",
 		"dlc": "Aberration",
+		"untameable": true,
 		"icon": "images/reaper.png",
 		"blueprint": "Blueprint'/Game/Aberration/Dinos/Nameless/Xenomorph_Character_BP_Male_Chupa.Xenomorph_Character_BP_Male_Chupa'"
 	},
@@ -1481,6 +1495,7 @@
 		"id": "Xenomorph_Character_BP_Male_Surface",
 		"name": "Reaper King (Surface)",
 		"category": "",
+		"untameable": true,
 		"dlc": "Aberration",
 		"icon": "images/reaper.png",
 		"blueprint": "Blueprint'/Game/Aberration/Dinos/Nameless/Xenomorph_Character_BP_Male_Surface.Xenomorph_Character_BP_Male_Surface'"
@@ -1497,11 +1512,13 @@
 		"id": "RockDrake_Character_BP",
 		"name": "Rock Drake",
 		"category": "",
+		"untameable": true,
 		"dlc": "Aberration",
 		"icon": "images/rock-drake.png",
 		"saddle": "Blueprint'/Game/Aberration/Dinos/RockDrake/PrimalItemArmor_RockDrakeSaddle.PrimalItemArmor_RockDrakeSaddle'",
 		"tek":"Blueprint'/Game/Aberration/Dinos/RockDrake/PrimalItemArmor_RockDrakeSaddle_Tek.PrimalItemArmor_RockDrakeSaddle_Tek'",
-		"blueprint": "Blueprint'/Game/Aberration/Dinos/RockDrake/RockDrake_Character_BP.RockDrake_Character_BP'"
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/RockDrake/RockDrake_Character_BP.RockDrake_Character_BP'",
+		"note": "Adults cannot be tamed, but Wild Eggs can be hatched."
 	},
 	{
 		"id": "MoleRat_Character_BP_C",
@@ -1516,6 +1533,7 @@
 		"id": "Pteroteuthis_Char_BP_C",
 		"name": "Seeker",
 		"category": "Chimaeram odiosus",
+		"untameable": true,
 		"dlc": "Aberration",
 		"icon": "images/seeker.png",
 		"blueprint": "Blueprint'/Game/Aberration/Dinos/Pteroteuthis/Pteroteuthis_Char_BP.Pteroteuthis_Char_BP'"

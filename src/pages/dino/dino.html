@@ -37,8 +37,8 @@
         <ion-col class="entity cmd">
           <button style="width:50%" class="tv" (keyup)="copyTextEvent($event, [i], 'dino')" (click)="copyText([i], 'dino')">WILD</button>
           <span class="entity-copy" [attr.id]="'dino'+i">admincheat SpawnDino "{{item.blueprint}}" 500 0 0 {{dinoLevel}}</span>
-          <button style="width:50%" class="tv" *ngIf="item.category != 'Alpha Predator'" (keyup)="copyTextEvent($event, [i], 'tamed')" (click)="copyText([i], 'tamed')">TAMED</button>
-          <span class="entity-copy"  *ngIf="item.category != 'Alpha Predator'" [attr.id]="'tamed'+i">cheat GMSummon "{{item.id}}" {{dinoLevel}}</span>
+          <button style="width:50%" class="tv" *ngIf="item.untameable != true" (keyup)="copyTextEvent($event, [i], 'tamed')" (click)="copyText([i], 'tamed')">TAMED</button>
+          <span class="entity-copy"  *ngIf="item.untameable !== true" [attr.id]="'tamed'+i">cheat GMSummon "{{item.id}}" {{dinoLevel}}</span>
         </ion-col>
       </ion-row>
       <ion-row responsive-sm style="margin-bottom:5px;">

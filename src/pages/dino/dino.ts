@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams, Platform, ToastController, LoadingController } from 'ionic-angular';
-import { Clipboard } from '@ionic-native/clipboard';
-import { Toast } from '@ionic-native/toast';
+import { Clipboard } from '@ionic-native/clipboard/ngx';
+import { Toast } from '@ionic-native/toast/ngx';
 import { StaticService } from '../../static-service/static-data';
 declare var Windows: any;
 

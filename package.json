@@ -1,88 +1,72 @@
 {
-  "name": "ark-assist",
-  "description": "Ark Assist: An unoffical app for Ark Survival Evolved.",
-  "version": "3.0.1",
-  "author": "BuildInTheCloud",
-  "homepage": "http://buildinthecloud.com/",
-  "private": true,
-  "main": "main-electron.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/BuildInTheCloud/ark-assist.git"
-  },
-  "scripts": {
-    "build": "ionic-app-scripts build",
-    "clean": "ionic-app-scripts clean",
-    "ionic:build": "ionic-app-scripts build",
-    "ionic:serve": "ionic-app-scripts serve",
-    "electron": "ionic cordova build browser && electron .",
-    "electron-dist": "ionic cordova build browser && electron electron.js",
-    "electron-package": "ionic cordova build browser && electron-packager ./ AscendantArkAssist --platform mas --out ./electron/AscendantArkAssist --overwrite"
-  },
-  "dependencies": {
-    "@angular/common": "5.1.2",
-    "@angular/compiler": "5.1.2",
-    "@angular/compiler-cli": "5.1.2",
-    "@angular/core": "5.1.2",
-    "@angular/forms": "5.1.2",
-    "@angular/http": "5.1.2",
-    "@angular/platform-browser": "5.1.2",
-    "@angular/platform-browser-dynamic": "5.1.2",
-    "@angular/tsc-wrapped": "4.4.6",
-    "@ionic-native/admob": "3.14.0",
-    "@ionic-native/clipboard": "4.5.2",
-    "@ionic-native/core": "4.5.2",
-    "@ionic-native/splash-screen": "4.5.2",
-    "@ionic-native/status-bar": "4.5.2",
-    "@ionic-native/toast": "4.5.2",
-    "@ionic/storage": "2.1.3",
-    "angular2-moment": "1.7.1",
-    "com.verso.cordova.clipboard": "0.1.0",
-    "cordova-android": "7.0.0",
-    "cordova-ios": "4.5.4",
-    "cordova-plugin-admobpro": "2.29.29",
-    "cordova-plugin-crosswalk-webview": "2.3.0",
-    "cordova-plugin-device": "2.0.0",
-    "cordova-plugin-extension": "1.5.3",
-    "cordova-plugin-splashscreen": "5.0.0",
-    "cordova-plugin-statusbar": "2.4.0",
-    "cordova-plugin-whitelist": "1.3.3",
-    "cordova-windows": "5.0.0",
-    "ionic-angular": "3.9.2",
-    "ionic-plugin-keyboard": "2.2.1",
-    "ionicons": "3.0.0",
-    "moment": "2.20.1",
-    "ngx-clipboard": "9.0.0",
-    "rxjs": "5.5.6",
-    "sw-toolbox": "3.6.0",
-    "zone.js": "0.8.18"
-  },
-  "devDependencies": {
-    "@ionic/app-scripts": "3.1.7",
-    "electron-packager": "9.1.0",
-    "tslint-ionic-rules": "0.0.11",
-    "typescript": "2.5.3"
-  },
-  "config": {
-    "ionic_bundler": "webpack"
-  },
-  "cordova": {
-    "platforms": [
-      "android",
-      "ios",
-      "windows"
-    ],
-    "plugins": {
-      "cordova-plugin-splashscreen": {},
-      "com.verso.cordova.clipboard": {},
-      "cordova-plugin-crosswalk-webview": {
-        "XWALK_VERSION": "23+",
-        "XWALK_LITEVERSION": "xwalk_core_library_canary:17+",
-        "XWALK_COMMANDLINE": "--disable-pull-to-refresh-effect",
-        "XWALK_MODE": "embedded",
-        "XWALK_MULTIPLEAPK": "true"
-      },
-      "cordova-plugin-admobpro": {}
-    }
-  }
+	"name": "ark-assist",
+	"description": "Ark Assist: An unoffical app for Ark Survival Evolved.",
+	"version": "3.1.0",
+	"author": "BuildInTheCloud",
+	"homepage": "http://buildinthecloud.com/",
+	"private": true,
+	"main": "main-electron.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/BuildInTheCloud/ark-assist.git"
+	},
+	"scripts": {
+		"build": "ionic-app-scripts build",
+		"clean": "ionic-app-scripts clean",
+		"ionic:build": "ionic-app-scripts build",
+		"ionic:serve": "ionic-app-scripts serve",
+		"electron": "ionic cordova build browser && electron .",
+		"electron-dist": "ionic cordova build browser && electron electron.js",
+		"electron-package": "ionic cordova build browser && electron-packager ./ AscendantArkAssist --platform mas --out ./electron/AscendantArkAssist --overwrite"
+	},
+	"dependencies": {
+		"@angular/common": "5.1.2",
+		"@angular/compiler": "5.1.2",
+		"@angular/compiler-cli": "5.1.2",
+		"@angular/core": "5.1.2",
+		"@angular/forms": "5.1.2",
+		"@angular/http": "5.1.2",
+		"@angular/platform-browser": "5.1.2",
+		"@angular/platform-browser-dynamic": "5.1.2",
+		"@angular/tsc-wrapped": "4.4.6",
+		"@ionic-native/admob-pro": "^5.0.0-beta.4",
+		"@ionic-native/clipboard": "^5.0.0-beta.4",
+		"@ionic-native/core": "^5.0.0-beta.4",
+		"@ionic-native/keyboard": "^5.0.0-beta.4",
+		"@ionic-native/splash-screen": "^5.0.0-beta.4",
+		"@ionic-native/status-bar": "^5.0.0-beta.4",
+		"@ionic-native/toast": "^5.0.0-beta.4",
+		"@ionic/storage": "2.1.3",
+		"angular2-moment": "1.7.1",
+		"cordova-android": "7.0.0",
+		"cordova-ios": "4.5.4",
+		"cordova-plugin-splashscreen": "^5.0.0",
+		"cordova-windows": "5.0.0",
+		"ionic-angular": "3.9.2",
+		"ionicons": "3.0.0",
+		"moment": "2.20.1",
+		"rxjs": "5.5.6",
+		"sw-toolbox": "3.6.0",
+		"zone.js": "0.8.18"
+	},
+	"devDependencies": {
+		"@ionic/app-scripts": "3.1.7",
+		"electron-packager": "10.1.0",
+		"tslint-ionic-rules": "0.0.11",
+		"typescript": "2.6.2"
+	},
+	"config": {
+		"ionic_bundler": "webpack",
+		"ionic_aot_write_to_disk": true
+	},
+	"cordova": {
+		"platforms": [
+			"ios",
+			"windows",
+			"android"
+		],
+		"plugins": {
+			"cordova-plugin-splashscreen": {}
+		}
+	}
 }
