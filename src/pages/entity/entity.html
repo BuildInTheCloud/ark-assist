@@ -1,84 +1,89 @@
 <ion-header>
-  <ion-navbar>
-    <button menuToggle class="tv">
-      <ion-icon name="menu"></ion-icon>
-    </button>
-    <ion-title>{{pageTitle}}</ion-title>
-  </ion-navbar>
-  <ion-searchbar
-    placeholder="item search"
-    [(ngModel)]="searchFor"
-    [showCancelButton]="shouldShowCancel"
-    (ionInput)="onSearchInput($event)"
-    (ionCancel)="onSearchCancel($event)">
-  </ion-searchbar>
-  <ion-row [hidden]="!showQuality()">
-    <ion-item>
-      <ion-select [(ngModel)]="quality">
-        <ion-option value="0">Primitive</ion-option>
-        <ion-option value="1">1 Random</ion-option>
-        <ion-option value="2">2 Random</ion-option>
-        <ion-option value="3">3 Random</ion-option>
-        <ion-option value="4">4 Random</ion-option>
-        <ion-option value="5">5 Random</ion-option>
-        <ion-option value="6">6 Random</ion-option>
-        <ion-option value="7">7 Random</ion-option>
-        <ion-option value="8">8 Random</ion-option>
-        <ion-option value="9">9 Random</ion-option>
-        <ion-option value="10">10 Random</ion-option>
-        <ion-option value="15">15 Random</ion-option>
-        <ion-option value="20">20 Random</ion-option>
-        <ion-option value="30">30 Random</ion-option>
-        <ion-option value="50">50 Random</ion-option>
-        <ion-option value="100">100 Ascendant</ion-option>
-        <ion-option value="500">500 Ascendant</ion-option>
-      </ion-select>
-      <ion-label style="-webkit-flex:none;-ms-flex:none;flex:none;">Quality <i style="font-size:8pt">(random range)</i></ion-label>
-    </ion-item>
-  </ion-row>
+	<ion-navbar>
+		<button menuToggle class="tv">
+			<ion-icon name="menu"></ion-icon>
+		</button>
+		<ion-title>{{pageTitle}}</ion-title>
+	</ion-navbar>
+	<ion-searchbar placeholder="item search" [(ngModel)]="searchFor" [showCancelButton]="shouldShowCancel" (ionInput)="onSearchInput($event)"
+	 (ionCancel)="onSearchCancel($event)">
+	</ion-searchbar>
+	<ion-row [hidden]="!showQuality()">
+		<ion-item>
+			<ion-select [(ngModel)]="quality">
+				<ion-option value="0">Primitive</ion-option>
+				<ion-option value="1">1 Random</ion-option>
+				<ion-option value="2">2 Random</ion-option>
+				<ion-option value="3">3 Random</ion-option>
+				<ion-option value="4">4 Random</ion-option>
+				<ion-option value="5">5 Random</ion-option>
+				<ion-option value="6">6 Random</ion-option>
+				<ion-option value="7">7 Random</ion-option>
+				<ion-option value="8">8 Random</ion-option>
+				<ion-option value="9">9 Random</ion-option>
+				<ion-option value="10">10 Random</ion-option>
+				<ion-option value="15">15 Random</ion-option>
+				<ion-option value="20">20 Random</ion-option>
+				<ion-option value="30">30 Random</ion-option>
+				<ion-option value="50">50 Random</ion-option>
+				<ion-option value="100">100 Ascendant</ion-option>
+				<ion-option value="500">500 Ascendant</ion-option>
+			</ion-select>
+			<ion-label style="-webkit-flex:none;-ms-flex:none;flex:none;">Quality
+				<i style="font-size:8pt">(random range)</i>
+			</ion-label>
+		</ion-item>
+	</ion-row>
 </ion-header>
 <ion-content padding>
-  <ion-list>
-    <ion-item *ngFor="let item of entityList; let i = index">
-      <ion-thumbnail item-left *ngIf="item.id > 0"><span class="entity id">{{item.id}}</span><img src="assets/{{item.icon}}"/></ion-thumbnail>
-      <ion-thumbnail item-left *ngIf="item.id == 0"><img src="assets/{{item.icon}}"/></ion-thumbnail>
-      <h2>{{item.name}} <i *ngIf="item.dlc != ''">{{item.dlc}}</i></h2>
-      <ion-row responsive-sm style="margin-bottom:5px;">
-        <ion-col class="entity cmd" *ngIf="item.blueprint !== '' && item.category == 'Dye'">
-          <button class="tv" (keyup)="copyTextEvent($event, [i], 'entity')" (click)="copyText([i], 'entity', $event)">COPY</button>
-          <span class="entity-copy" [attr.id]="'entity'+i">cheat giveitemnum {{item.id}} {{item.stack}} 1 0</span>
-        </ion-col>
-        <ion-col class="entity cmd" *ngIf="item.blueprint !== '' && item.category != 'Dye'">
-          <button class="tv" (keyup)="copyTextEvent($event, [i], 'entity')" (click)="copyText([i], 'entity', $event)">COPY</button>
-          <span class="entity-copy" [attr.id]="'entity'+i">cheat giveitem "{{item.blueprint}}" {{item.stack > 50 ? 50 : item.stack}} {{quality}} 0</span>
-        </ion-col>
-        <ion-col class="entity cmd missing" *ngIf="item.blueprint == ''">
-          <strong>MISSING</strong>
-          <span class="entity-copy" [attr.id]="'entity'+i"></span>
-        </ion-col>
-        <ion-col class="entity cmd" *ngIf="item.unlock && item.category != 'Dye'">
-          <button class="tv" (keyup)="copyTextEvent($event, [i], 'unlock')" (click)="copyText([i], 'unlock')">UNLOCK</button>
-          <span class="entity-copy" [attr.id]="'unlock'+i">cheat unlockengram "{{item.blueprint}}"</span>
-        </ion-col>
-        <ion-col class="entity cmd" *ngIf="item.kibble && item.category != 'Dye'">
-          <button class="tv" (keyup)="copyTextEvent($event, [i], 'kibble')" (click)="copyText([i], 'kibble')">KIBBLE</button>
-          <span class="entity-copy" [attr.id]="'kibble'+i">cheat giveitem "{{item.kibble}}" {{item.stack > 50 ? 50 : item.stack}} {{quality}} 0</span>
-        </ion-col>
-      </ion-row>
-      <ion-row responsive-sm style="margin-bottom:5px;" *ngIf="item.gamma">
-        <ion-col class="entity cmd">
-          <button style="width:30%" class="tv" (keyup)="copyTextEvent($event, [i], 'gamma')" (click)="copyText([i], 'gamma')">GAMMA</button>
-          <span class="entity-copy" [attr.id]="'gamma'+i">cheat giveitem "{{item.gamma}}" {{item.stack > 50 ? 50 : item.stack}} {{quality}} 0</span>
-          <button style="width:30%" class="tv" (keyup)="copyTextEvent($event, [i], 'beta')" (click)="copyText([i], 'beta')">BETA</button>
-          <span class="entity-copy" [attr.id]="'beta'+i">cheat giveitem "{{item.beta}}" {{item.stack > 50 ? 50 : item.stack}} {{quality}} 0</span>
-          <button style="width:30%" class="tv" (keyup)="copyTextEvent($event, [i], 'alpha')" (click)="copyText([i], 'alpha')">ALPHA</button>
-          <span class="entity-copy" [attr.id]="'alpha'+i">cheat giveitem "{{item.alpha}}" {{item.stack > 50 ? 50 : item.stack}} {{quality}} 0</span>
-        </ion-col>
-      </ion-row>
-      <ion-row responsive-sm style="margin-bottom:5px;" *ngIf="item.note">
-        <ion-col class="note">{{item.note}}</ion-col>
-      </ion-row>
-    </ion-item>
-  </ion-list>
-  <textarea id="holdtext" style="width:100%;height:60px;display:none;"></textarea>
+	<ion-list>
+		<ion-item *ngFor="let item of entityList; let i = index">
+			<ion-thumbnail item-left *ngIf="item.id > 0">
+				<span class="entity id">{{item.id}}</span>
+				<img src="assets/{{item.icon}}" />
+			</ion-thumbnail>
+			<ion-thumbnail item-left *ngIf="item.id == 0">
+				<img src="assets/{{item.icon}}" />
+			</ion-thumbnail>
+			<h2>{{item.name}}
+				<i *ngIf="item.dlc != ''">{{item.dlc}}</i>
+			</h2>
+			<ion-row responsive-sm style="margin-bottom:5px;">
+				<ion-col class="entity cmd" *ngIf="item.blueprint !== '' && item.category == 'Dye'">
+					<button class="tv" (keyup)="copyTextEvent($event, [i], 'entity')" (click)="copyText([i], 'entity', $event)">COPY</button>
+					<span class="entity-copy" [attr.id]="'entity'+i">cheat giveitemnum {{item.id}} {{item.stack}} 1 0</span>
+				</ion-col>
+				<ion-col class="entity cmd" *ngIf="item.blueprint !== '' && item.category != 'Dye'">
+					<button class="tv" (keyup)="copyTextEvent($event, [i], 'entity')" (click)="copyText([i], 'entity', $event)">COPY</button>
+					<span class="entity-copy" [attr.id]="'entity'+i">cheat giveitem "{{item.blueprint}}" {{item.stack > 50 ? 50 : item.stack}} {{quality}} 0</span>
+				</ion-col>
+				<ion-col class="entity cmd missing" *ngIf="item.blueprint == ''">
+					<strong>MISSING</strong>
+					<span class="entity-copy" [attr.id]="'entity'+i"></span>
+				</ion-col>
+				<ion-col class="entity cmd" *ngIf="item.unlock && item.category != 'Dye'">
+					<button class="tv" (keyup)="copyTextEvent($event, [i], 'unlock')" (click)="copyText([i], 'unlock')">UNLOCK</button>
+					<span class="entity-copy" [attr.id]="'unlock'+i">cheat unlockengram "{{item.blueprint}}"</span>
+				</ion-col>
+				<ion-col class="entity cmd" *ngIf="item.kibble && item.category != 'Dye'">
+					<button class="tv" (keyup)="copyTextEvent($event, [i], 'kibble')" (click)="copyText([i], 'kibble')">KIBBLE</button>
+					<span class="entity-copy" [attr.id]="'kibble'+i">cheat giveitem "{{item.kibble}}" {{item.stack > 50 ? 50 : item.stack}} {{quality}} 0</span>
+				</ion-col>
+			</ion-row>
+			<ion-row responsive-sm style="margin-bottom:5px;" *ngIf="item.gamma">
+				<ion-col class="entity cmd">
+					<button style="width:30%" class="tv" (keyup)="copyTextEvent($event, [i], 'gamma')" (click)="copyText([i], 'gamma')">GAMMA</button>
+					<span class="entity-copy" [attr.id]="'gamma'+i">cheat giveitem "{{item.gamma}}" {{item.stack > 50 ? 50 : item.stack}} {{quality}} 0</span>
+					<button style="width:30%" class="tv" (keyup)="copyTextEvent($event, [i], 'beta')" (click)="copyText([i], 'beta')">BETA</button>
+					<span class="entity-copy" [attr.id]="'beta'+i">cheat giveitem "{{item.beta}}" {{item.stack > 50 ? 50 : item.stack}} {{quality}} 0</span>
+					<button style="width:30%" class="tv" (keyup)="copyTextEvent($event, [i], 'alpha')" (click)="copyText([i], 'alpha')">ALPHA</button>
+					<span class="entity-copy" [attr.id]="'alpha'+i">cheat giveitem "{{item.alpha}}" {{item.stack > 50 ? 50 : item.stack}} {{quality}} 0</span>
+				</ion-col>
+			</ion-row>
+			<ion-row responsive-sm style="margin-bottom:5px;" *ngIf="item.note">
+				<ion-col class="note">{{item.note}}</ion-col>
+			</ion-row>
+		</ion-item>
+	</ion-list>
+	<textarea id="holdtext" style="width:100%;height:60px;display:none;"></textarea>
 </ion-content>

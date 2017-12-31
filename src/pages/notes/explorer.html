@@ -1,18 +1,20 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>{{pageTitle}} Explorer Notes</ion-title>
-  </ion-navbar>
+	<ion-navbar>
+		<ion-title>{{pageTitle}} Explorer Notes</ion-title>
+	</ion-navbar>
 </ion-header>
-
-
 <ion-content padding>
-  <ion-list>
-    <ion-item class="tvBorder" *ngFor="let item of entities; let i = index">
-      <ion-avatar item-left><img src="assets/images/{{item.image}}"></ion-avatar>
-      <h2>{{item.topic}} {{item.type}}</h2>
-      <h3>GPS: {{item.lat}}, {{item.lon}}</h3>
-      <p>Author: {{item.author}}<br/><i *ngIf="item.location != ''">{{item.location}}</i></p>
-    </ion-item>
-  </ion-list>
-
+	<ion-list>
+		<ion-item class="tvBorder" *ngFor="let item of entities; let i = index">
+			<ion-avatar item-left>
+				<img src="assets/images/{{item.image}}">
+			</ion-avatar>
+			<h2>{{item.topic}} {{item.type}}</h2>
+			<h3>GPS: {{item.lat}}, {{item.lon}}</h3>
+			<p>Author: {{item.author}}
+				<br/>
+				<i *ngIf="item.location != ''">{{item.location}}</i>
+			</p>
+		</ion-item>
+	</ion-list>
 </ion-content>

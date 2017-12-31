@@ -13,71 +13,71 @@ import { AboutPage } from '../info/about';
 import { HelpPage } from '../info/help';
 
 @Component({
-  selector: 'page-dashboard',
-  templateUrl: 'dashboard.html'
+	selector: 'page-dashboard',
+	templateUrl: 'dashboard.html'
 })
 
 export class DashboardPage {
-  loader: any;
+	loader: any;
 
-  constructor(public navCtrl: NavController, public toastCtrl: ToastController, public loadingCtrl: LoadingController) {
+	constructor(public navCtrl: NavController, public toastCtrl: ToastController, public loadingCtrl: LoadingController) {
 
-  }
+	}
 
-  ngOnInit() {
-  }
+	ngOnInit() {
+	}
 
-  goToPageByEvent(event, navTo: string) {
-    if (event.keyCode === 13 || event.keyCode === 195 || event.button === 0) {
-      this.goToPage(navTo);
-    }
-  }
+	goToPageByEvent(event, navTo: string) {
+		if (event.keyCode === 13 || event.keyCode === 195 || event.button === 0) {
+			this.goToPage(navTo);
+		}
+	}
 
-  goToPage( navTo: string ) {
-    let overlay = this.loadingCtrl.create({ content: "Loading " + navTo + " ..." });
-    this.loader = overlay;
-    this.loader.present().then(action => this.launchPage(navTo) );
-  }
+	goToPage(navTo: string) {
+		let overlay = this.loadingCtrl.create({ content: "Loading " + navTo + " ..." });
+		this.loader = overlay;
+		this.loader.present().then(action => this.launchPage(navTo));
+	}
 
-  launchPage(navTo: string ) {
-    if (navTo == "dino") {
-      this.navCtrl.push(DinoPage, {loading: this.loader} );
-    } else if (navTo == "colors") {
-      this.navCtrl.push(ColorPage, {loading: this.loader});
-    } else if (navTo == "News") {
-      this.navCtrl.push(NewsPage, {loading: this.loader});
-    } else if (navTo == "Controls") {
-      this.navCtrl.push(ControlsPage, {loading: this.loader});
-    } else if (navTo == "PGARK") {
-      this.navCtrl.push(pgarkPage, {loading: this.loader});
-    } else if (navTo == "caves") {
-      this.navCtrl.push(CavesPage, {loading: this.loader});
-    } else if (navTo == "commands") {
-      this.navCtrl.push(CommandsPage, {loading: this.loader});
-    } else if (navTo == "Notes Island") {
-      this.navCtrl.push(ExplorerNotesPage, { title: "The Island", dataset: "notes-island", loading: this.loader } );
-    } else if (navTo == "Notes Scorched") {
-      this.navCtrl.push(ExplorerNotesPage, { title: "Scorched Earth", dataset: "notes-scorched", loading: this.loader } );
-    } else if (navTo == "Notes Center") {
-      this.navCtrl.push(ExplorerNotesPage, { title: "The Center", dataset: "notes-center", loading: this.loader } );
-    } else if (navTo == "help") {
-      this.navCtrl.push(HelpPage, {loading: this.loader});
-    } else if (navTo == "about") {
-      this.navCtrl.push(AboutPage, {loading: this.loader});
-    } else {
-      if (navTo.toLowerCase() == "primitive plus" || 
-          navTo.toLowerCase() == "scorched earth" || 
-          navTo.toLowerCase() == "turkey trial" || 
-          navTo.toLowerCase() == "winter wonderland" || 
-          navTo.toLowerCase() == "fear evolved" || 
-          navTo.toLowerCase() == "aberration" || 
-          navTo.toLowerCase() == "anniversary"
-          ) {
-        this.navCtrl.push(EntityPage, { title: navTo, category: "all", dlc: navTo.toLowerCase(), loading: this.loader } );
-      } else {
-        this.navCtrl.push(EntityPage, { title: navTo, category: navTo.toLowerCase(), dlc: "", loading: this.loader } );
-      }
-    }
-  }
+	launchPage(navTo: string) {
+		if (navTo == "dino") {
+			this.navCtrl.push(DinoPage, { loading: this.loader });
+		} else if (navTo == "colors") {
+			this.navCtrl.push(ColorPage, { loading: this.loader });
+		} else if (navTo == "News") {
+			this.navCtrl.push(NewsPage, { loading: this.loader });
+		} else if (navTo == "Controls") {
+			this.navCtrl.push(ControlsPage, { loading: this.loader });
+		} else if (navTo == "PGARK") {
+			this.navCtrl.push(pgarkPage, { loading: this.loader });
+		} else if (navTo == "caves") {
+			this.navCtrl.push(CavesPage, { loading: this.loader });
+		} else if (navTo == "commands") {
+			this.navCtrl.push(CommandsPage, { loading: this.loader });
+		} else if (navTo == "Notes Island") {
+			this.navCtrl.push(ExplorerNotesPage, { title: "The Island", dataset: "notes-island", loading: this.loader });
+		} else if (navTo == "Notes Scorched") {
+			this.navCtrl.push(ExplorerNotesPage, { title: "Scorched Earth", dataset: "notes-scorched", loading: this.loader });
+		} else if (navTo == "Notes Center") {
+			this.navCtrl.push(ExplorerNotesPage, { title: "The Center", dataset: "notes-center", loading: this.loader });
+		} else if (navTo == "help") {
+			this.navCtrl.push(HelpPage, { loading: this.loader });
+		} else if (navTo == "about") {
+			this.navCtrl.push(AboutPage, { loading: this.loader });
+		} else {
+			if (navTo.toLowerCase() == "primitive plus" ||
+				navTo.toLowerCase() == "scorched earth" ||
+				navTo.toLowerCase() == "turkey trial" ||
+				navTo.toLowerCase() == "winter wonderland" ||
+				navTo.toLowerCase() == "fear evolved" ||
+				navTo.toLowerCase() == "aberration" ||
+				navTo.toLowerCase() == "anniversary"
+			) {
+				this.navCtrl.push(EntityPage, { title: navTo, category: "all", dlc: navTo.toLowerCase(), loading: this.loader });
+			} else {
+				this.navCtrl.push(EntityPage, { title: navTo, category: navTo.toLowerCase(), dlc: "", loading: this.loader });
+			}
+		}
+	}
 
 }
