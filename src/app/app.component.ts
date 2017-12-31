@@ -2,8 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 import { Events, MenuController, Nav, Platform, ToastController } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
-//import {AdMob, AdMobOptions, AdSize, AdExtras} from '@ionic-native/admob';
-import { AdMobPro } from '@ionic-native/admob-pro/ngx';
+import { AdMobFree, AdMobFreeBannerConfig } from '@ionic-native/admob-free/ngx';
 import { DashboardPage } from '../pages/dashboard/dashboard';
 
 declare var Windows: any;
@@ -13,15 +12,21 @@ declare var WinJS: any;
 
 @Component({
 	templateUrl: 'app.html',
-	providers: [StatusBar, SplashScreen, AdMobPro]
+	providers: [StatusBar, SplashScreen, AdMobFree]
 })
 
 export class MyApp {
 	@ViewChild(Nav) nav: Nav;
 	rootPage: any = DashboardPage;
-
 	constructor(public events: Events, public menu: MenuController, public platform: Platform, public toastCtrl: ToastController,
-		public statusBar: StatusBar, public splashScreen: SplashScreen, public AdMobPro: AdMobPro) {
+		public statusBar: StatusBar, public splashScreen: SplashScreen, public adMobFree: AdMobFree) {
+		const bannerConfig: AdMobFreeBannerConfig = {
+			id: "ca-app-pub-4615642243411455/7055418360",
+			bannerAtTop: false,
+			isTesting: false,
+			overlap: true,
+			autoShow: true
+		};
 
 		platform.ready().then(() => {
 			if (this.platform.is("cordova")) {
@@ -30,17 +35,14 @@ export class MyApp {
 			}
 
 			if (this.platform.is("cordova")) {
-				//var admobid = {banner: "ca-app-pub-4615642243411455/7055418360", interstitial: ""};
-				var options = {
-					adId: "ca-app-pub-4615642243411455/7055418360",
-					position: 8,
-					overlap: true,
-					autoShow: true
-				};
-				this.AdMobPro.createBanner(options).then(response => {
-					//let toastPopup = this.toastCtrl.create({message: response, duration: 5000, position: 'top'});
-					//toastPopup.present();
-				});
+				this.adMobFree.banner.config(bannerConfig);
+				this.adMobFree.banner
+					.prepare()
+					.then(() => {
+						// banner Ad is ready
+						// if we set autoShow to false, then we will need to call the show method here
+					})
+					.catch(e => console.log(e));
 			}
 
 			if (typeof Windows !== "undefined") {

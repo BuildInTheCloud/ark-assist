@@ -4,8 +4,7 @@ import { HttpModule } from '@angular/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
-//import {AdMob, AdMobOptions, AdSize, AdExtras} from '@ionic-native/admob';
-import { AdMobPro } from '@ionic-native/admob-pro/ngx';
+import { AdMobFree } from '@ionic-native/admob-free/ngx';
 import { Clipboard } from '@ionic-native/clipboard/ngx';
 import { Toast } from '@ionic-native/toast/ngx';
 import { MyApp } from './app.component';
@@ -67,7 +66,7 @@ import { CommandsPage } from '../pages/commands/commands';
 		{ provide: ErrorHandler, useClass: IonicErrorHandler },
 		StatusBar,
 		SplashScreen,
-		AdMobPro,
+		AdMobFree,
 		Clipboard,
 		Toast
 	]
