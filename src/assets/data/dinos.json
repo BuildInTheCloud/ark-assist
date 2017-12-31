@@ -19,6 +19,35 @@
 		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_DiploEgg.PrimalItemConsumable_Kibble_DiploEgg'"
 	},
 	{
+		"id": "MegaBasilisk_Character_BP",
+		"name": "Alpha Basilisk",
+		"category": "Alpha Predator",
+		"untameable": true,
+		"dlc": "Aberration",
+		"icon": "images/basilisk.png",
+		"saddle": "Blueprint'/Game/Aberration/Dinos/Basilisk/PrimalItemArmor_BasiliskSaddle.PrimalItemArmor_BasiliskSaddle'",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/Basilisk/MegaBasilisk_Character_BP.MegaBasilisk_Character_BP'"
+	},
+	{
+		"id": "MegaCrab_Character_BP",
+		"name": "Alpha Karkinos",
+		"category": "Alpha Predator",
+		"untameable": true,
+		"dlc": "Aberration",
+		"icon": "images/karkinos.png",
+		"saddle": "Blueprint'/Game/Aberration/Dinos/Crab/PrimalItemArmor_CrabSaddle.PrimalItemArmor_CrabSaddle'",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/Crab/MegaCrab_Character_BP.MegaCrab_Character_BP'"
+	},
+	{
+		"id": "MegaCrab_Character_BP",
+		"name": "Alpha Surface Reaper",
+		"category": "Alpha Predator",
+		"untameable": true,
+		"dlc": "Aberration",
+		"icon": "images/reaper.png",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/Nameless/MegaXenomorph_Character_BP_Male_Surface.MegaXenomorph_Character_BP_Male_Surface'"
+	},
+	{
 		"id": "Ammonite_Character_BP_C",
 		"name": "Ammonite",
 		"category": "Fish",
@@ -94,6 +123,16 @@
 		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_PachyRhinoEgg.PrimalItemConsumable_Kibble_PachyRhinoEgg'"
 	},
 	{
+		"id": "Basilisk_Character_BP_C",
+		"name": "Basilisk",
+		"category": "Serpens Regulus",
+		"dlc": "Aberration",
+		"icon": "images/basilisk.png",
+		"saddle": "Blueprint'/Game/Aberration/Dinos/Basilisk/PrimalItemArmor_BasiliskSaddle.PrimalItemArmor_BasiliskSaddle'",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/Basilisk/Basilisk_Character_BP.Basilisk_Character_BP'",
+		"kibble": "Blueprint'/Game/Aberration/Dinos/RockDrake/PrimalItemConsumable_Egg_RockDrake.PrimalItemConsumable_Egg_RockDrake'"
+	},
+	{
 		"id": "Basilosaurus_Character_BP_C",
 		"name": "Basilosaurus",
 		"category": "Mammals",
@@ -130,6 +169,14 @@
 		"category": "Bosses",
 		"icon": "images/broodmother-lysrix.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Spider-Large/SpiderL_Character_BP.SpiderL_Character_BP'"
+	},
+	{
+		"id": "LanternPug_Character_BP_C",
+		"name": "Bulbdog",
+		"category": "",
+		"dlc": "Aberration",
+		"icon": "images/bulbdog.png",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/LanternPug/LanternPug_Character_BP.LanternPug_Character_BP'"
 	},
 	{
 		"id": "BunnyDodo",
@@ -399,6 +446,14 @@
 		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Eurypterid/Euryp_Character.Euryp_Character'"
 	},
 	{
+		"id": "LanternBird_Character_BP_C",
+		"name": "Featherlight",
+		"category": "Birds",
+		"dlc": "Aberration",
+		"icon": "images/featherlight.png",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/LanternBird/LanternBird_Character_BP.LanternBird_Character_BP'"
+	},
+	{
 		"id": "Galli_Character_BP_C",
 		"name": "Gallimimus",
 		"category": "Dinosaurs",
@@ -449,6 +504,22 @@
 		"icon": "images/gigantopithecus.png",
 		"tame": "",
 		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Bigfoot/Bigfoot_Character_BP.Bigfoot_Character_BP'"
+	},
+	{
+		"id": "Lightbug_Character_BaseBP_C",
+		"name": "Glowbug",
+		"category": "",
+		"dlc": "Aberration",
+		"icon": "images/glowbug.png",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/Lightbug/Lightbug_Character_BaseBP.Lightbug_Character_BaseBP'"
+	},
+	{
+		"id": "LanternLizard_Character_BP_C",
+		"name": "Glowtail",
+		"category": "",
+		"dlc": "Aberration",
+		"icon": "images/glowtail.png",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/LanternLizard/LanternLizard_Character_BP.LanternLizard_Character_BP'"
 	},
 	{
 		"id": "Griffin_Character_BP_C",
@@ -575,6 +646,15 @@
 		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_KaprosuchusSaddle.PrimalItemArmor_KaprosuchusSaddle'"
 	},
 	{
+		"id": "Crab_Character_BP_C",
+		"name": "Karkinos",
+		"category": "",
+		"dlc": "Aberration",
+		"icon": "images/karkinos.png",
+		"saddle": "Blueprint'/Game/Aberration/Dinos/Crab/PrimalItemArmor_CrabSaddle.PrimalItemArmor_CrabSaddle'",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/Crab/Crab_Character_BP.Crab_Character_BP'"
+	},
+	{
 		"id": "Kentrosaurus_Character_BP_C",
 		"name": "Kentrosaurus",
 		"category": "Dinosaurs",
@@ -582,6 +662,14 @@
 		"tame": "Compy Kibble",
 		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Kentrosaurus/Kentro_Character_BP.Kentro_Character_BP'",
 		"saddle": ""
+	},
+	{
+		"id": "Lamprey_Character_C",
+		"name": "Lamprey",
+		"category": "",
+		"dlc": "Aberration",
+		"icon": "images/lamprey.png",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/Lamprey/Lamprey_Character.Lamprey_Character'"
 	},
 	{
 		"id": "LavaGolem_Character_BP_C",
@@ -810,6 +898,14 @@
 		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Moschops/Moschops_Character_BP.Moschops_Character_BP'"
 	},
 	{
+		"id": "Chupacabra_Character_BP_C",
+		"name": "Nameless",
+		"category": "",
+		"dlc": "Aberration",
+		"icon": "images/nameless.png",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/ChupaCabra/ChupaCabra_Character_BP.ChupaCabra_Character_BP'"
+	},
+	{
 		"id": "Bat_Character_BP_C",
 		"name": "Onychonycteris",
 		"category": "Mammals",
@@ -1009,6 +1105,50 @@
 		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Raptor/Bone_MegaRaptor_Character_BP.Bone_MegaRaptor_Character_BP'"
 	},
 	{
+		"id": "CaveWolf_Character_BP_C",
+		"name": "Ravager",
+		"category": "Mammals",
+		"dlc": "Aberration",
+		"icon": "images/ravager.png",
+		"saddle": "Blueprint'/Game/Aberration/Dinos/CaveWolf/PrimalItemArmor_CavewolfSaddle.PrimalItemArmor_CavewolfSaddle'",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/CaveWolf/CaveWolf_Character_BP.CaveWolf_Character_BP'"
+	},
+	{
+		"id": "Xenomorph_Character_BP_Male_Tamed",
+		"name": "Reaper King",
+		"category": "",
+		"untameable": true,
+		"dlc": "Aberration",
+		"icon": "images/reaper.png",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/Nameless/Xenomorph_Character_BP_Male_Tamed.Xenomorph_Character_BP_Male_Tamed'"
+	},
+	{
+		"id": "Xenomorph_Character_BP_Male_Chupa",
+		"name": "Reaper King (Chupa)",
+		"category": "",
+		"dlc": "Aberration",
+		"untameable": true,
+		"icon": "images/reaper.png",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/Nameless/Xenomorph_Character_BP_Male_Chupa.Xenomorph_Character_BP_Male_Chupa'"
+	},
+	{
+		"id": "Xenomorph_Character_BP_Male_Surface",
+		"name": "Reaper King (Surface)",
+		"category": "",
+		"untameable": true,
+		"dlc": "Aberration",
+		"icon": "images/reaper.png",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/Nameless/Xenomorph_Character_BP_Male_Surface.Xenomorph_Character_BP_Male_Surface'"
+	},
+	{
+		"id": "Xenomorph_character_bp_female_c",
+		"name": "Reaper Queen",
+		"category": "",
+		"dlc": "Aberration",
+		"icon": "images/reaper.png",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/Nameless/Xenomorph_Character_BP_Female.Xenomorph_Character_BP_Female'"
+	},
+	{
 		"id": "Rex_Character_BP_C",
 		"name": "Rex",
 		"category": "Dinosaurs",
@@ -1037,6 +1177,18 @@
 		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Rex/Bone_MegaRex_Character_BP.Bone_MegaRex_Character_BP'"
 	},
 	{
+		"id": "RockDrake_Character_BP",
+		"name": "Rock Drake",
+		"category": "",
+		"untameable": true,
+		"dlc": "Aberration",
+		"icon": "images/rock-drake.png",
+		"saddle": "Blueprint'/Game/Aberration/Dinos/RockDrake/PrimalItemArmor_RockDrakeSaddle.PrimalItemArmor_RockDrakeSaddle'",
+		"tek": "Blueprint'/Game/Aberration/Dinos/RockDrake/PrimalItemArmor_RockDrakeSaddle_Tek.PrimalItemArmor_RockDrakeSaddle_Tek'",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/RockDrake/RockDrake_Character_BP.RockDrake_Character_BP'",
+		"note": "Adults cannot be tamed, but Wild Eggs can be hatched."
+	},
+	{
 		"id": "RockGolem_Character_BP_C",
 		"name": "Rock Elemental",
 		"category": "Fantasy",
@@ -1044,6 +1196,26 @@
 		"tame": "",
 		"blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/RockGolem/RockGolem_Character_BP.RockGolem_Character_BP'",
 		"saddle": "Blueprint'/Game/ScorchedEarth/Dinos/RockGolem/PrimalItemArmor_RockGolemSaddle.PrimalItemArmor_RockGolemSaddle'"
+	},
+	{
+		"id": "Rockwell_Character_BP_C",
+		"name": "Rockwell",
+		"category": "Bosses",
+		"dlc": "Aberration",
+		"icon": "images/rockwell.png",
+		"blueprint": "Blueprint'/Game/Aberration/Boss/Rockwell/Rockwell_Character_BP.Rockwell_Character_BP'",
+		"gamma": "Blueprint'/Game/Aberration/Boss/Rockwell/Rockwell_Character_BP_Easy.Rockwell_Character_BP_Easy'",
+		"beta": "Blueprint'/Game/Aberration/Boss/Rockwell/Rockwell_Character_BP_Medium.Rockwell_Character_BP_Medium'",
+		"alpha": "Blueprint'/Game/Aberration/Boss/Rockwell/Rockwell_Character_BP_Hard.Rockwell_Character_BP_Hard'"
+	},
+	{
+		"id": "MoleRat_Character_BP_C",
+		"name": "Role Rat",
+		"category": "Mammals",
+		"dlc": "Aberration",
+		"icon": "images/role-rat.png",
+		"saddle": "Blueprint'/Game/Aberration/Dinos/MoleRat/PrimalItemArmor_MoleRatSaddle.PrimalItemArmor_MoleRatSaddle'",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/MoleRat/MoleRat_Character_BP.MoleRat_Character_BP'"
 	},
 	{
 		"id": "RubbleGolem_Character_BP_C",
@@ -1087,6 +1259,23 @@
 		"icon": "images/brontosaurus.png",
 		"tame": "",
 		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Sauropod/Bone_Sauropod_Character_BP.Bone_Sauropod_Character_BP'"
+	},
+	{
+		"id": "Pteroteuthis_Char_BP_C",
+		"name": "Seeker",
+		"category": "Chimaeram odiosus",
+		"untameable": true,
+		"dlc": "Aberration",
+		"icon": "images/seeker.png",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/Pteroteuthis/Pteroteuthis_Char_BP.Pteroteuthis_Char_BP'"
+	},
+	{
+		"id": "LanternGoat_Character_BP_C",
+		"name": "Shinehorn",
+		"category": "Mammals",
+		"dlc": "Aberration",
+		"icon": "images/shinehorn.png",
+		"blueprint": "Blueprint'/Game/Aberration/Dinos/LanternGoat/LanternGoat_Character_BP.LanternGoat_Character_BP'"
 	},
 	{
 		"id": "Spino_Character_BP_C",
@@ -1367,194 +1556,5 @@
 		"blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Yutyrannus/Yutyrannus_Character_BP.Yutyrannus_Character_BP'",
 		"saddle": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_YutySaddle.PrimalItemArmor_YutySaddle'",
 		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_KentroEgg.PrimalItemConsumable_Kibble_KentroEgg'"
-	},
-	{
-		"id": "MegaBasilisk_Character_BP",
-		"name": "Alpha Basilisk",
-		"category": "Alpha Predator",
-		"untameable": true,
-		"dlc": "Aberration",
-		"icon": "images/basilisk.png",
-		"saddle":"Blueprint'/Game/Aberration/Dinos/Basilisk/PrimalItemArmor_BasiliskSaddle.PrimalItemArmor_BasiliskSaddle'",
-		"blueprint": "Blueprint'/Game/Aberration/Dinos/Basilisk/MegaBasilisk_Character_BP.MegaBasilisk_Character_BP'"
-	},
-	{
-		"id": "MegaCrab_Character_BP",
-		"name": "Alpha Karkinos",
-		"category": "Alpha Predator",
-		"untameable": true,
-		"dlc": "Aberration",
-		"icon": "images/karkinos.png",
-		"saddle": "Blueprint'/Game/Aberration/Dinos/Crab/PrimalItemArmor_CrabSaddle.PrimalItemArmor_CrabSaddle'",
-		"blueprint": "Blueprint'/Game/Aberration/Dinos/Crab/MegaCrab_Character_BP.MegaCrab_Character_BP'"
-	},
-	{
-		"id": "MegaCrab_Character_BP",
-		"name": "Alpha Surface Reaper",
-		"category": "Alpha Predator",
-		"untameable": true,
-		"dlc": "Aberration",
-		"icon": "images/reaper.png",
-		"blueprint": "Blueprint'/Game/Aberration/Dinos/Nameless/MegaXenomorph_Character_BP_Male_Surface.MegaXenomorph_Character_BP_Male_Surface'"
-	},
-	{
-		"id": "Basilisk_Character_BP_C",
-		"name": "Basilisk",
-		"category": "Serpens Regulus",
-		"dlc": "Aberration",
-		"icon": "images/basilisk.png",
-		"saddle":"Blueprint'/Game/Aberration/Dinos/Basilisk/PrimalItemArmor_BasiliskSaddle.PrimalItemArmor_BasiliskSaddle'",
-		"blueprint": "Blueprint'/Game/Aberration/Dinos/Basilisk/Basilisk_Character_BP.Basilisk_Character_BP'",
-		"kibble": "Blueprint'/Game/Aberration/Dinos/RockDrake/PrimalItemConsumable_Egg_RockDrake.PrimalItemConsumable_Egg_RockDrake'"
-	},
-	{
-		"id": "LanternPug_Character_BP_C",
-		"name": "Bulbdog",
-		"category": "",
-		"dlc": "Aberration",
-		"icon": "images/bulbdog.png",
-		"blueprint": "Blueprint'/Game/Aberration/Dinos/LanternPug/LanternPug_Character_BP.LanternPug_Character_BP'"
-	},
-	{
-		"id": "CaveWolf_Character_BP_C",
-		"name": "Ravager",
-		"category": "Mammals",
-		"dlc": "Aberration",
-		"icon": "images/ravager.png",
-		"saddle":"Blueprint'/Game/Aberration/Dinos/CaveWolf/PrimalItemArmor_CavewolfSaddle.PrimalItemArmor_CavewolfSaddle'",
-		"blueprint": "Blueprint'/Game/Aberration/Dinos/CaveWolf/CaveWolf_Character_BP.CaveWolf_Character_BP'"
-	},
-	{
-		"id": "LanternBird_Character_BP_C",
-		"name": "Featherlight",
-		"category": "Birds",
-		"dlc": "Aberration",
-		"icon": "images/featherlight.png",
-		"blueprint": "Blueprint'/Game/Aberration/Dinos/LanternBird/LanternBird_Character_BP.LanternBird_Character_BP'"
-	},
-	{
-		"id": "Lightbug_Character_BaseBP_C",
-		"name": "Glowbug",
-		"category": "",
-		"dlc": "Aberration",
-		"icon": "images/glowbug.png",
-		"blueprint": "Blueprint'/Game/Aberration/Dinos/Lightbug/Lightbug_Character_BaseBP.Lightbug_Character_BaseBP'"
-	},
-	{
-		"id": "LanternLizard_Character_BP_C",
-		"name": "Glowtail",
-		"category": "",
-		"dlc": "Aberration",
-		"icon": "images/glowtail.png",
-		"blueprint": "Blueprint'/Game/Aberration/Dinos/LanternLizard/LanternLizard_Character_BP.LanternLizard_Character_BP'"
-	},
-	{
-		"id": "Crab_Character_BP_C",
-		"name": "Karkinos",
-		"category": "",
-		"dlc": "Aberration",
-		"icon": "images/karkinos.png",
-		"saddle":"Blueprint'/Game/Aberration/Dinos/Crab/PrimalItemArmor_CrabSaddle.PrimalItemArmor_CrabSaddle'",
-		"blueprint": "Blueprint'/Game/Aberration/Dinos/Crab/Crab_Character_BP.Crab_Character_BP'"
-	},
-	{
-		"id": "Lamprey_Character_C",
-		"name": "Lamprey",
-		"category": "",
-		"dlc": "Aberration",
-		"icon": "images/lamprey.png",
-		"blueprint": "Blueprint'/Game/Aberration/Dinos/Lamprey/Lamprey_Character.Lamprey_Character'"
-	},
-	{
-		"id": "Chupacabra_Character_BP_C",
-		"name": "Nameless",
-		"category": "",
-		"dlc": "Aberration",
-		"icon": "images/nameless.png",
-		"blueprint": "Blueprint'/Game/Aberration/Dinos/ChupaCabra/ChupaCabra_Character_BP.ChupaCabra_Character_BP'"
-	},
-	{
-		"id": "Xenomorph_Character_BP_Male_Tamed",
-		"name": "Reaper King",
-		"category": "",
-		"untameable": true,
-		"dlc": "Aberration",
-		"icon": "images/reaper.png",
-		"blueprint": "Blueprint'/Game/Aberration/Dinos/Nameless/Xenomorph_Character_BP_Male_Tamed.Xenomorph_Character_BP_Male_Tamed'"
-	},
-	{
-		"id": "Xenomorph_Character_BP_Male_Chupa",
-		"name": "Reaper King (Chupa)",
-		"category": "",
-		"dlc": "Aberration",
-		"untameable": true,
-		"icon": "images/reaper.png",
-		"blueprint": "Blueprint'/Game/Aberration/Dinos/Nameless/Xenomorph_Character_BP_Male_Chupa.Xenomorph_Character_BP_Male_Chupa'"
-	},
-	{
-		"id": "Xenomorph_Character_BP_Male_Surface",
-		"name": "Reaper King (Surface)",
-		"category": "",
-		"untameable": true,
-		"dlc": "Aberration",
-		"icon": "images/reaper.png",
-		"blueprint": "Blueprint'/Game/Aberration/Dinos/Nameless/Xenomorph_Character_BP_Male_Surface.Xenomorph_Character_BP_Male_Surface'"
-	},
-	{
-		"id": "Xenomorph_character_bp_female_c",
-		"name": "Reaper Queen",
-		"category": "",
-		"dlc": "Aberration",
-		"icon": "images/reaper.png",
-		"blueprint": "Blueprint'/Game/Aberration/Dinos/Nameless/Xenomorph_Character_BP_Female.Xenomorph_Character_BP_Female'"
-	},
-	{
-		"id": "RockDrake_Character_BP",
-		"name": "Rock Drake",
-		"category": "",
-		"untameable": true,
-		"dlc": "Aberration",
-		"icon": "images/rock-drake.png",
-		"saddle": "Blueprint'/Game/Aberration/Dinos/RockDrake/PrimalItemArmor_RockDrakeSaddle.PrimalItemArmor_RockDrakeSaddle'",
-		"tek":"Blueprint'/Game/Aberration/Dinos/RockDrake/PrimalItemArmor_RockDrakeSaddle_Tek.PrimalItemArmor_RockDrakeSaddle_Tek'",
-		"blueprint": "Blueprint'/Game/Aberration/Dinos/RockDrake/RockDrake_Character_BP.RockDrake_Character_BP'",
-		"note": "Adults cannot be tamed, but Wild Eggs can be hatched."
-	},
-	{
-		"id": "MoleRat_Character_BP_C",
-		"name": "Role Rat",
-		"category": "Mammals",
-		"dlc": "Aberration",
-		"icon": "images/role-rat.png",
-		"saddle":"Blueprint'/Game/Aberration/Dinos/MoleRat/PrimalItemArmor_MoleRatSaddle.PrimalItemArmor_MoleRatSaddle'",
-		"blueprint": "Blueprint'/Game/Aberration/Dinos/MoleRat/MoleRat_Character_BP.MoleRat_Character_BP'"
-	},
-	{
-		"id": "Pteroteuthis_Char_BP_C",
-		"name": "Seeker",
-		"category": "Chimaeram odiosus",
-		"untameable": true,
-		"dlc": "Aberration",
-		"icon": "images/seeker.png",
-		"blueprint": "Blueprint'/Game/Aberration/Dinos/Pteroteuthis/Pteroteuthis_Char_BP.Pteroteuthis_Char_BP'"
-	},
-	{
-		"id": "LanternGoat_Character_BP_C",
-		"name": "Shinehorn",
-		"category": "Mammals",
-		"dlc": "Aberration",
-		"icon": "images/shinehorn.png",
-		"blueprint": "Blueprint'/Game/Aberration/Dinos/LanternGoat/LanternGoat_Character_BP.LanternGoat_Character_BP'"
-	},
-	{
-		"id": "Rockwell_Character_BP_C",
-		"name": "Rockwell",
-		"category": "Bosses",
-		"dlc": "Aberration",
-		"icon": "images/rockwell.png",
-		"blueprint": "Blueprint'/Game/Aberration/Boss/Rockwell/Rockwell_Character_BP.Rockwell_Character_BP'",
-		"gamma": "Blueprint'/Game/Aberration/Boss/Rockwell/Rockwell_Character_BP_Easy.Rockwell_Character_BP_Easy'",
-		"beta": "Blueprint'/Game/Aberration/Boss/Rockwell/Rockwell_Character_BP_Medium.Rockwell_Character_BP_Medium'",
-		"alpha": "Blueprint'/Game/Aberration/Boss/Rockwell/Rockwell_Character_BP_Hard.Rockwell_Character_BP_Hard'"
 	}
 ]
