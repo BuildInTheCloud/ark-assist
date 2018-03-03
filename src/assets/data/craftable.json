@@ -275,7 +275,7 @@
 	{
 		"id": 0,
 		"name": "Allosaurus Brain",
-		"category": "Resource",
+		"category": "Tribute",
 		"stack": 1,
 		"icon": "images/allosaurus-brain.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Allo.PrimalItemResource_ApexDrop_Allo'",
@@ -288,13 +288,23 @@
 		"stack": 100,
 		"icon": "images/allosaurus-egg.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Allo.PrimalItemConsumable_Egg_Allo'",
+		"fertilized": "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Allo_Fertilized.PrimalItemConsumable_Egg_Allo_Fertilized'",
 		"kibble": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Allo.PrimalItemConsumable_Kibble_Allo'",
 		"dlc": ""
 	},
 	{
 		"id": 0,
+		"name": "Alpha Basilisk Fang",
+		"category": "Tribute",
+		"stack": 10,
+		"icon": "images/basilisk-fang.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Basilisk_Alpha.PrimalItemResource_ApexDrop_Basilisk_Alpha'",
+		"dlc": "Aberration"
+	},
+	{
+		"id": 0,
 		"name": "Alpha Carnotaurus Arm",
-		"category": "Resource",
+		"category": "Tribute",
 		"stack": 100,
 		"icon": "images/alpha-carnotaurus-arm.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaCarno.PrimalItemResource_ApexDrop_AlphaCarno'",
@@ -311,8 +321,17 @@
 	},
 	{
 		"id": 0,
+		"name": "Alpha Karkinos Claw",
+		"category": "Tribute",
+		"stack": 10,
+		"icon": "images/karkinos-claw.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_CrabClaw.PrimalItemResource_ApexDrop_CrabClaw'",
+		"dlc": "Aberration"
+	},
+	{
+		"id": 0,
 		"name": "Alpha Leedsichthys Blubber",
-		"category": "Resource",
+		"category": "Tribute",
 		"stack": 100,
 		"icon": "images/alpha-leedsichthys-blubber.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaLeeds.PrimalItemResource_ApexDrop_AlphaLeeds'",
@@ -321,7 +340,7 @@
 	{
 		"id": 0,
 		"name": "Alpha Megalodon Fin",
-		"category": "Resource",
+		"category": "Tribute",
 		"stack": 100,
 		"icon": "images/alpha-megalodon-fin.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaMegalodon.PrimalItemResource_ApexDrop_AlphaMegalodon'",
@@ -330,7 +349,7 @@
 	{
 		"id": 0,
 		"name": "Alpha Mosasaur Tooth",
-		"category": "Resource",
+		"category": "Tribute",
 		"stack": 100,
 		"icon": "images/alpha-mosasaur-tooth.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaMosasaur.PrimalItemResource_ApexDrop_AlphaMosasaur'",
@@ -339,7 +358,7 @@
 	{
 		"id": 0,
 		"name": "Alpha Raptor Claw",
-		"category": "Resource",
+		"category": "Tribute",
 		"stack": 100,
 		"icon": "images/alpha-raptor-claw.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaRaptor.PrimalItemResource_ApexDrop_AlphaRaptor'",
@@ -357,7 +376,7 @@
 	{
 		"id": 0,
 		"name": "Alpha Tusoteuthis Eye",
-		"category": "Resource",
+		"category": "Tribute",
 		"stack": 100,
 		"icon": "images/alpha-tusoteuthis-eye.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaTuso.PrimalItemResource_ApexDrop_AlphaTuso'",
@@ -366,7 +385,7 @@
 	{
 		"id": 0,
 		"name": "Alpha Tyrannosaur Tooth",
-		"category": "Resource",
+		"category": "Tribute",
 		"stack": 100,
 		"icon": "images/alpha-tyrannosaur-tooth.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaRex.PrimalItemResource_ApexDrop_AlphaRex'",
@@ -402,7 +421,7 @@
 	{
 		"id": 270,
 		"name": "Amarberry Seed",
-		"category": "Farming",
+		"category": "Seed",
 		"stack": "100",
 		"icon": "images/amarberry-seed.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Amarberry.PrimalItemConsumable_Seed_Amarberry'",
@@ -411,7 +430,7 @@
 	{
 		"id": 116,
 		"name": "Amarberry Seed",
-		"category": "Farming",
+		"category": "Seed",
 		"stack": 100,
 		"icon": "images/amarberry-seed.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Amarberry.PrimalItemConsumable_Seed_Amarberry'",
@@ -486,7 +505,7 @@
 	{
 		"id": 158,
 		"name": "Argentavis Talon",
-		"category": "Artifact",
+		"category": "Tribute",
 		"stack": "100",
 		"icon": "images/argentavis-talon.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Argentavis.PrimalItemResource_ApexDrop_Argentavis'",
@@ -520,6 +539,16 @@
 		"dlc": ""
 	},
 	{
+		"id": 0,
+		"name": "Artifact Of The Brute",
+		"category": "Artifact",
+		"stack": "1",
+		"icon": "images/artifact-of-the-brute.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_12.PrimalItemArtifact_12'",
+		"dlc": "",
+		"note": "Island Cave entrance at lat 53.7 lon 10.4, Center Artifact at lat 71.6, lon 87.3, Ragnarok Cave entrance at lat 36.0, lon 77.0"
+	},
+	{
 		"id": 152,
 		"name": "Artifact Of The Clever",
 		"category": "Artifact",
@@ -536,6 +565,16 @@
 		"icon": "images/artifact-of-the-crag.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactSE_02.PrimalItemArtifactSE_02'",
 		"dlc": ""
+	},
+	{
+		"id": 0,
+		"name": "Artifact Of The Cunning",
+		"category": "Artifact",
+		"stack": "1",
+		"icon": "images/artifact-of-the-cunning.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_11.PrimalItemArtifact_11'",
+		"dlc": "",
+		"note": "Island Cave entrance at lat 45.9, lon 88.9, Center Cave entrance at lat 36.0, long 2.0, Ragnarok Cave entrance at lat 17.7, lon 42.4"
 	},
 	{
 		"id": 0,
@@ -813,17 +852,8 @@
 	},
 	{
 		"id": 0,
-		"name": "Basilisk Fang",
-		"category": "Resource",
-		"stack": 10,
-		"icon": "images/basilisk-fang.png",
-		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Basilisk_Alpha.PrimalItemResource_ApexDrop_Basilisk_Alpha'",
-		"dlc": "Aberration"
-	},
-	{
-		"id": 0,
 		"name": "Basilisk Scales",
-		"category": "Resource",
+		"category": "Tribute",
 		"stack": 10,
 		"icon": "images/basilisk-scales.png",
 		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Basilisk.PrimalItemResource_ApexDrop_Basilisk'",
@@ -832,7 +862,7 @@
 	{
 		"id": 0,
 		"name": "Basilosaurus Blubber",
-		"category": "Resource",
+		"category": "Tribute",
 		"stack": 1,
 		"icon": "images/basilosaurus-blubber.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Basilo.PrimalItemResource_ApexDrop_Basilo'"
@@ -939,10 +969,10 @@
 	{
 		"id": 49,
 		"name": "Berry Bush Seeds",
-		"category": "Farming",
+		"category": "Seed",
 		"stack": 100,
 		"icon": "images/berry-bush-seeds.png",
-		"blueprint": "",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Test.PrimalItemConsumable_Seed_Test'",
 		"dlc": ""
 	},
 	{
@@ -1011,7 +1041,7 @@
 	{
 		"id": 0,
 		"name": "Bio Toxin",
-		"category": "Resource",
+		"category": "Consumable",
 		"stack": 100,
 		"icon": "images/bio-toxin.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_JellyVenom.PrimalItemConsumable_JellyVenom'",
@@ -1047,7 +1077,7 @@
 	{
 		"id": 0,
 		"name": "Birthday Cake",
-		"category": "Resource",
+		"category": "Structure",
 		"stack": 100,
 		"icon": "images/birthday-cake.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Halloween/PrimalItemStructure_BirthdayCake.PrimalItemStructure_BirthdayCake'",
@@ -1056,7 +1086,7 @@
 	{
 		"id": 0,
 		"name": "Birthday Candle",
-		"category": "Resource",
+		"category": "Structure",
 		"stack": 200,
 		"icon": "images/birthday-candle.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_BirthdayCandle.PrimalItemResource_BirthdayCandle'",
@@ -1768,7 +1798,7 @@
 	{
 		"id": 0,
 		"name": "Charge Lantern",
-		"category": "Resource",
+		"category": "Weapons",
 		"stack": 1,
 		"icon": "images/charge-lantern.png",
 		"blueprint": "Blueprint'/Game/Aberration/WeaponRadioactiveLanternCharge/PrimalItem_WeaponRadioactiveLanternCharge.PrimalItem_WeaponRadioactiveLanternCharge'",
@@ -1878,7 +1908,7 @@
 	{
 		"id": 133,
 		"name": "Citronal Seeds",
-		"category": "Farming",
+		"category": "Seed",
 		"stack": 100,
 		"icon": "images/citronal-seed.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Citronal.PrimalItemConsumable_Seed_Citronal'",
@@ -1889,18 +1919,18 @@
 		"name": "Clay",
 		"category": "Resource",
 		"stack": 100,
-		"icon": "images/clay-primitive-plus.png",
-		"blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Resources/PrimalItemResource_Clay.PrimalItemResource_Clay'",
-		"dlc": "Primitive Plus"
+		"icon": "images/clay-scorched-earth.png",
+		"blueprint": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Clay.PrimalItemResource_Clay'",
+		"dlc": "Scorched Earth"
 	},
 	{
 		"id": 0,
 		"name": "Clay",
 		"category": "Resource",
 		"stack": 100,
-		"icon": "images/clay-scorched-earth.png",
-		"blueprint": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Clay.PrimalItemResource_Clay'",
-		"dlc": "Scorched Earth"
+		"icon": "images/clay-primitive-plus.png",
+		"blueprint": "Blueprint'/Game/Mods/PrimitivePlusMod/Items/Resources/PrimalItemResource_Clay.PrimalItemResource_Clay'",
+		"dlc": "Primitive Plus"
 	},
 	{
 		"id": 0,
@@ -1914,7 +1944,7 @@
 	{
 		"id": 0,
 		"name": "Climbing Pick",
-		"category": "Tools",
+		"category": "Weapons",
 		"stack": 1,
 		"icon": "images/climbing-pick.png",
 		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Weapons/PrimalItem_WeaponClimbPick.PrimalItem_WeaponClimbPick'",
@@ -2721,7 +2751,7 @@
 	{
 		"id": 0,
 		"name": "Fire Talon",
-		"category": "Resource",
+		"category": "Tribute",
 		"stack": 100,
 		"icon": "images/fire-talon.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_FireWyvern.PrimalItemResource_ApexDrop_FireWyvern'",
@@ -2785,7 +2815,7 @@
 	{
 		"id": 0,
 		"name": "Fishing Rod",
-		"category": "Weapons",
+		"category": "Tools",
 		"stack": 1,
 		"icon": "images/fishing-rod.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponFishingRod.PrimalItem_WeaponFishingRod'",
@@ -3219,7 +3249,7 @@
 	{
 		"id": 0,
 		"name": "Giganotosaurus Heart",
-		"category": "Resource",
+		"category": "Tribute",
 		"stack": 1,
 		"icon": "images/giganotosaurus-heart.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_apexdrop_giga.primalitemresource_apexdrop_giga'",
@@ -3301,7 +3331,7 @@
 	{
 		"id": 0,
 		"name": "Glowstick",
-		"category": "Resource",
+		"category": "Weapons",
 		"stack": 20,
 		"icon": "images/glowstick.png",
 		"blueprint": "Blueprint'/Game/Aberration/WeaponGlowStickThrow/PrimalItem_GlowStick.PrimalItem_GlowStick'",
@@ -3483,7 +3513,7 @@
 	{
 		"id": 0,
 		"name": "Harpoon Launcher",
-		"category": "Gun",
+		"category": "Weapons",
 		"stack": 1,
 		"icon": "images/harpoon-launcher.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponHarpoon.PrimalItem_WeaponHarpoon'",
@@ -3777,15 +3807,6 @@
 		"dlc": ""
 	},
 	{
-		"id": 0,
-		"name": "Karkinos Claw",
-		"category": "Resource",
-		"stack": 10,
-		"icon": "images/karkinos-claw.png",
-		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_CrabClaw.PrimalItemResource_ApexDrop_CrabClaw'",
-		"dlc": "Aberration"
-	},
-	{
 		"id": 217,
 		"name": "Keratin",
 		"category": "Resource",
@@ -3923,7 +3944,7 @@
 	{
 		"id": 0,
 		"name": "Lightning Talon",
-		"category": "Resource",
+		"category": "Tribute",
 		"stack": 100,
 		"icon": "images/lightning-talon.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_LightningWyvern.PrimalItemResource_ApexDrop_LightningWyvern'",
@@ -3968,7 +3989,7 @@
 	{
 		"id": 278,
 		"name": "Longrass Seed",
-		"category": "Farming",
+		"category": "Seed",
 		"stack": "100",
 		"icon": "images/longrass-seed.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Longrass.PrimalItemConsumable_Seed_Longrass'",
@@ -4207,6 +4228,9 @@
 		"stack": 1,
 		"icon": "images/manticore-trophy-scorched-earth.png",
 		"blueprint": "Blueprint'/Game/ScorchedEarth/Structures/TrophyHeads/Manticore_Trophy/PrimalItemTrophy_Manticore.PrimalItemTrophy_Manticore'",
+		"gamma": "Blueprint'/Game/ScorchedEarth/Structures/TrophyHeads/Manticore_Trophy/PrimalItemTrophy_Manticore_Gamma.PrimalItemTrophy_Manticore_Gamma'",
+		"beta": "Blueprint'/Game/ScorchedEarth/Structures/TrophyHeads/Manticore_Trophy/PrimalItemTrophy_Manticore_Beta.PrimalItemTrophy_Manticore_Beta'",
+		"alpha": "Blueprint'/Game/ScorchedEarth/Structures/TrophyHeads/Manticore_Trophy/PrimalItemTrophy_Manticore_Alpha.PrimalItemTrophy_Manticore_Alpha",
 		"dlc": ""
 	},
 	{
@@ -4285,7 +4309,7 @@
 	{
 		"id": 0,
 		"name": "Megalania Toxin",
-		"category": "Resource",
+		"category": "Tribute",
 		"stack": 1,
 		"icon": "images/megalania-toxin.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Megalania.PrimalItemResource_ApexDrop_Megalania'",
@@ -4303,7 +4327,7 @@
 	{
 		"id": 159,
 		"name": "Megalodon Tooth",
-		"category": "Artifact",
+		"category": "Tribute",
 		"stack": "100",
 		"icon": "images/megalodon-tooth.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Megalodon.PrimalItemResource_ApexDrop_Megalodon'",
@@ -4926,7 +4950,7 @@
 	{
 		"id": 0,
 		"name": "Nameless Venom",
-		"category": "Consumable",
+		"category": "Tribute",
 		"stack": 1,
 		"icon": "images/nameless-venom.png",
 		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemConsumable_NamelessVenom.PrimalItemConsumable_NamelessVenom'",
@@ -5256,15 +5280,6 @@
 		"dlc": ""
 	},
 	{
-		"id": 71,
-		"name": "Pistol Hat Skins",
-		"category": "Skin",
-		"stack": 1,
-		"icon": "images/pistol-hat-skins.png",
-		"blueprint": "",
-		"dlc": ""
-	},
-	{
 		"id": 0,
 		"name": "Pitchfork",
 		"category": "Weapons",
@@ -5276,7 +5291,7 @@
 	{
 		"id": 390,
 		"name": "Plant Species X Seed",
-		"category": "Consumable",
+		"category": "Seed",
 		"stack": 100,
 		"icon": "images/plant-species-x-seed.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_DefensePlant.PrimalItemConsumable_Seed_DefensePlant'",
@@ -5285,11 +5300,21 @@
 	{
 		"id": 391,
 		"name": "Plant Species X Seed (Instant)",
-		"category": "Consumable",
+		"category": "Seed",
 		"stack": 100,
 		"icon": "images/plant-species-x-seed.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_DefensePlant_SpeedHack.PrimalItemConsumable_Seed_DefensePlant_SpeedHack'",
 		"dlc": ""
+	},
+	{
+		"id": 0,
+		"name": "Plant Species Y Seed",
+		"category": "Seed",
+		"stack": 100,
+		"icon": "images/plant-species-y-seed.png",
+		"blueprint": "Blueprint'/Game/ScorchedEarth/WeaponPlantSpeciesY/PrimalItemConsumable_Seed_PlantSpeciesY.PrimalItemConsumable_Seed_PlantSpeciesY'",
+		"dlc": "Scorched Earth",
+		"note": "Plant this in a viable large crop plot to grow a frightening-looking defensive plant, which will shoot poisonous spores at any interlopers!"
 	},
 	{
 		"id": 0,
@@ -5313,7 +5338,7 @@
 	{
 		"id": 0,
 		"name": "Plant Z Seed",
-		"category": "Resource",
+		"category": "Seed",
 		"stack": 10,
 		"icon": "images/plant-z-seed.png",
 		"blueprint": "Blueprint'/Game/Aberration/WeaponPlantSpeciesZ/PrimalItemConsumable_Seed_PlantSpeciesZ.PrimalItemConsumable_Seed_PlantSpeciesZ'",
@@ -5322,7 +5347,7 @@
 	{
 		"id": 0,
 		"name": "Plant Z Seed (Speed)",
-		"category": "Resource",
+		"category": "Seed",
 		"stack": 10,
 		"icon": "images/plant-z-seed.png",
 		"blueprint": "Blueprint'/Game/Aberration/WeaponPlantSpeciesZ/PrimalItemConsumable_Seed_PlantSpeciesZ_SpeedHack.PrimalItemConsumable_Seed_PlantSpeciesZ_SpeedHack'",
@@ -5346,6 +5371,15 @@
 		"icon": "images/poison-grenade.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_PoisonGrenade.PrimalItem_PoisonGrenade'",
 		"dlc": ""
+	},
+	{
+		"id": 0,
+		"name": "Poison Talon",
+		"category": "Tribute",
+		"stack": 100,
+		"icon": "images/poison-talon.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_PoisonWyvern.PrimalItemResource_ApexDrop_PoisonWyvern'",
+		"dlc": "Scorched Earth"
 	},
 	{
 		"id": 166,
@@ -5634,8 +5668,8 @@
 	},
 	{
 		"id": 0,
-		"name": "Reaper Pheremone",
-		"category": "Resource",
+		"name": "Reaper Pheremone Gland",
+		"category": "Tribute",
 		"stack": 10,
 		"icon": "images/reaper-pheremone.png",
 		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_XenomorphPheromoneGland.PrimalItemResource_XenomorphPheromoneGland'",
@@ -5834,7 +5868,7 @@
 	{
 		"id": 0,
 		"name": "Rock Drake Feather",
-		"category": "Resource",
+		"category": "Tribute",
 		"stack": 10,
 		"icon": "images/rock-drake-feather.png",
 		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_RockDrake.PrimalItemResource_ApexDrop_RockDrake'",
@@ -5853,7 +5887,7 @@
 	{
 		"id": 279,
 		"name": "Rockarrot Seed",
-		"category": "Farming",
+		"category": "Seed",
 		"stack": "100",
 		"icon": "images/rockarrot-seed.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Rockarrot.PrimalItemConsumable_Seed_Rockarrot'",
@@ -6014,6 +6048,19 @@
 	},
 	{
 		"id": 0,
+		"name": "Rockwell Trophy",
+		"category": "Trophy",
+		"stack": 1,
+		"icon": "images/rockwell-trophy.png",
+		"blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Rockwell.PrimalItemTrophy_Rockwell'",
+		"gamma": "Blueprint'/Game/Aberration/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Rockwell_Gamma.PrimalItemTrophy_Rockwell_Gamma'",
+		"beta": "Blueprint'/Game/Aberration/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Rockwell_Beta.PrimalItemTrophy_Rockwell_Beta'",
+		"alpha": "Blueprint'/Game/Aberration/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Rockwell_Beta_Alpha.PrimalItemTrophy_Rockwell_Beta_Alpha'",
+		"dlc": "",
+		"note": "Place it on a trophy wall-mount, and keep it safe to use as an invaluable token of your prowess..."
+	},
+	{
+		"id": 0,
 		"name": "Romantic (Facial)",
 		"category": "Hairstyle",
 		"stack": 1,
@@ -6117,7 +6164,7 @@
 	{
 		"id": 0,
 		"name": "Sarcosuchus Skin",
-		"category": "Resource",
+		"category": "Tribute",
 		"stack": 1,
 		"icon": "images/sarcosuchus-skin.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Sarco.PrimalItemResource_ApexDrop_Sarco'"
@@ -6125,7 +6172,7 @@
 	{
 		"id": 161,
 		"name": "Sauropod Vertebra",
-		"category": "Artifact",
+		"category": "Tribute",
 		"stack": "100",
 		"icon": "images/sauropod-vertebra.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Sauro.PrimalItemResource_ApexDrop_Sauro'",
@@ -6171,7 +6218,7 @@
 	{
 		"id": 0,
 		"name": "Scissors",
-		"category": "tools",
+		"category": "Tools",
 		"stack": 1,
 		"icon": "images/scissors.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponScissors.PrimalItem_WeaponScissors'",
@@ -6734,7 +6781,7 @@
 	{
 		"id": 0,
 		"name": "Spinosaurus Sail",
-		"category": "Resource",
+		"category": "Tribute",
 		"stack": 1,
 		"icon": "images/spinosaurus-sail.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Spino.PrimalItemResource_ApexDrop_Spino'"
@@ -7148,6 +7195,16 @@
 	},
 	{
 		"id": 0,
+		"name": "Survivor Trophy",
+		"category": "Trophy",
+		"stack": 1,
+		"icon": "images/survivor-trophy.png",
+		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_ARKLogo.PrimalItemTrophy_ARKLogo'",
+		"dlc": "",
+		"mote": "Symbol of the ultimate survivor!"
+	},
+	{
+		"id": 0,
 		"name": "Sweet Veggie Cake",
 		"category": "Consumable",
 		"stack": 5,
@@ -7383,7 +7440,7 @@
 	{
 		"id": 0,
 		"name": "Tek Grenade",
-		"category": "Ammunition",
+		"category": "Weapons",
 		"stack": 50,
 		"icon": "images/tek-grenade.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_TekGrenade.PrimalItem_TekGrenade'",
@@ -7718,7 +7775,7 @@
 	{
 		"id": 0,
 		"name": "Therizino Claws",
-		"category": "Resource",
+		"category": "Tribute",
 		"stack": 1,
 		"icon": "images/therizino-claws.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_apexdrop_theriz.primalitemresource_apexdrop_theriz'"
@@ -7755,7 +7812,7 @@
 	{
 		"id": 0,
 		"name": "Thylacoleo Hook-Claw",
-		"category": "Resource",
+		"category": "Tribute",
 		"stack": 1,
 		"icon": "images/thylacoleo-hook-claw.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Thylaco.PrimalItemResource_ApexDrop_Thylaco'"
@@ -7800,7 +7857,7 @@
 	{
 		"id": 0,
 		"name": "Titanoboa Venom",
-		"category": "Resource",
+		"category": "Tribute",
 		"stack": 1,
 		"icon": "images/titanoboa-venom.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Boa.PrimalItemResource_ApexDrop_Boa'"
@@ -8062,7 +8119,7 @@
 	{
 		"id": 0,
 		"name": "Tusoteuthis Tentacle",
-		"category": "Resource",
+		"category": "Tribute",
 		"stack": 1,
 		"icon": "images/tusoteuthis-tentacle.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Tuso.PrimalItemResource_ApexDrop_Tuso'"
@@ -8070,7 +8127,7 @@
 	{
 		"id": 160,
 		"name": "Tyrannosaurus Arm",
-		"category": "Artifact",
+		"category": "Tribute",
 		"stack": "100",
 		"icon": "images/tyrannosaurus-arm.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Rex.PrimalItemResource_ApexDrop_Rex'",
@@ -8793,7 +8850,7 @@
 	{
 		"id": 0,
 		"name": "Yutyrannus Lungs",
-		"category": "Resource",
+		"category": "Tribute",
 		"stack": 1,
 		"icon": "images/yutyrannus-lungs.png",
 		"blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_apexdrop_Yuty.primalitemresource_apexdrop_yuty'",
